@@ -1,0 +1,145 @@
+#AREADATA
+Name        { 0  0} Alathon Holding area for astral eq~
+Builders    None~
+VNUMs       200 212
+Security    1
+Recall      3001
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#200
+ring~
+an astral ring~
+An astral ring is here, being a bug~
+~
+9 65744 3
+15 0 0 0
+5 0 0
+#201
+amulet~
+an astral amulet~
+An astral amulet is here, being a bug~
+~
+9 65744 5
+15 0 0 0
+5 0 0
+#202
+shirt~
+an astral shirt~
+An astral shirt is here, being a bug~
+~
+9 65744 9
+15 0 0 0
+5 0 0
+#203
+cap~
+an astral cap~
+An astral cap is here, being a bug~
+~
+9 65744 17
+15 0 0 0
+5 0 0
+#204
+pants~
+astral pants~
+Astral pants are here, being a bug~
+~
+9 65744 33
+15 0 0 0
+5 0 0
+#205
+boots~
+astral boots~
+A pair of astral boots is here, being a bug~
+~
+9 65744 65
+15 0 0 0
+5 0 0
+#206
+gloves~
+astral gloves~
+A pair of astral gloves are here, being a bug~
+~
+9 65744 129
+15 0 0 0
+5 0 0
+#207
+sleeves~
+astral sleeves~
+Astral sleeves are here, being a bug~
+~
+9 65744 257
+15 0 0 0
+5 0 0
+#208
+shield~
+an astral shield~
+An astral shield is here, being a bug~
+~
+9 65744 513
+15 0 0 0
+5 0 0
+#209
+cloak~
+an astral cloak~
+An astral cloak is here, being a bug~
+~
+9 65744 1025
+15 0 0 0
+5 0 0
+#210
+belt~
+an astral belt~
+An astral belt is here, being a bug~
+~
+9 65744 2049
+15 0 0 0
+5 0 0
+#211
+bracer~
+an astral bracer~
+An astral bracer is here, being a bug~
+~
+9 65744 4097
+15 0 0 0
+5 0 0
+#212
+sceptre~
+an astral sceptre~
+An astral sceptre is here, being a bug~
+~
+9 65744 16385
+15 0 0 0
+5 0 0
+#0
+
+
+
+#ROOMDATA
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

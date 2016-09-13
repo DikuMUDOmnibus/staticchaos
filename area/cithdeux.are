@@ -1,0 +1,533 @@
+#AREADATA
+Name        { 5 35} Valgarv Cith Deux Headquarters~
+Builders    None~
+VNUMs       9600 9617
+Security    1
+Recall      3001
+End
+
+
+
+#MOBILES
+#9600
+jiras guardian~
+Jiras~
+A red fox beastman glares at you through his one working eye
+~
+Cloaked and cowled, little can be seen of Jiras save his snarling foxes
+muzzle.  Hanging from his cloak are dozens of fist-sized bombs, and both
+his hands hold pistols.
+~
+4195 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9601
+grabos guardian~
+Grabos~
+A huge green lizardman orders Jiras to attack you!
+~
+Like Jiras, Grabos has lost an eye.  Scorning the more traditional eyepatch,
+Grabos replaced his lost eye with a round-cut ruby, making his appearance
+both garish and decidely fearsome.  He stands more than seven feet tall,
+and his fists and tail will serve as ample defense should you enter
+into a fight with him.
+~
+4195 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9602
+lesser daemon~
+a Lesser Daemon~
+A Lesser Daemon stands at attention.
+~
+Daemonic in nature, even the Lesser of the species is powerful
+in its own right.  Six-inch serrated claws and tough, matted
+fur make this Daemon a powerhouse in melee battle.  As well,
+flames can be seen within its great maw, ready to be spewed
+forth at will.
+~
+4195 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9603
+brau daemon~
+a Brau Daemon~
+A Brau Daemon stalks about, lusting for blood
+~
+A mixture of astral and physical life, the Brau Daemon is a
+being to be feared by all but the most powerful.  It's
+astral heritage grants resistance to nonmagical weapons as
+well as bestowing energy attacks upon the Daemon.  Corded
+muscle and taut sinew demonstrate the Brau Daemon's fearsom
+fighting capabilities.
+~
+4195 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9604
+broken beaten~
+Clout~
+Broken and beaten, Clout now hands out quests to the Cith Deux.
+~
+Once upon a time, Clout thought to betray the founders of the
+Cith Deux and ally himself with the Valheru.  Sadly for him,
+he was consistantly destroyed by the members of Cith Deux and
+eventually cast from the ranks of the Valheru.  Now, he has
+nothing left to him but serving his new masters.
+~
+1091 552 0 S
+45 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9605
+elrobos guardian~
+Elrobos~
+Elrobos morphs his hands into jagged 6-foot scimitars and lunges at you!
+~
+Blue-grey hair surrounds a wrathful visage of a face.  Nothing but violence
+is to be found in Elrobos' eyes, eyes serving as windows for a mind bent
+and warped by ages of war against servants of Darkstar.  Elrobos now
+exists with only one purpose in mind: to save his people's planet.  All else
+can be damned.
+~
+4195 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9606
+serius guardian~
+Serius~
+Serius is encased in energy, but stays his hand for a moment..
+~
+One word defines serius: pink.  Pink hair, pink clothes, even pink-hued
+skin.  Regardless, Serius is by far more powerful than Elrobos.  His strength
+lies more in the manipulation of energy than in physical combat, and
+at this Serius excells.
+~
+4195 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9607
+dan peaceman~
+`RDan`n~
+`RDan`n wanders around, attempting to lead the Peaceman
+~
+Dan, the leader of the Peaceman Warriors for Justice, is unfortunately
+quite clueless.  He is also quite old, and while he may have been a powerful
+Warrior for Justice once upon a time, his greatest enemy now is
+arthritis.  Still, he gamely attempts to wrong rights and depress the oppressed..
+~
+67 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9608
+shittiest~
+Jaraxle~
+Jaraxle, the shittiest clan leader.. ever.
+~
+Once upon a time, a bold leader set forth with staunch compatriots
+to form a new clan, one based upon the principles of Honor, Decency,
+and Virtue.... `dNOT`n!!  Actually, he took the dregs of other clans,
+all the worst, most clueless people in Cith Deux, and formed a sorry
+ass clan that lasted about a week.  Cre.. Jaraxle's only success as
+a clan leader was that he recognized how utterly pathetic both he
+and his clan were, and had the clan disbanded a week after founding.
+~
+579 552 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9609
+martina shopkeeper~
+`GMartina`n~
+`GMartina Zoana mel Navratilova`n curses that damned dragon spooker girl.
+~
+Martina has always been a bit nutty.  Ever since Lina blew up her
+castle, she has only gotten worse.  She has concocted in her mind
+an entirely nonexistant demon, Lord Zoamulgustar, whom she worships
+and recieves advice from, Mr. Hat style.
+~
+67 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#9600
+throne~
+a `WCrystalline`n Throne of the `dDragon`n~
+A `WCrystalline`n Throne of the `dDragon`n~
+~
+12 0 0
+0 0 0 0
+100 0 0
+#0
+
+
+
+#ROOMDATA
+#9600
+A cave entrance~
+A large cave opening is before you.  While not especially forboding in
+appearance, one must consider seriously what is to be found inside before
+venturing within.  Sheer cliffs rise up from the cave mouth, far too high
+to consider scaling.  At their top, an outcropping can be seen
+pointing like an accusing finger to the north.
+~
+2 40960 0
+D0
+~
+~
+0 -1 9608
+D1
+~
+~
+0 -1 9601
+D2
+~
+~
+0 -1 9609
+D3
+~
+~
+0 -1 838
+D5
+~
+~
+0 -1 9617
+S
+#9601
+Inside the cave~
+Darkness surrounds you like a damp cloak, and even the brightest light
+fails to pierce the oppresive gloom.  The beginnings of stalgmites
+and stalactites can be seen on the roof and floor, testifying to the
+relative youth of this cave room.
+~
+2 40960 0
+D1
+~
+~
+0 -1 9602
+D3
+~
+~
+0 -1 9600
+S
+#9602
+Continuing into the cave~
+Far older than previous rooms, huge stalagmites and stalactites reach
+toward each other like bent teeth, creating the illusion of being within
+the maw of a great beast.  Light can be seen glimmering to the north.
+~
+2 40960 1
+D0
+~
+~
+0 -1 9607
+D1
+~
+~
+0 -1 9603
+D2
+~
+~
+0 -1 9604
+D3
+~
+~
+0 -1 9601
+D5
+~
+~
+0 -1 9605
+S
+#9603
+The transmission chamber~
+Here, the cave walls have been worked into some semblance of smoothness.
+At the far end of the room, a throne is carved from the rock wall, far
+too big for anything of human dimension.  An odd clock-shaped device is
+in one corner ticking away.  The center of the room is dominated by a
+tremendous pentegram wrought of flourescent blue crystal.  One can only
+wonder what use it could be put to.
+~
+2 40960 1
+D1
+~
+~
+0 -1 9616
+D3
+~
+~
+0 -1 9602
+S
+#9604
+The healing chamber~
+The area is dimly lit by the glow of the huge crystal healing chamber
+standing at one end of the room.  While this chamber has little use
+for the denizens of this world, astral creatures can derive great benefit
+from the healing properties of this crystal.
+~
+2 434176 0
+D0
+~
+~
+0 -1 9602
+S
+#9605
+A fissure~
+Little can be seen in the darkness.. only the eyes of the shopkeeper
+are actually visible.
+~
+2 172032 0
+D4
+~
+~
+0 -1 9602
+S
+#9606
+A beam of light!~
+Whoa.. wtf?  It seems you have discarded your body in favor
+of transportation as a burst of pure light.  Where you're
+headed.. well, that'd be nice to know, wouldn't it?
+~
+0 40960 1
+D1
+~
+~
+0 -1 9610
+D3
+~
+~
+0 -1 9616
+S
+#9607
+`dChamber`n of the `WCrystal`d Dragon`n~
+You are standing in a vast chamber of night.  All around you,
+darkness reigns.  If not for the millions of sparkles of light all
+around you, you'd not see a thing.  Upon closer look, you can see
+the entire chamber is carved out of black marbled stone, and just below the
+surface, you can see hundreds of thousands of perfect crystals.  You take
+a step back when suddenly, the entire chamber is filled with light.  You are
+awed by the sight of this place.  Along the walls, there are several alcoves.
+In each, there is another crystalline statue of a fiersome dragon.
+Tapestries line the walls between the alcoves showing the awesome power
+of dragons in battle.  In search of the light, you look down to the far end
+of the chamber.  There you find an incredible throne of flawless crystal.
+The legs of the throne, are the legs of dragons.  Intricately carbed into the
+back and seat are dragon scales.  Over the top of the throne, a giant dragon's
+head reachs out to rest over the head of whomever sits in the throne.
+On either side of the throne, stand two pedestals, also made of crystal,
+standing half the height of the room.  Atop each pedestal, there is
+a burning ball of blazing white flame.  And above the throne, on the back wall,
+is a gian wall to wall tapestry, depicting the fall of the Valheru to these
+Dragons of Crystal.
+~
+2 40960 1
+D2
+~
+~
+0 -1 9602
+S
+#9608
+a Secret Room~
+You shift behind a stone and a wall opens up.  As you walk
+in the world seems to disappear as a new knowledge of celtic
+beings show you their appreciation.  You look straight up
+and see nothing but eternal darkness.  You can't help
+but wonder, how did they make this room?
+~
+2 40960 1
+D2
+~
+~
+0 -1 9600
+S
+#9609
+`WX`Ga`Cn`Bt`Wo`Gs`C' `BO`Ww`Gn`Ca`Bg`We `GC`Ch`Ba`Wm`Gb`Ce`Br`n~
+Aagh! You've been blinded by the horribly gaudy title.
+~
+2 40960 1
+D0
+~
+~
+0 -1 9600
+S
+#9610
+A beam of light!~
+Whoa.. wtf?  It seems you have discarded your body in favor
+of transportation as a burst of pure light.  Where you're
+headed.. well, that'd be nice to know, wouldn't it?
+~
+2 40960 1
+D1
+~
+~
+0 -1 9611
+D3
+~
+~
+0 -1 9606
+S
+#9611
+A beam of light!~
+Whoa.. wtf?  It seems you have discarded your body in favor
+of transportation as a burst of pure light.  Where you're
+headed.. well, that'd be nice to know, wouldn't it?
+~
+2 40960 1
+D1
+~
+~
+0 -1 9612
+D3
+~
+~
+0 -1 9610
+S
+#9612
+A beam of light!~
+Whoa.. wtf?  It seems you have discarded your body in favor
+of transportation as a burst of pure light.  Where you're headed..
+well, that'd be nice to know, wouldn't it?
+~
+2 40960 1
+D1
+~
+~
+0 -1 9613
+D3
+~
+~
+0 -1 9611
+S
+#9613
+A beam of light!~
+Whoa.. wtf?  It seems you have discarded your body in favor
+of transportation as a burst of pure light.  Where you're headed..
+well, that'd be nice to know, wouldn't it?
+~
+2 40960 1
+D1
+~
+~
+0 -1 9614
+D3
+~
+~
+0 -1 9612
+S
+#9614
+A beam of light!~
+Whoa.. wtf?  It seems you have discarded your body in favor
+of transportation as a burst of pure light.  Where you're headed..
+well, that'd be nice to know, wouldn't it?
+~
+2 40960 1
+D1
+~
+~
+0 -1 9615
+D3
+~
+~
+0 -1 9613
+S
+#9615
+A beam of light!~
+Whoa.. wtf?  It seems you have discarded your body in favor
+of transportation as a burst of pure light.  Where you're headed..
+well, that'd be nice to know, wouldn't it?
+~
+2 40960 1
+D3
+~
+~
+0 -1 9614
+S
+#9616
+The teleportation pad~
+The pad you're standing on is made of some unidentifiable material..
+it doesn't appear to be stone or metal, but is as hard as rock.
+The clicking from the clockwork mechanism off to the side is
+noticeable, as the multiple hands sweep around the face of the
+dial, keeping track of something other than time.
+~
+2 40960 1
+D1
+~
+~
+0 -1 9606
+D3
+~
+~
+0 -1 9603
+S
+#9617
+The Oubliette~
+You are in an Oubliette.  This is, generally, not a good thing.
+~
+2 40960 0
+D4
+~
+~
+0 -1 9600
+S
+#0
+
+
+
+#SPECIALS
+M 9600 spec_cast_judge
+S
+
+
+
+#RESETS
+M 0 9604 1 9600
+M 0 9608 1 9600
+M 0 9602 1 9600
+M 0 9603 1 9600
+M 0 9600 1 9601
+M 0 9601 1 9601
+M 0 9605 1 9602
+M 0 9606 1 9602
+O 0 65 -1 9604
+O 0 66 -1 9604
+O 0 69 -1 9604
+O 0 71 -1 9604
+M 0 9607 1 9604
+G 0 80 0
+G 0 81 0
+G 0 82 0
+G 0 83 0
+G 0 84 0
+G 0 93 0
+M 0 9609 1 9605
+G 0 60 0
+G 0 61 0
+G 0 62 0
+G 0 94 0
+G 0 90 0
+G 0 88 0
+O 0 9600 0 9607
+S
+
+
+
+#SHOPS
+9607 0 0 0 0 0 110 100 0 23
+9609 0 0 0 0 0 110 100 0 23
+0
+
+
+
+#$

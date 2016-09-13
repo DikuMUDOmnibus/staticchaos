@@ -1,0 +1,119 @@
+#PLAYER
+Name         Slut~
+ShortDescr   ~
+LongDescr    ~
+Description  ~
+Prompt       <[`B%x`n] [`G%h`nH `C%m`nM `c%v`nV] {`W%k`n Ki}> ~
+Version      3
+Sex          1
+Class        3
+Race         0
+Level        1
+Language     0
+Trust        0
+Wizbit       0
+Security     0
+Played       22
+Note         0
+Room         3700
+HpManaMove   2000 2000 1000 1000 1000 1000
+Gold         0
+Exp          1000
+Act          1600
+Totalexp     1000
+Newact       0
+AffectedBy   0
+Position     8
+Practice     0
+SavingThrow  -1
+Hitroll      0
+Damroll      0
+Armor        64
+Wimpy        0
+Deaf         0
+Password     slutfuck~
+Bamfin       has joined the chaos.~
+Bamfout      has left the building.~
+Title        the walking statistic                   ~
+Mname        (null)~
+Mmaster      (null)~
+Humiliate    ~
+Created      Wed Sep 24 15:24:41 2003~
+Ignore       ~
+Legend       ~
+Cflag        ~
+Weapons      0 0 0 0 0 0 0 0 0 0 0 0 0
+Stances      0 0 0 0 0 0 0 0 0 0 0
+Newstats     10 10 10 10 0
+Kills        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Extras       0 0 0 0 0 0 3001 0 0 0
+Extras2      0 0 0 1 0 0 0 0 0 0
+Clan         0 0 0 0 0 0 0 0 0 0
+Powers       0 0 0 0 0 0 0 0 0 0
+Suit         0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Torso        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Leftarm      0 0 0 0 0
+Rightarm     0 0 0 0 0
+Leftleg      0 0 0 0 0 0 0 0
+Rightleg     0 0 0 0 0 0 0 0
+Ansi         1
+Condition    0 26 26
+Pagelen      100
+Boards       5 General 0 Ideas 0 Announce 0 Bugs 0 Personal 0 
+End
+
+#OBJECT
+Nest         0
+Name         banner~
+ShortDescr   a war banner~
+Description  A war banner is on the floor here.~
+Owner        none~
+Vnum         3716
+ExtraFlags   65
+WearFlags    1
+WearLoc      0
+ItemType     1
+Weight       1
+Level        0
+Timer        0
+Cost         14
+Values       0 0 -1 0
+End
+
+#OBJECT
+Nest         0
+Name         vest~
+ShortDescr   a sub issue vest~
+Description  You see a sub issue vest here.~
+Owner        none~
+Vnum         3703
+ExtraFlags   0
+WearFlags    9
+WearLoc      5
+ItemType     9
+Weight       5
+Level        0
+Timer        0
+Cost         7
+Values       3 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         shield~
+ShortDescr   a sub issue shield~
+Description  You see a sub issue shield here.~
+Owner        none~
+Vnum         3704
+ExtraFlags   0
+WearFlags    513
+WearLoc      11
+ItemType     9
+Weight       5
+Level        0
+Timer        0
+Cost         3
+Values       13 0 0 0
+End
+
+#END

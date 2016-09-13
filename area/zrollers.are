@@ -1,0 +1,232 @@
+#AREADATA
+Name        { 1 99} Trunker Z-Rollers Headquarters~
+Builders    None~
+VNUMs       9900 9949
+Security    1
+Recall      3001
+End
+
+
+
+#MOBILES
+#9900
+rebound guardian~
+Rebound~
+Rebound stands alert, his gleaming black whiffle bat in hand.
+~
+Rebound stands alert, his gleaming black whiffle bat in hand.
+~
+32867 66216 5 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9901
+ricochet guardian~
+Ricochet~
+Ricochet stands calmly, keeping an eye on the passerby's.
+~
+Ricochet stands calmly, keeping an eye on the passerby's.
+~
+32867 66216 5 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9902
+aphex guardian~
+Aphex~
+Aphex attempts to cure a weakling child.
+~
+Aphex attempts to cure a weakling child.
+~
+32867 66216 5 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9903
+twin guardian~
+Twin~
+Twin feebly lies here, punctured by Bucephalus.
+~
+Twin feebly lies here, punctured by Bucephalus.
+~
+32867 66216 5 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9904
+chief guardian~
+The Chief~
+The Chief leans over the tank, dangling food above the surface.
+~
+The Chief leans over the tank, dangling food above the surface.
+~
+32867 66216 5 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9905
+unaquaclaw guardian~
+UnaquaClaw~
+UnaquaClaw snaps his claws violently at his taunting owner.
+~
+UnaquaClaw snaps his claws violently at his taunting owner.
+~
+32867 66216 5 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9906
+questmaster~
+Mitsurugi~
+Mitsurugi conceals red notes within his hapi coat.
+~
+Mitsurugi conceals red notes within his hapi coat.
+~
+1091 552 5 S
+45 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9907
+leprechaun banker~
+A leprechaun~
+A leprechaun trembles in the corner, clinging to a pot of gold.
+~
+A leprechaun trembles in the corner, clinging to a pot of gold.
+~
+579 552 5 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#9900
+Entrance to the Mansion~
+A tall mansion stands before you.  Flickering
+fluorescent yellow lights are visible past the cold stone
+gates surrounding the perimeter. Towers rise to the east
+and west, adorned by Z-Roller banners that flap
+against the harsh winds.
+~
+5 40960 0
+D0
+~
+~
+0 0 849
+D2
+~
+~
+0 0 9901
+S
+#9901
+The Lounge~
+Sound echoes off the expansive walls as you take
+your first steps into the mansion. Black leather couches are scattered
+throughout and the shag carpeting bristles against your feet.
+To left rise a long flight of stairs, leading to a dusty wooden door.
+~
+5 40960 0
+D0
+~
+~
+0 0 9900
+D2
+~
+~
+0 0 9902
+D4
+~
+~
+0 0 9903
+S
+#9902
+The Fishtank~
+Yellow walls encompass this fairly empty, calm room.
+Bright lights shine down, reflecting off the cool waters of an aquarium.
+The aroma of the kitchen slowly drifts in from a forced whole in the side wall.
+~
+5 40960 0
+D0
+~
+~
+0 0 9901
+D3
+~
+~
+0 0 9904
+S
+#9903
+Observatory~
+At the top of the stairs you find a dimly lit room.
+A telescope points out of the eastern windows, revealing the
+perverted acts of the infamous Wei Han.
+~
+5 40960 0
+D5
+~
+~
+0 0 9901
+S
+#9904
+A dark passageway~
+Hidden through a hole in the drywall, this small passage seems to
+have been punched into the wall to function as a crude hallway.
+A faint light is shining through a punched-out hole to the south.
+~
+5 40960 0
+D1
+~
+~
+0 0 9902
+D2
+~
+~
+0 0 9905
+S
+#9905
+A small kitchen~
+This small kitechen was custom-built for Sakai in order to
+maintain his lifestyle. Sure, he's lonely without his precious kitchen stadium,
+but it's the price he pays to roll with the Z's.
+~
+5 303104 0
+D0
+~
+~
+0 0 9904
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 9900 1 9900
+M 0 9901 1 9900
+M 0 9902 1 9901
+M 0 9903 1 9901
+M 0 9904 1 9902
+M 0 9905 1 9902
+M 0 9906 1 9903
+M 0 9907 1 9904
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

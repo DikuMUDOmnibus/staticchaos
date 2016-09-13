@@ -1,0 +1,621 @@
+#AREADATA
+Name        {75 90} Alathon Pikachu's Vacation~
+Builders    None~
+VNUMs       6600 6647
+Security    1
+Recall      3001
+End
+
+
+
+#MOBILES
+#6600
+bulbasaur~
+a Bulbasaur~
+A bulbasaur moves about, looking for leaves to munch on
+~
+Bulbasaurs are a type of grass and poison pokemon.  Their powerful
+Vine whip attack is their main means of defense, however they also have
+a number of other attacks as well, such as the Leech Seed.
+~
+65 0 0 S
+75 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+>act_prog p is mortally wounded~
+say Bulba-SAUR!
+  mpecho Bulbasaur uses it's Vine Whip attack!
+  tie $n
+~
+|
+#6601
+Squirtle~
+a Squirtle~
+A squirtle paddles around, wishing it weren't so slow
+~
+The squirtle is a water type pokemon, however it isn't especially at east
+in water until it evolves.  Until then, it is rather slow both on land
+and on water.  It's attacks are all water-based, such as it's water gun.
+~
+65 0 0 S
+76 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+>act_prog p bursts into crimson flame!~
+say Squirt Squirt Squirtle!
+  mpecho Squirtle uses it's hydro pump attack!
+  mpdamage $n 2000 5000 3000
+~
+|
+#6602
+charmander~
+a Charmander~
+A Charmander wanders around, aimlessly frying things
+~
+The charmander is a fire type pokemon, not especially strong in
+melee combat but quite powerful with its flame based attacks.
+~
+65 0 0 S
+77 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#6603
+oddish~
+an Oddish~
+An Oddish wanders around, looking odd
+~
+Oddish is a grass type pokemon.  It's main attribute is that it
+looks like an overgrown radish.  Hmm.. wonder if it tastes good?  Let's
+find out.
+~
+65 0 0 S
+79 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#6604
+pikachu~
+a Pikachu~
+A Pikachu stands around, looking awfully cute
+~
+The pikachu is an electric mouse type pokemon, capable of both high
+agility attacks as well as lightning attacks. It's so cute you just
+can't resist the urge to cave it's skull in with some sort of heavy
+object.. perhaps your fist?
+~
+65 0 0 S
+79 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+>act_prog p begins to phase in and out~
+mpecho Electricity begins to arc around Pikachu..
+  say Pikaaaaaaaa-CHUU!!
+  mpdamage $n 3000 5000 1201
+~
+|
+#6605
+qbone~
+a Qbone~
+A Qbone glances about, looking for somebody to smack
+~
+The Qbone is a fighting type pokemon, and is known for being very
+unfriendly.  It carries with it a phallic looking bone, no doubt for
+smacking people.
+~
+65 0 0 S
+80 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#6606
+magikarp~
+a Magikarp~
+The Magikarp floats around, looking wierd
+~
+The magikarp is a water type pokemon with latent psychic powers.  Most
+of the time, though, it just floats around in the water looking stupid.
+Why not hook the damned thing and roast it, fish is yummy.
+~
+65 0 0 S
+81 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#6607
+psyduc~
+a Psyduck~
+A Psyduck waddles about, holding it's head
+~
+The psyduck is a psychic type pokemon, but you wouldn't know that to look
+at it.  It looks like a big fat yellow duck with no feathers.  The psyduck's
+perpetual headache results in it almost always having it's hands to it's
+head, but is at the same time the source of it's psychic power.
+~
+65 0 0 S
+90 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#6600
+axe toy~
+a toy axe~
+An axe made of plastic lies here.~
+~
+5 0 8193
+0 1 6 3
+15 600 0
+#6601
+ring pink ice~
+a pink ice ring~
+A pink ice ring draws your eye.~
+~
+9 0 3
+1 0 0 0
+8 7000 0
+A
+1 1
+A
+13 6
+#6644
+meat steak~
+a juicy steak~
+A juicy steak sits on a plate here.~
+~
+19 0 1
+15 0 0 0
+5 15 0
+#6645
+steak rotten~
+a rotten steak~
+A dry steak lies on the floor.~
+~
+19 0 1
+4 0 0 1
+5 14 0
+#6646
+potion amber~
+an amber potion~
+An amber potion sits in a corner.~
+~
+10 128 1
+30 16 1 0
+1 1500 0
+#6647
+gun toy~
+a toy gun~
+A toy gun with a sharp bayonet lies here.~
+~
+5 0 8193
+0 2 3 7
+5 1700 0
+#0
+
+
+
+#ROOMDATA
+#6600
+On a trail~
+A trail leads south, into a canyon.  Sparkly peaks can be seen in the
+distance, capped in snow.  There is a sign arching over the trail ahead.
+~
+0 0 2
+D0
+~
+~
+0 -1 6500
+D2
+~
+~
+0 -1 6601
+S
+#6601
+Entrance to the Vacation~
+Dozens of odd-looking creatures are milling about, heading in the
+general direction of the mountains to the south.  The sign overhead
+reads "Pikachu's Vacation"
+~
+0 0 2
+D0
+~
+~
+0 -1 6600
+D2
+~
+~
+0 -1 6602
+S
+#6602
+A happy field~
+Tallgrass sways as a gentle breezes flows through your hair.  The calls of
+many a pokemon may be heard periodically, as they frolic about in this
+bucolic atmosphere.. free, for once, from their gladatorial fate.
+~
+0 0 2
+D0
+~
+~
+0 -1 6601
+D1
+~
+~
+0 -1 6603
+D2
+~
+~
+0 -1 6605
+D3
+~
+~
+0 -1 6606
+S
+#6603
+A happy field~
+Tallgrass sways as a gentle breezes flows through your hair.  The calls of
+many a pokemon may be heard periodically, as they frolic about in this
+bucolic atmosphere.. free, for once, from their gladatorial fate.
+~
+0 0 2
+D2
+~
+~
+0 -1 6604
+D3
+~
+~
+0 -1 6602
+S
+#6604
+A happy field~
+Tallgrass sways as a gentle breezes flows through your hair.  The calls of
+many a pokemon may be heard periodically, as they frolic about in this
+bucolic atmosphere.. free, for once, from their gladatorial fate.
+~
+0 0 2
+D0
+~
+~
+0 -1 6603
+D1
+~
+~
+0 -1 6616
+D3
+~
+~
+0 -1 6605
+S
+#6605
+A happy field~
+Tallgrass sways as a gentle breezes flows through your hair.  The calls of
+many a pokemon may be heard periodically, as they frolic about in this
+bucolic atmosphere.. free, for once, from their gladatorial fate.
+~
+0 0 2
+D0
+~
+~
+0 -1 6602
+D1
+~
+~
+0 -1 6604
+D3
+~
+~
+0 -1 6611
+S
+#6606
+A pleasant forest~
+The quiet of the forest is broken only by an occaisional 'bulba' or
+'qbone.'  Conifers of all types soar skywards; there are even a couple
+great redwoods to be found.
+~
+0 0 3
+D1
+~
+~
+0 -1 6602
+D3
+~
+~
+0 -1 6607
+S
+#6607
+A quiet forest~
+The quiet of the forest is broken only by an occaisional 'bulba' or
+'qbone.'  Conifers of all types soar skywards; there are even a couple
+great redwoods to be found.
+~
+0 0 3
+D0
+~
+~
+0 -1 6608
+D1
+~
+~
+0 -1 6606
+D3
+~
+~
+0 -1 6610
+S
+#6608
+A quiet forest~
+The quiet of the forest is broken only by an occaisional 'bulba' or
+'qbone.'  Conifers of all types soar skywards; there are even a couple
+great redwoods to be found.
+~
+0 0 3
+D2
+~
+~
+0 -1 6607
+D3
+~
+~
+0 -1 6609
+S
+#6609
+A quiet forest~
+The quiet of the forest is broken only by an occaisional 'bulba' or
+'qbone.'  Conifers of all types soar skywards; there are even a couple
+great redwoods to be found.
+~
+0 0 3
+D1
+~
+~
+0 -1 6608
+D2
+~
+~
+0 -1 6610
+S
+#6610
+A quiet forest~
+The quiet of the forest is broken only by an occaisional 'bulba' or
+'qbone.'  Conifers of all types soar skywards; there are even a couple
+great redwoods to be found.
+~
+0 0 3
+D0
+~
+~
+0 -1 6609
+D1
+~
+~
+0 -1 6607
+S
+#6611
+A pristine mountainside~
+This side of the mountain has never been sullied by human touch, and it
+shows.  Trails weave here and there, padded down only lightly by the feet
+ of ground type pokemon.  Looking to the east and north, the lake and forest
+combine to provide a truely magnificent vista.
+~
+0 0 4
+D1
+~
+~
+0 -1 6605
+D3
+~
+~
+0 -1 6612
+S
+#6612
+A pristine mountainside~
+This side of the mountain has never been sullied by human touch, and it
+shows.  Trails weave here and there, padded down only lightly by the feet
+ of ground type pokemon.  Looking to the east and north, the lake and forest
+combine to provide a truely magnificent vista.
+~
+0 0 4
+D1
+~
+~
+0 -1 6611
+D2
+~
+~
+0 -1 6615
+D3
+~
+~
+0 -1 6613
+S
+#6613
+A pristine mountainside~
+This side of the mountain has never been sullied by human touch, and it
+shows.  Trails weave here and there, padded down only lightly by the feet
+ of ground type pokemon.  Looking to the east and north, the lake and forest
+combine to provide a truely magnificent vista.
+~
+0 0 4
+D1
+~
+~
+0 -1 6612
+D2
+~
+~
+0 -1 6614
+S
+#6614
+A pristine mountainside~
+This side of the mountain has never been sullied by human touch, and it
+shows.  Trails weave here and there, padded down only lightly by the feet
+ of ground type pokemon.  Looking to the east and north, the lake and forest
+combine to provide a truely magnificent vista.
+~
+0 0 4
+D0
+~
+~
+0 -1 6613
+D1
+~
+~
+0 -1 6615
+S
+#6615
+A pristine mountainside~
+This side of the mountain has never been sullied by human touch, and it
+shows.  Trails weave here and there, padded down only lightly by the feet
+ of ground type pokemon.  Looking to the east and north, the lake and forest
+combine to provide a truely magnificent vista.
+~
+0 0 4
+D0
+~
+~
+0 -1 6612
+D3
+~
+~
+0 -1 6614
+S
+#6616
+A sparkling lake~
+The water here is sparkling in the sunshine, but you can barely see the
+water for all the water type pokemon swimming about.  Magicarp, Squirtle,
+and many others are paddling here and there, occaisionally splashing
+water on each other.
+~
+0 0 7
+D2
+~
+~
+0 -1 6617
+D3
+~
+~
+0 -1 6604
+S
+#6617
+A sparkling lake~
+The water here is sparkling in the sunshine, but you can barely see the
+water for all the water type pokemon swimming about.  Magicarp, Squirtle,
+and many others are paddling here and there, occaisionally splashing
+water on each other.
+~
+0 0 7
+D0
+~
+~
+0 -1 6616
+D1
+~
+~
+0 -1 6618
+S
+#6618
+A sparkling lake~
+The water here is sparkling in the sunshine, but you can barely see the
+water for all the water type pokemon swimming about.  Magicarp, Squirtle,
+and many others are paddling here and there, occaisionally splashing
+water on each other.
+~
+0 0 7
+D2
+~
+~
+0 -1 6619
+D3
+~
+~
+0 -1 6617
+S
+#6619
+A sparkling lake~
+The water here is sparkling in the sunshine, but you can barely see the
+water for all the water type pokemon swimming about.  Magicarp, Squirtle,
+and many others are paddling here and there, occaisionally splashing
+water on each other.
+~
+0 0 7
+D0
+~
+~
+0 -1 6618
+S
+#0
+
+
+
+#SPECIALS
+M 6602 spec_breath_fire
+M 6604 spec_breath_lightning
+M 6606 spec_cast_cleric
+M 6607 spec_finish
+S
+
+
+
+#RESETS
+M 0 6600 3 6602
+M 0 6602 3 6602
+M 0 6603 3 6602
+M 0 6601 3 6603
+M 0 6603 3 6603
+M 0 6604 3 6603
+M 0 6602 3 6604
+M 0 6603 3 6604
+M 0 6604 3 6604
+M 0 6603 3 6605
+M 0 6604 3 6605
+M 0 6605 3 6605
+M 0 6604 3 6606
+M 0 6605 3 6606
+M 0 6606 3 6606
+M 0 6605 3 6607
+M 0 6606 3 6607
+M 0 6607 3 6607
+M 0 6607 3 6608
+M 0 6600 3 6608
+M 0 6601 3 6608
+M 0 6606 3 6609
+M 0 6607 3 6609
+M 0 6600 3 6609
+M 0 6600 3 6610
+M 0 6601 3 6610
+M 0 6602 3 6610
+M 0 6601 3 6611
+M 0 6603 3 6611
+M 0 6602 3 6611
+M 0 6602 3 6612
+M 0 6602 3 6612
+M 0 6604 3 6612
+M 0 6603 3 6613
+M 0 6604 3 6613
+M 0 6605 3 6613
+M 0 6605 3 6614
+M 0 6606 3 6614
+M 0 6607 3 6614
+M 0 6606 3 6615
+M 0 6607 3 6615
+M 0 6601 3 6615
+M 0 6601 3 6616
+M 0 6606 3 6616
+M 0 6607 3 6616
+M 0 6606 3 6617
+M 0 6603 3 6617
+M 0 6607 3 6617
+M 0 6607 3 6618
+M 0 6606 3 6618
+M 0 6601 3 6618
+M 0 6607 3 6619
+M 0 6601 3 6619
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

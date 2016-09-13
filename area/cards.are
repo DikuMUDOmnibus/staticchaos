@@ -1,0 +1,734 @@
+#AREADATA
+Name        { 5 35} Euthanasia Quest Items~
+Builders    None~
+VNUMs       7600 7671
+Security    1
+Recall      3001
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#7600
+ace Spade card1~
+`dThe Ace of Spades`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7601
+two Spade card2~
+`dThe Two of Spades`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7602
+three Spade card3~
+`dThe Three of Spades`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7603
+four Spade card4~
+`dThe Four of Spades`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7604
+five Spade card5~
+`dThe Five of Spades`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7605
+six Spade card6~
+`dThe Six of Spades`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7606
+seven Spade card7~
+`dThe Seven of Spades`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7607
+eight Spade card8~
+`dThe Eight of Spades`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7608
+nine Spade card9~
+`dThe Nine of Spades`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7609
+ten Spade card10~
+`dThe Ten of Spades`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7610
+jack Spade card11~
+`dThe Jack of Spades`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7611
+queen Spade card12~
+`dThe Queen of Spades`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7612
+king Spade card13~
+`dThe King of Spades`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7613
+ace Heart card14~
+`RThe Ace of Hearts`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7614
+two Heart card15~
+`RThe Two of Hearts`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7615
+three Heart card16~
+`RThe Three of Hearts`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7616
+four Heart card17~
+`RThe Four of Hearts`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7617
+five Heart card18~
+`RThe Five of Hearts`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7618
+six Heart card19~
+`RThe Six of Hearts`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7619
+seven Heart card20~
+`RThe Seven of Hearts`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7620
+eight Heart card21~
+`RThe Eight of Hearts`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7621
+nine Heart card22~
+`RThe Nine of Hearts`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7622
+ten Heart card23~
+`RThe Ten of Hearts`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7623
+jack Heart card24~
+`RThe Jack of Hearts`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7624
+queen Heart card25~
+`RThe Queen of Hearts`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7625
+king Heart card26~
+`RThe King of Hearts`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7626
+ace Diamond card27~
+`rThe Ace of Diamonds`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7627
+two Diamond card28~
+`rThe Two of Diamonds`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7628
+three Diamond card29~
+`rThe Three of Diamonds`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7629
+four Diamond card30~
+`rThe Four of Diamonds`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7630
+five Diamond card31~
+`rThe Five of Diamonds`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7631
+six Diamond card32~
+`rThe Six of Diamonds`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7632
+seven Diamond card33~
+`rThe Seven of Diamonds`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7633
+eight Diamond card34~
+`rThe Eight of Diamonds`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7634
+nine Diamond card35~
+`rThe Nine of Diamonds`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7635
+ten Diamond card36~
+`rThe Ten of Diamonds`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7636
+jack Diamond card37~
+`rThe Jack of Diamonds`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7637
+queen Diamond card39~
+`rThe Queen of Diamonds`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7638
+king Diamond card40~
+`rThe King of Diamonds`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7639
+ace Club card40~
+`BThe Ace of Clubs`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7640
+two Club card41~
+`BThe Two of Clubs`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7641
+three Club card42~
+`BThe Three of Clubs`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7642
+four Club card43~
+`BThe Four of Clubs`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7643
+five Club card44~
+`BThe Five of Clubs`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7644
+six Club card45~
+`BThe Six of Clubs`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7645
+seven Club card46~
+`BThe Seven of Clubs`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7646
+eight Club card47~
+`BThe Eight of Clubs`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7647
+nine Club card48~
+`BThe Nine of Clubs`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7648
+ten Club card49~
+`BThe Ten of Clubs`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7649
+jack Club card50~
+`BThe Jack of Clubs`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7650
+queen Club card51~
+`BThe Queen of Clubs`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7651
+king Club card52~
+`BThe King of Clubs`n~
+A card is on the ground.~
+~
+8 128 1
+0 1 6 11
+1 0 0
+#7652
+present gift box~
+`ra brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+What can run but never walks.
+It has a mouth but never talks.
+Has a bed but never sleeps.
+Has a head but never weeps.
+
+What is it?
+Prize 100,000 gold
+1 Lump of Coal~
+#7653
+present gift box~
+`ga brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+What has four legs in the morning,
+Two legs in the afternoon,
+And three legs at night?
+
+What is it?
+Prize a Dollar
+2 Lumps of Coal~
+#7654
+present gift box~
+`Ya brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+No sooner spoken than broken.  What is it?
+
+Prize Faceless of Choice
+3 Lumps of Coal~
+#7655
+present gift box~
+`Ga brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+Feed me and I live.  Give me drink and I die.
+
+What am I?
+Prize a Dollar
+4 Lumps of Coal~
+#7656
+present gift box~
+`Ra brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+I pass before the sun, yet I make no shadow.
+
+What am I?
+Prize 100,000 gold
+5 Lumps of Coal~
+#7657
+present gift box~
+`Ya brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+I am light as a weather, yet no man can hold me for long.
+
+What am I?
+Prize Enchant Reward
+6 Lumps of Coal~
+#7658
+present gift box~
+`ba brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+We are very little creatures, all of us have different features.
+One of us in glass is set.
+One of us you'll find in jet.
+Another you may see in tin.
+A fourth is boxed within.
+If the fifth you should pursue, it can never fly from you.
+
+What are we?
+Prize 100,000 Gold
+7 Lumps of Coal
+~
+#7659
+present gift box~
+`Ya brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+I occur once in a minute, twice in every moment,
+But not once in a hundred thousand years.
+
+Prize 100,000 Gold
+8 Lumps of Coal~
+#7660
+present gift box~
+`ga brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+Walk on the living, they don't even mumble.
+Walk on the dead, they mutter and grumble.
+
+
+What are they?
+Prize a Dollar
+9 Lumps of Coal~
+#7661
+present gift box~
+`Ca brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+I am emeralds and diamonds, lost by the moon.
+I am found by the sun, and picked up soon.
+
+What am I?
+Prize 100,000 Gold
+10 Lumps of Coal
+~
+#7662
+present gift box~
+`Ba brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+Why did the dead baby cross the road?
+
+Prize 100,000 Gold
+11 Lumps of Coal~
+#7663
+present gift box~
+`Ya brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+12 Lumps of Coal~
+#7664
+present gift box~
+`Ma brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+13 Lumps of Coal~
+#7665
+present gift box~
+`ca brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+14 Lumps of Coal~
+#7666
+present gift box~
+`Wa brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+15 Lumps of Coal~
+#7667
+present gift box~
+`ma brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+16 Lumps of Coal~
+#7668
+present gift box~
+`Wa brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+17 Lumps of Coal~
+#7669
+present gift box~
+`Ya brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+18 Lumps of Coal~
+#7670
+present gift box~
+`Ca brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+19 Lumps of Coal~
+#7671
+present gift box~
+`Ma brightly colored present`n~
+A small box has been left on the ground.~
+~
+8 128 1
+0 1 6 11
+5 0 0
+E
+EuthXmas~
+20 Lumps of Coal~
+#0
+
+
+
+#ROOMDATA
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

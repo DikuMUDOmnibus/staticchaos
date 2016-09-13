@@ -1,0 +1,78 @@
+#!/usr/bin/perl -w
+opendir( DIR, "./" ) || die "Failed to open current directory.";
+# open each file in the current directory until an area file is found
+while ( $filename = readdir( DIR ) )
+{ if ( $filename ne "." && $filename ne ".." )
+  {
+    open( AFILE, $filename ) || die "Failed to open afile: $!";
+    $firstline = <AFILE>;
+    chomp( $firstline );
+    if ( $firstline =~ /^\#AREA/ )      # make sure this is actually an afile
+    {
+      $line = <AFILE>;
+      chomp( $line );
+      while ( $line ne '#OBJECTS' )	# fast forward to object section of afile
+      {
+        $line = <AFILE>;
+        chomp( $line );
+      }
+      $line = <AFILE>;
+      chomp( $line );
+
+      while ( $line ne '#0' )
+      {
+        substr( $line, 0, 1 ) = '';
+        print "insert into obj_index values ( $line, ";
+        $line = <AFILE>;
+        chomp( $line );
+        chop( $line );
+        print "\'$line\', ";
+        $line = <AFILE>;
+        chomp( $line );
+        chop( $line );
+        print "\'$line\', ";
+        $line = <AFILE>;
+        chomp( $line );
+        chop( $line );
+        print "\'$line\', ";
+        $line = <AFILE>;
+        chomp( $line );
+        chop( $line );
+        print "\'$line\', ";
+        $line = <AFILE>;
+        chomp( $line );
+        @nums = split( / /, $line );
+
+        # this part is broken, come back and fix it
+        
+        print "0, 0, 0, ";
+
+        $line = <AFILE>;
+        chomp( $line );
+        @nums = split( / /, $line );
+        print "$nums[0], ";
+        print "$nums[1], ";
+        print "$nums[2], ";
+        print "$nums[3], ";
+        $line = <AFILE>;
+        chomp( $line );
+        @nums = split( / /, $line );
+        print "$nums[0], ";
+        print "$nums[1], ";
+        print "$nums[2] );\n";
+        
+        # move to the next object index
+        $line = <AFILE>;
+        chomp( $line );
+        while ( $line !~ /^#/ )
+        {
+          $line = <AFILE>;
+	  chomp( $line ); 
+	}
+      }
+    }
+
+    close( AFILE );
+  }
+}
+closedir( DIR );

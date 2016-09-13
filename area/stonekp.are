@@ -1,0 +1,1566 @@
+#AREADATA
+Name        {45 50} Coen    Aes'ir~
+Builders    None~
+VNUMs       500 585
+Security    1
+Recall      3001
+End
+
+
+
+#MOBILES
+#500
+undead guard~
+an undead guard~
+An undead guard trolls the halls with a blazen look in his eyes.
+~
+An undead guard.
+~
+65 808 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#501
+skeleton skeletaon dragoon~
+a skeletal dragoon~
+A skeletal dragoon hovers about,  barking orders to the undead guards in some cryptic undead tongue.
+~
+A skeletal dragoon.
+~
+97 552 0 S
+52 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#502
+corporeal undead incorporeal~
+a corporeal abbhoration~
+A violent mix between the corporeal and incorporeal sloths about the floor.
+~
+A corporeal abbhoration.
+~
+65 552 0 S
+54 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#503
+phantom knight~
+a phantom knight~
+A suit of armor hovers here,  as if occupied by a phantom..
+~
+A phantom knight.
+~
+97 552 0 S
+55 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#504
+ae sir aesir master leige~
+Aes'Ir~
+Aes'ir,  leige of the undead,  master of the keep.
+~
+Aes'ir,  lord of the undead,  necromancer and king of the keep.
+~
+99 524968 0 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#505
+plant hostile form~
+a violent vine~
+The vines here seem to move about with a magical life.
+~
+A violent vine.
+~
+99 1114664 0 S
+55 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#500
+A small forest path~
+A small path that turns off the main trail through the woods.  Very thin and obviously unused for ages,  wildlife of all kinds covers the ground making it difficult to follow the dirt trail.  Trees provide a natural canopy and shade the area,  allowing but a few streaks of light to penetrate down into the dark forest.  A large structure can be seen in the distance,  but is too vague to make out.  Light reflects like beads amongst points in the bushes and wildlife on either side've the path,  as if sparking off've a creatures eyes.
+~
+0 0 1
+D0
+~
+~
+0 -1 501
+D2
+~
+~
+0 -1 6002
+S
+#501
+A clearing~
+The forest receeds to open to a magnificant structure,  though heavily worn with age.  An abandoned keep sits in the middle of this clearing,  plants and vines laced through and gripping it's crumbling stone walls.  Oddly,  two torches growing with an eerie greenish halo are mounted on opposing sides of the stone archway into the keep.  Sounds of activity are heard inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 502
+D2
+~
+~
+0 -1 500
+S
+#502
+The archway~
+A stone porch stands erect here by two intricately carved stone pillars,  supporting a solid stone slab for a roof,  the other side supported by the wall of the keep itself.  Things are completely dark inside,  unable to see even the most discreet of shapes.  An overwhelming odor pours out've the doorway,  ripe and revolting.
+~
+0 0 1
+D0
+~
+~
+0 -1 503
+D2
+~
+~
+0 -1 501
+S
+#503
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 535
+D1
+~
+~
+0 -1 534
+D2
+~
+~
+0 -1 502
+D3
+~
+~
+0 -1 504
+S
+#504
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 503
+D3
+~
+~
+0 -1 505
+S
+#505
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 504
+D3
+~
+~
+0 -1 506
+S
+#506
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 505
+D3
+~
+~
+0 -1 507
+S
+#507
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 508
+D1
+~
+~
+0 -1 506
+S
+#508
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 509
+D2
+~
+~
+0 -1 507
+S
+#509
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 510
+D2
+~
+~
+0 -1 508
+S
+#510
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 511
+D2
+~
+~
+0 -1 509
+S
+#511
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 512
+D1
+~
+~
+0 -1 541
+D2
+~
+~
+0 -1 510
+S
+#512
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 513
+D2
+~
+~
+0 -1 511
+S
+#513
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 514
+D2
+~
+~
+0 -1 512
+S
+#514
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 515
+D2
+~
+~
+0 -1 513
+S
+#515
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 516
+D2
+~
+~
+0 -1 514
+S
+#516
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 517
+D3
+~
+~
+0 -1 515
+S
+#517
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 518
+D3
+~
+~
+0 -1 516
+D4
+~
+~
+0 -1 548
+S
+#518
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 519
+D3
+~
+~
+0 -1 517
+S
+#519
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 520
+D2
+~
+~
+0 -1 547
+D3
+~
+~
+0 -1 518
+S
+#520
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 521
+D3
+~
+~
+0 -1 519
+S
+#521
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 522
+D3
+~
+~
+0 -1 520
+S
+#522
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 523
+D3
+~
+~
+0 -1 521
+S
+#523
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D2
+~
+~
+0 -1 524
+D3
+~
+~
+0 -1 522
+S
+#524
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 523
+D2
+~
+~
+0 -1 525
+S
+#525
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 524
+D2
+~
+~
+0 -1 526
+S
+#526
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 525
+D2
+~
+~
+0 -1 527
+S
+#527
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 526
+D2
+~
+~
+0 -1 528
+D3
+~
+~
+0 -1 544
+S
+#528
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 527
+D2
+~
+~
+0 -1 529
+S
+#529
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 528
+D2
+~
+~
+0 -1 530
+S
+#530
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 529
+D2
+~
+~
+0 -1 531
+S
+#531
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 530
+D3
+~
+~
+0 -1 532
+S
+#532
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 531
+D3
+~
+~
+0 -1 533
+S
+#533
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 532
+D3
+~
+~
+0 -1 534
+S
+#534
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 533
+D3
+~
+~
+0 -1 503
+S
+#535
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 536
+D2
+~
+~
+0 -1 503
+S
+#536
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 537
+D2
+~
+~
+0 -1 535
+S
+#537
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 538
+D2
+~
+~
+0 -1 536
+S
+#538
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 545
+D1
+~
+~
+0 -1 542
+D2
+~
+~
+0 -1 537
+D3
+~
+~
+0 -1 539
+S
+#539
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 538
+D3
+~
+~
+0 -1 540
+S
+#540
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 539
+D3
+~
+~
+0 -1 541
+S
+#541
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 540
+D3
+~
+~
+0 -1 511
+S
+#542
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 543
+D3
+~
+~
+0 -1 538
+S
+#543
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 544
+D3
+~
+~
+0 -1 542
+S
+#544
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D1
+~
+~
+0 -1 527
+D3
+~
+~
+0 -1 543
+S
+#545
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 546
+D2
+~
+~
+0 -1 538
+S
+#546
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 547
+D2
+~
+~
+0 -1 545
+S
+#547
+Inside the keep~
+A musky smell drenches these dark,  damp,  moldy halls.  The walls are crumbling and ridden with dirt,  cobwebs,  and what appears to be streaks of oil.  The occasional corpse is strewn about in a skeleton state,  equipment still attached to the now fleshless being.  Even the ground itself has begun to degenerate into a half stone,  half dirt compound.  Small patches of crabgrass push their way through the floor at intermittant points,  which would explain the vines laced about the entire passageway,  as if choking it from the inside.
+~
+0 0 1
+D0
+~
+~
+0 -1 519
+D2
+~
+~
+0 -1 546
+S
+#548
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D3
+~
+~
+0 -1 549
+D5
+~
+~
+0 -1 517
+S
+#549
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D1
+~
+~
+0 -1 548
+D3
+~
+~
+0 -1 550
+S
+#550
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D1
+~
+~
+0 -1 549
+D2
+~
+~
+0 -1 551
+S
+#551
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D0
+~
+~
+0 -1 550
+D2
+~
+~
+0 -1 552
+S
+#552
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D0
+~
+~
+0 -1 551
+D2
+~
+~
+0 -1 553
+S
+#553
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D0
+~
+~
+0 -1 552
+D2
+~
+~
+0 -1 554
+S
+#554
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D0
+~
+~
+0 -1 553
+D1
+~
+~
+0 -1 555
+S
+#555
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D1
+~
+~
+0 -1 556
+D3
+~
+~
+0 -1 554
+S
+#556
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D1
+~
+~
+0 -1 557
+D3
+~
+~
+0 -1 555
+S
+#557
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D1
+~
+~
+0 -1 558
+D3
+~
+~
+0 -1 556
+S
+#558
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D0
+~
+~
+0 -1 559
+D3
+~
+~
+0 -1 557
+S
+#559
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D0
+~
+~
+0 -1 560
+D2
+~
+~
+0 -1 558
+S
+#560
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D0
+~
+~
+0 -1 561
+D2
+~
+~
+0 -1 559
+S
+#561
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D0
+~
+~
+0 -1 562
+D2
+~
+~
+0 -1 560
+S
+#562
+A thin hall~
+The walls grow tighter and make way for a linear passage,  with but one way to go.  A vulgar smell seems to permeate every breath of air,  consisting of a vile yet organic appeal.  The hall itself has grown considerably darker,  lacking even a few cracks in the wall allowing light to bleed through.  Rustling can be heard in the distance,  and from above.
+~
+0 0 1
+D2
+~
+~
+0 -1 561
+D4
+~
+~
+0 -1 563
+S
+#563
+A crumbling hall~
+The floor here seems recently trodden.  The sounds previously heard have begun to grow louder,  as walking undead march up and down the halls,  oblivious to one another,  yet moving in uniform.
+~
+0 0 1
+D2
+~
+~
+0 -1 564
+D5
+~
+~
+0 -1 562
+S
+#564
+A crumbling hall~
+The floor here seems recently trodden.  The sounds previously heard have begun to grow louder,  as walking undead march up and down the halls,  oblivious to one another,  yet moving in uniform.
+~
+0 0 1
+D0
+~
+~
+0 -1 563
+D2
+~
+~
+0 -1 565
+S
+#565
+A crumbling hall~
+The floor here seems recently trodden.  The sounds previously heard have begun to grow louder,  as walking undead march up and down the halls,  oblivious to one another,  yet moving in uniform.
+~
+0 0 1
+D0
+~
+~
+0 -1 564
+D2
+~
+~
+0 -1 566
+S
+#566
+A crumbling hall~
+The floor here seems recently trodden.  The sounds previously heard have begun to grow louder,  as walking undead march up and down the halls,  oblivious to one another,  yet moving in uniform.
+~
+0 0 1
+D0
+~
+~
+0 -1 565
+D2
+~
+~
+0 -1 567
+S
+#567
+A crumbling hall~
+The floor here seems recently trodden.  The sounds previously heard have begun to grow louder,  as walking undead march up and down the halls,  oblivious to one another,  yet moving in uniform.
+~
+0 0 1
+D0
+~
+~
+0 -1 566
+D3
+~
+~
+0 -1 568
+S
+#568
+A crumbling hall~
+The floor here seems recently trodden.  The sounds previously heard have begun to grow louder,  as walking undead march up and down the halls,  oblivious to one another,  yet moving in uniform.
+~
+0 0 1
+D1
+~
+~
+0 -1 567
+D3
+~
+~
+0 -1 569
+S
+#569
+A crumbling hall~
+The floor here seems recently trodden.  The sounds previously heard have begun to grow louder,  as walking undead march up and down the halls,  oblivious to one another,  yet moving in uniform.
+~
+0 0 1
+D1
+~
+~
+0 -1 568
+D3
+~
+~
+0 -1 570
+S
+#570
+A crumbling hall~
+The floor here seems recently trodden.  The sounds previously heard have begun to grow louder,  as walking undead march up and down the halls,  oblivious to one another,  yet moving in uniform.
+~
+0 0 1
+D0
+~
+~
+0 -1 571
+D1
+~
+~
+0 -1 569
+S
+#571
+A crumbling hall~
+The floor here seems recently trodden.  The sounds previously heard have begun to grow louder,  as walking undead march up and down the halls,  oblivious to one another,  yet moving in uniform.
+~
+0 0 1
+D1
+~
+~
+0 -1 572
+D2
+~
+~
+0 -1 570
+S
+#572
+A crumbling hall~
+The floor here seems recently trodden.  The sounds previously heard have begun to grow louder,  as walking undead march up and down the halls,  oblivious to one another,  yet moving in uniform.
+~
+0 0 1
+D1
+~
+~
+0 -1 573
+D3
+~
+~
+0 -1 571
+S
+#573
+A crumbling hall~
+The floor here seems recently trodden.  The sounds previously heard have begun to grow louder,  as walking undead march up and down the halls,  oblivious to one another,  yet moving in uniform.
+~
+0 0 1
+D0
+~
+~
+0 -1 574
+D3
+~
+~
+0 -1 572
+S
+#574
+A crumbling hall~
+The floor here seems recently trodden.  The sounds previously heard have begun to grow louder,  as walking undead march up and down the halls,  oblivious to one another,  yet moving in uniform.
+~
+0 0 1
+D2
+~
+~
+0 -1 573
+D4
+~
+~
+0 -1 575
+S
+#575
+A decorated room~
+The most noticable thing in here is a massive pentagram,  scrawled from edge to edge of the room,  and four pedestals erect in each corner of the room,  a silver cross placed upon each.  White torn curtains lace the outer rim of this room.  A feeling of peace resides here,  as if no harm could come to you.
+~
+0 1028 1
+D4
+~
+~
+0 -1 576
+D5
+~
+~
+0 -1 574
+S
+#576
+The throne room~
+Lucious jewels,  furnature,  tapestries,  ..all coated with a fine splash of blood.  The walls,  the ceiling,  the floor,  all laced with blood and carrion.
+~
+0 0 1
+D0
+~
+~
+0 -1 577
+D5
+~
+~
+0 -1 575
+S
+#577
+The throne room~
+Lucious jewels,  furnature,  tapestries,  ..all coated with a fine splash of blood.  The walls,  the ceiling,  the floor,  all laced with blood and carrion.
+~
+0 0 1
+D0
+~
+~
+0 -1 581
+D1
+~
+~
+0 -1 579
+D2
+~
+~
+0 -1 576
+D3
+~
+~
+0 -1 578
+S
+#578
+The throne room~
+Lucious jewels,  furnature,  tapestries,  ..all coated with a fine splash of blood.  The walls,  the ceiling,  the floor,  all laced with blood and carrion.
+~
+0 0 1
+D0
+~
+~
+0 -1 582
+D1
+~
+~
+0 -1 577
+S
+#579
+The throne room~
+Lucious jewels,  furnature,  tapestries,  ..all coated with a fine splash of blood.  The walls,  the ceiling,  the floor,  all laced with blood and carrion.
+~
+0 0 1
+D0
+~
+~
+0 -1 580
+D3
+~
+~
+0 -1 577
+S
+#580
+The throne room~
+Lucious jewels,  furnature,  tapestries,  ..all coated with a fine splash of blood.  The walls,  the ceiling,  the floor,  all laced with blood and carrion.
+~
+0 0 1
+D2
+~
+~
+0 -1 579
+D3
+~
+~
+0 -1 581
+S
+#581
+The throne room~
+Lucious jewels,  furnature,  tapestries,  ..all coated with a fine splash of blood.  The walls,  the ceiling,  the floor,  all laced with blood and carrion.
+~
+0 0 1
+D0
+~
+~
+0 -1 583
+D1
+~
+~
+0 -1 580
+D2
+~
+~
+0 -1 577
+D3
+~
+~
+0 -1 582
+S
+#582
+The throne room~
+Lucious jewels,  furnature,  tapestries,  ..all coated with a fine splash of blood.  The walls,  the ceiling,  the floor,  all laced with blood and carrion.
+~
+0 0 1
+D1
+~
+~
+0 -1 581
+D2
+~
+~
+0 -1 578
+S
+#583
+The throne room~
+Lucious jewels,  furnature,  tapestries,  ..all coated with a fine splash of blood.  The walls,  the ceiling,  the floor,  all laced with blood and carrion.
+~
+0 0 1
+D0
+~
+~
+0 -1 584
+D2
+~
+~
+0 -1 581
+S
+#584
+The throne room~
+Lucious jewels,  furnature,  tapestries,  ..all coated with a fine splash of blood.  The walls,  the ceiling,  the floor,  all laced with blood and carrion.
+~
+0 1028 1
+D0
+~
+~
+0 -1 585
+D2
+~
+~
+0 -1 583
+S
+#585
+The throne~
+Lucious jewels,  furnature,  tapestries,  ..all coated with a fine splash of blood.  The walls,  the ceiling,  the floor,  all laced with blood and carrion.
+~
+0 0 1
+D2
+~
+~
+0 -1 584
+S
+#0
+
+
+
+#SPECIALS
+M 505 spec_breath_acid
+S
+
+
+
+#RESETS
+M 0 505 1 501
+M 0 505 1 501
+M 0 505 1 501
+M 0 505 1 502
+M 0 505 1 502
+M 0 500 25 503
+M 0 500 1 503
+M 0 500 1 503
+M 0 500 1 503
+M 0 500 1 503
+M 0 500 1 505
+M 0 500 1 505
+M 0 500 1 505
+M 0 500 1 505
+M 0 500 1 505
+M 0 500 1 507
+M 0 500 1 507
+M 0 500 1 507
+M 0 500 1 507
+M 0 500 1 507
+M 0 500 1 509
+M 0 500 1 509
+M 0 500 1 509
+M 0 500 1 509
+M 0 500 1 509
+M 0 500 1 509
+M 0 500 25 511
+M 0 500 1 511
+M 0 500 1 511
+M 0 500 1 511
+M 0 500 1 511
+M 0 500 25 513
+M 0 500 28 515
+M 0 500 1 515
+M 0 500 1 515
+M 0 500 1 515
+M 0 500 1 515
+M 0 500 1 515
+M 0 500 25 517
+M 0 500 25 519
+M 0 500 1 519
+M 0 500 1 519
+M 0 500 1 519
+M 0 500 1 519
+M 0 500 52 521
+M 0 500 1 521
+M 0 500 1 521
+M 0 500 1 521
+M 0 500 1 521
+M 0 500 1 521
+M 0 500 25 523
+M 0 500 1 523
+M 0 500 1 523
+M 0 500 1 523
+M 0 500 1 523
+M 0 500 25 525
+M 0 500 1 525
+M 0 500 1 525
+M 0 500 1 525
+M 0 500 1 525
+M 0 500 25 527
+M 0 500 1 527
+M 0 500 1 527
+M 0 500 1 527
+M 0 500 1 527
+M 0 500 25 529
+M 0 500 1 529
+M 0 500 1 529
+M 0 500 1 529
+M 0 500 1 529
+M 0 500 25 531
+M 0 500 1 531
+M 0 500 1 531
+M 0 500 1 531
+M 0 500 1 531
+M 0 500 25 533
+M 0 500 1 533
+M 0 500 1 533
+M 0 500 1 533
+M 0 500 1 533
+M 0 500 25 536
+M 0 500 1 536
+M 0 500 1 536
+M 0 500 1 536
+M 0 500 1 536
+M 0 500 25 538
+M 0 500 1 538
+M 0 500 1 538
+M 0 500 1 538
+M 0 500 1 538
+M 0 500 25 540
+M 0 500 25 540
+M 0 500 1 540
+M 0 500 1 540
+M 0 500 1 540
+M 0 500 25 543
+M 0 500 1 543
+M 0 500 1 543
+M 0 500 1 543
+M 0 500 1 543
+M 0 500 25 546
+M 0 500 1 546
+M 0 500 1 546
+M 0 500 1 546
+M 0 501 26 548
+M 0 501 1 548
+M 0 501 1 548
+M 0 501 1 548
+M 0 501 1 548
+M 0 501 26 549
+M 0 501 1 549
+M 0 501 1 549
+M 0 501 1 549
+M 0 501 1 549
+M 0 501 23 550
+M 0 501 1 550
+M 0 501 1 550
+M 0 501 1 550
+M 0 501 1 550
+M 0 501 1 551
+M 0 501 1 551
+M 0 501 1 551
+M 0 501 1 551
+M 0 501 1 551
+M 0 501 28 552
+M 0 501 23 553
+M 0 501 1 554
+M 0 501 1 554
+M 0 501 1 554
+M 0 501 1 554
+M 0 501 1 554
+M 0 501 25 555
+M 0 501 1 555
+M 0 501 1 555
+M 0 501 1 555
+M 0 501 1 555
+M 0 501 1 555
+M 0 501 1 555
+M 0 501 1 555
+M 0 501 1 555
+M 0 501 10 558
+M 0 501 1 558
+M 0 501 1 558
+M 0 501 1 558
+M 0 501 1 558
+M 0 501 1 558
+M 0 501 1 558
+M 0 501 1 558
+M 0 501 1 558
+M 0 501 1 558
+M 0 501 25 560
+M 0 501 25 562
+M 0 501 1 562
+M 0 501 1 562
+M 0 502 23 563
+M 0 500 22 563
+M 0 502 1 564
+M 0 502 1 564
+M 0 502 1 564
+M 0 503 1 567
+M 0 502 1 567
+M 0 503 1 567
+M 0 503 1 567
+M 0 502 7 569
+M 0 503 1 569
+M 0 503 1 569
+M 0 503 1 569
+M 0 503 1 569
+M 0 503 5 571
+M 0 503 1 571
+M 0 503 1 571
+M 0 503 1 571
+M 0 503 1 571
+M 0 503 5 573
+M 0 503 1 573
+M 0 503 1 573
+M 0 503 1 573
+M 0 503 1 573
+M 0 503 1 574
+M 0 503 1 574
+M 0 502 10 577
+M 0 502 1 577
+M 0 502 1 577
+M 0 502 1 577
+M 0 502 1 577
+M 0 502 10 578
+M 0 502 1 578
+M 0 501 1 578
+M 0 501 1 578
+M 0 503 1 578
+M 0 502 10 579
+M 0 502 1 579
+M 0 502 1 579
+M 0 502 1 579
+M 0 501 6 580
+M 0 501 1 580
+M 0 500 1 580
+M 0 503 1 580
+M 0 501 6 581
+M 0 501 1 581
+M 0 500 1 581
+M 0 502 1 581
+M 0 503 1 581
+M 0 503 1 581
+M 0 501 6 582
+M 0 503 1 582
+M 0 502 1 582
+M 0 501 1 582
+M 0 502 1 582
+M 0 504 1 585
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

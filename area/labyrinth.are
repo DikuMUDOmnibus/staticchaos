@@ -1,0 +1,4656 @@
+#AREADATA
+Name        {75 99} Varnus  The Labyrinth~
+Builders    None~
+VNUMs       4200 4399
+Security    1
+Recall      3001
+End
+
+
+
+#MOBILES
+#4200
+strangle vine vines~
+A strangle vine~
+The vines writhe, and attack you!
+~
+This ordinary vine is wrapping around your throat, determined to throttle 
+the life from you!
+~
+99 66080 0 S
+80 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4201
+wolfen scout~
+A wolfen scout~
+A wolf-like creature prowls the shadows here, watching you.
+~
+`dHideous in nature, and cruel in intention, this beast watches you so he 
+can report your whereabouts to his pack.`n
+~
+225 98344 0 S
+85 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4202
+wolfen soldier man~
+A wolfen soldier~
+This wolfen turns toward you with malice in his eye!
+~
+`dHuge, dark, and furry, these things come from your worst nightmares.  The 
+horror and cunning of a wolf, combined with the intelligence and evil of a 
+man.`n
+~
+99 40 0 S
+87 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4203
+patryn prisoner~
+A humanoid prisoner~
+A young woman looks up at you with hope in her eyes.
+~
+`dCollapsed on a pile of clothes, she pleads with you to take her life, for 
+her heartrune is broken, and can never be fixed.`n
+~
+67 0 0 S
+70 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#4204
+wolfen female~
+A wolfen female~
+With a snarl, the female wolfen turns and attacks!
+~
+`dWith speed and grace breathtaking to behold, she bounds toward you, intent 
+on ripping your throat from your body.`n
+~
+99 32 0 S
+80 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#4205
+wolfen chieftan~
+The Wolfen Chieftan~
+The chieftan howls in rage, and turns to face you!
+~
+`dAlmost 9 ft in height, sleek fur bristling with anger, he is an 
+awe-isnpiring sight.  His clothes are ruffled, and from the presence of the 
+women in the room, you seemed to have interrupted something.`n
+~
+99 168 0 S
+92 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4206
+female wolfen~
+A young female wolfen~
+A small form darts behind you, to tear at your ankles!
+~
+`dGray and brown spotted fur, she has the mangy look of all the wolfen. 
+Smaller and faster than the others, she represents a real threat.`n
+~
+99 32 0 S
+80 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#4207
+male wolfen form~
+A black wolfen~
+A black form charges you with a growl!
+~
+`dTruely dark and menacing, this beast wants nothing more to tear into you, 
+ripping your heart from your body and swallowing it whole!`n
+~
+99 552 0 S
+87 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4208
+snog pig~
+A grunting snog~
+Snorting and slavering, the oversized pig turns toward you!
+~
+`dShort, coarse fur cover its entire body.  Tusks the size of small swords 
+protrude from its snout, and it looks like it's about to use them!`n
+~
+225 552 0 S
+80 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4209
+large snog boar~
+The large snog~
+A mountain of pig flesh is here, standing over a corpse.
+~
+`dThe smell is as intense as the stare of it's beady red eyes.  It moves 
+with deliberateness that promises great violence and death.`n
+~
+103 66088 0 S
+90 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4210
+child patryn baby~
+The patryn child~
+A small figure lies curled up here in a ball.
+~
+`dTears streaming down her face, she cries silently.  She has watched her 
+parents be torn apart defending her, knowing that her chances have 
+diminished with their death.`n
+~
+71 65576 0 S
+20 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#4211
+nymph~
+The small figure~
+A gorgeous female figure beckons to you from around the tree trunk.
+~
+`dYou are entranced by her stunning beauty.  Eyes of purest....legs 
+like...breasts that heave and....why is it so dizzy?`n
+~
+71 557226 0 S
+92 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#4212
+stirge~
+A winged insect~
+A black shape darts from the shadows!
+~
+`dDisgusting to look at, this overgrown mosquito seeks your blood for its 
+sustenance.  It's long probiscus seeks your flesh, dripping a vile fluid of 
+god knows what.`n
+~
+225 557610 0 S
+85 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4213
+cave lurking~
+The lurker~
+Perched in a crevasse near the roof, the lurker lashes at you!
+~
+`dInvisible in the darkness, this creature uses its long tentacles to 
+capture and real in prey to its slashing beak. Incredibly effective in this 
+dark cave.`n
+~
+35 66216 0 S
+92 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4214
+wolfen scout~
+An earth elemental~
+The earth shakes, and pieces break off and attack you!
+~
+`dMade of the earth itself, this creature moves with slow deliberateness.  
+Its immense power may be slow on the uptake, but its effect is not to be 
+discounted!`n
+~
+35 40 0 S
+87 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4215
+strangle vine~
+A strangle vine~
+The vines draping the trees here move, and envelope you!
+~
+`dSharp thorns protrude from these vines, scratching and tearing at your 
+skin.  The resulting drops of blood seem to be *absorbed* by this hideous 
+thing! What kind of plant is this?`n
+~
+99 65576 0 S
+80 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4216
+tigerman hunter~
+A snarling tigerman~
+You get a glimps of movement, and then he's on you!
+~
+`dPerfectly adapted to this terrain, this beast can stalk and kill at his 
+leisure without ever being seen.`n
+~
+97 32808 0 S
+85 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4217
+giant ant~
+A giant ant worker~
+A giant ant moves about here, collecting food and other things.
+~
+`dIt's huge segmented body moves fluidly, examining and collecting items 
+identified as food.  It moves past you this time, but next time, will it 
+consider you lunch?`n
+~
+69 0 0 S
+85 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4218
+ant soldier~
+A soldier ant~
+The soldier ant charges, determined to protect the Queen!
+~
+`dBred for war, the soldier ants of the mound do not fall easily.  Inhuman 
+eyes glisten in the faint light as they charge, fearless and unstoppable.`n
+~
+97 0 0 S
+90 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4219
+ant larvae~
+An ant larvae~
+Thick, white, and pasty forms move toward you in a swarm.
+~
+`dKnowing nothing but feeding, these thick disgusting larvae charge forward, 
+always eating, always growing, and now they are looking to consume you in 
+their ravenous hunger.`n
+~
+103 40 0 S
+70 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4220
+queen ant~
+The Queen Ant~
+The Queen stops her egg laying, and reaches for you!
+~
+`dCovering almost the entire room, the Queen now does nothing but sit and 
+lay eggs for her workers to care for.  Her size is a great advantage though, 
+and she turns toward you with anger in her multi-faceted eyes, and hunger in 
+her mandibles.`n
+~
+103 680 0 S
+92 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#4221
+tigerman sentry~
+A tigerman sentry~
+A furry beast stands here, watching your approach with bared fangs.
+~
+`dFully eight feet tall, this beast is pure muscle.  Its furred hands can 
+grip or tear with equal ease, and it looks like that's what is preparing to 
+do to you!`n
+~
+99 552 0 S
+85 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4222
+tigerman sleeping~
+A sleeping tigerman~
+A tigerman is sleeping here.
+~
+`dThe tigerman is slumbering quietly here.  His hind legs twitch, and a 
+slight purr eminates from him as he dreams.`n
+~
+67 552 0 S
+85 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4223
+tigerman warrior~
+A tigerman warrior~
+This tigerman warrior comes toward you, bringing your death!
+~
+`dOnly the strongest of the Labyrinth's tigermen can claim to be one of the 
+Warriors, and this is certainly one of them.  The elite of an incredibly 
+deadly race, these creatures eat, sleep, and breath war.`n
+~
+99 552 0 S
+88 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4224
+tigerman leader~
+The Leader of the Tigermen~
+The Leader sees you and growls, "You will fall in one blow!"
+~
+`dIt takes an incredible being to lead a race of incredible being.  Over 10 
+feet tall, the blood red fur visible between the cracks in his armor, there 
+to allow him greater mobility.  Truely a deadly foe.`n
+~
+99 680 0 S
+90 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4225
+tigerman guard~
+A tigerman guard~
+This tigerman rushes you, determined to stop you from passing.
+~
+`dPlaced here to prevent anyone from sneaking through, the tigerman screams 
+for backup as he attacks.`n
+~
+99 680 0 S
+85 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4226
+hapry woman~
+A harpy~
+A harpy dives in, trying to knock you from the cliff
+~
+`dA twisted combination of woman and vulture, the harpy's yells are muted by 
+the howling wind.  Her claws tear at your clothes, hoping to make you lose 
+your balance.`n
+~
+97 524328 0 S
+85 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#4227
+hapry chic~
+A harpy chic~
+A young harpy sits here, screaming for food.
+~
+`dRaised at these heights, these chics learn early to fly, or they fall, and 
+are never seen from again.`n
+~
+99 524328 0 S
+75 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#4228
+harpy mother~
+A harpy mother~
+Motivated by fear to protect her young, the harpy attacks!
+~
+`dInstinct driving her to place her life on the line, she dives toward you 
+to tear the life from your body.`n
+~
+97 524328 0 S
+88 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#4229
+green dragon~
+A green dragon~
+Gliding gracefully, the green dragon carries you on his back!
+~
+`dHis voice speaks in a loud rumble heard over the wind.  Comfortable on his 
+back, you hear what he says and are awed by his strength and power.`n
+~
+67 524970 0 S
+100 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+>greet_prog 100~
+say I see you have braved the beginning of the Labyrinth.
+ say There is no time for you to fight all the way through,
+ say we must get you to the final battle.  Fetch the Red Dragon's
+ say scale, and give it to me, and I will have the strength to
+ say teleport us to the Final Gate.
+~
+>give_prog dragon red scale~
+say Best of luck to you!
+ mptransall 4358
+~
+|
+#4230
+air elemental~
+An air elemental~
+An invisible form strikes at you with the wind itself!
+~
+`dYou can barely see an outline, highlighted by two glowing eyes.  Placed 
+here to defend *something*, they are determined to keep you from passing.`n
+~
+97 524330 0 S
+86 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4231
+wyvern~
+A red wyvern~
+A winged beast circles here, and dives at you!
+~
+`dThese half dragons are faster and and deadlier than anything you've seen 
+in the labyrinth so far.  The tail slashes quickly, and those teeth look 
+incredibly sharp.`n
+~
+99 524328 0 S
+88 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4232
+black wyvern~
+A black wyvern~
+The shadows move here, and lash out at you!
+~
+`dBred blacker than night, these wyvern are the toughest of the bunch.  
+Scales like armor, teeth like knives, and a tail like a stinging whip make 
+them formidable opponents.`n
+~
+99 622632 0 S
+90 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4233
+red dragon~
+The Red Dragon~
+A gigantic head turns toward you, and breaths a gout of flame!
+~
+`dImpenetrable scales and sword-like teeth and claws top off this monsterous 
+red giant.  Evil glares from beneath the scaled brow, and you know your 
+death is emminent.`n
+~
+97 524456 0 S
+94 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4234
+chaodyn~
+A Choadyn~
+A large insect-like creature turns to destroy you!
+~
+`dThe evil of the Labyrinth stands before you, personified in this beast.  
+Strike at his heart, for each drop of blood will produce a new one.`n
+~
+97 168 0 S
+90 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+>act_prog p begins to phase in and out of existance..~
+mpecho A Chaodyn lunges at $n!
+ mpdamage $n 10000 15000 1010
+~
+|
+#4235
+snog~
+A large snog~
+A deadly snogs attacks you!
+~
+`dThe larger snogs have been brought here by the serpents to fight to 
+Patryn, and destroy those who would keep the gate open.`n
+~
+97 40 0 S
+90 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4236
+large wyvern~
+A large red wyvern~
+A red wyvern screaches and attacks!
+~
+`dTwice the size, and twice as evil to match.  The hate in its eyes set you 
+back, and then it attacks!`n
+~
+97 524328 0 S
+90 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4237
+large black wyvern~
+A large black wyvern~
+Pieces of the night move, and attack!
+~
+`dThe night takes the shape of a black wyvern, diving at you to tear the 
+flesh from your bones and prevent you from assisting the Patryn.`n
+~
+97 524328 0 S
+90 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4238
+red dragon~
+A red dragon~
+A red dragon is here, circling a strange dragon.
+~
+`dDeadly fires leap from it's throat, and strike at you and the dragon.  
+Looking into the eyes of the beast, you notice one thing you have not seen 
+in the Labyrinth so far.  Fear.`n
+~
+99 524456 0 S
+90 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4239
+alfred green dragon~
+Alfred the Dragon~
+A huge multi-colored dragon is here, fighting the Labyrinth.
+~
+`dThe serpent-mage strikes all around him with a fury unknown to his 
+peaceful soul before now.  He *must* fight, or the mensch will be destroyed 
+by the foul serpent snakes.`n
+~
+67 524968 0 S
+99 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4240
+serpent snake~
+A serpent snake~
+A long slimy snake attempts to wrap it's coils around you!
+~
+`dEvil incarnate, these beings seek to trap the Patryn in the Labyrinth for 
+all eternity, feeding off their fear and hatred.`n
+~
+101 40 0 S
+91 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4241
+tigerman elite~
+A tigerman warrior~
+A tigerman is here, battling on the side of the serpents.
+~
+`dLarge and deadly, this beast assists the serpents in the nefarious 
+goals.`n
+~
+97 40 0 S
+90 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4242
+wolfman elite~
+A wolfman warrior~
+A wolfman is here, helping the serpents shut the gate.
+~
+`dA large and deadly ball of fur, this beast strikes quickly and moves on to 
+the next victim.`n
+~
+97 40 0 S
+90 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#4243
+patryn defender~
+A Patryn defender~
+A Patryn is here, grimly defending the Final Gate.
+~
+`dThe last line of defense before their entire race is trapped in the 
+Labyrinth forever, they will fight to the last.`n
+~
+65 40 0 S
+90 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4244
+Sang-drax~
+Sang-drax~
+A huge maw darts toward you, preparing to rip you apart!
+~
+`dThe leader of the Serpents, Sang-drax is here to stop Xar and Haplo from 
+preventing his plan from happening. Nothing will stop him now, especially 
+not you.`n
+~
+99 680 0 S
+99 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4245
+Haplo~
+Haplo~
+Thinking you to be another form of Sang-drax, Haplo attacks!
+~
+`dTired and weary, Haplo knows his battle is not yet over.  He must prevent 
+Xar from remaking the world, at the same time protecting the Patryn from 
+Sang-drax's evil plot.`n
+~
+99 680 0 S
+99 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#4246
+xar~
+Xar~
+Xar pauses from his runeweaving to dispose of a small irritation...you!
+~
+`dThe Sartan unmade the world, and Xar is determined to remake it.  The 
+runes are there, and the only thing stopping him is the voice of Haplo, 
+crying out that it is not the best course.  Have Haplo's words swayed Xar?`n
+~
+99 680 0 S
+99 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#4200
+dead patryn corpse~
+a patryn's corpse~
+A bloody corpse is here, so torn you cannot make out the gender.~
+~
+15 0 8192
+0 1 6 11
+5 0 0
+#4201
+wolfen spear~
+a long spear~
+Crudely carved from some hard wood and ready to do some damage.~
+~
+5 0 8193
+0 1 6 11
+5 0 0
+A
+18 2
+A
+19 3
+#4202
+wolfen bracers~
+a furred bracer~
+A bracer of snog skin lies here.~
+~
+9 0 4097
+0 1 6 11
+5 0 0
+A
+19 4
+A
+17 -5
+#4203
+black club~
+a black club~
+A thick piece of dark wood lies here.~
+~
+5 0 8193
+0 1 6 8
+5 0 0
+A
+18 2
+A
+19 5
+#4204
+shackles~
+a pair of shackles~
+A pair of open shackles lie here, waiting to be used.~
+~
+9 4115 129
+0 1 6 11
+5 0 0
+A
+14 -100
+A
+18 -2
+#4205
+loincloth loin cloth~
+a simple loincloth~
+A simple loincloth lies bundled here in a corner.~
+~
+9 0 2049
+0 1 6 11
+5 0 0
+A
+18 2
+A
+17 -10
+#4206
+light love~
+the Glow of Seduction~
+A ball of reddish light floats here, waiting to be taken.~
+~
+1 1 1
+0 1 -1 11
+5 0 0
+A
+14 50
+A
+18 7
+#4207
+large rock boulder~
+a large boulder~
+A huge stone lies in your path, blocking your way.~
+~
+5 0 8193
+0 1 6 6
+75 0 0
+A
+19 12
+A
+17 100
+#4208
+lurker tentacle~
+the lurker's tentacle~
+Long, black, and coated with a *very* sticky substance.~
+~
+5 0 8193
+0 1 6 12
+5 0 0
+A
+18 8
+A
+19 2
+A
+13 -50
+#4209
+leg plates~
+runed leg plates~
+Two pieces of metal lie here in a jumble.~
+~
+9 0 33
+0 1 6 11
+5 0 0
+A
+19 3
+A
+17 -5
+#4210
+claw club~
+a claw-tipped club~
+A short stick lies here, with what looks like a paw attached to it.~
+~
+5 0 8193
+0 1 6 5
+5 0 0
+A
+18 4
+A
+19 2
+#4211
+queen's mandibles~
+the Queen's mandibles~
+Pieces of the Queen ant lie here, torn from her corpse.~
+~
+5 211 8193
+0 1 6 10
+5 0 0
+A
+18 5
+A
+19 5
+A
+13 -100
+A
+12 -100
+A
+14 5
+#4212
+ant egg~
+an ant egg~
+A slimy ball of slime sits here, twitching slightly.~
+~
+9 128 16385
+0 1 6 11
+5 0 0
+A
+13 50
+A
+12 100
+#4213
+cat's paw disc~
+a tiger paw~
+A wooden replica of a tiger's claw lies on the ground here.~
+~
+5 0 8193
+0 1 6 11
+5 0 0
+A
+18 4
+A
+19 4
+A
+17 -5
+#4214
+claw spear~
+a claw-tipped spear~
+A long pole tipped with a sharp claw is here.~
+~
+5 0 8193
+0 1 6 5
+5 0 0
+A
+18 7
+A
+19 1
+#4215
+treated ant skin vest~
+an ant-skin vest~
+A pile of cloth is here.~
+~
+9 0 9
+0 1 6 11
+5 0 0
+A
+18 6
+A
+19 6
+A
+17 -10
+#4216
+tigerman sword ~
+a huge longsword~
+A huge longsword rests here, eminating evil.~
+~
+5 6867 8193
+0 1 6 3
+5 0 0
+A
+18 4
+A
+19 6
+A
+17 -10
+#4217
+plate chest~
+a chest plate~
+A huge peice of metal sits here, waiting to be used.~
+~
+9 6675 9
+0 1 6 11
+5 0 0
+A
+17 -100
+#4218
+harpy feather~
+a harpy feather~
+A large feather floats in the wind here.~
+~
+13 0 16385
+0 1 6 11
+5 0 0
+A
+18 4
+#4219
+dragon red scale~
+a red dragon scale~
+A giant red dragon scale is here.~
+~
+9 19 513
+0 1 6 11
+5 0 0
+A
+19 0
+#4220
+wyvern tail~
+a wyvern's tail~
+A long spine lies on the ground here.~
+~
+5 2 8193
+0 1 6 2
+5 0 0
+A
+18 4
+A
+14 200
+#4221
+snog skin~
+a large skin~
+A pile of fur lies here.~
+~
+12 0 1
+0 1 6 11
+5 0 0
+#4222
+dragon tooth~
+a dragon's tooth~
+A large canine lies here, dripping blood.~
+~
+5 531 8193
+0 1 6 2
+5 0 0
+A
+19 8
+A
+18 1
+#4223
+skin alfred~
+skin of the Serpent Mage~
+A pile of multi-colored scales shimmer in the light here.~
+~
+9 3072 1025
+0 1 6 11
+5 0 0
+A
+17 -75
+#4224
+runed helmet~
+a runed helmet~
+A runed helmet, blue runes inscribed all over it.~
+~
+9 2 17
+0 1 6 11
+5 0 0
+A
+13 10
+A
+19 3
+#4225
+runed arm guard~
+a runed arm guard~
+An arm guard lies here, runes inscribed all over it.~
+~
+9 2 257
+0 1 6 11
+5 0 0
+A
+19 4
+A
+13 10
+#4226
+runed longsword~
+a runed longsword~
+A longsword lies here, covered in runes.~
+~
+5 3 8193
+0 1 6 1
+5 0 0
+A
+18 5
+A
+19 5
+A
+13 25
+#4227
+runed dagger~
+a runed dagger~
+A dagger sits here, covered in runes.~
+~
+5 3 8193
+0 1 6 11
+5 0 0
+A
+12 25
+A
+13 25
+A
+18 10
+#4228
+eye serpent~
+eye of the Serpent~
+A pulsing orb lies here~
+~
+1 592 1
+0 1 -1 11
+5 0 0
+A
+19 10
+A
+9 100
+#4229
+cursed blade~
+the Cursed Blade~
+A crudely formed knife lies here, waiting to strike.~
+~
+5 4291 8193
+0 1 6 6
+5 0 0
+A
+19 10
+A
+18 7
+A
+13 -25
+A
+12 -25
+A
+14 -25
+A
+17 25
+#4230
+book runes Patryn~
+the Tome of Patryn Runes~
+A leather-bound tome lies here, holding infinate knowledge and power.~
+~
+9 99 16385
+0 1 6 11
+5 0 0
+A
+12 500
+A
+3 20
+A
+4 20
+A
+18 8
+#0
+
+
+
+#ROOMDATA
+#4200
+Before the Forest of Fear~
+`DYou stand before the Forest of Fear.  Only the very brave, or the very 
+foolish, have continued past this point.  Which are you?`n
+~
+0 4 3
+D0
+~
+~
+0 -1 4201
+D1
+~
+~
+0 -1 411
+S
+#4201
+The Forest of Fear~
+`dYou are lost in the dark forest.  What was that noise?  Did that bush just 
+move? This could be more than you bargained for....`n
+~
+0 1 3
+D0
+~
+~
+0 -1 4203
+D1
+~
+~
+0 -1 4202
+D2
+~
+~
+0 -1 4201
+D3
+~
+~
+0 -1 4205
+S
+#4202
+The Forest of Fear~
+`dYou are lost in the dark forest.  What was that noise?  Did that bush just 
+move? This could be more than you bargained for....`n
+~
+0 1 3
+D0
+~
+~
+0 -1 4206
+D1
+~
+~
+0 -1 4205
+D2
+~
+~
+0 -1 4201
+D3
+~
+~
+0 -1 4201
+S
+#4203
+The Forest of Fear~
+`dYou are lost in the dark forest.  What was that noise?  Did that bush just 
+move? This could be more than you bargained for....`n
+~
+0 1 3
+D0
+~
+~
+0 -1 4202
+D1
+~
+~
+0 -1 4203
+D2
+~
+~
+0 -1 4206
+D3
+~
+~
+0 -1 4205
+S
+#4204
+The Forest of Fear~
+`dYou are lost in the dark forest.  What was that noise?  Did that bush just 
+move? This could be more than you bargained for....`n
+~
+0 1 3
+D0
+~
+~
+0 -1 4203
+D1
+~
+~
+0 -1 4201
+D2
+~
+~
+0 -1 4207
+D3
+~
+~
+0 -1 4203
+S
+#4205
+The Forest of Fear~
+`dYou are lost in the dark forest.  What was that noise?  Did that bush just 
+move? This could be more than you bargained for....`n
+~
+0 1 3
+D0
+~
+~
+0 -1 4202
+D1
+~
+~
+0 -1 4201
+D2
+~
+~
+0 -1 4201
+D3
+~
+~
+0 -1 4206
+S
+#4206
+The Forest of Fear~
+`dYou are lost in the dark forest.  What was that noise?  Did that bush just 
+move? This could be more than you bargained for....`n
+~
+0 1 3
+D0
+~
+~
+0 -1 4201
+D1
+~
+~
+0 -1 4205
+D2
+~
+~
+0 -1 4204
+D3
+~
+~
+0 -1 4205
+S
+#4207
+The Forest of Fear~
+`dYou are lost in the dark forest.  What was that noise?  Did that bush just 
+move? This could be more than you bargained for....`n
+~
+0 1 3
+D0
+~
+~
+0 -1 4208
+D1
+~
+~
+0 -1 4201
+D2
+~
+~
+0 -1 4205
+D3
+~
+~
+0 -1 4201
+S
+#4208
+Deep in the Forest~
+`dYou move down what looks like an animal trail.  You wonder briefly what 
+sort of animals live in a place like this, and then continue on your way.`n
+~
+0 1 3
+D1
+~
+~
+0 -1 4211
+D2
+~
+~
+0 -1 4207
+D3
+~
+~
+0 -1 4209
+S
+#4209
+Deep in the Forest~
+`dYou move down what looks like an animal trail.  You wonder briefly what 
+sort of animals live in a place like this, and then continue on your way.`n
+~
+0 1 3
+D1
+~
+~
+0 -1 4208
+D3
+~
+~
+0 -1 4210
+S
+#4210
+A Tangled Dead End~
+`dIt seems like this animal path is a dead end...literally.  Scores of bones 
+and animal skeletons seem to be wrapped up in those vines.  What species ARE 
+those, anyway?`n
+~
+0 1 3
+D1
+~
+~
+0 -1 4209
+S
+#4211
+A Path in the Forest~
+`dInteresting enough, there seems to be the beginning of a path here.  Now 
+the question is: Follow the path and risk facing the makers, or brave the 
+Forest?`n
+~
+0 5 3
+D1
+~
+~
+0 -1 4212
+D3
+~
+~
+0 -1 4208
+S
+#4212
+Along the Path~
+`dYou move along the path, and notice movement in the bushes to the side of 
+the path.  Ignore it, or tempt fate?`n
+~
+0 5 3
+D0
+~
+~
+0 -1 4213
+D1
+~
+~
+0 -1 4214
+D3
+~
+~
+0 -1 4211
+S
+#4213
+In the Bushes~
+`dPushing through the bushes is hard work. Its so dark, and so hard to see 
+what is in here....nothing. Nothing at all.`n
+~
+0 5 3
+D2
+~
+~
+0 -1 4212
+S
+#4214
+Along the Path~
+`dMore movement along the sides of the path. What could that be?  Should you 
+investigate again? It could be nothing...on the other hand.`n
+~
+0 5 3
+D0
+~
+~
+0 -1 4215
+D1
+~
+~
+0 -1 4216
+D3
+~
+~
+0 -1 4212
+S
+#4215
+In the Bushes~
+`dThe bushes are so confined, its hard to get a good look around.  You see 
+tracks on the ground.  Looks like wolf tracks, to your trained eye.  Better 
+keep moving.`n
+~
+0 5 3
+D2
+~
+~
+0 -1 4214
+S
+#4216
+A Bend in the Path~
+`dThe path takes a more northerly direction here, deeper into the heart of 
+the forest.  Not wanting to turn back now, you move onward.`n
+~
+0 5 3
+D0
+~
+~
+0 -1 4217
+D3
+~
+~
+0 -1 4214
+S
+#4217
+Approaching Two Large Boulders~
+`dUp ahead, you can see where two boulders flank the path.  It seems like an 
+excellent spot for an ambush.  Again, it occurs to you that the path you are 
+on wasn't made by you, or anything you know. The realization makes you 
+wonder, and you press on.`n
+~
+0 5 3
+D0
+~
+~
+0 -1 4218
+D2
+~
+~
+0 -1 4216
+S
+#4218
+At the Boulders~
+`dThe path seems to split here.  The well-worn part seems to track off to 
+the west, where the forest seems a little thinner.  A small path leads deep 
+into the Forest, and looks very dark.`n
+~
+0 1 3
+D0
+~
+~
+0 -1 4227
+D2
+~
+~
+0 -1 4217
+D3
+~
+~
+0 -1 4219
+S
+#4219
+A Well-Worn Path~
+`dThe worn path moves westward.  You see the forest thinning on the sides.  
+This must lead to a clearing of some sort.`n
+~
+0 1 3
+D1
+~
+~
+0 -1 4218
+D3
+~
+~
+0 -1 4220
+S
+#4220
+A Well-Worn Path~
+`dFurther down the path, you see more evidence of frequent travel.  There 
+seem to be marks all over the road, and recent, too.  These people, whoever 
+they are, must have a number of pet dogs.  Their tracks are everywhere.`n
+~
+0 1 3
+D1
+~
+~
+0 -1 4219
+D3
+~
+~
+0 -1 4221
+S
+#4221
+Approaching the Camp~
+`dYou stand on the outside of what looks to be a small camp.  Everything is 
+*very* dirty, and the smell is horrendous.  There is a campfire ahead, and 
+you can make out some shapes around it.  Perhaps they can assist you on your 
+journey through the Labyrinth.`n
+~
+0 0 3
+D1
+~
+~
+0 -1 4220
+D3
+~
+~
+0 -1 4222
+S
+#4222
+The Camp~
+`dNow you are inside the camp proper.  The smell aside, this doesn't seem 
+like your normal camp. Everything is in disrepair, and there isn't any 
+stretch of ground not pounded into dirt and mud, with those strange wolf 
+tracks everywhere.`n
+~
+0 0 3
+D1
+~
+~
+0 -1 4221
+D3
+~
+~
+0 -1 4223
+S
+#4223
+The Campfire~
+`dYou stand in the middle of the camp, at the campfire.  Four logs surround 
+the fire, to sit on and enjoy the warmth of the fire on cold nights.  Shabby 
+looking tents face the campfire on most sides.`n
+~
+0 0 3
+D0
+~
+flap tent~
+1 -1 4225
+D1
+~
+~
+0 -1 4222
+D2
+~
+flap tent~
+1 -1 4224
+D3
+~
+tent flap~
+1 -1 4226
+S
+#4224
+A Shabby Tent~
+`dYou move the flap, which seems to be caked in some pasty substance, and 
+step inside the tent.  There are ratty blankets on the floor in a corner, 
+and not much else.`n
+~
+0 1 0
+D0
+~
+~
+1 -1 4223
+S
+#4225
+A Shabby Tent~
+`dYou push aside the dirt-encrusted flap. Inside is a disgusting pile of 
+rags and blankets, which must stand for a bed.  There's movement in the 
+corner. What's that?`n
+~
+0 1 0
+D2
+~
+flap tent~
+1 -1 4223
+S
+#4226
+The Chieftan's Tent~
+`dThis tent is three times larger than the other tents in the camp.  While 
+not much cleaner, the blankets and items seems to be of higher quality.  
+From the back, you hear a deep growl, and a figure steps forward.`n
+~
+0 1 0
+D1
+~
+tent flap~
+1 -1 4223
+S
+#4227
+Deeper into the Forest~
+`dYou choose the less traveled path, and move deeper into the Forest.  You 
+notice that the confortable sounds of birds and other animals are ominously 
+missing from this portion of the woods.`n
+~
+0 5 3
+D0
+~
+~
+0 -1 4228
+D2
+~
+~
+0 -1 4218
+S
+#4228
+A Clearing in the Forest~
+`dThe path leads you to a small clearing lined with bushes.  There are signs 
+of a recent struggle, and perhaps one of the survivors is here.`n
+~
+0 1 3
+D0
+~
+bush branch brush~
+1 -1 4229
+D1
+~
+~
+0 -1 4234
+D2
+~
+~
+0 -1 4227
+D3
+~
+~
+0 -1 4230
+S
+#4229
+In the Bushes~
+`dThis small space seems to have been hurridly made safe for its lone 
+occupant, a 4 month old Patryn male child.`n
+~
+0 1 3
+D2
+~
+bush branch brush~
+1 -1 4228
+S
+#4230
+Deeper into the Forest~
+`dYou move off the path, and into the underbrush.  No time to play games, 
+you barge into the woods, making your own path.`n
+~
+0 1 3
+D0
+~
+~
+0 -1 4231
+D1
+~
+~
+0 -1 4228
+D2
+~
+~
+0 -1 4231
+D3
+~
+~
+0 -1 4231
+S
+#4231
+Lost in the Forest~
+`dYou've been walking for hours, with no sign of another path, or even the 
+one you were just on. There has to be SOMETHING in here to lead you out. 
+There has to be...`n
+~
+0 5 3
+D0
+~
+~
+0 -1 4233
+D1
+~
+~
+0 -1 4231
+D2
+~
+~
+0 -1 4233
+D3
+~
+~
+0 -1 4232
+S
+#4232
+Lost in the Forest~
+`dYou've been walking for hours, with no sign of another path, or even the 
+one you were just on. There has to be SOMETHING in here to lead you out. 
+There has to be...`n
+~
+0 1 3
+D0
+~
+~
+0 -1 4231
+D1
+~
+~
+0 -1 4231
+D2
+~
+~
+0 -1 4232
+D3
+~
+~
+0 -1 4232
+S
+#4233
+Lost in the Forest~
+`dYou've been walking for hours, with no sign of another path, or even the 
+one you were just on. There has to be SOMETHING in here to lead you out. 
+There has to be...`n
+~
+0 1 3
+D0
+~
+~
+0 -1 4231
+D1
+~
+~
+0 -1 4232
+D2
+~
+~
+0 -1 4231
+D3
+~
+~
+0 -1 4231
+S
+#4234
+Deeper into the Forest~
+`dYou see where the light path heads into the Forest, and decide to follow 
+it further.  You continue on, wondering at the denizens of the Forest.`n
+~
+0 1 3
+D1
+~
+~
+0 -1 4235
+D3
+~
+~
+0 -1 4228
+S
+#4235
+Deeper into the Forest~
+`dYou continue on the path, watching the Forest for dangers.  This isn't so 
+bad.  Actually, it seems a little boring.`n
+~
+0 1 3
+D1
+~
+~
+0 -1 4236
+D3
+~
+~
+0 -1 4234
+S
+#4236
+Deep in the Forest~
+`dThe Forest is not quite so thick here.  Movement is a little easier, and 
+the sense of forboding is lifting.  Maybe you will make it out of here.`n
+~
+0 1 3
+D1
+~
+~
+0 -1 4237
+D3
+~
+~
+0 -1 4235
+S
+#4237
+Deep in the Forest~
+`dThe Forest is definately getting lighter.  Hopefully, you can get out of 
+this place before something ELSE attacks you.`n
+~
+0 1 3
+D1
+~
+~
+0 -1 4238
+D3
+~
+~
+0 -1 4236
+S
+#4238
+Approaching the Edge~
+`dYou can see the edge of the Forest, now. Thank goodness, if there is such 
+a thing in this evil place.  Thank goodness.`n
+~
+0 5 3
+D0
+~
+~
+0 -1 4239
+D3
+~
+~
+0 -1 4237
+S
+#4239
+At the Edge of the Forest~
+`dYou stand at the edge of the dense Forest.  You see a small trail that 
+winds down around the scattered trees, and feel relief at being out of that 
+horrible place.`n
+~
+0 0 3
+D0
+~
+~
+0 -1 4240
+D2
+~
+~
+0 -1 4238
+S
+#4240
+The Trail's Beginning~
+`dThe trail starts here.  You see where humanoid tracks lead down the path, 
+around the trees.  Hopefully, you can pass through this area quickly.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4241
+D2
+~
+~
+0 -1 4239
+S
+#4241
+On the Trail~
+`dYou move along the trail.  It continues on, but off to the side, you see a 
+path that leads to the mountain.  It doesn't seem very used, and you wonder 
+where it leads.`n
+~
+0 4 2
+D0
+~
+~
+0 -1 4243
+D1
+~
+~
+0 -1 4242
+D2
+~
+~
+0 -1 4240
+S
+#4242
+At the Cave~
+`dYou approach a cave, and Patryn Guards rush out to keep you at bay while 
+their compatriots shut and bar the cave door.`n
+~
+0 0 2
+D3
+~
+~
+0 -1 4241
+S
+#4243
+A Fork in the Trail~
+`dThe trail splits here, one part continues north, and the other veers off 
+to the west.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4259
+D2
+~
+~
+0 -1 4241
+D3
+~
+~
+0 -1 4244
+S
+#4244
+Along the West Trail~
+`dThe path continues on west. There is a ring of mushrooms to the west, and 
+a large tree to the south. Is that movement in the tree?  Is that a woman in 
+the tree? You're tempted to go look....`n
+~
+0 0 2
+D1
+~
+~
+0 -1 4243
+D2
+~
+~
+0 -1 4245
+D3
+~
+~
+0 -1 4246
+S
+#4245
+At the Large Tree~
+`dYou stand under the tree, looking up into the huge branches, and wondering 
+how long this thing must have lived to get this size. It is HUGE.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4244
+S
+#4246
+A Ring of Mushrooms~
+`dThe trail leads you up to a ring of mushrooms.  What is this? Old tales of 
+faerie rings and other woodland legends float through your mind.  The air 
+seems to sparkle, and you are pulled down!`n
+~
+0 0 2
+D5
+~
+~
+0 -1 4247
+S
+#4247
+A Dark Chute~
+`dYou fall through the earth, screaming and yelling in surprise.  You pass 
+layers of earth and roots as you drop.  You can't manage to grab ahold of 
+anything to stop yourself, and you keep falling.`n
+~
+0 5 0
+D5
+~
+~
+0 -1 4248
+S
+#4248
+A Dark Cave~
+`dYou find yourself in a pitch black cave.  As dark as night, and twice as 
+frightening.  With a grimace of determination, you make your way into the 
+darkness.`n
+~
+0 1 0
+D0
+~
+~
+0 -1 4249
+D3
+~
+~
+0 -1 4253
+S
+#4249
+A Dark Cave~
+`dYou can't see a damned thing in here.  A scuffling sound to your left 
+makes you jump, and you wonder what that strange smell is....`n
+~
+0 1 0
+D0
+~
+~
+0 -1 4250
+D2
+~
+~
+0 -1 4248
+D3
+~
+~
+0 -1 4252
+S
+#4250
+A Dark Cave~
+`dAnother corner of the cave, here.  Doesn't look like much, except for a 
+few rocks on the groud, like a small cave-in. Your attention turns toward 
+the ceiling. What is that?`n
+~
+0 1 0
+D2
+~
+~
+0 -1 4249
+D3
+~
+~
+0 -1 4251
+S
+#4251
+A Dark Cave~
+`dDeeper into the cave you move, carefully listening.  Is that noise you 
+hear something stalking you?  Or your own movements echoed back?`n
+~
+0 1 0
+D1
+~
+~
+0 -1 4250
+D2
+~
+~
+0 -1 4252
+D3
+~
+~
+0 -1 4254
+S
+#4252
+A Dark Cave~
+`dThe pitch black cave is beginning to get on your nerves.  Crouching, 
+moveing carefully, you stealthily sneak around stalagmites, hoping you'll 
+see anything down here before it sees you.`n
+~
+0 1 0
+D0
+~
+~
+0 -1 4251
+D1
+~
+~
+0 -1 4249
+D2
+~
+~
+0 -1 4253
+D3
+~
+~
+0 -1 4255
+S
+#4253
+A Dark Cave~
+`dStill moving as quietly as possible, you feel a slight breeze on your 
+face.  Is that a way out?  Pulse quickening, you make your way towards what 
+you feel is the source.`n
+~
+0 1 0
+D0
+~
+~
+0 -1 4252
+D1
+~
+~
+0 -1 4248
+D3
+~
+~
+0 -1 4256
+S
+#4254
+A Dark Cave~
+`dThe pitch black of the cave is getting old by this point.  What could live 
+down here?  Anything at all? A glint of light comes from the ceiling above 
+you. What is that?`n
+~
+0 1 0
+D1
+~
+~
+0 -1 4251
+D2
+~
+~
+0 -1 4255
+S
+#4255
+A Dark Cave~
+`dYou squint in the darkness, hoping to make something out. Nothing moves 
+that you can see, but you feel a slight breeze. Could that be a way out?  
+You move quickly toward the source.`n
+~
+0 1 0
+D0
+~
+~
+0 -1 4254
+D1
+~
+~
+0 -1 4252
+D2
+~
+~
+0 -1 4256
+S
+#4256
+A Dark Cave~
+`dYou can definately feel some air coming from the wall here.  Excitedly, 
+you feel around, and can tell the wall is just loose dirt and rocks here.  
+You could dig your way through it to the source of the breeze.
+~
+0 1 0
+D0
+~
+~
+0 -1 4255
+D1
+~
+~
+0 -1 4253
+D2
+~
+rock dirt rocks~
+3 -1 4257
+S
+#4257
+A Way Out?~
+`dYou dig through the rock, and find yourself in a small tunnel.  You can 
+definately feel a breeze now.`n
+~
+0 5 0
+D0
+~
+rock dirt rocks~
+3 -1 4256
+D2
+~
+~
+0 -1 4258
+S
+#4258
+The Way Out?~
+`dAs you continue along the path, the floor collapses below you! You fall, 
+and fall, and never stop falling.`n
+~
+0 5 0
+S
+#4259
+Approaching a Wall~
+`dYou move along the northerly trail, and see a wall up ahead of you.  As  
+you move closer, you realize its one of the walls that house the gates.  
+You've almost made it past this section of the Labyrinth!`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4260
+D2
+~
+~
+0 -1 4243
+S
+#4260
+At the Gate~
+`dYou stand before the next Gate.  Thankfully, you step forward, and hope 
+that the worst is behind you.  From somewhere, seemingly all around you, a 
+faint laughter sounds, dark and menacing.`n
+~
+0 4 2
+D0
+~
+~
+0 -1 4261
+D2
+~
+~
+0 -1 4259
+S
+#4261
+Through the Gate~
+`dYou step through the Gate, and a blue light surrounds you.  You feel your 
+feet leave the ground, and then you step down.`n
+~
+0 0 0
+D0
+~
+~
+0 -1 4264
+S
+#4262
+On the Plains~
+`dFurther along the plains, you see there is nothing in this direction.  If 
+there is anything in this area of the Labyrinth, its in the fields of 
+grass.`n
+~
+0 0 2
+D2
+~
+~
+0 -1 4263
+D3
+~
+~
+0 -1 4271
+S
+#4263
+On the Plains~
+`dYou move along the edge of the grassy plains, looking for any sort of 
+movement or motion.  You see nothing but the wind.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4262
+D2
+~
+~
+0 -1 4264
+D3
+~
+~
+0 -1 4270
+S
+#4264
+On the Plains~
+`dYou stand on the edge of a field of waist high grass.  It stretches as far 
+as you can see.  You wonder for a moment what the Labyrinth has in store for 
+you now.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4263
+D2
+~
+~
+0 -1 4265
+D3
+~
+~
+0 -1 4269
+S
+#4265
+On the Plains~
+~
+0 0 2
+D0
+~
+~
+0 -1 4264
+D2
+~
+~
+0 -1 4266
+D3
+~
+~
+0 -1 4268
+S
+#4266
+On the Plains~
+`dFurther along the plains, you see there is nothing in this direction.  If 
+there is anything in this area of the Labyrinth, its in the fields of 
+grass.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4265
+D3
+~
+~
+0 -1 4267
+S
+#4267
+On the Grassy Plains~
+`dYou move through the grassy plains. The grass is waist-high, and your 
+imagination is running wild, visions of snakes, rats, and worse running 
+across your feet.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 4268
+D1
+~
+~
+0 -1 4266
+D3
+~
+~
+0 -1 4276
+S
+#4268
+On the Grassy Plains~
+`dYou move through the grassy plains. The grass is waist-high, and your 
+imagination is running wild, visions of snakes, rats, and worse running 
+across your feet.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 4269
+D1
+~
+~
+0 -1 4265
+D2
+~
+~
+0 -1 4267
+D3
+~
+~
+0 -1 4275
+S
+#4269
+On the Grassy Plains~
+`dYou move through the grassy plains. The grass is waist-high, and your 
+imagination is running wild, visions of snakes, rats, and worse running 
+across your feet.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 4270
+D1
+~
+~
+0 -1 4264
+D2
+~
+~
+0 -1 4268
+D3
+~
+~
+0 -1 4274
+S
+#4270
+On the Grassy Plains~
+`dYou move through the grassy plains. The grass is waist-high, and your 
+imagination is running wild, visions of snakes, rats, and worse running 
+across your feet.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 4271
+D1
+~
+~
+0 -1 4263
+D2
+~
+~
+0 -1 4269
+D3
+~
+~
+0 -1 4273
+S
+#4271
+On the Grassy Plains~
+`dYou move through the grassy plains. The grass is waist-high, and your 
+imagination is running wild, visions of snakes, rats, and worse running 
+across your feet.`n
+~
+0 0 1
+D1
+~
+~
+0 -1 4262
+D2
+~
+~
+0 -1 4270
+D3
+~
+~
+0 -1 4272
+S
+#4272
+On the Grassy Plains~
+`dThe grass blows in the wind, and creates a wave affect on the plains.  You 
+almost forget that the entire Labyrinth is out to destroy you completely.  
+Almost.`n
+~
+0 0 2
+D1
+~
+~
+0 -1 4271
+D2
+~
+~
+0 -1 4273
+D3
+~
+~
+0 -1 4281
+S
+#4273
+On the Grassy Plains~
+`dThe grass blows in the wind, and creates a wave affect on the plains.  You 
+almost forget that the entire Labyrinth is out to destroy you completely.  
+Almost.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4272
+D1
+~
+~
+0 -1 4270
+D2
+~
+~
+0 -1 4274
+D3
+~
+~
+0 -1 4280
+S
+#4274
+On the Grassy Plains~
+`dThe grass blows in the wind, and creates a wave affect on the plains.  You 
+almost forget that the entire Labyrinth is out to destroy you completely.  
+Almost.`n
+~
+0 0 3
+D0
+~
+~
+0 -1 4273
+D1
+~
+~
+0 -1 4269
+D2
+~
+~
+0 -1 4275
+D3
+~
+~
+0 -1 4279
+S
+#4275
+On the Grassy Plains~
+`dThe grass blows in the wind, and creates a wave affect on the plains.  You 
+almost forget that the entire Labyrinth is out to destroy you completely.  
+Almost.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4274
+D1
+~
+~
+0 -1 4268
+D2
+~
+~
+0 -1 4276
+D3
+~
+~
+0 -1 4278
+S
+#4276
+On the Grassy Plains~
+`dThe grass blows in the wind, and creates a wave affect on the plains.  You 
+almost forget that the entire Labyrinth is out to destroy you completely.  
+Almost.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4275
+D1
+~
+~
+0 -1 4267
+D3
+~
+~
+0 -1 4277
+S
+#4277
+On the Grassy Plains~
+`dYou've been walking for miles, and still no sign of anything.  Wait, 
+what's that in the distance? You think you see what must be a dirt hill in 
+the distance. Interesting...`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4278
+D1
+~
+~
+0 -1 4276
+D3
+~
+~
+0 -1 4286
+S
+#4278
+On the Grassy Plains~
+`dYou've been walking for miles, and still no sign of anything.  Wait, 
+what's that in the distance? You think you see what must be a dirt hill in 
+the distance. Interesting...`n
+~
+0 4 2
+D0
+~
+~
+0 -1 4279
+D1
+~
+~
+0 -1 4275
+D2
+~
+~
+0 -1 4277
+D3
+~
+~
+0 -1 4285
+S
+#4279
+Near the Mound~
+`dYou can see a large mound to the west. It rises out of the plains, and you 
+think you can see forms moving on it.  There is a beaten path that leads to 
+it. `n
+~
+0 4 2
+D0
+~
+~
+0 -1 4280
+D1
+~
+~
+0 -1 4274
+D2
+~
+~
+0 -1 4278
+D3
+~
+~
+0 -1 4284
+S
+#4280
+On the Grassy Plains~
+`dYou've been walking for miles, and still no sign of anything.  Wait, 
+what's that in the distance? You think you see what must be a dirt hill in 
+the distance. Interesting...`n
+~
+0 4 2
+D0
+~
+~
+0 -1 4281
+D1
+~
+~
+0 -1 4273
+D2
+~
+~
+0 -1 4279
+D3
+~
+~
+0 -1 4283
+S
+#4281
+On the Grassy Plains~
+`dYou've been walking for miles, and still no sign of anything.  Wait, 
+what's that in the distance? You think you see what must be a dirt hill in 
+the distance. Interesting...`n
+~
+0 0 2
+D1
+~
+~
+0 -1 4272
+D2
+~
+~
+0 -1 4280
+D3
+~
+~
+0 -1 4282
+S
+#4282
+On the Grassy Plains~
+`dThe plains continue on forever.  You look north, and see a trail of smoke 
+in the air.  It looks like campfire smoke, and you wonder what would make a 
+camp out here.`n
+~
+0 4 2
+D0
+~
+~
+0 -1 4313
+D1
+~
+~
+0 -1 4281
+D2
+~
+~
+0 -1 4283
+D3
+~
+~
+0 -1 4291
+S
+#4283
+Near the Mound~
+`dYou can see a large mound to the west. It rises out of the plains, and you 
+think you can see forms moving on it.  There is a beaten path that leads to 
+it. `n
+~
+0 0 2
+D0
+~
+~
+0 -1 4282
+D1
+~
+~
+0 -1 4280
+D2
+~
+~
+0 -1 4284
+D3
+~
+~
+0 -1 4290
+S
+#4284
+The Ant Mound~
+`dYou stand on the top of the mound, and realize its a giant ANT hill.  This 
+mound is huge.  You can see the entrance, and realize that you could walk in 
+easily.  These are some big ants.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4283
+D1
+~
+~
+0 -1 4279
+D2
+~
+~
+0 -1 4285
+D3
+~
+~
+0 -1 4289
+D5
+~
+~
+0 -1 4292
+S
+#4285
+Near the Mound~
+`dYou can see a large mound to the west. It rises out of the plains, and you 
+think you can see forms moving on it.  There is a beaten path that leads to 
+it. `n
+~
+0 0 2
+D0
+~
+~
+0 -1 4284
+D1
+~
+~
+0 -1 4278
+D2
+~
+~
+0 -1 4286
+D3
+~
+~
+0 -1 4288
+S
+#4286
+On the Grassy Plains~
+`dThe plains seem to go on forever.  You see a mound in the distance, with 
+what seems to be forms moving around it.  You move forward on the plains, 
+expecting the worst.`n
+~
+0 4 1
+D0
+~
+~
+0 -1 4285
+D1
+~
+~
+0 -1 4277
+D3
+~
+~
+0 -1 4287
+S
+#4287
+On the Grassy Plains~
+`dThe plains seem to go on forever.  You see a mound in the distance, with 
+what seems to be forms moving around it.  You move forward on the plains, 
+expecting the worst.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 4288
+D1
+~
+~
+0 -1 4286
+S
+#4288
+On the Grassy Plains~
+`dThe plains seem to go on forever.  You see a mound in the distance, with 
+what seems to be forms moving around it.  You move forward on the plains, 
+expecting the worst.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4289
+D1
+~
+~
+0 -1 4285
+D2
+~
+~
+0 -1 4287
+S
+#4289
+Near the Mound~
+`dYou can see a large mound to the west. It rises out of the plains, and you 
+think you can see forms moving on it.  There is a beaten path that leads to 
+it. `n
+~
+0 0 2
+D0
+~
+~
+0 -1 4290
+D1
+~
+~
+0 -1 4284
+D2
+~
+~
+0 -1 4288
+S
+#4290
+On the Grassy Plains~
+`dThe plains continue on forever.  You look north, and see a trail of smoke 
+in the air.  It looks like campfire smoke, and you wonder what would make a 
+camp out here.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4291
+D1
+~
+~
+0 -1 4283
+D2
+~
+~
+0 -1 4289
+S
+#4291
+On the Grassy Plains~
+`dThe plains continue on forever.  You look north, and see a trail of smoke 
+in the air.  It looks like campfire smoke, and you wonder what would make a 
+camp out here.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4314
+D1
+~
+~
+0 -1 4282
+D2
+~
+~
+0 -1 4290
+S
+#4292
+In the Mound~
+`dYou make your way down into the mound. There is some light trickling in 
+from the entrance, and the tunnel continues down.`n
+~
+0 0 0
+D4
+~
+~
+0 -1 4284
+D5
+~
+~
+0 -1 4293
+S
+#4293
+A Sloping Tunnel~
+`dFurther into the mound, you find the tunnel slopes more.  The walls are 
+made of soil packed loosely, but securely. There are branching tunnels in 
+all directions here.`n
+~
+0 1 0
+D0
+~
+~
+0 -1 4294
+D1
+~
+~
+0 -1 4309
+D2
+~
+~
+0 -1 4295
+D3
+~
+~
+0 -1 4296
+D4
+~
+~
+0 -1 4292
+D5
+~
+~
+0 -1 4298
+S
+#4294
+A Dark Tunnel~
+`dThe tunnel here is too dark and slippery to continue down.  Fearful of 
+slipping and not being able to return, you turn back.`n
+~
+0 1 0
+D2
+~
+~
+0 -1 4293
+S
+#4295
+A Dark Tunnel~
+`dThe tunnel continues down here.  In the faint light, you see a host of 
+soldier ants down in that direction.  Careful to avoid arousing the entire 
+mound, you turn back.`n
+~
+0 1 0
+D0
+~
+~
+0 -1 4293
+S
+#4296
+A Dark Tunnel~
+`dYou travel down the tunnel, watchign carefully for traps and guards.  You 
+see no signs of either, and decide it would be safe to continue on.`n
+~
+0 1 0
+D1
+~
+~
+0 -1 4293
+D3
+~
+~
+0 -1 4297
+S
+#4297
+A Storage Area~
+`dThis hollowed out room seems to be a storage area.  Piles of grain and 
+other tasty ant snacks line the room. `n
+~
+0 1 0
+D1
+~
+~
+0 -1 4296
+S
+#4298
+A Sloping Tunnel~
+`dThe sloping tunnel continues further down. Careful not to cause a small 
+avalanche on the loose soil, you continue down deeper into the mound.`n
+~
+0 1 0
+D1
+~
+~
+0 -1 4306
+D4
+~
+~
+0 -1 4293
+D5
+~
+~
+0 -1 4299
+S
+#4299
+A Sloping Tunnel~
+`dThis is as deep as the tunnel goes.  Branching off in all directions, you 
+must decide where to go from here.`n
+~
+0 1 0
+D0
+~
+~
+0 -1 4304
+D1
+~
+~
+0 -1 4301
+D2
+~
+~
+0 -1 4302
+D3
+~
+~
+0 -1 4300
+D4
+~
+~
+0 -1 4298
+S
+#4300
+A Dark Tunnel~
+`dThis seems to be a tunnel currently under construction.  The only way out 
+of this area is the way you came in.`n
+~
+0 1 0
+D1
+~
+~
+0 -1 4299
+S
+#4301
+A Dark Tunnel~
+`dAnother tunnel under construction, apparently.  Small piles of dirt line 
+the passage. It looks like they bring in a certain type of dirt to shore up 
+the walls.`n
+~
+0 1 0
+D3
+~
+~
+0 -1 4299
+S
+#4302
+A Small Tunnel~
+`dThis small tunnel seems too small for any of the ant creatures you've seen 
+so far to enter it.  Curious, you decide to venture further and see where 
+this goes.`n
+~
+0 1 0
+D0
+~
+~
+0 -1 4299
+D2
+~
+~
+0 -1 4303
+S
+#4303
+CAVE-IN!~
+`dYour shoulders brush against the ceiling, causing the chain reaction 
+you've dreaded.  Tons of earth and ston collapse on your head, and you are 
+crushed.`n
+~
+0 5 0
+S
+#4304
+A Dark Tunnel~
+`dThe tunnel here seems older to you, and less traveled.  You don't see any 
+recent tracks at all, and wonder what is down in this direction.`n
+~
+0 1 0
+D0
+~
+~
+0 -1 4305
+D2
+~
+~
+0 -1 4299
+S
+#4305
+A Dark Tunnel~
+`dThe tunnel comes to an end here.  Cobwebs stretch around the room, and 
+nothing interesting stands out at all.`n
+~
+0 1 0
+D2
+~
+~
+0 -1 4304
+S
+#4306
+A Dark Tunnel~
+`dYou take the branch off to the east. It seems to be used often.  You hope 
+to avoid the periodic patrols of soldier ants, and wonder how hard it would 
+be to leave if you riled the entire mound.`n
+~
+0 1 0
+D1
+~
+~
+0 -1 4307
+D3
+~
+~
+0 -1 4298
+D4
+~
+~
+0 -1 4309
+S
+#4307
+A Dark Tunnel~
+`dYou notice on the walls that there is a moss that is putting off a small 
+light.  The moss isn't anywhere else in the mound, just here and further 
+down the tunnel.`n
+~
+0 0 0
+D3
+~
+~
+0 -1 4306
+D5
+~
+~
+0 -1 4308
+S
+#4308
+The Queen's Lair~
+`dYou step out of the tunnel into a large room.  You are shocked to see 
+eggs, and larvae, all over the room.  Located centrally on the far wall is a 
+large creature, bloated and distended from egg-laying.  It's the Queen.`n
+~
+0 0 0
+D4
+~
+~
+0 -1 4307
+S
+#4309
+A Dark Tunnel~
+`dYou move along the tunnel, following a small group of worker ants.  
+Careful with your footing, you move quietly down the tunnel.`n
+~
+0 0 0
+D3
+~
+~
+0 -1 4293
+D4
+~
+~
+0 -1 4310
+D5
+~
+~
+0 -1 4306
+S
+#4310
+A Dark Tunnel~
+`dDeeper into the tunnel, you wonder where this group is going.  Sounds come 
+from deeper in the tunnel, and make you wonder what could make those types 
+of sounds.`n
+~
+0 1 0
+D1
+~
+~
+0 -1 4311
+D5
+~
+~
+0 -1 4309
+S
+#4311
+A Dark Tunnel~
+`dThe sounds are getting louder now.  Small chirps, and wierd clicking 
+sounds fill the tunnel.  The group of ants has paused now, and seem to be 
+waiting on something.`n
+~
+0 1 0
+D3
+~
+~
+0 -1 4310
+D5
+~
+~
+0 -1 4312
+S
+#4312
+The Nursery~
+`dYou slip down the tunnel into a large room.  With a gasp, you realize this 
+is where the small ant-creatures are raised. Workers gather above and throw 
+food down to the young ants below. You see the ants turn from the carcass 
+they were tearing up, and rush you!`n
+~
+0 1 0
+D4
+~
+~
+0 -1 4311
+S
+#4313
+A Camp~
+`dYou stand at the edge of a large camp. There are quite a few structures in 
+the camp, all seem to be well-made and functional.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4318
+D2
+~
+~
+0 -1 4282
+D3
+~
+~
+0 -1 4314
+S
+#4314
+A Camp~
+`dYou stand at the edge of a large camp. There are quite a few structures in 
+the camp, all seem to be well-made and functional.`n
+~
+0 4 2
+D0
+~
+~
+0 -1 4317
+D1
+~
+~
+0 -1 4313
+D2
+~
+~
+0 -1 4291
+D3
+~
+~
+0 -1 4315
+S
+#4315
+A Camp~
+`dYou stand at the edge of a large camp. There are quite a few structures in 
+the camp, all seem to be well-made and functional.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4316
+D1
+~
+~
+0 -1 4314
+S
+#4316
+A Sleeping Area~
+`dBlankets and carpets are spread out across the groud here.  You see and 
+hear forms sleeping in them, resting up for their shift on guard duty in a 
+few hours.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4319
+D1
+~
+~
+0 -1 4317
+D2
+~
+~
+0 -1 4315
+S
+#4317
+A Dirt Circle~
+`dYou stand over a dirt circle in the ground.  From the signs, and the logs 
+placed around the circle, it seems that this is some sort of arena, for 
+physical confrontations.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4320
+D1
+~
+~
+0 -1 4318
+D2
+~
+~
+0 -1 4314
+D3
+~
+~
+0 -1 4316
+S
+#4318
+The Sentry Post~
+`dA large stump is here, where a sentry can stand and see for miles on the 
+grassy plain.  What the tree was is a mystery, one you'll never solve.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4323
+D2
+~
+~
+0 -1 4313
+D3
+~
+~
+0 -1 4317
+S
+#4319
+A Sleeping Area~
+`dBlankets and carpets are spread out across the groud here.  You see and 
+hear forms sleeping in them, resting up for their shift on guard duty in a 
+few hours.`n
+~
+0 0 2
+D1
+~
+~
+0 -1 4320
+D2
+~
+~
+0 -1 4316
+S
+#4320
+Near the Hut~
+`dYou stand near a large hut.  Inside, you can hear some noise, and you 
+wonder what is going on.  To the east, you see the beginnings of a trail.`n
+~
+0 0 2
+D0
+~
+door hut~
+3 -1 4321
+D1
+~
+~
+0 -1 4323
+D2
+~
+~
+0 -1 4317
+D3
+~
+~
+0 -1 4319
+S
+#4321
+The Leader's Hut~
+`dExtremely large, and much better equipped than the rest of the camp.  A 
+small blanket seperates the room, and there is a small door in the back.`n
+~
+0 0 0
+D2
+~
+door hut~
+3 -1 4320
+D3
+~
+door closet storage~
+3 -1 4322
+S
+#4322
+A Storage Area~
+`dAbout the size of a closet, this room holds extra blankets, weapons, and 
+baskets of various items used in the day to day living of the community.`n
+~
+0 1 0
+D1
+~
+door closet storage~
+3 -1 4321
+S
+#4323
+The Start of the Trail~
+`dYou stand at the beginning of a large trail, which leads off into the 
+distance. Some movement further down catches your eye, but you do not see 
+anything else move.`n
+~
+0 0 2
+D1
+~
+~
+0 -1 4324
+D2
+~
+~
+0 -1 4318
+D3
+~
+~
+0 -1 4320
+S
+#4324
+A Guarded Trail~
+`dMoving down the trail, you are a little on edge.  The waist-high grass at 
+the edge makes you nervous.  Is that a tail sticking out of the grass over 
+there?`n
+~
+0 0 2
+D1
+~
+~
+0 -1 4325
+D3
+~
+~
+0 -1 4323
+S
+#4325
+Approaching the Gate~
+`dAhead of you, you can see a large wall. Another Gate!  Hurridly, you move 
+closer before the Labyrinth can throw anything else at you.`n
+~
+0 0 2
+D1
+~
+~
+0 -1 4326
+D3
+~
+~
+0 -1 4324
+S
+#4326
+At the Gate~
+`dYou stand before another Gate in the Labyrinth.  Hope rising, you steel 
+yourself for another round of battle with the Labyrinth.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4327
+D3
+~
+~
+0 -1 4325
+S
+#4327
+Through the Gate~
+`dYou step through the Gate, and a blue light surrounds you.  You feel your 
+feet leave the ground, and then you step down.`n
+~
+0 1 0
+D1
+~
+~
+0 -1 4328
+S
+#4328
+On the Ledge~
+`dYou find yourself standing on a remote ledge high on a mountain.  A glance 
+down confirms your suspicions.  Far below you can see the *tops* of clouds.  
+The wind howling nearly deafens you, and you wonder what dangers this area 
+holds for you.`n
+~
+0 0 5
+D0
+~
+~
+0 -1 4345
+D1
+~
+~
+0 -1 4342
+D3
+~
+~
+0 -1 4329
+S
+#4329
+On the Ledge~
+`dYou move along the ledge.  Inches wide, it is incredibly treacherous 
+footing, and you pray you are going the correct way.`n
+~
+0 0 5
+D0
+~
+~
+0 -1 4331
+D1
+~
+~
+0 -1 4328
+D3
+~
+~
+0 -1 4330
+S
+#4330
+On the Ledge~
+`dThe inches wide ledge curves around the rock here.  The howl of the wind 
+is a constant, and a distraction.  One misstep is death, and you concentrate 
+on the task at hand.`n
+~
+0 4 5
+D0
+~
+~
+0 -1 4331
+D1
+~
+~
+0 -1 4329
+D3
+~
+~
+0 -1 4332
+S
+#4331
+Mid-Air~
+`dYou've slipped!  A scream leaves your lips, but the howl of the wind 
+carries it far away.  Desperately, you look for something to save you, 
+anything, and realize there is no escaping this time.`n
+~
+0 4 5
+S
+#4332
+The Windy Ledge~
+`dRounding the corner, you are nearly blown off the mountain at the force of 
+the wind.  Raging, furious, it's gusts attempt to peel you from the face of 
+the mountain, and drop you to your death below.`n
+~
+0 0 5
+D0
+~
+~
+0 -1 4331
+D1
+~
+~
+0 -1 4330
+D2
+~
+~
+0 -1 4333
+D3
+~
+~
+0 -1 4340
+S
+#4333
+The Windy Ledge~
+`dThe howl and buffeting of the wind is terrible, and you don't feel you can 
+hang on much longer.  Hopfully, you won't have to.  There seems to be 
+something up ahead you can shelter behind.`n
+~
+0 0 5
+D0
+~
+~
+0 -1 4332
+D2
+~
+~
+0 -1 4334
+D3
+~
+~
+0 -1 4340
+S
+#4334
+The Windy Ledge~
+`dYou keep moving, fighting the wind and the narrowness of the ledge.  What 
+was that sound? You could have SWORN someone called out to you..from BELOW 
+you! Dismissing it to imagination, you travel on.`n
+~
+0 0 5
+D0
+~
+~
+0 -1 4333
+D2
+~
+~
+0 -1 4335
+D3
+~
+~
+0 -1 4339
+S
+#4335
+The Windy Ledge~
+`dYou move on, and looking up, you see shapes flitting through the higher 
+clouds.  While looking, you almost fall, so you decide to keep your mind on 
+what you're doing.`n
+~
+0 0 5
+D0
+~
+~
+0 -1 4334
+D2
+~
+~
+0 -1 4336
+D3
+~
+~
+0 -1 4338
+S
+#4336
+The Windy Ledge~
+`dHarried by strange winged beasts, you press on, trying to keep your 
+balance and keep them from ripping you apart. With a grimace, you realize 
+where you are headed. Their nest.`n
+~
+0 0 5
+D0
+~
+~
+0 -1 4335
+D2
+~
+~
+0 -1 4337
+D3
+~
+~
+0 -1 4338
+S
+#4337
+The Harpy Nest~
+`dYou stand in a 20' diameter nest, amidst screeching and howling harpies.  
+They turn toward you, and you realize for them, lunch has just been served. 
+At least the nest is sheltered from the wind...`n
+~
+0 0 5
+D0
+~
+~
+0 -1 4336
+D2
+~
+~
+0 -1 4338
+D3
+~
+~
+0 -1 4338
+S
+#4338
+Mid-Air~
+`dYou've been pulled off by the Harpies! You fall quickly, the attempts at 
+catching yourself foiled by Harpy dive-bombers.  What a way to go...`n
+~
+0 4 5
+S
+#4339
+Mid-Air~
+`dWith a scream you are ripped from the face of the mountain. Falling, you 
+despair that there is no hope.  But below, you see a form materialize out of 
+the clouds. A green dragon!`n
+~
+0 4 5
+D5
+~
+~
+0 -1 4341
+S
+#4340
+Mid-Air~
+`dA slip of the foot is all it takes.  The wind tears you from the face of 
+the mountain, and hurls you down at speeds you've never dreamed of traveling 
+at.  Remember, it's not the fall that kills, it's the landing.`n
+~
+0 4 5
+S
+#4341
+On Dragon Back~
+`dThe great green beast slides under you like it's been doing this all his 
+life.  Anxious, and a little giddy from the fall, you listen as he turns to 
+speak with you.`n
+~
+0 0 5
+D5
+~
+~
+0 -1 4328
+S
+#4342
+On the Ledge~
+`dMoving along the inches-wide ledge, you realize the danger you're in.  If 
+anything attacks you now, you'd be frighteningly vulnerable.`n
+~
+0 0 5
+D0
+~
+~
+0 -1 4345
+D1
+~
+~
+0 -1 4343
+D3
+~
+~
+0 -1 4328
+D4
+~
+~
+0 -1 4346
+S
+#4343
+On the Ledge~
+`dFurther along the edge, the wind howling around you, you realize you've 
+come to a path divergence.  One small ledge leads upward, and another 
+continues on at the same level you've been traversing.`n
+~
+0 0 5
+D0
+~
+~
+0 -1 4345
+D1
+~
+~
+0 -1 4344
+D3
+~
+~
+0 -1 4342
+S
+#4344
+The Ledge is Collapsing!~
+`dDeciding to stay on the lower ledge, you move onward.  Fighting dizziness 
+and exhaustion, you don't react fast enough when the ground drops from 
+underneath you!
+~
+0 0 5
+D0
+~
+~
+0 -1 4345
+D1
+~
+~
+0 -1 4345
+D3
+~
+~
+0 -1 4345
+S
+#4345
+Mid-Air~
+`dYou fall for a very long time.  You reflect on your life, and realize 
+there was much you wanted to do....and then the ground rushes up to meet 
+you.`n
+~
+0 4 5
+S
+#4346
+A Narrow Ledge~
+`dYou decide to climb further up the mountain.  If the other path was small, 
+this one would qualify as microscopic.  Inching along, you travel on 
+grimly.`n
+~
+0 0 5
+D0
+~
+~
+0 -1 4347
+D1
+~
+~
+0 -1 4348
+D5
+~
+~
+0 -1 4342
+S
+#4347
+Mid-Air~
+`dAll this way, to fall now.  Angry thoughts rush through your head, as 
+gravity hurries you toward your maker.`n
+~
+0 4 5
+S
+#4348
+A Narrow Ledge~
+`dInching around the edge, you see up ahead where the going is easier.  
+Shadows fall across you, and you see shapes flying high in the sky.  The 
+coarse stone biting into your hands, you continue.`n
+~
+0 0 5
+D0
+~
+~
+0 -1 4350
+D1
+~
+~
+0 -1 4350
+D3
+~
+~
+0 -1 4346
+D4
+~
+~
+0 -1 4349
+S
+#4349
+A Path Up~
+`dThe ground evens out here, and you get a moment of well deserved rest.  
+The wind howling around you, you look up.  The peak is only a few feet away. 
+  What awaits you there?`n
+~
+0 0 5
+D4
+~
+~
+0 -1 4351
+D5
+~
+~
+0 -1 4348
+S
+#4350
+Mid-Air~
+`dCareless!  Your fingers slip, and you screech as you tumble into space.  
+Your howl matches the wind's in ferocity, but unfortunately, not in 
+duration.`n
+~
+0 4 5
+S
+#4351
+The Peak~
+`dYou stand atop the tallest mountain that you've ever seen. The the south 
+is a cave into the mountain. As you approach, shadows fall across you as 
+what appear to be wyverns drop in to say hi.`n
+~
+0 0 5
+D3
+~
+~
+0 -1 4352
+D5
+~
+~
+0 -1 4349
+S
+#4352
+The Cave~
+`dYou stand at the entrance of a large cave.  The heat from the cave is 
+palpable, and your first instinct is to walk away.`n
+~
+0 0 5
+D1
+~
+~
+0 -1 4351
+D5
+~
+~
+0 -1 4353
+S
+#4353
+The Antechamber~
+`dThis room is large, blasted from the rock with the force of a thousand 
+mages. Bones of hundreds of races line the walls, trophies of the most 
+deadly sort.  The cave continues down.`n
+~
+0 1 0
+D4
+~
+~
+0 -1 4352
+D5
+~
+~
+0 -1 4354
+S
+#4354
+The Dragon's Lair~
+`dYou step into the dragon's lair.  Darkness pervades the room, and your 
+heart is pounding.  Bones crunch under foot as you move, and you hear 
+nothing other than your own hurried breathing.`n
+~
+0 5 0
+D2
+~
+~
+0 -1 4357
+D3
+~
+~
+0 -1 4355
+D4
+~
+~
+0 -1 4353
+S
+#4355
+The Dragon's Lair~
+`dYou step into the dragon's lair.  Darkness pervades the room, and your 
+heart is pounding.  Bones crunch under foot as you move, and you hear 
+nothing other than your own hurried breathing.`n
+~
+0 1 0
+D1
+~
+~
+0 -1 4354
+D2
+~
+~
+0 -1 4356
+S
+#4356
+The Dragon's Lair~
+`dYou step into the dragon's lair.  Darkness pervades the room, and your 
+heart is pounding.  Bones crunch under foot as you move, and you hear 
+nothing other than your own hurried breathing.`n
+~
+0 1 0
+D0
+~
+~
+0 -1 4355
+D1
+~
+~
+0 -1 4357
+S
+#4357
+The Dragon's Lair~
+`dYou step into the dragon's lair.  Darkness pervades the room, and your 
+heart is pounding.  Bones crunch under foot as you move, and you hear 
+nothing other than your own hurried breathing.`n
+~
+0 1 0
+D0
+~
+~
+0 -1 4354
+D3
+~
+~
+0 -1 4356
+S
+#4358
+Dropped Off~
+`dYou leap from the back of the green dragon, grateful not to have to fight 
+your way through the Labyrinth to this point. All around, you see a large 
+battle raging, and you rush to join in.`n
+~
+0 4 2
+D0
+~
+~
+0 -1 4360
+S
+#4359
+The Bloody Plains~
+`dThe grass on the field is red, red with the blood of the generations of 
+Patryns that have died in the Labyrinth.  Eventually, the blood soaked in, 
+and the grass reflects the death of all those who have attempted to go 
+before.`n
+~
+0 4 2
+D0
+~
+~
+0 -1 4364
+D3
+~
+~
+0 -1 4360
+S
+#4360
+The Bloody Plains~
+`dYou stand amidst the blood red grass, and watch the battle rage on.  About 
+a mile to the north, you see a large creature fighting off many smaller 
+beasts.  Quickly, you hurry to assist.`n
+~
+0 4 2
+D0
+~
+~
+0 -1 4363
+D1
+~
+~
+0 -1 4359
+D3
+~
+~
+0 -1 4361
+S
+#4361
+The Bloody Plains~
+`dThe screams of the dying are louder now, and you rush forward.  Beyond the 
+battle, you catch a glimps of the last gate.  It's closing! Quickly, you 
+must force your way through to stop it!`n
+~
+0 4 2
+D0
+~
+~
+0 -1 4362
+D1
+~
+~
+0 -1 4360
+S
+#4362
+The Fringes of the Battle~
+`dScreams of the dying mix with the shrieks of the denizens of the 
+Labyrinth, harpies, dragons, and some bug-like creature.  All are fighting, 
+most are dying, in a deadly battle for supremacy.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4367
+D1
+~
+~
+0 -1 4363
+D2
+~
+~
+0 -1 4361
+S
+#4363
+The Fringes of the Battle~
+`dScreams of the dying mix with the shrieks of the denizens of the 
+Labyrinth, harpies, dragons, and some bug-like creature.  All are fighting, 
+most are dying, in a deadly battle for supremacy.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4366
+D1
+~
+~
+0 -1 4364
+D2
+~
+~
+0 -1 4360
+D3
+~
+~
+0 -1 4362
+S
+#4364
+The Fringes of the Battle~
+`dScreams of the dying mix with the shrieks of the denizens of the 
+Labyrinth, harpies, dragons, and some bug-like creature.  All are fighting, 
+most are dying, in a deadly battle for supremacy.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4365
+D2
+~
+~
+0 -1 4359
+D3
+~
+~
+0 -1 4363
+S
+#4365
+In the Battle~
+`dThe adrenaline rolls over you, and you are caught up in the heat of the 
+battle. Creatures drop left and right, and you lose sight of your goal.  
+Making your way to the Final Gate, you fight to stay alive.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4370
+D2
+~
+~
+0 -1 4364
+D3
+~
+~
+0 -1 4366
+S
+#4366
+In the Battle~
+`dWith a yell, you are in the middle of the battle.  Creatures of incredible 
+strength and power leap at you, to be brushed aside in your battle fury.  
+But there are so many, how can you possibly survive?`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4369
+D1
+~
+~
+0 -1 4365
+D2
+~
+~
+0 -1 4363
+D3
+~
+~
+0 -1 4367
+S
+#4367
+In the Battle~
+`dYou fight your way deeper into the battle, helping the Patryn fight back 
+the tide of Labyrinth creatures.  Wyverns and dragons dive and dart in the 
+air, clashing with the other dragons like the one that brought you here.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4368
+D1
+~
+~
+0 -1 4366
+D2
+~
+~
+0 -1 4362
+S
+#4368
+The Thick of the Fighting~
+`dBlood splatters everywhere, and the harsh smell of burning flesh assaults 
+your nostrils.  Magic flares around you, and more creatures, and more 
+Patryns, fall.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4373
+D1
+~
+~
+0 -1 4369
+D2
+~
+~
+0 -1 4367
+S
+#4369
+The Thick of the Fighting~
+`dBlood splatters everywhere, and the harsh smell of burning flesh assaults 
+your nostrils.  Magic flares around you, and more creatures, and more 
+Patryns, fall.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4372
+D1
+~
+~
+0 -1 4370
+D2
+~
+~
+0 -1 4366
+D3
+~
+~
+0 -1 4368
+S
+#4370
+The Thick of the Fighting~
+`dBlood splatters everywhere, and the harsh smell of burning flesh assaults 
+your nostrils.  Magic flares around you, and more creatures, and more 
+Patryns, fall.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4371
+D2
+~
+~
+0 -1 4365
+D3
+~
+~
+0 -1 4369
+S
+#4371
+The Thick of the Fighting~
+`dBlood splatters everywhere, and the harsh smell of burning flesh assaults 
+your nostrils.  Magic flares around you, and more creatures, and more 
+Patryns, fall.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4376
+D2
+~
+~
+0 -1 4370
+D3
+~
+~
+0 -1 4372
+S
+#4372
+The Center of the Battle~
+`dAll of the fighting seems to be centered around these.  A great Serpent is 
+fighting a great Dragon.  A wide berth is being given to them by the lessor 
+creatures, and you stare in awe as they battle.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4375
+D1
+~
+~
+0 -1 4371
+D2
+~
+~
+0 -1 4369
+D3
+~
+~
+0 -1 4373
+S
+#4373
+The Thick of the Fighting~
+`dBlood splatters everywhere, and the harsh smell of burning flesh assaults 
+your nostrils.  Magic flares around you, and more creatures, and more 
+Patryns, fall.`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4374
+D1
+~
+~
+0 -1 4372
+D2
+~
+~
+0 -1 4368
+S
+#4374
+The Fringes of the Battle~
+`dThe battle is not as fierce here.  Glancing up, you see a strange sight.  
+Did that Serpent just dissapear?  Worried, you decide someone needs to check 
+it out.`n
+~
+0 0 2
+D1
+~
+~
+0 -1 4375
+D2
+~
+~
+0 -1 4373
+D4
+~
+~
+0 -1 4380
+S
+#4375
+The Fringes of the Battle~
+`dThe battle is less fierce here, and you take the chance to rest.  To the 
+north, There is more fighting around the Final Gate. Some Serpents are 
+attempting to shut the gate!`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4377
+D1
+~
+~
+0 -1 4376
+D2
+~
+~
+0 -1 4372
+D3
+~
+~
+0 -1 4374
+S
+#4376
+The Fringes of the Battle~
+`dThe battle is not as fierce here.  Streams of wounded are leaving the 
+battle, through the Final Gate into the Nexus, and a precious few Patryn are 
+returning to reinforce those already fighting.`n
+~
+0 0 2
+D2
+~
+~
+0 -1 4371
+D3
+~
+~
+0 -1 4375
+S
+#4377
+Heading Towards the Final Gate~
+`dMoving quickly toward the Final Gate, you pass Patryn who have given up 
+and perished on the plain, in sight of the Final Gate.
+~
+0 0 2
+D0
+~
+~
+0 -1 4378
+D2
+~
+~
+0 -1 4375
+S
+#4378
+The Final Gate~
+`dHuge doors, towering over everything.  One side is shut, and you see a 
+group of Patryn attempting to prevent a group of Serpents from closing the 
+other one, and locking their race in the Labyrinth for all time!`n
+~
+0 0 2
+D0
+~
+~
+0 -1 4379
+D2
+~
+~
+0 -1 4377
+S
+#4379
+The Nexus~
+`dYou have made it beyond the Final Gate. You are free of the horrors of the 
+Labyrinth, and the dangers of its denizens.  Enjoy your freedom, and pray 
+for those who are still in its clutches.`n
+~
+0 4 1
+S
+#4380
+In the Air~
+`dAbove the ground troops, the chaodyn and the wolfen, even more fighting 
+rages on.  Dragons fight dragons in epic battles, tearing at each other with 
+claw, teeth, and magic.  Above you, a doorway has appeared. What is that?`n
+~
+0 4 2
+D4
+~
+~
+0 -1 4381
+D5
+~
+~
+0 -1 4374
+S
+#4381
+At the Door~
+`dYou move to the doorway, and stare into it.  There is a void, and another 
+door at the other side of the void.  You see the serpent go through the 
+door, and you hear a cry.  Quickly, you must go assist whoever that thing is 
+attacking.`n
+~
+0 0 2
+D3
+~
+~
+0 -1 4382
+D5
+~
+~
+0 -1 4380
+S
+#4382
+The Void~
+`dYou will yourself through the black void, fighting the demons in spirit 
+and flesh who wish to drag you into the darkness.  Can you make it to the 
+other side?`n
+~
+0 1 2
+D1
+~
+~
+0 -1 4381
+D3
+~
+~
+0 -1 4383
+S
+#4383
+The 7th Gate~
+`dA large room with doors on all of the walls.  It seems impossibly large, 
+yet you can reach out and touch the walls.  To the left is an incredibly 
+large serpent, the one you saw enter.  In front, and to the right, are two 
+Patryn attempting to keep an eye on the Serpent and each other.`n
+~
+0 4 2
+D0
+~
+~
+0 -1 4386
+D1
+~
+~
+0 -1 4382
+D2
+~
+~
+0 -1 4384
+D3
+~
+~
+0 -1 4385
+S
+#4384
+The Serpent Sang-drax~
+`dThe room shifts in the light.  Marble floors, ceilings, and walls surround 
+you and your feelings of peace and love are ill-mixed with what you see and 
+know you must do.`n
+~
+0 4 2
+D0
+~
+~
+0 -1 4383
+S
+#4385
+Next to the Pillar~
+`dThis is the room the Sartan used to sunder the world.  You can taste the 
+power flowing through the air, and you have the urge to reach out and take 
+the power for your own.`n
+~
+0 4 2
+D1
+~
+~
+0 -1 4383
+S
+#4386
+Next to the Wall~
+`dThe rooms walls seem to shimmer with the energy of the runes that cover 
+everything.  Floating in the air is the construct that will destroy the 
+world in order to remake it as it was.`n
+~
+0 4 2
+D2
+~
+~
+0 -1 4383
+S
+#4387
+~
+`dYou find yourself in a seemingly endless hallway. Doorways on the left and 
+right of the hall seem to go to other worlds.  There is a message on the 
+wall here.
+"Behold, these are the immortal souls of those who have proven their worth, 
+in this world and others.  Beware their wrath.`n
+~
+0 4 0
+S
+#4388
+~
+`dMoving down the hall, you pause to look around.  The walls and ceiling 
+seem to be made of a marble-esque stone, incredibly hard.  Doorways line the 
+hallway.`n
+~
+0 4 0
+S
+#4389
+~
+`dThe hallway seems to continue on forever.  Which doorways should you  
+enter?  From your knowledge of the legends, none of them can be too 
+safe...`n
+~
+0 4 0
+S
+#4390
+~
+`dThe hallway seems to continue on forever.  Which doorways should you  
+enter?  From your knowledge of the legends, none of them can be too 
+safe...`n
+~
+0 4 0
+S
+#4391
+~
+`dThe hallway seems to continue on forever.  Which doorways should you  
+enter?  From your knowledge of the legends, none of them can be too 
+safe...`n
+~
+0 0 0
+D2
+~
+~
+0 -1 4399
+S
+#4392
+~
+`dThe hallway seems to continue on forever.  Which doorways should you  
+enter?  From your knowledge of the legends, none of them can be too 
+safe...`n
+~
+0 4 0
+S
+#4393
+~
+`dWeapons of every description cover the walls, all in good condition and 
+honed to a deadly edge.  A small bunk lies in one corner, and the vast 
+majority of the room is spaced out, to allow for freedom of movement.`n
+~
+0 4 0
+S
+#4394
+~
+`dThe entire floor here is padded. Evoking a peacful feeling, you sense that 
+this is a great place to relax and think on the chances of life.`n
+~
+0 4 0
+S
+#4395
+~
+`dBooks line the walls, and are scattered about the floor.  The titles 
+include "Basic Fist Strategies" and "Chaosium Rules: 101".  Obviously 
+someone of great knowledge works here.`n
+~
+0 4 0
+S
+#4396
+~
+`dYou step from the hall into a queit glen.  A small brook flows through the 
+area, and you feel at one with nature.  Large boulders dot the landscape, 
+and nature feels very close here.`n
+~
+0 4 0
+S
+#4397
+~
+`dThe first thing you notice in this room is the large fireplace, with a 
+fire blazing away.  There is a large high-backed armchair in front of the 
+fire, and the wood floors reflect the warm glow of the fire.`n
+~
+0 4 0
+S
+#4398
+~
+`dHewn of rough rock, the cave is dark and menacing.  Unnatural warmth 
+eminates from the rock, and you feel you shouldn't be here.`n
+~
+0 4 0
+S
+#4399
+~
+`dThe room is a blank slate here.  Unassigned, it is waiting for a soul of 
+immense power to take it's place in this hall of legends.`n
+~
+0 0 0
+D0
+~
+~
+0 -1 4391
+S
+#0
+
+
+
+#SPECIALS
+M 4211 spec_poison
+M 4212 spec_poison
+M 4236 spec_poison
+M 4237 spec_poison
+M 4239 spec_breath_any
+S
+
+
+
+#RESETS
+M 0 4200 12 4208
+M 0 4200 12 4210
+M 0 4200 12 4213
+M 0 4201 8 4215
+E 0 4210 0 16
+M 0 4201 8 4217
+E 0 4210 0 16
+M 0 4207 4 4218
+E 0 4203 0 16
+E 0 4209 0 7
+M 0 4201 8 4220
+E 0 4210 0 16
+M 0 4202 20 4222
+E 0 4201 0 16
+E 0 4209 0 7
+M 0 4202 20 4223
+E 0 4201 0 16
+E 0 4209 0 7
+M 0 4204 2 4224
+E 0 4205 0 5
+M 0 4203 1 4225
+E 0 4204 0 9
+M 0 4204 2 4226
+E 0 4205 0 5
+M 0 4206 1 4226
+E 0 4205 0 5
+M 0 4205 1 4226
+E 0 4202 0 14
+E 0 4202 0 15
+M 0 4208 24 4228
+M 0 4209 1 4228
+O 0 4200 0 4228
+M 0 4210 1 4229
+M 0 4200 12 4230
+M 0 4208 24 4230
+M 0 4215 6 4231
+M 0 4215 6 4232
+M 0 4215 6 4233
+M 0 4208 24 4234
+M 0 4208 24 4237
+M 0 4201 8 4238
+E 0 4210 0 16
+M 0 4211 1 4245
+E 0 4206 0 0
+M 0 4212 20 4248
+M 0 4212 20 4250
+M 0 4212 20 4252
+M 0 4213 1 4254
+E 0 4208 0 16
+M 0 4212 20 4256
+M 0 4214 4 4259
+E 0 4207 0 16
+M 0 4216 25 4267
+M 0 4216 25 4271
+M 0 4216 25 4274
+M 0 4216 25 4277
+M 0 4216 25 4281
+M 0 4217 20 4284
+M 0 4218 30 4288
+M 0 4217 20 4289
+M 0 4218 30 4290
+M 0 4218 30 4292
+M 0 4217 20 4293
+M 0 4218 30 4296
+M 0 4217 20 4297
+M 0 4218 30 4298
+M 0 4217 20 4299
+M 0 4218 30 4305
+M 0 4218 30 4307
+M 0 4220 1 4308
+E 0 4211 0 16
+G 0 4212 0
+G 0 4212 0
+M 0 4218 30 4309
+M 0 4217 20 4311
+M 0 4219 20 4312
+M 0 4219 20 4312
+M 0 4219 20 4312
+M 0 4219 20 4312
+M 0 4219 20 4312
+M 0 4221 9 4313
+E 0 4210 0 16
+G 0 4213 0
+M 0 4221 9 4315
+E 0 4214 0 16
+G 0 4213 0
+M 0 4222 10 4316
+M 0 4223 10 4317
+E 0 4215 0 5
+G 0 4213 0
+M 0 4221 9 4318
+E 0 4214 0 16
+G 0 4213 0
+M 0 4222 10 4319
+M 0 4224 1 4321
+E 0 4217 0 5
+E 0 4216 0 16
+M 0 4223 10 4323
+E 0 4215 0 5
+G 0 4213 0
+M 0 4225 5 4324
+E 0 4215 0 5
+E 0 4214 0 16
+G 0 4213 0
+M 0 4225 5 4324
+E 0 4215 0 5
+E 0 4214 0 16
+G 0 4213 0
+M 0 4230 20 4329
+M 0 4226 20 4332
+G 0 4218 0
+M 0 4226 20 4333
+G 0 4218 0
+M 0 4226 20 4334
+G 0 4218 0
+M 0 4226 20 4335
+G 0 4218 0
+M 0 4228 4 4336
+G 0 4218 0
+M 0 4227 6 4337
+G 0 4218 0
+M 0 4227 6 4337
+G 0 4218 0
+M 0 4228 4 4337
+G 0 4218 0
+M 0 4229 1 4341
+M 0 4230 20 4342
+M 0 4230 20 4346
+M 0 4230 20 4348
+M 0 4231 4 4351
+G 0 4220 0
+M 0 4231 4 4351
+G 0 4220 0
+M 0 4232 4 4353
+G 0 4220 0
+M 0 4232 4 4353
+G 0 4220 0
+M 0 4233 1 4356
+G 0 4219 0
+M 0 4242 10 4360
+E 0 4201 0 16
+M 0 4235 40 4362
+G 0 4221 0
+M 0 4236 20 4363
+G 0 4220 0
+M 0 4235 40 4364
+G 0 4221 0
+M 0 4235 40 4366
+G 0 4221 0
+M 0 4234 30 4368
+M 0 4235 40 4368
+M 0 4236 20 4368
+G 0 4220 0
+M 0 4241 20 4369
+M 0 4234 30 4370
+M 0 4237 10 4370
+G 0 4220 0
+M 0 4238 3 4372
+G 0 4222 0
+M 0 4239 1 4372
+E 0 4223 0 12
+M 0 4237 10 4373
+G 0 4220 0
+M 0 4240 10 4374
+M 0 4241 20 4374
+E 0 4213 0 16
+M 0 4242 10 4374
+E 0 4203 0 16
+M 0 4234 30 4375
+M 0 4235 40 4376
+M 0 4241 20 4376
+E 0 4213 0 16
+M 0 4240 10 4377
+M 0 4243 20 4377
+E 0 4224 0 6
+E 0 4226 0 16
+M 0 4243 20 4377
+E 0 4225 0 10
+E 0 4227 0 16
+M 0 4243 20 4378
+E 0 4224 0 6
+E 0 4227 0 16
+M 0 4243 20 4378
+E 0 4225 0 10
+E 0 4226 0 16
+M 0 4244 1 4384
+E 0 4228 0 0
+M 0 4245 1 4385
+E 0 4229 0 16
+M 0 4246 1 4386
+E 0 4230 0 17
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

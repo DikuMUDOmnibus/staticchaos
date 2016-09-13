@@ -1,0 +1,3217 @@
+#HELPS
+
+
+
+
+0 PATRYN PATRYNS~
+Patryn warriors do battle with and through their command of elemental
+runes.  While once the runes a Patryn could draw on were as endless as
+the concepts their minds could encompass, this is no longer the case.
+However, runemagic of the present is still a potent force, which when
+wielded with skill and cunning is a match for any form of magical or
+spiritual attack.
+
+ (*) Learn: learn how to use a given rune.
+ (*) Tattoo: tattoo elemental runes onto the body.
+ (*) Erase: a difficult to erase a rune from the body.
+ (*) Runetrain: train in the use of primary runes.
+ (*) Runestat: examine the runes on your body.
+ (+) Runeweave: weave runes in the air to create magickal effects.
+ (*) Circle: enhanced regen based on runetraining. 
+ (*) Defenses: Raise or lower certain runic defenses.
+ ( ) Inscribe: etch runes of power on weapons.
+~
+
+0 RUNETRAIN RUNETRAINING~
+Syntax: runetrain <primary rune>
+Example: runetrain earth
+
+Runetraining is how patryns become adept in the use of the primary,
+elemental runes.  These are Air, Earth, Fire, Water, Energy, and
+Negative.  Runetraining is necessary to be able to runeweave
+effectively, increases the power of tattoos,  and greatly enhances
+a patryn's ability to close their circle.
+~
+
+0 DEFENSES~
+Syntax: defenses <raise/lower>
+Example: defenses lower
+Example: defenses
+
+The defenses command toggles whether a patryn's runic danger
+sense is set off by attmpts to locate them.  Without an
+argument, the command will report whether your defenses
+are raised or lowered.
+~
+
+0 LEARN~
+Syntax: learn <rune>
+Example: learn destruction
+Example: learn cost
+
+Learning a rune is necessary for any use of a rune.  The cost of
+learning a rune is in primal, and increases as you learn more
+runes.  Typing 'learn cost' will display how much primal the next
+rune will cost.  It is suggested that you learn the primary elements
+first, as they are the most useful of the runes.
+~
+
+0 TATTOO TATTOING TATTOOING~
+Syntax: tattoo <body part> <rune>
+Example: tattoo rightleg water
+
+By tattooing runes onto their bodies, Patryns enhance their combat
+prowess.  Acceptable body parts are 'torso', 'leftarm', 'rightarm',
+'leftleg' and 'rightleg'.  Only the primary runes of fire, air, earth
+and water may be tattooed.  Here is an imcomplete list of the effects:
+
+Torso:  Air   - Magickal Protection
+        Earth - Toughness
+        Fire  - Protection from Ki attacks
+        Water - Enhanced regen
+Arms:   Air   - Attacks
+        Earth - Enhanced parry
+        Fire  - Damage multiplier
+Legs:   Earth - Anti parry/dodge
+        Water - Enhanced dodge
+
+Each rune costs primal, with costs increasing as the number of runes
+per body part increase.
+~
+
+0 ERASE~
+Syntax: erase <body part> <rune>
+Example: erase leftarm air
+
+Erasing magickal runes is a costly and time-consuming process,
+requiring 25 primal and 1000 mana per erasure.  When a rune is
+erased, the space on the body part becomes available again.
+~
+
+0 RUNESTATS~
+Syntax: runetats
+
+This provides a list of what runes are currently tattooed on your body.
+It lists them by body part, and shows both used and available slots.
+~
+
+0 RUNEWEAVE RUNEWEAVING~
+Syntax: runeweave <target> <primary rune> <secondary rune>
+Example: runeweave fido fire death
+
+
+~
+
+0 LEGEND~
+Legend is an abstract measurement of character 'presense', costing
+both experience and status to train.  Legend ranks grant certain
+minor abilities to all players, none of which are necessary to
+be effective in pk, but which can be highly useful.
+
+See LCOMMANDS for a list of said abilities.
+~
+
+0 LCOMMANDS~
+Tricks of the trade which anybody can learn over time, only the more
+experienced adventurer will learn abilities such as these.  Keep in
+mind that they are merely useful abilities, not powerful combat
+techniques.  Take them for what they are.
+
+Legend  1:  Numeric damage           Legend  6:  Dare
+Legend  2:  Gift                     Legend  7:  Reclaim
+Legend  3:  Preserve                 Legend  8:  Humiliate
+Legend  4:  Lenter & Lexit           Legend  9:  Soul Reaver 
+Legend  5:                           Legend 10:  Challenge
+~
+
+0 GIFT~
+When gift is implemented, it will allow you to transfer the ownership
+of an item from yourself to another person.
+~
+
+0 LENTER LEXIT~
+Syntax: lenter <phrase>
+Syntax: lexit <phrase>
+
+With these, you can modify the messages displayed upon your entering
+and leaving chaosium.
+
+Lenters and Lexits may not duplicate or emulate other system messages,
+such as escape messages, or be intentionally deceptive.
+~
+
+0 RECLAIM~
+This legend ability allows you to shift ownership of an item in your
+possession from its previous owner to yourself.  This does, of course,
+come at a cost.
+~
+
+0 HUMILIATE HUMILIATION~
+Syntax: humilate <mortalled wounded schmuck>
+Syntax: humiliation <amusing phrase>
+
+Humiliate allows you to finish off players and display a finishing
+message of your own creation.  The message is broadcast to the entire
+mud in place of the normal finishing messages.  The humiliation command
+is for setting this message.
+
+Humiliations are broadcast to the mud, and as such are subject to certain
+standards.  In practice, the only thing I don't want to see is messages
+of a sexual nature.  Sex is one of the (very) few things here which is
+consensual in nature.
+~
+
+0 SOULREAVER REAVER 'SOUL REAVER'~
+
+When you finish off (not humiliate) an avatar, you drain their life
+force and regain a percentage of your hit points.  How much depends
+on how robust the victim was.
+~
+
+0 RULES COMMANDMENTS~
+The Ten Commandments:
+1) Kill and decapitate other immortals, or else:
+2) Other immortals will kill and decapitate you.
+3) Forgiveness may be devine, but vengeance is much more fun.
+4) Don't whine or complain, or someone will kill you.
+5) If someone whines or complains, you should kill them.
+6) If someone doesn't whine or complain, kill them anyway.
+7) Might makes right; a corpse will never betray you.
+8) Friends are useful.  So is the exp you get for decapitating them.
+9) Turn in bugs for rewards.  Abuse bugs and lose more than you gained.
+10) Stop reading the stupid rules and let the slaughter commence!
+~
+
+0 POLICY POLICIES~
+The purpose of all policies is to create an environment in which people
+can compete, socialize, and generally have fun.  Punishments for infractions
+are meant both as a deterrent, and as a guarantee that cheaters will not
+prosper.  There are help files for each infraction listed below.  It is
+strongly suggested that you read and obey them.
+
+   MULTIPLAYING is banned, period.
+   BOTTING is frowned upon and actionable.
+   PUBLIC CHANNELS are for talking, not spamming.
+   BUG ABUSE is highly illegal and will be punished severely.
+   UNIQUES are not to be destroyed.
+   CHAR SHARING is frowned upon.
+   CHAR THEFT will result in the stolen char and the thief being banned.
+   GIFT CAPPING is illegal.
+   DUMBASS means do not be a dumbass.
+   HARASSMENT this is a pk mud, it takes a LOT to be harassment.
+
+   See the capitalized help files for more in depth explanations.
+
+~
+
+
+0 MULTIPLAYING~
+
+Passing equipment or money between characters is just fine.  Anything
+else, and I mean ANYTHING, is not fine.  This includes idling with more
+than one character, grouping characters for exping or pkill, or ANYTHING
+other than 30 seconds of swapping belongings.  I repeat, anything that
+involves having two characters logged on at once, and not for a short
+30 second equipment swap, is multiplaying.  Penalties will vary by
+offense.
+~
+
+0 BOTTING~
+
+This is defined as any actions which your character makes when the
+player is not at the monitor.  There is really no need for botting,
+as there are no spell levels or such to be botted up.  While botting
+is not prohibited per se, 'bad things' may happen to botters, such as
+my alerting the mud to what they're doing, dropping them in a no-exit
+room, or in particularly irritating cases allowing players to get a
+few caps on them.
+~
+
+0 PUBLIC 'PUBLIC CHANNELS'~
+
+These exist so that people can socialize.  As such, people interfering
+with their normal use (e.g. spamming) will lose their use.  Content
+will for the most part be unpoliced; I am not easily offended.
+~
+
+0 BUGS ABUSE 'BUG ABUSE'~
+
+If you find a a bug, or something you think is a bug, don't use it.
+Don't "test" it, or play with it.. just report it on the bugs board.
+If I deem you to have abused a bug, you will lose what you gained and
+more.  Equipment related bugs (e.g. duping) will likely result in a
+loss of equipment, character related bug abuse will likely result in
+loss of character stats and abilities.  I will not hesitate to deny
+and/or siteban repeat offenders; as somebody who has abused the hell
+out of bugs on a number of muds, and seen how people pick up the habit
+when the imms don't do shit, I know this to be absolutely necessary.
+~
+
+0 UNIQUES~
+
+Destruction of a unique by any means (junking a container, saccing a
+corpse, suiciding a char, etc etc) will result in the denial of all
+a player's characters.  Uniques must be kept on the most played
+character a player posesses, and if that character is not played and
+pked with regularly the unique will be stripped.
+~
+
+0 CHARSHARING 'CHAR SHARING'~
+
+Any sharing of characters or passwords is strongly discouraged.  If
+you lose a character, you're shit out of luck.  Do yourself a favor;
+always use different passwords on each character, and never use a
+password here that you have used elsewhere.
+~
+
+0 CHARTHEFT 'CHAR THEFT'~
+
+If I determine a character to be stolen, both the thief's characters
+and the stolen character will be denied.  The reason for the latter
+is simple: every instance of character theft costs me time to check
+up on, and character theft is 99.99% of the time directly the result
+of stupidity on the part of the former owner.  I am not a babysitter.
+~
+
+0 GIFTCAPPING 'GIFT CAPPING'~
+
+This is defined as allowing other players to finish or humiliate your
+character without fighting back.  Doing this once to settle a dispute
+or matter of honor is not illegal; doing so multiple times, especially
+to any and all takers, is.
+~
+
+0 DUMBASS COLUMBO PALON~
+
+It shouldn't be necessary to spell this out, but don't be a fucking
+dumbass.  Be a prick, a dick, a backstabber or whatever.. but don't
+be a fucking dumbass.  I don't piss off easily.. if you manage to piss
+me off, chances are it's because you were/are being a dumbass.
+~
+
+0 HARASSMENT~
+
+This is a pk mud, with a pk atmosphere.  Somebody killing you a few
+times, or keeping you morted for a few minutes, is not harassment.
+I define harassment as a continual and systematic attempt to make
+somebodys life miserable.  This isn't necessarily illegal except
+in very extreme situations.  Use a little judgement.
+~
+
+0 GODWARS~
+This is not a godwars mud per se; no actual godwars code from any release
+has been used.  However, many of the concepts presented are borrowed from
+the godwars system.  I'd like to thank KaVir for originally creating
+godwars, and Coal and Puck for creating a truely good godwars mud.~
+
+0 GWCOMMANDS~
+There are a number of commands which are not indigenous to the Merc codebase
+but are vital to playing on a godwars style mud.  Here are a few of them:
+
+  FINISH, ESCAPE, SKILLS, LEVEL, BANDAGE
+~
+
+0 FINISH DECAPITATE~
+Syntax: finish <mortally wounded avatar>
+Example: finish sahra
+
+When a player is mortally wounded, another avatar can finish them
+off.  Known in the past as 'decpitation', finishing is possible with
+any weapon, not just slashing and slicing.  If the victim is much
+weaker, the finisher may become PARADOXED.~
+
+0 ESCAPE~
+Syntax: escape
+
+When mortally wounded, an avatar can throw all pride to the wind and
+attempt to escape.  They can't do this when tied up.  Escaping will
+cause an avatar to lose whatever mana and stamina they had, and will
+lag them for a short while.~
+
+0 SKILLS~
+Syntax: skills
+
+This command gives you an analysis of your fighting skills in weapon
+and stance.  If you are fighting somebody, it displays theirs as well.~
+
+0 LEVEL LEVELS~
+Syntax: level
+
+This displays important information about your character's battle skills.
+Stance and weaponskill ratings are shown, and for some classes additional
+class specific information is displayed.
+~
+
+0 BANDAGE BANDAGES BANDAGING~
+Syntax: bandage <target>
+Example: bandage self
+
+As not all classes have the mystick ability to heal, some form of first
+aid was necessary to allow all classes to help their friends when wounded.
+This is it.
+~
+
+0 STATS~
+A characters statistics, or 'stats' as they are known, are measurements
+of their strengths.  They range from 10 to 100, though not every class
+can attain a rating of 100 in every stat.  See the help files on BODY,
+MIND, SPIRIT, and WILLPOWER for more information.
+
+Class        Body   Mind   Spirit   Willpower
+Fist         90     75     100      80
+Patryn       80     100    75       85
+Saiyan       100    75     90       80
+Sorcerer     75     90     80       100
+Mazoku       95     95     95       95
+~
+
+0 BODY~
+A characters body rating is a measurement of their overal physical
+abilities, including strength, stamina, agility and general physical
+wellbeing.  It affects damage done, damage recieved, how much one can
+carry or wield, as well as how quickly your wounds heal.~
+
+0 MIND~
+Mind is an abstract measurement of a characters mental facility.  This
+includes intelligence, cunning, and abstracts like problem solving
+ability.  It affects resistance to mental attacks, how easy it is to
+learn something, and especially ones abilities in rune magic.~
+
+0 SPIRIT~
+Spirit is an abstract measurement of, well, spirit.  How in touch with
+themselves and the world around them, how wise they are, and well the
+strength of their 'soul' or 'spirit', however you choose to call it.
+Spirit is the driving force behind all Ki attacks and ki-based attacks,
+and can help in resisting them.~
+
+0 WILLPOWER~
+Not so much a physical attribute, this is a measurement of a characters
+strength of "will".  It can be described as drive, or as how much a
+character can push themselves beyond their physical limits.  Magic, such
+as it is, depends on a characters willpower.~
+
+0 SAIYAN SAIYAJIN SAIYANS~
+The Saiyan race is one much like the human race, save that they evolved
+from monkeys as opposed to apes.  Though they are rumored to have once
+had tails, this is no longer the case.  What sets the Saiyans, or
+Saiya-jin as they are sometimes called, apart from other races is their
+natural strength and propensity for battle.  They can charge and focus
+their Ki more easily than any other race.
+
+ (*) Technique: learn a saiyan battle technique.
+ (*) Rage: Charge up power.
+ (*) Focus: Spend power to enhance attributes.
+
+ See HELP SAITECH for more information on Saiyan battle techniques.
+ Also, see HELP STRENGTH, HELP SPEED, and HELP AEGIS.
+~
+
+0 RAGE~
+Syntax: rage
+
+Raging is the process by which Saiyans charge up their fighting power.
+Rage costs movement points, and works based upon your body and spirit
+ratings.  That is, the higher the body and spirit, the more power you
+can charge up per rage.
+~
+
+0 TECHNIQUE~
+Syntax: technique <argument>
+Example: technique kamehameha
+Example: technique cost
+Example: technique learned
+
+Technique is the command used to learn Saiyan battle techniques.  Most
+of these are ways of inflicting damage with fighting power, while some
+are useful noncombat abilities.  Typing 'technique' alone will list the
+techniques, as well as two arguments, 'cost' and 'learned' which can be
+entered to find out more information about techniques.
+
+See 'help saitech' for a list of techniques and basic descriptions.
+~
+
+0 SAITECHS~
+Name        Cost   Description
+Kiblast     500    A basic low-level energy attack.
+Kibomb      2000   A mid-level energy attack that hits multiple targets.
+Kibolt      2000   A focused mid-level energy attack.
+Kiwave      2000   A difuse mid-level energy attack which staggers targets.
+Kiwall      2500   A very short-term energy defense which reduces damage.
+Kikouhou    5000   A ranged attack of moderate power.
+Masenkouha  5000   A powerful high-level energy attack.
+Kamehameha  15000  The turtle destruction blast.
+Solarfist   2500   A stunning attack which can blind the target.
+Ryuken      10000  An awesome physical attack, but quite draining.
+Zanzouken   n/a    A technique which allows a saiyan to attack more often.
+Kaiouken    20000  A short-term but very powerful boost to attacks.
+Flight      250    The ability to fly.
+Kisense     n/a    The ability to sense the location of another being.
+Bat. sense  500    An accurate measurement of an opponents strengths.
+Shunkanidou 10000  A technique for teleporting onesself.
+Hawkeyes    500    A technique for enhancing ones vision.
+Kiaihou     n/a    A defensive technique to defend against multiple enemies
+
+~
+
+0 FOCUS~
+Syntax: focus <power rating> <ammount>
+Example: focus speed 150
+
+Focus lets you spend power to increase your speed, strength or aegis.
+If you spend more than your rating, the energy is wasted.
+~
+
+0 STRENGTH~
+This saiyan power rating enhances the damage dealt in combat.
+~
+
+0 SPEED~
+This saiyan power rating allows saiyans to get more attacks, parry and
+dodge more, and hit more often.
+~
+
+0 AEGIS~
+This saiyan power allows saiyans to absorb damage done to them.
+As well, so long as it remains above 0, Saiyans can inflict strong
+damage unarmed, and when it is above 250 they can parry unarmed.
+~
+
+0 FIST FISTS~
+Fists are mystical warriors who shun the use of weapons.  While they can
+wield them they will always be much more deadly using just their hands.
+They have learned to focus their ki into amazing combinations, which have
+the ability to lay waste to their opponents. Unfortunately a single
+mistimed blow can cause these combinations to shatter, and many unexpected
+results can occur.  When a true fist has learned to master every one of
+their combinations, and practiced them to the point of perfection, there
+is little that can stand in their way.
+
+See Also:
+Help basic, help combination, help fistki, help bodytrain, help discipline,
+help newbiefist, help master
+~
+
+0 BASIC~ 
+A fist must first learn to train in their basic moves by using the ‘master’
+command.  There are low damage moves, but they are necessary in order to
+execute the fist combinations.
+~
+
+0 MASTER~
+Syntax: master <[move]/swap> [move1] [move2]
+Example: master shinkick
+Example: master ki
+Example: master swap uppercut knee
+
+Master is the command used by fists to learn master moves, increase
+their max Ki, and swap the ki gain values of master moves. Learning a
+master move costs 500,000 exp, as does training a point of Ki.
+
+Swapping moves costs 150 primal.  To see what affect a swap will have,
+look at 'master list' or master with no argument, to see your current
+ki gain values for each move.  If shinkick is at 7, and jab is at 6, and
+you master swap shinkick jab, shinkick will then have an average ki gain
+of 6, and jab an average ki gain of 7.
+~
+
+0 COMBINATION COMBO~ 
+Syntax: combo <phrase>
+Example: combo
+Example: combo dark
+
+Combinations are the true power of fists.  They are executed by building up
+the Fist’s ‘ki’ And then using the ‘Combo’ command.  Every ki from 10-30 has
+a certain move attached to it.  Not all of them are beneficial so it is wise
+to find a friend and spar them until you have tried out every combination.
+
+Some combos, such as #29, have multiple moves associated with them.  They
+can be accessed with an argument to the combo command.  For combo 29, the
+acceptable arguments are 'dark' and 'holy'.
+~
+
+0 FISTKI~
+A fist must activate their ki by using basic moves, but they must first train
+there body to hold the power of that ki.  This is done by using the master
+command.  Note:  The ki in prompt fist is NOT your max ki.  That is your active
+ki, the one that is checked for combinations.
+~
+
+0 BODYTRAIN BODYTRAINING~
+A Fist trains different parts of their body in order to become better fighters.
+They can train their torso, their arms, their legs, and their hands. The command
+to do this is ‘bodytrain.’  All bodyparts can be train up to 100.
+
+Torso:  This affects toughness and regeneration
+Arms:  This affects a fist’s blocking skill
+Hands: This affects damage
+Legs: This affects damage and dodge
+~
+
+0 DISCIPLINES~
+Discipline is a rating of a Fist's.. well.. discipline.  You increase it by
+typing 'discipline', and spending 500k per the level you wish to attain.
+The ranks are:
+
+1  eyesight     See in the dark, and see that which is unseen.
+2  weaponskill  Unarmed skill can go up to 500. (auto)
+3  stanceskill  Stances can go up to 300. (auto)
+4  levitate     Levitate yourself.
+5  roundhouse   A powerful attack that hits all enemies.
+6  tackle       Prevent cowards from fleeing easily. (auto) 
+7  innerfire    Attempt to burn away negative effects with Ki.
+8  phoenixaura  Charge up spiritual energies to enhance combat abilities.
+9  dim-mak      An attack which can poison the spirit of the victim.
+~
+
+0 NEWBIEFIST~ 
+This is a small helpfile that should help a new fist get started.  There are
+several things a new fist must do in order to be successful. 
+
+1.  Prompt fist, this will put your ki in your prompt.  Without this
+    combinations are nearly impossible.
+2.  Each basic move has a set ki that will be added.  However to prevent the
+    use of scripting and aliases this number will be modified by plus or minus
+    one.  When trying to learn a move’s ki value, try it repeatedly until you
+    see 3 different results.  The middle will be the true ki value.
+    Example:  The true ki value of uppercut is two.  However there is a small
+    chance of it being modified into either a one or three.
+3.  Once you have learned the true ki values for all your basic moves, it is
+    smart to alias them to the numbers on your keyboard.  This can make
+    combinations much easier to perform.
+4.  Every time you use the ‘combo’ command, your current ki is checked.  The
+    combination assigned to that ki is performed.  It is wise to get a pen and
+    pencil, and try every combination from ki 10 to ki 30.
+5.  A Fist is one of the best tanks in the game.  Use this to your advantage.
+6.  Max your unarmed and stance, this is the biggest factor in the damage you do.
+~
+
+0 COLOR~
+Colors are pretty simple, to add a color code use a `` (the thing on the tilde
+key).  Follow it with a upper or lowercase letter, using the chart below as a
+guide.
+
+  `bb blue`n          `BB bright blue`n
+  `mm magenta`n       `MM bright magenta`n
+  `gg green`n         `GG bright green`n
+  `cc cyan`n          `CC bright cyan`n
+  `rr red`n           `RR bright red`n
+  `yy yellow`n        `YY bright yellow`n
+  `dd dark grey`n     `WW bright white`n
+  `nn no color`n
+
+~
+
+0 CHANGES03~
+as of 12-3-99:
+ * Fist bodytraining cost increased.
+ * Fist disciplines added, first four work.
+ * Saiyan power ratings cost decreased.
+ * Bug with truesight & items fixed.
+ * Primal now costs a bit less, should be the right formula.
+ * Patryn water regen upped.
+ * Ki added to fist level command.
+ * Newbie exp cut down.
+as of 12-4-99:
+ * Kick skill fixed.
+ * Saiyan damage upped.
+ * Internal changes to pervent certain abuses.
+ * MAX_RUNESPELLS upped to accomadate more.
+ * Fist discipline roundhouse added.
+ * Patryn runetraining costs lowered.
+ * more runespells added.
+as of 12-5-99:
+ * Patryn heal spells check energy rating.
+ * Ryuken added.
+ * Attack skills check toughness.
+ * Recall is now non-combat.
+ * Tackle discipline added.
+as of 12-22-99:
+ * A whole shitload of stuff I haven't put here.
+ * Fight timers are now in.
+ * Legend no longer spends status, costs have been raised.
+ * Ki flame damage to mobs increased, to saiyans decreased.
+ * Rem all is in ;p
+as of 12-23-99:
+ * Kamehameha damage upped.
+ * Fight timer fixed a couple times
+ * Minions are in!
+as of 12-27-99:
+ * Saiyan regen bug fixed.
+ * Loot command added.
+ * Fight timer modified.
+as of 12-30-99:
+ * Shire area upped.
+ * Group command now useable when morted.
+as of 1-6-00:
+ * Armor class now reduces damage.
+ * Some minor bug fixes.
+as of 1-10-00:
+ * Saiyans now do full weapon damage when unarmed, if aegis is > 0.
+ * Saiyans can parry w/o weapons if aegis is >= 250.
+ * Finger command implemented.
+as of 1-11-00:
+ * Squashed nasty finger crash bug.
+as of 1-20-00:
+ * Finger assess now check at 10 pks.
+ * Kick, note, and train no longer spam out.
+ * Saiyan raging costs slightly less.
+ * Saiyan battle technique 'Ryuken' costs less move.
+ * Saiyans strength, speed, aegis floor at half of max.
+as of 2-3-00:
+ * Age and Hours Played reporting updated.
+ * Saiyan max power increased to 30,000.
+ * Sorcerers are now available for play.
+ * Sorcerer abilities chant, research and specialize implemented.
+ * First third of sorcerer black magic implemented.
+as of 2-4-00:
+ * Sorcerer help files in.
+ * Sorcerer black magic mostly finished.
+ * Gtell color changed to something more visible.
+ * Affects command added.
+as of 2-8-00:
+ * Sorcerer black magic finished.
+ * Sorcerer offensive spells start fights.
+ * Claim command now works, soon claimed items will return on death.
+ * Excellent ansi art provided by Ingen added to login screen.
+ * Assorted minor bug fixes that needed to be done.
+as of 2-9-00:
+ * Claimed items go with you when you die.
+ * Lcommand 2, gift, is implemented.
+as of 2-15-00:
+ * White spells 1-3, 5-6 implemented.
+ * A few typos fixed.
+ * Some other shit I forget now.
+as of 2-16-00:
+ * Where shows area you're in.
+ * Kisense shows area propperly.
+ * More white spells.
+as of 2-19-00:
+ * All white spells other than flow break done.
+ * Clearstats command improved.
+as of 2-20-00:
+ * Laphas seed works propperly.
+ * New flee code.
+
+~
+0 CHANGES04~
+a lot of old changes
+
+as of 4-6-00:
+ * I haven't updated this in a very long time. There have
+   been an assload of changes, most of which I don't remember.
+   I'll try to be better about this in the future.
+as of 4-7-00:
+ * Exp bonus for 90-95th level mobs added.
+ * White and Black magic pretty much finished.
+ * Leader/loserboards added, not updating yet.
+ * Helps for shamanism added, spells aren't in though.
+ * Dice command added.
+ * Innerfire fist discipline implemented.
+as of 4-8-00:
+ * The Hood upped to 35-50 level range.
+ * Pdox caps no longer give victims a pdeaths.
+as of 4-9-00:
+ * Sorcerer research costs lowered, finally.
+ * Recovery now works propperly on non-sorcerers.
+ * Socials added from stock GW code.
+ * Fist parry bug fixed.
+as of 4-10-00:
+ * Questing implemented.  Go to a guildmaster and type
+   'quest' for information.
+ * Assorted minor bug fixes.
+as of 4-12-00:
+ * Saiyan parry fixed.
+ * Quest request now shows the area of the target mob.
+ * Quest targets have a [TARGET] flag now.
+as of 4-13-00:
+ * Awareness skill blocks stealing.
+as of 4-14-00:
+ * Assorted grammar fixes.
+ * Clans introduced.
+ * Exp loss returned on status caps.
+as of 4-15-00:
+ * Quest buy, list, rename, ac, and damage implemented.
+ * Prompt hp/mana/move colorized by percent.
+ * Fist combo 20 implemented.
+as of 4-16-00:
+ * Item flags colorized.
+ * Move point costs removed from Ryuken and Kamehameha.
+as of 4-18-00:
+ * Leader / Loserboards should be updating.
+ * Created a command to backup llboards when they get corrupted.
+as of 4-19-00:
+ * Clan Valheru founded.
+ * Tie, flex, and untie implemented.
+as of 4-21-00:
+ * Fleeing from a single foe is harder, from groups is easier.
+ * There will be some recalibration of parry and toughness, talk
+   to me if you see something out of line.
+ * Saiyans and FIsts will create with their specialized prompts.
+ * Patryn resistance to chants based more on fire runes on torso.
+ * Half of fire and water shamanism implemented.
+as of 4-22-00:
+ * Patryn circle command is working.
+as of 4-23-00:
+ * NO_FLEE flag applies only to mobs.
+as of 4-24-00:
+ * Patryn anti-dodge increased slightly.
+ * Patryn fire+torso ki flame resistance increased.
+ * Two new patryn runeweaves, negative+life and negative+transformation.
+ * Info messages on pc flees from pc.
+as of 4-26-00:
+ * Web telnet client now online.
+ * Fire shamanism finished.
+ * Balus wall replaces mos varim, mos varim will be renovated.
+ * Who list fixed for windows telnet and other clients.
+ * Several runeweaves now start fights.
+ * Stonekeep area by Coen.
+as of 4-28-00:
+ * Precasting time limit instated.
+ * Dragon Slave revamped.
+ * Look title thing fixed.
+ * Uppercut and Elbow now targetable outside of battle.
+ * Gust fixed.
+
+end of archive.
+~
+
+0 CHANGES05~
+as of 5-2-00:
+ * Lately life has sucked, haven't had time to do much, or update
+   this file when it got done.
+ * Cith Deux founded.
+ * Assorted minor bug fixes with clans.
+ * Lots of other happy things.
+as of 5-7-00:
+ * Exams suck a big fat hairy nutsack.
+ * New status titles added, corny ones removed.
+ * Zelas Brid and Dolph Strash upgraded.
+ * Laguna blast rewritten, now hits enemy group.
+as of 5-10-00:
+ * Clan Syndicate founded.
+ * Syndicate HQ in.
+ * Mortals no longer count in private rooms.
+ * Astral Shamanism is mostly in.
+as of 5-13-00:
+ * Sorcerer spell raywing now works.
+ * Fists more resistant to sorcerer chants.
+ * Saiyans more resistant to sorcerer chants.
+ * Windy shield implemented, replaces vas gluudo.
+ * Vas gluudo and Mos varim now defend against energy attacks.
+as of 5-18-00:
+ * Fiddled with a lot of sorc spells, and resistances.
+ * Raywing implemented.
+ * Assorted minor changes which I don't remember, nothing big.
+as of 5-19-00:
+ * Clan Triads founded.
+ * Rank 2's can now induct and clanrank to 3.
+ * Freeze Brid fixed.
+ * Lcommand 3 implemented.
+ * Wimpy modified.
+ * Autorecall in combat when LD removed.
+ * Recall in combat bug fixed.
+ * Names and messages added to Mos Varim and Windy Shield affects.
+as of 5-20-00:
+ * Fixed inner fire.
+as of 5-21-00:
+ * Fixed a corpse making bug.
+ * Banished clan members now recall to inner ward.
+as of 5-22-00:
+ * Portal implemented.
+ * Fixed clear / blind bug.
+ * Increased the duration of some sorcerer spells.
+ * Added quest GLOW and HUM.
+ * Added negative damage type.
+ * Added Lcommand dare.
+as of 5-24-00:
+ * Portal target level reduced.
+ * Sorcerers gained remove curse.
+ * Astral attack spells buffed a little.
+ * Quest GLOW and HUM are now reverseable.
+ * On non-status caps of people 10+ status, you now
+   only get a pkill if their combined stats > 30k
+ * Duration of Balus Wall extended.
+as of 5-26-00:
+ * Several stock areas removed.
+as of 5-27-00:
+ * Fist combo cost reduced.
+ * Fist discipline Phoenix Aura implemented.
+ * Sorcerer chant Astral Detect implemented.
+as of 5-28-00:
+ * Energy drain bug fixed.. *sigh*
+as of 5-29-00:
+ * Lcommand reduction implemened.
+
+end of archive
+~
+
+0 CHANGES06~
+Previous changes:
+
+as of 6-1-00:
+ * Lcommand reclaim implemented.
+ * Lcommand reduction removed pending consideration.
+as of 6-2-00:
+ * Palon is still a tard.
+as of 6-3-00:
+ * Clanboards command implemented.
+ * Clanguards no longer give exp to clan members.
+ * Clanboards should update propperly.
+ * Clan Exodus founded.
+ * Dispel magic rewritten.
+ * Patryn dispel magic runeweave added.
+as of 6-6-00:
+ * Ninja Scroll area added.
+ * Titles should no longer be smushed up against names.
+as of 6-7-00:
+ * Bug in City of Darkness fixed.
+as of 6-8-00:
+ * Status removed.
+ * Personal pkills and pdeaths obscured.
+ * Paradox/capping system changed.
+as of 6-9-00:
+ * Newbies protected from pk.
+as of 6-10-00:
+ * Ranking of chars revised to emphasize hp/mana/move.
+as of 6-15-00:
+ * Diem wing fixed.
+ * Shamanist mana destruction effects no longer remove ALL mana.
+ * Finish assessment checking tightened up.
+ * Patryn mana drain buffed slightly.
+ * Old "feature" of death touch removed
+as of 6-20-00:
+ * Mortals can enter full private rooms.
+ * Mortals in private rooms cannot train avatar.
+ * Mobs can no longer be summoned to private rooms.
+ * Several private rooms removed.
+as of 6-21-00:
+ * Fair Game flag added.
+as of 6-22-00:
+ * Air shamanism finished.
+~
+
+0 CHANGES07~
+
+as of 7-20-00:
+ * Re-spaced the clanboard to fit larger kill counts.
+ * Saitech Battlesense implemented.
+ * Brawpoten area by Anonbert in.
+ * Clan Triads removed.
+ * Clan Brotherhood founded.
+as of 7-22-00:
+ * Can no longer enter portals with a fight timer.
+ * Portal enter message bug fixed.
+ * A certain unlinked room has been linked.
+ * Quivering Palm combo implemented.
+ * Palm Thrust now affects chanting sorcerers.
+ * Dynast Breath upped.
+ * Dynast Brass and Laguna Blast now hit all npcs in room.
+ * Humilate (and humiliation) lcommand implemented.
+as of 7-23-00:
+ * Mobs spawn with more mana.
+as of 7-25-00:
+ * Laphas Seed is now one line.
+ * Rub ability implemented, for removing blindness.
+as of 7-30-00:
+ * Preliminary mobile suit commands implemented.
+as of 7-31-00:
+ * Much work done on suits.
+ * Suits are now purchaseable at the weaponsmith.
+ * suits can load, fly, be mounted and left.
+ * Suits can ready weapons and fire them.
+ * Suits can "fly home" to recall, or "fly away" to flee.
+ * Use status to see your suits condition, and your
+   piloting abilities.
+ * Suits can punch to inflict melee damage.
+ * Quitting is no longer possible in headquarters.
+ * Headquaters may not be teleported or portaled from or to.
+ * Help SUITS and SUITEQ in.
+
+end of archive
+~
+
+0 CHANGES08~
+archive of past changes
+
+as of 8-1-00:
+ * Shields now work for mobile suits.
+ * Suits now spend the right ammount of ammo for beam attacks.
+as of 8-2-00:
+ * Firing in directions for suits implemented.
+ * Shelling implemented.
+ * Shelling fixed.
+ * Firing in directions fixed.
+as of 8-4-00:
+ * Clan Brotherhood disbanded by leadership.
+ * Clancost updated.
+ * Dwarven Daycare removed.
+ * Pikachu's Vacation installed in its place.
+ * Mobile suits can now whirl.
+ * Mobile suit damage types in.
+as of 8-7-00:
+ * Evaluation modified to take sorc specs into account.
+as of 8-11-00:
+ * Suit damage types now do more damage vs mobs.
+ * Suit ammo now saves when you leave the suit.
+ * Fight timer no longer prevents denied players from quitting.
+ * Nexus of Clans renovated.
+ * Headquarters straightened out.
+ * Evaluations should no longer fluctuate.
+as of 8-12-00:
+ * Kiwave can knock down Kiwall.
+ * Internal changes to how resets work.
+ * Clans may now buy resets of up to Four (4) Gundam suits.
+as of 8-13-00:
+ * Suit help files updated.
+ * Pheonix Aura now improves fist attack accuracy.
+ * Death touch hits better through kiwall.
+as of 8-15-00:
+ * Installed automated auction by Erwin S. Andreasen.
+ * Auction modified to suit chaosium.
+as of 8-16-00:
+ * Bug with mobile suit Shields fixed.
+ * I'm 21.. awwww jeah.
+ * Bug with auctioning items currently worn fixed.
+as of 8-19-00:
+ * Ranged kills of mobs have reduced experience.
+ * Suited mobkill exp penalty reduced.
+ * Upkeep cost of Phoenix Aura made commensurate with it's new power.
+ * Assisting while tied fixed.
+as of 8-21-00:
+ * Damage messages on ranged attacks displayed in target room.
+ * Mobile Suit autoassist bug fixed.
+ * Clandeposit and bankers are now in.
+as of 8-22-00:
+ * Bug in clandeposit fixed.
+ * Bug in suit firing fixed.
+ * fixed another firing bug.
+ * Teleport may not be used with a fight timer.
+as of 8-23-00:
+ * Deathscythe cloaking implemented.
+ * Buster rifle and Twin Buster rifle attacks implemented.
+ * Bug in buster rifle attacks fixed.
+as of 8-24-00:
+ * Patryn runeweave syntax is runeweave rune1 rune2 target.
+ * more assorted bugs fixed.. sigh.
+ * Buster rifle firing now has lag.
+as of 8-25-00:
+ * Damage from some mobile suit weapons decreased.
+ * Effectiveness of mobile suit armor decreased.
+ * Speed of MS slashing depends on MS speed.
+ * Movement of mobile suits in combat restricted.
+ * Windy shield can block projectiles.
+as of 8-26-00:
+ * Fire and Shell both have fight timers attached.
+ * Fighting self on rescue bug fixed.
+ * Rescued persons continue attacking their target.
+as of 8-27-00:
+ * Fixed bug in windy shield/bullets routine.
+ * Shelling can now be blocked with windy shield.
+ * Suited characters can finish and humiliate.
+as of 8-28-00:
+ * Rescue rewrittten.
+ * Patryn regen upped.
+as of 8-29-00:
+ * Increased lag on repair of suits.
+as of 8-30-00:
+ * Decreased damage with Dobergun.
+ * Solarfist renamed to Solarflare.
+ * Chance of mob cap with players in the room decreased.
+as of 8-31-00:
+ * Increased effectiveness of Earth torso tattoos vs chants.
+ * Some patryn runeweaves should now auto-target.
+ * As a temporary measure, the lag on Diem Wing has been reduced.
+ * Sorcerer water magic finished for now.
+ * Crash bug in patryn runeweaving fixed.
+
+end of archive
+~
+
+0 CHANGES09~
+
+as of 9-1-00:
+ * Damage on successful palm thrust increased.
+as of 9-3-00:
+ * Peace state (no finish or humiliate) implemented.
+ * Arena implemented.
+as of 9-6-00:
+ * suit whirl hits group members.
+as of 9-7-00:
+ * Astral vine working.
+ * Newlock implemented.
+ * Siteban now works propperly.
+as of 9-11-00:
+ * Assessment meter added to score.
+ * Another bug in astral vine fixed.
+ * Enemy suit condition added to default prompt.
+ * Option for your own suit condition added to prompt.
+ * Assessment meter removed, people are wusses.
+as of 9-15-00:
+ * Fixed a major oversight in the skill table.
+ * Mazoku implemented for testing.
+ * Form, Develop, Morph, and Charge commands functional.
+ * Reform command now works.
+ * Mazoku damage resistance based on forms and matter is in.
+ * Formed weapons now do better damage, hit more.
+as of 9-18-00:
+ * The Damned clan founded.
+as of 9-19-00:
+ * Vice Freeze, Demona Crystal, and Mono Volt upped.
+ * Mazoku combat equations changed.
+as of 9-21-00:
+ * Vas gluudo gives some protection against shockshields.
+as of 9-22-00:
+ * Mazoku grow command implemented.
+ * Solarflare no longer useable on mortals.
+as of 9-24-00:
+ * Shelled/fired upon targets are no longer in combat.
+ * Damage to a suit damages the pilot.
+as of 9-25-00:
+ * Suit stats limited by assessment (Powerful for Gundams).
+ * Bug in suit damage fixed.
+as of 9-26-00:
+ * Mazoku astrike implemented.
+ * Essense gain on Mazoku kills increased.
+ * Fixed suit crash bug.
+ * Mortal regen upped.
+as of 9-29-00:
+ * Local suit attacks now trigger patryn shockshields.
+as of 9-30-00:
+ * Action in the arena visible in bleachers.
+
+end of archive
+~
+0 CHANGES10~
+changes archive
+
+as of 10-1-00:
+ * Mazoku can gain ego on kills.
+ * Mazoku parry and dodge improved.
+ * Silence/Info bug fixed.
+as of 10-2-00:
+ * Help dirs put in.
+as of 10-7-00:
+ * Mazoku pineal eye works.
+ * Suits won't set off shockshield on morted chars.
+ * Rounds end when target char is morted.
+ * Mazoku can no longer wear physical items.
+as of 10-9-00:
+ * Log out message bug fixed.
+ * Suit cap bug fixed.
+ * Astral vine no longer works on armor.
+as of 10-10-00:
+ * Faerie fire nerfed.
+as of 10-12-00:
+ * Mazoku instantiate ability implemented.
+ * Mazoku imbue ability implemented.
+ * Mazoku in battleform gain 3x essense, 1/3 exp.
+as of 10-13-00:
+ * Voting implemented.
+as of 10-14-00:
+ * Voting actually works, a number of bugs squashed.
+ * Mortals can vote, newbies cannot.
+ * Suit slash/punch on patryn shockshields fixed.
+as of 10-15-00:
+ * Some new imm tools.
+as of 10-20-00:
+ * Null recall rooms reset to Inner Ward.
+as of 10-22-00:
+ * Clan SYndicate disbanded.
+ * Fixed the multiple morting hits bug.
+as of 10-23-00:
+ * Newbie chars can now vote.
+ * Patched up the runeweave agg code.
+ * Two new runeweaves implemented.
+as of 10-25-00:
+ * Sorc offensive chant agging patched up.
+as of 10-26-00:
+ * Bug with sorc and patryn attacks fixed.
+ * Hotboot by Erwin S. Andreasen implemented.
+as of 10-28-00:
+ * Effectiveness of Kaiouken Attack vs dodge increased.
+as of 10-29-00:
+ * Water Shamanism upped, with longer cast times.
+ * Fixed a bug in examine.
+ * Who updated, can now 'who target'.
+ * Copyovers now save player corpses.
+ * Newbies can no longer loot.
+ * Most of earth shamanism in.
+ * Appearance of clanboard fixed.
+ * Clan Cales Umbra founded.
+ * Ferrous bleed capped at 3 affects.
+as of 10-30-00:
+ * Can no longer cast offensive spells on mortals.
+~
+
+0 CHANGES11~
+archive of changes
+
+as of 11-2-00:
+ * Windy shield bug with ranged suit firing fixed.
+as of 11-4-00:
+ * Blade Haut damage upped a bit.
+ * Timer on training avatar to prevent excessive gift caps.
+ * Error in the channels command fixed.
+as of 11-5-00:
+ * Quest from Abashi to be transed to inner ward.
+ * Uniques command implemented.
+ * Bug in humiliate on suited targets fixed.
+as of 11-6-00:
+ * Reworked shields check on suit attacks.
+as of 11-8-00:
+ * Fixed potential crash bug in kiwave.
+ * The Murasame now has the 'Demon Wave Motion Sword!' ability.
+ * The henshin pen's transformation adds some hit/dam.
+as of 11-10-00:
+ * Permanent siteban now works.  Fuckers.
+ * Ra-tilt nerfed vs players.
+ * Gatling gun range reduced to 2 rooms.
+ * Fixed a minor bug in Phoenix Aura.
+ * Added additional damage messages.
+as of 11-11-00:
+ * Fixed the info/silence bug again.
+ * Added a 'time' option to the quest command.
+ * Vayeate now has beam rifle and beam cannon.
+ * Wing zero fires Slightly faster.
+ * Deathscythe cloaker no longer functions at seriously damaged.
+as of 11-12-00:
+ * Mlist command implemented.
+ * Enemies leave combat the instant suits flee.
+as of 11-13-00:
+ * Shockshield affect of air on torso removed.
+ * Fire on torso now only affects Ki attacks.
+ * Air on torso acts to resist Sorcerous attacks.
+ * Patryns with certain tattoos can sense attempts to detect them.
+ * Thanks to Delar, crashes should no longer corrupt pfiles.
+as of 11-14-00:
+ * Patryn defenses toggle implemented.
+ * Wreck command implemented, for destroying unmanned mobile suits.
+as of 11-19-00:
+ * Additional air and fire tattoos on torso give more information.
+ * More than one air tattoo on torso has no additional affect on chants.
+as of 11-21-00:
+ * Bug with fists and suits fixed.
+ * Bug with who list fixed.
+ * Air tattoo on legs no longer adds attacks.
+ * Effectiveness of water on legs upped.
+ * Effectiveness of earth on legs upped.
+ * Assorted other changes to patryn combat.
+as of 11-22-00:
+ * Colorized, more compact score.  Yay.
+as of 11-23-00:
+ * Fixed the walk in, chant an offensive spell, walk out bug.
+ * Fixed the bug in chants that I just created... sigh.
+as of 11-28-00:
+ * Squashed a dupe bug.
+ * Saitech Kiaihou implemented.
+ * Maniacal+ no longer gain pks capping Powerfuls.
+ * Laguna blade no longer available to players.
+ * Black chants reorganized.
+ * The stupid ass assess thing in score is back.
+as of 11-29-00:
+ * Dynast Breath is now one line.
+as of 11-30-00:
+ * Dynast Breath no longer stacks.
+ * Fixed bug in suit movement.
+~
+
+0 CHANGES12~
+
+as of 12-1-00:
+ * Suit attacks are no longer targeted while in combat.
+ * Fixed longstanding bug in the fire command.
+ * Sorcerers can lose prepped spells when moving.
+as of 12-2-00:
+ * Fixed bugs in slash, punch, and fire targeting.
+ * Blade haut upped a bit.
+ * Holy resist affects runeweaves.
+ * Fixed another fire targeting bug.
+as of 12-3-00:
+ * Fixed another alignment problem with clanboard.
+ * Mbanish command implemented.
+ * Fixed a bug in the buster rifle.
+as of 12-4-00:
+ * Holy Resist affects mana drain.
+ * Fixed an examine targeting bug.
+ * Added ability to examine players.
+as of 12-6-00:
+ * Fixed lack of timer in many places.
+as of 12-9-00:
+ * Elite Daakir disbanded.
+ * Holy Bless now self only.
+ * Characters logging on to null rooms go to temple, not limbo.
+ * Ressurection can only be cast on group members.
+ * Training room in brawpoten linked.
+as of 12-10-00:
+ * Clan Forsaken founded.
+ * Hadoken combo moved to a lower slot.
+ * Shinkyuu Hadoken combo added.
+ * Blade Haut damage reduced slightly.
+ * Other shit I forgot.
+ * Blitz renamed to Maiden Masher.
+ * Suits can now move on air and water rooms.
+as of 12-12-00:
+ * Backstab damage reduction on saiyans removed.
+ * Backstab by sorcerer damage multiplier removed.
+ * Backstab damage reduction on sorcerers added.
+as of 12-13-00:
+ * Deathtouch damage no longer affected by stance.
+ * Palm thrust damage now a seperate type.
+as of 12-14-00:
+ * Henshin pen fixed.
+ * Leader/loserboards no longer corrupted when saved.
+as of 12-15-00:
+ * Leaderboard and Loserboard commands available again.
+ * Can no longer put items up for auction with a fight timer.
+ * Claim without argument no longer defaults to first item in inventory.
+as of 12-16-00:
+ * Shinkyuu Hadoken moved to another slot.
+ * Gadouken combo implemented.
+ * Hadoken and Jumpkick combos upped.
+as of 12-17-00:
+ * Leader and Loserboards not saving.
+ * Light grey now replaces ugly ass dark green zmud default color.
+as of 12-18-00:
+ * Keyword "saiyan" added to the Saiyan Battle Armor.
+as of 12-19-00:
+ * Ressurection can target mobs.
+ * Kiwave now hits fists 100% of the time.
+ * Loss of Ki from Kiwave reduced.
+ * Wait state affect removed from Kiwave.
+ * Kiwave back the way it was before the last three changes.
+as of 12-22-00:
+ * Mazoku regen in trueform upped.
+ * Mazoku xp penalty reduced.
+ * Mazoku eyesight now works.
+ * 'e' and 'E' options added to prompt for Mazoku.
+ * 'prompt mazoku' added.
+ * Reform command can be used in battle and human forms.
+ * Ego and Essense gain reworked.
+as of 12-25-00:
+ * Newlock implemented to deal with fuckheads on AOL.
+as of 12-26-00:
+ * Score now has armor listed.
+ * Mazoku in human form can wear non-astral equipment.
+ * Mazoku switching to non-human form drop non-astral equipment.
+as of 12-27-00:
+ * Bounty command implemented.
+ * Contracts command implemented.
+ * Bounty sets fight timer.
+as of 12-28-00:
+ * Minimum bounty of 10,000.
+ * Visfarank and Flow Break slots swapped.
+ * Old Thalos and Holy Grove removed.
+as of 12-29-00:
+ * Abri added.
+ * Fist chant toughness less sensitive to chant rank.
+as of 12-30-00:
+ * Config nofollow available.
+ * Attempting to enter unlinked areas can have.. unfortunate.. results.
+~
+
+0 CHANGES13~
+
+as of 1-1-01:
+ * Suicide command for under Powerfuls implemented.
+ * Clan leaders may pay 100k gold to have members banished offline.
+as of 1-2-01:
+ * Mobs can once again disarm.
+ * Replys go through notell.
+ * Mazoku charge command finished.
+ * Mazoku release command works.
+ * Mazoku charge updates correctly.
+as of 1-3-01:
+ * Mazoku gain nihilism on large injuries.
+ * Mazoku parry adjusted.
+ * Cerulean attacks bypass kiwall.
+ * Parry bonus removed from battle form.
+ * Visfarank more effective vs mobs.
+as of 1-4-01:
+ * Women's finger files no longer save as "It".
+ * Mazoku help files completed.
+as of 1-5-01:
+ * Part of abri connected.
+as of 1-6-01:
+ * Fixed a bug with firing on mortals.
+as of 1-7-01:
+ * Fixed saiyan unarmed parry.
+as of 1-8-01:
+ * Kiwall no longer spammable.
+ * Palm thrust upped VERY slightly.
+as of 1-12-01:
+ * Horadrim disbanded.
+ * Horadrim HQ removed.
+ * Can auction trash and some lights.
+ * Ra-tilt can hit apoc/guards, but not instakill.
+as of 1-13-01:
+ * Thanks to Xantos, new wizcommand "tard".
+ * First bits of a custom OLC implemented.
+ * Suit ammo and fuel now available in prompt.
+ * Redit name and description in.
+as of 1-14-01:
+ * Redit flags and sectors in.
+ * Astral eq destroyed when it leaves the owner.
+ * Columbo is a tard.
+ * Tards can't mjoin.
+as of 1-15-01:
+ * Dim-Mak discipline for Fists implimented.
+ * Prompt size expanded.
+ * Mazoku available for play.
+ * Mazoku hands don't need to be developed.
+ * Fixed more mazoku bugs.
+ * Mazoku teleport implemented.
+ * Mazoku Focus stat implemented.
+ * Mazoku in human form wielding weapons do normal weapon damage.
+ * Fixed Mazoku whirl.
+ * A whole bunch of minor Mazoku bug fixes.
+ * Fixed Mazoku insta-regen from mort.
+ * Added Mazoku Focus to level.
+as of 1-16-01:
+ * Smoothed the status curve of Mazoku.
+ * Mazoku eq is destroyed on being looted.
+ * Mazoku eq can not be gotten from corpse except by the original owner.
+ * Mazoku eq no longer vanishes on entering a corpse.
+ * Mazoku in battle or human form have infravision.
+as of 1-17-01:
+ * Reform base heal improved.
+ * Mazoku claws have an innate damage bonus.
+ * Non-unique items do not enter corpse on pdox caps.
+ * Mazoku claws do claw damage.
+ * Wind spells do more damage on patryns with water on torso.
+as of 1-19-01:
+ * Lowbie characters racking up kills may be promoted to higher status.
+ * Tied characters no longer follow their leader.
+as of 1-20-01:
+ * Effectiveness of Solarflare reduced.
+ * Fixed a bug with looting astral equipment.
+as of 1-21-01:
+ * Kiwave ki decrease lessened.
+ * Backstab, whirl, etc higher chance to hit.
+ * Astrike will not fail while in combat.
+ * Speed of most Wind school chants increased.
+ * Move cost of raging reduced slightly.
+ * Dim-mak spends Ki or move depending on what is available.
+ * Slight alignment changes in score.
+ * Less damage to fists from fist backstabs.
+as of 1-22-01:
+ * Dim-mak no longer lags the target.
+as of 1-24-01:
+ * Boost removed.
+ * Black chant Flame Breath implemented.
+ * Flame Breath damage lowered.
+ * New patryn runeweave to douse flames.
+ * Command smother is used to douse flames.
+ * Uppercut and gust interrupt rate improved.
+as of 1-25-01:
+ * Patryn resistance to runeweaves modded by fire/air on torso.
+ * Increased the speed of many low rank chants.
+ * Astral magic damage bonus on mazoku decreased.
+ * White magic damage bonus on mazoku increased.
+ * Kikouhou looks for targets in area.
+ * White sorcerers are affected by recovery while in combat.
+as of 1-26-01:
+ * Fistan denied, clan Forsaken disbanded.
+ * Clan Nazghul founded.
+as of 1-27-01:
+ * Mazoku wings fixed.
+ * Who clan or clanned available.
+as of 1-28-01:
+ * Fixed a nasty crash bug that didn't happen to leave a core file.
+ * Major internal changes to finger files.
+ * Minor cosmetic changes to finger files.
+ * Highest level mobs can see through deathscythe cloak.
+ * Some changes to the webpage database.
+as of 1-29-01:
+ * Finished characters have a fight timer to prevent logging an alt.
+ * Mazoku toughness in battleform decreased slightly.
+ * Mazoku toughness in human and trueform improved slightly.
+ * Mazoku take slightly more damage from ki flame.
+ * Dim-mak damage on true-form decreased.
+ * Dim-mak can now interrupt astrike.
+ * Characters which have not got one same-level cap in the last
+   week will fall off the leaderboard.
+ * Mazoku teleport now requires hp, mana, and move, as well as essense.
+as of 1-31-01:
+ * Fixed sorcerers walking out of fights by morting with fast cast spells.
+~
+
+0 CHANGES14~
+
+as of 2-2-01:
+ * Fireback toggle implemented.
+ * Clanguard level mobs are resistant to being blinded.
+as of 2-4-01:
+ * New anti-astrike runeweave.
+ * Bullets can be dodged.
+ * Suits can't dodge bullets.
+as of 2-6-01:
+ * Timer on being capped decreased.
+ * Max ego increased, effectiveness capped at 100.
+ * Min mob level for ego gain lowered.
+as of 2-9-01:
+ * Major internal changes for more information tracking.
+as of 2-11-01:
+ * Modified ventriloquate to make it less abuseable.
+ * Mazoku can no longer benefit from multiple forms' bonuses simultaneously.
+ * Fixed a bug that let Mazoku wear normal equipment in battle/trueform.
+as of 2-13-01:
+ * Leaderboard streamlined.
+ * Fixed leaderboard sorting again.
+ * Cosmetic fix to leaderboard.
+ * Reduced effectiveness of recovery while in combat.
+as of 2-15-01:
+ * Saiyan unarmed damage slightly less insane.
+ * Can no longer escape with high fight timer.
+as of 2-21-01:
+ * Ryuken cannot be used at low health.
+as of 2-23-01:
+ * Players can flee more easily from suits.
+as of 2-25-01:
+ * White sorc recov in combat is decreased only fighting players.
+ * Chaotic Disintegrate now has minimum # of hits.
+as of 2-28-01:
+ * Emotes colored.
+ * Emote coloring fixed.
+ * Suit flee with no fuel fixed.
+
+end of archive.
+~
+
+0 CHANGES15~
+
+as of 3-3-01:
+ * Failed login attempts are logged and coallated by IP.
+as of 3-9-01:
+ * Certain mobs buffed.
+as of 3-12-01:
+ * Chaos strings attack-reduction is applied to mobs only.
+ * Raywing reduces the number of attacks players get on sorcs.
+ * Mazoku can no longer charge outside combat.
+ * Charging is more powerful.
+as of 3-13-01:
+ * Leaderboard assess now includes a 'courage' factor.
+ * Fixed a tyoped crash bug.. sigh.
+as of 3-14-01:
+ * Recentered charge/release damage.
+as of 3-17-01:
+ * Affects are now applied by seconds, not ticks.
+as of 3-17-01:
+ * All attacks which start combat have lag on missed attempts.
+ * All characters fighting a character morted by a suit, leave combat.
+ * Affects durations are shows in minutes where necessary.
+as of 3-21-01:
+ * Seconds are shown with a leading 0 when less than 10, on affects.
+as of 3-22-01:
+ * HP and each classes second stat count more towards status than 3rd stat.
+as of 3-24-01:
+ * Can no longer suit train on players.
+ * Characters who gained suitskills on players will have their skills recentered.
+ * Can no longer quit out in gundam suits.
+ * Can auction lights.
+ * Suits only repop on reboots.  More to come..
+ * Hanger flag now available for purchase.
+ * Astrike less powerful, can be launched from any form.
+ * Astrike less expensive.
+as of 3-25-01:
+ * Kiwave works on saiyans 100%.
+ * Backstab on fists should no longer do insane damage.
+ * Saiyan innate resistance to ki flame attacks lessened.
+ * New secondary rune for patryns, "abjuration".
+ * New runeweaves for patryns, to ward off damage.
+as of 3-26-01:
+ * Gundams no longer load on characters who managed to save in them.
+ * 'act' formatting function sends "you" rather than your own name.
+ * Kiwall now had a higher minimum duration, and a maximum duration.
+ * Many affects have wear off messages to room.
+ * Added a site benefit to water ward.
+ * Refreshed kiwalls have shorter durations.
+ * Fol self is no longer affected by config +nofollow.
+ * Courage mod capped on both ends, so capping maniacals doesn't lower
+   assessment if you have a solid courage rating.  You happy?
+as of 3-27-01:
+ * Fist regen no longer works in suits.
+ * Most beneficial sorcerer spells and chants can be refreshed.
+ * Clan Renegades founded.
+as of 3-28-01:
+ * Hangers have a maximum capacity of four suits.
+as of 3-29-01:
+ * Can no longer flee into a clan which is not your clan.
+as of 3-30-01:
+ * Damage types affected by earth ward changed.
+as of 3-31-01:
+ * Fists can swap master commands, see HELP MASTER.
+
+end of archive
+~
+
+0 CHANGES16~
+
+as of 4-1-01:
+ * Fist master move damage depends on Ki, not the move itself.
+ * Fist combo 14 updated.
+ * Patryn Ball Lightning damage reduced to reflect weaker astrikes.
+ * Earth ward pumped a bit.
+ * Fixed a bug in how wards affected chant damage.
+ * Nexus expanded to 5x5.
+ * Retirement available for elder players, see announcements.
+as of 4-2-01:
+ * Wards actually fucking DO SOMETHING against chants.
+ * Suitstats have been recentered as necessary.
+ * New & improved deny command.
+ * New admin command, squish.
+ * Additional logging of specific types of actions.
+as of 4-3-01:
+ * Suits cannot be trained in hq, period.
+as of 4-7-01:
+ * Euthanasia retired.
+ * Legends of the first year of Chaosium appointed.
+ * Command "legend" available for Legends.
+as of 4-8-01:
+ * Dragon slave keeping going on being capped fixed.
+ * Patryn resistance to death touch based partially on air/torso.
+ * Sneak affect removed when damage is dealt.
+ * Global channels other than shout not available during pfights.
+ * Shout lag increased while in a pfight.
+ * During pfights, grouptalk only reaches group members in room.
+ * Fuck you.
+ * No, really.  FUCK YOU.
+ * Fixed the negative courage bug.
+ * Fixed gtell bug.
+ * Fixed the channels in combat thing, which was backwards.
+ * Sorcerer regen upped significantly.
+ * Chant costs upped significantly.
+ * Loserboard no longer available, check lamerboard.
+ * New patryn runeweave.
+as of 4-9-01:
+ * Sorc mana regen tweaked multiple times.
+ * Mazoku base regen upped a little.
+ * Astrike essense cost reduced.
+ * Astrike damage range narrowed.
+ * Several more runeweaves introduced.
+ * Fixed a missing affect of the runic curses.
+as of 4-11-01:
+ * Courage rating in finger file.
+ * Courage shows only on finger files of Unholy+.
+as of 4-12-01:
+ * Sorc mana regen not scaled on current mana for now.
+as of 4-13-01:
+ * Battlesense can only be used while in combat.
+ * Runic curses have longer durations.
+ * Fixed one means of fucking up titles.
+ * Exp gained from mobs Much weaker than you is scaled down.
+ * >200 unarmed skill no longer counts while mortal.
+as of 4-14-01:
+ * Steal removed.
+ * Exp penalty for underhunting recentered to protect newb areas only.
+as of 4-16-01:
+ * Battlesense may be used on mobs out of combat.
+as of 4-17-01:
+ * Astrike temporarily disabled.
+as of 4-18-01:
+ * Astrike enabled.
+as of 4-20-01:
+ * Runic curses can affect astral chants.
+as of 4-21-01:
+ * Fist master moves interrupt based on ki.
+as of 4-22-01:
+ * Dim-mak does extra damage on astriking mazoku.
+as of 4-24-01:
+ * Timer on kikouhou fixed.
+ * Ryuken fixed vs mobs.
+ * Astrike anti-dodge reduced.
+as of 4-25-01:
+ * Astrike anti-dodge increased a bit.
+ * Mazoku weakness to astral attacks decreased.
+ * Astral attacks can drain Mazoku charges.
+as of 4-26-01:
+ * Fixed a bug in the courage system.
+ * Follow is an avatar only command.
+ * Additional lag on training avatar.
+as of 4-27-01:
+ * Obsidian damage drains Saiyan powers.
+~
+
+0 CHANGES17~
+archive of changes
+
+as of 5-1-01:
+ * Characters retired from leaderboard, listed on leaderboard.
+ * Sea Cucumber Spin implemented.
+as of 5-2-01:
+ * Sea Cucumber Spin does not affect Unholy or higher status players.
+as of 5-6-01:
+ * Patryns get a new defensive runeweave.
+ * Increased Patryn ward protection against charge attacks.
+ * Added 'rake', 'gouge', and 'lash' weapon commands for Mazoku.
+ * Ego cost on astriking vs mobs reinstated.
+ * Material items are moved to inventory, not dropped, on astriking from human.
+ * Fixed fist master move interrupt rates.
+as of 5-14-01:
+ * Bug in color code fixed.
+as of 5-22-01:
+ * Bug in area damage chants fixed.
+as of 5-23-01:
+ * Can no longer log out in private rooms.
+ * Can no longer recall to private rooms.
+ * Can no longer home in private rooms.
+ * Players logging on in private rooms will be moved to temple.
+ * Can quit out in virgo suits.
+ * Gundams no longer save through copyovers.
+ * Some more defensive spells can no longer be cast on others.
+ * Rake has less lag, lash has more lag.
+ * Base patryn parry increased.
+ * Patryn parry bonus from tattoos decreased.
+as of 5-27-01:
+ * Anonbert retired.
+as of 5-28-01:
+ * Removed sorc bug where they could mort/kill something to leave fights.
+ * Automatic anti-spammer code implemented.
+ * Anti-spammer code applied to tells and replies.
+ * Members of disbanded clans are automatically banished.
+ * Clanhopping increases the cost of joining a clan.
+ * Mazoku in trueform have increased chance of dodging astrike attacks.
+as of 5-29-01:
+ * Balus wall now an affect rather than a flag.
+ * Combos 14 and 15 swapped.
+ * Balus wall no longer drops on ticks.
+as of 5-30-01:
+ * Windy shield fixed to favor Shamans.
+
+end of archive
+~
+
+0 CHANGES18~
+archive of changes:
+
+as of 6-2-01:
+ * Clan diplomacy system implemented.
+ * Diplomacy command available.
+ * Diplomacy set available to clan leaders.
+as of 6-4-01:
+ * Hanger in Teikoku fixed.
+ * Sorc mort/flee bug fixed again.
+ * Kiwall gives added save vs spell against black chants.
+as of 6-6-01:
+ * Patryn runeweaves pertaining to saiyan combat sped up a little.
+ * Fist master moves interrupt more based on ki than chant lines.
+as of 6-9-01:
+ * Fight timers no longer can be reduced by fighting lowbie chars.
+as of 6-10-01:
+ * Quivering Palm actually steals Ki like it's supposed to.
+as of 6-12-01:
+ * Patryn anti-saiyan runeweaves slowed down a bit.
+as of 6-14-01:
+ * Fist master move chant interrupts fixed for one last motherfucking time.
+as of 6-15-01:
+ * Elbow and Uppercut cannot be targeted on mortals.
+as of 6-16-01:
+ * Runic curses sped up slightly.
+ * Fixed a bug which caused players turning unholy to have low courage.
+as of 6-17-01:
+ * Defense implemented for Sorcerers.
+ * Fist resistance to chants increased.
+ * Defense cost upped, cannot be refreshed.
+ * Lag on patryn elemental wards reduced.
+as of 6-18-01:
+ * Cerulean attacks no longer do double damage through kiwall.
+as of 6-19-01:
+ * Mazoku morphing to human form automatically form hands.
+ * Mazoku cannot form weapon in human form.
+ * Autospammer code no longer affects info and fatality channels.
+as of 6-21-01:
+ * Quivering Palm combo can drain mana from non-fists.
+ * Fist resistance to chants lowered slightly.
+ * Duration of defense lowered.
+ * Defense decreased to one line.
+as of 6-24-01:
+ * High level mobs can knock down Defense.
+ * Quivering palm can reduce mana of target to 1, rather than 1000ish.
+ * Mega brand lag increased, damage decreased.
+as of 6-29-01:
+ * Fist resistance to sorcerer chants decreased.
+ * Cerulean attacks pass through kiwall rather than doing 2/3 damage.
+
+end of archive.
+~
+
+0 CHANGES19~
+
+as of 7-1-01:
+ * Kiwall increases save vs spell against all chants.
+ * Boot to the Head damage increased.
+as of 7-2-01:
+ * Healers no longer bless.
+as of 7-3-01:
+ * Blade Haut knocks down figureeight.
+as of 7-4-01:
+ * Combo 25 no longer has lag.
+ * Runic wards absorb more of some types of damage.
+as of 7-16-01:
+ * Kaiouken has a short base duration.
+ * All sorcerer chants can decrease the effectiveness of mazoku charges.
+ * Fist master moves do static ki.  May be temporary.
+ * Patryn anti-bolt/flame runeweaves now reflect rather than block.
+ * New patryn runeweave to absorb drains.
+ * Mazoku cannot astrike blind.
+as of 7-17-01:
+ * Automatic bugged mob scans and extraction implemented.
+ * Sanity check on experience gains implemented.
+ * Bug in negative protection runeweave fixed.
+as of 7-18-01:
+ * Self healing with drain on negative protection removed.
+ * Quivering palm now steals half of Ki.
+ * Runic curses are slower.
+as of 7-21-01:
+ * Fist ki back to being semi-random.
+ * Chance of missing ki decreased.
+as of 7-26-01:
+ * Dim-mak lag decreased.
+ * Hadoken damage improved, does increased damage vs evil targets.
+ * Mazoku are now forced to be aligned evil.  No-brainer, but forgot this.
+ * Maximum duration of kaiouken attack decreased.
+ * Miral retired.
+ * Kaiouken attack can punch through windy shield.
+as of 7-28-01:
+ * Fixed bug with negative protection not wearing off.
+as of 7-29-01:
+ * Patryn heal does slightly less in combat.
+ * Ball lightning does slightly more damage.
+~
+
+0 CHANGES20~
+recent changes:
+
+as of 8-05-01:
+ * Boot to the head and toe stomp damage can be blocked with Defense.
+as of 8-12-01:
+ * Boot damage reduced.
+as of 8-13-01:
+ * Boot damage about halfway between it's previous high and low.
+as of 8-14-01:
+ * Multiple bugs in the return command squished.
+ * Ingen has been upgraded.
+as of 8-17-01:
+ * Kamehameha damage range is narrower.
+ * Pikachu, Bulbasaur, and Squirtle a bit more dangerous.
+as of 8-19-01:
+ * Unmaxed characters do less damage to PCs based on legend.
+ * Ventriloquate no longer available to players.
+as of 8-24-01:
+ * Combine command removed so as not to overlap with combo.
+ * Obsidian bolts 'haze' affect assigned after toughness & kiwall damage reduction.
+ * Obsidian bolts 'haze' affect per damage increased.
+as of 8-26-01:
+ * Astrike no longer moves mazoku to battleform automatically.
+ * Morphing to true removes normal items instead of dropping them.
+ * Mobs can cap while the mud is peaced.
+ * Several other bug fixes.
+as of 8-27-01:
+ * Fist resistance to chant damage increased.
+ * Fist physical damage when affected by chaos string decreased.
+ * Black sorc damage spells upped a little.
+as of 8-28-01:
+ * Mazoku damage in human form improved.
+ * Elmekia flame damage decreased.
+as of 8-31-01:
+ * Crystal Palace area by Legion added.
+ * Auto-justification installed for room descs.
+~
+
+0 CHANGES21~
+recent changes
+
+as of 9-05-01:
+ * Bug in inner fire fixed.
+as of 9-07-01:
+ * Kaiouken shortened drastically.
+ * Phoenix aura less effective at low ki, more effective at high ki.
+ * Kame-hame-ha is now delayed blast.
+as of 9-10-01:
+ * New runeweave for patryns.
+ * New area Darkenmire by Ithaqua added.
+ * Bug in the new runeweave fixed.
+as of 9-13-01:
+ * Fixed a bug in flee.
+ * Fixed a targeting bug in Kamehameha.
+as of 9-14-01:
+ * Mazoku do less damage to suits.
+as of 9-15-01:
+ * Freshmeat can be finished by mobs.
+ * Fixed a bug in Kamehameha.
+as of 9-16-01:
+ * Fixed a bug in saiyan resistance to fire attacks.
+ * Teleport can no longer send players to quest areas.
+ * The Hitokiri Battousai is finished, should have all necessary progs.
+ * Mobprog memory allocation changed from alloc_mem to malloc.
+as of 9-19-01:
+ * New area the Labyrinth by Varnus added.
+as of 9-20-01:
+ * Fixed suit fire wrapping through loop rooms.
+ * Spawn rate in PV decreased.
+ * Eat my nads, botters.
+ * Astrike nerfed.
+as of 9-21-01:
+ * Implemented no_loot items.
+as of 9-22-01:
+ * Teleport no longer available to sorcerers.
+ * Timed copyovers implemented.
+as of 9-23-01:
+ * Apurge implemented.
+ * Fixed a bug in Leo default armor.
+~
+
+0 CHANGES22~
+past changes
+
+as of 10-6-01:
+ * Solarflare starts combat.
+as of 10-8-01:
+ * Combo 29 implemented.
+as of 10-9-01:
+ * Fixed several 29 related bugs.
+as of 10-11-01:
+ * Multiline chanting removed.
+ * Added 'mystic energy' value for sorcerers.
+ * Added prompt variables for sorcerer values.
+ * Added concentrate and prepare commands.
+ * Added spell-base sorcerer melee round damage.
+ * Linked sorcerer chant damage to accumulated mystic energy.
+ * Removed the to-hit penalty of blindness.
+ * Prompt sorcerer added.
+as of 10-13-01:
+ * Kame-hame-ha targets by full name.
+ * Chant queueing system added.
+ * Chants target by full name.
+ * Mana cost for chants removed.
+ * Mana cost of spell melee decreased.
+ * Blind harder to land.
+ * Judicator's Ire lasts as long as golden/dark blaze.
+as of 10-14-01:
+ * Fixed solarflare bug.
+as of 10-15-01:
+ * Sorc chant queing functional, tentatively.
+ * Steely aura fixed.
+ * Steely aura effect decreased.
+ * Armor switched to heal on healer scripts.
+as of 10-16-01:
+ * Chance of fleeing in 1v1 decreased; rest remain same.
+ * The Hitokiri Battousai mob made pretty much unbeatable.
+as of 10-17-01:
+ * Added cflag command for retirees.
+ * Quest delay on fail for patryn and fist decreased.
+ * Fixed Fist backstab vs Mazoku.
+ * 9th Lcommand "soul reaver" implemented.
+ * In other news, Hell froze over.
+as of 10-18-01:
+ * Satrap's Castle opened for general use.
+ * Melee component of fist combos less effective in defensive stances.
+as of 10-20-01:
+ * Karma implemented.  What goes around, will come around.
+as of 10-25-01:
+ * Limitations placed on bandage.
+ * Legend removed from damage calculation.
+ * Status under Unholy modifies damage on players, high level mobs.
+as of 10-27-01:
+ * Attacks in Kaiouken disrupt fist Ki.
+ * Fixed the Kaiouken ki disruption, no ki below zero.
+as of 10-28-01: 
+ * When killed, Saiyans respawn with half of max str/spe/aeg.
+~
+
+0 CHANGES23~
+Past changes:
+
+as of 11-03-01:
+ * Restore option added to spend.
+ * Some help files added or updated.
+as of 11-07-01:
+ * Increased the ratios necessary for some courage ratings.
+ * More work on sorcerer chant times.
+ * Added additional prompt information for sorcerers.
+ * Implemented flamethrower.
+ * Implemented miniguns.
+as of 11-10-01:
+ * Added crasher fuel to suit prompt variables.
+as of 11-18-01:
+ * Fixed lashing with heat rod.
+ * Uniques should now be non-transferable, save by looting.
+ * Uniques may not be looted by characters below Unholy.
+ * Logging out within fifteen minutes of looting a unique strips uniques.
+ * Auto-stripped uniques are now sent to a random room.
+as of 11-19-01:
+ * Added hit/dam to the journeyman's boots.
+as of 11-20-01:
+ * Missile item changed from equipment to munition.
+ * Salvo command added.
+ * Missiles implemented.
+ * Some suits move slightly faster.
+ * All suits which can use missiles, come with the option installed.
+as of 11-21-01:
+ * Poison duration decreased, no longer cumulative.
+as of 11-27-01:
+ * One character only may be logged on per IP. Period.  
+ * No, I don't give one fat fuck that you're on a "home network".
+as of 11-28-01:
+ * Bug in the anti-MP code fixed, can log back on from being LD.
+ * Another bug squashed.
+~
+
+
+0 CHANGES24~
+past updates:
+
+as of 12-02-01:
+ * A bug in Shinkyu Hadoken kluged.
+ * Bug in finish and humiliated fixed, no capping while in combat.
+as of 12-03-01:
+ * Fixed a bug in fight_progs.
+as of 12-05-01:
+ * Added "from" functionality to boards.
+as of 12-07-01:
+ * Fixed the capping in combat bug.. again.
+ * Mazoku may not prep astrikes.
+as of 12-11-01:
+ * Mazoku slightly more vulnerable to ki flame attacks.
+ * Mazoku nihilism grants resistance to ki flame.
+ * Fixed broken light in Labyrinth.
+ * Kiaihou protects saiyans from aegis loss from missile hits.
+as of 12-12-01:
+ * Mjoin is now non-combat only.
+as of 12-14-01:
+ * Salvo does not put the attacker in a combat state.
+ * Salvo respects the target's fireback toggle.
+as of 12-16-01:
+ * Spammer code now adds a fight timer as well.
+~
+
+0 CHANGES25~
+archive of changes
+
+as of 01-02-02:
+ * Another "dead" mob in midgaard fixed.
+as of 01-17-02:
+ * Fist combo 21 improved slightly.
+ * Added preliminary version of random loot generator.
+ * Added materia type items to game.
+ * Added Hardened (H) flag to game: cannot be quest altered or enchanted.
+ * Removed Land of the Fire Newts area.
+as of 01-18-02:
+ * Upped random loot gen rate.
+ * Can no longer use report while morted.
+ * Fixed a bug in the weapon and random item naming tables.
+as of 01-28-02:
+ * Added a couple new teleports to Abashi.
+as of 01-30-02:
+ * Missed salvos cost missiles.
+~
+
+0 CHANGES26~
+archive of changes
+
+as of 02-07-02:
+ * Regen room flag added.
+ * Clan Divergent founded.
+as of 02-08-02:
+ * ILAB OLC modified and implemented for MERC.
+ * Added the saving of archaic values in OLC.
+ * Procedures added for saving MOBProgs.
+ * OLC respects clan values for rooms.
+as of 02-09-02:
+ * Suits should respawn correctly.
+as of 02-11-02:
+ * Prototype damage tracking added to characters.
+as of 02-12-02:
+ * Drain block applies to both hp and mana drain.
+as of 02-19-02:
+ * Sorcerer spell damage reduced.
+ * Holy resist can absorb a limited number of dispells.
+ * 50 primal is now necessary to mjoin.
+as of 02-20-02:
+ * Effectiveness of hit and dam scaled by eval.
+as of 02-21-02:
+ * Lag on lash increased.
+as of 02-28-02:
+ * Sanity check cap on exp raised.
+~
+
+0 CHANGES27~
+Past changes.
+
+as of 03-05-02:
+ * Fixed a serious pfile corruption bug.
+as of 03-06-02:
+ * Fixed a bug in corpse creation which was capable of spamming logs.
+as of 03-20-02:
+ * Hitroll no longer affects sorc mystical melee attacks.
+ * Wait on sorcerer chants recalibrated.
+as of 03-25-02:
+ * Nihilism offers some protection against chant damage.
+ * Sorcerers are temporarily unable to cap or be capped.  See announce.
+ * Patryn resistance to chant damage based on fire + earth, for now.
+ * Sorcerers playable for testing.
+ * Sorcerer chanting while blinded tweaked.
+ * Decreased the effect of ressurection.
+as of 03-26-02:
+ * Fixed a bug in dispel magic.
+ * Most interrupt abilities once again break chants.
+ * Sorcerers once again lose chants on mortally wounded status.
+ * Combat should end correctly when targets are morted by sorcerers.
+as of 03-27-02:
+ * Fixed a crash bug in diem wing.
+ * Fixed a typo in the "burning" affect message.
+~
+
+0 CHANGES28~
+For past changes see CHANGES01 through CHANGES27.
+
+as of 04-02-02:
+ * Decreased the number of potential hits on chaos strings.
+ * Swapped the ranks of Laphas Seed and Chaos Strings.
+ * Ryuken once again interrupts chants.
+ * Ryuken and Kiwave have interrupt messages.
+ * No more checks for mana when chanting spells.
+ * Low mystic levels affect the Defense chant.
+ * Non-damaging but offensive chants now start combat.
+ * Fixed a bug in chants.
+ * Fixed visfarank.
+ * Congratulations to the legendary and notable warriors of this year!
+ * Removed the extra damroll in holy bless.
+as of 04-03-02:
+ * Fixed typoes in recovery and ressurection.
+ * Damage spells cast on self no longer agg self.
+ * Cast speed of wind magic chants decreased across the board.
+as of 04-04-02:
+ * Hopefully fixed a bug in corrupted chant lists.
+as of 04-12-02:
+ * Delay on Dynast Breath and Dill Brand decreased.
+ * Interrupt message added to dim-mak.
+ * Duration of Dynast Breath increased.
+as of 04-30-02:
+ * Fixed a bug in fight timer assessment on being capped.
+ * Added auto-copyover code to handle excessive memory usage.
+~
+
+0 CHANGES29~
+For past changes, see changes01 through changes27
+
+as of 05-02-02:
+ * Sorc spells cast at range respect config -fireback.
+as of 05-03-02:
+ * Uniques now load on boot, cannot be quit out with.
+ * Characters below Powerful cannot pick up uniques.
+ * Mortals cannot pick up uniques.
+ * New pkill recording system.
+ * Pkstat command to check new pk record.
+ * Uniques no longer save in corpses over copyovers.
+ * Players cannot possess more than one unique at a time.
+ * Crash bug in descs fixed.
+as of 05-03-02:
+ * Fixed unique stats on copyover.
+as of 05-05-02:
+ * Fixed a bug in an OLC function.
+as of 05-07-02:
+ * Kiwave staggers sorcs 100%.
+ * Dill brand effectiveness reduced.
+ * Mystic melee can be dodged.
+ * Dill brand effectiveness restored.
+ * Mystic melee cannot be dodged.
+ * Saiyan resistance to mystickal damage improved.
+ * Pkstat no longer shows the location of kills.
+ * Pkstat now shows a timestamp before every kill.
+ * Saiyan resistance to mystickal damage actually works.
+ * More intelligent finish and humiliate commands.
+as of 05-07-02:
+ * Sorc mystic melee damage less modified by sorc stance.
+ * Peace command stops all prepped spells.
+ * Pkills now save.
+as of 05-14-02:
+ * Sap now gives a fight timer.
+as of 05-18-02:
+ * Pkills now record how much damage the loser inflicted on winner.
+ * Pkills now decay after one week.
+ * Pkstat has been reformatted.
+ * Pkill records should be saved in order from now on.
+ * Pkill records have been wiped to test the above.
+as of 05-20-02:
+ * Damroll damage bonus increased very slightly.
+ * Damroll damage bonus modified for mobs.
+as of 05-24-02:
+ * Mechanics are no longer punching bags.
+ * Curve on hit/dam for hardened weapons softened at high end.
+~
+
+0 CHANGES30~
+archive of changes.
+
+as of 06-08-02:
+ * Fixed a bug in solarflare aggroing.
+as of 06-12-02:
+ * Added 'd' option on prompt which only shows enemy condition in fights.
+ * Added a nodesc option on config.
+as of 07-03-02:
+ * Lag added to loading suit missiles.
+as of 07-29-02:
+ * Fixed a bug in whirl which allowed mortals to autostance avatars.
+as of 08-21-02:
+ * Failed loots no longer increase the loot count on player corpses.
+as of 08-25-02:
+ * Fixed massive bug in looting of astral eq (thanks Stormbringer, Toccata).
+as of 09-12-02:
+ * Retired players cannot use the auction channel to bid or sell.
+ * Retired players cannot use dare.
+as of 10-12-02:
+ * Fixed alignment of clanboard.
+~
+
+0 CHANGES31~
+archive of changes.
+
+as of 10-18-02:
+ * Removed alignment from mobs and players.
+ * Removed all references to alignment from code.
+ * Holy Blaze effect damages all mob targets.
+ * Holy & Dark Blaze AC modifiers decreased, Judicator's Ire AC mod increased.
+ * Combo now accepts arguments, for combo 29, arguments are 'holy' and 'dark'.
+ * Added clan stat to mobiles (as opposed to clan flag); internal thing.
+as of 10-19-02:
+ * Kiwave can interrupt Mazoku charging.
+as of 10-21-02:
+ * Masenkou changed to Masenkouha, delay affect.
+ * Solarflare chance to hit improved.
+ * Nonote command added.
+ * Disabled private rooms.
+ * Fixed a targeting bug in the burst command.
+ * Fixed a bug causing crashes when mobs wielded weapons.
+as of 10-22-02:
+ * Added 'nodrop' option to quest for 25,000 gold.
+ * After TWO FUCKING YEARS finally smashed the no-index obj loading crash bug.
+ * Removed Holy Grove, Old Thalos, Megacity 1, Arachnos.
+ * Dark Blaze intimidates low level mobs.
+ * Removed Chapel Catacombs.
+ * Fixed several odd targeting chants.
+as of 10-24-02:
+ * Can no longer quest remove the nodrop flag.
+as of 10-25-02:
+ * Masenkou Ha no longer goes off when mortally wounded.
+as of 10-26-02:
+ * Fixed a crash bug with mobs that summon vampires.
+~
+
+0 CHANGES32~
+archive of changes.
+
+as of 11-04-02:
+ * Fixed longstanding bug in runic wards that made them work backwards.
+ * Power of various wards tweaked to reflect current balance.
+ * When wards are broken due to damage, they will generate wear off messages.
+ * Crimson flame damage now checks against both earth and fire runes.
+ * Lag on runic wards increased.
+ * Quivering palm adds target ki / 2 - 1, so no more 10/20 cycle.
+ * Quivering palm can now drain Saiyan fighting power.
+as of 11-05-02:
+ * Mobiles are less likely to assist different mobiles.
+ * Astral vine reimplemented.
+ * Astral vine chances modified by AC bonuses.
+ * Several high enchant weapons with AC bonuses have been altered to reflect the above.
+ * Several weapon carrying mobs have been upped.
+as of 11-06-02:
+ * Improved the AI and powers of certain shadows.  Watch your ass.
+ * Mobiles can now take advantage of grouping.
+as of 11-09-02:
+ * Can now "group all" to join all following persons in room.
+as of 11-11-02:
+ * Can no longer fly home out of retirement.
+ * Uniques out of the game until they work right.
+ * Fixed a crash bug in voting.
+ * Added immcommand 'changeclass'.
+as of 11-12-02:
+ * Fixed a bug in runic wards, some were wearing off too slowly.
+ * Fixed a bug in chant damage vs runic wards.
+ * Improved the system by which mobs cap players.
+as of 11-16-02:
+ * Soul reaver now regenerates mana and moves.
+ * Soul reaver is limited by damage inflicted.
+ * Fixed a bug in the ansi command.
+as of 11-18-02:
+ * Can auction materia.
+as of 11-25-02:
+ * Dark Blaze drain now regenerates move as well as health.
+ * Mobiles can finish sorcerers.
+as of 11-27-02:
+ * Lag on masenkouha decreased slightly.
+~
+
+0 UPDATES NEWUPDATES~
+for past changes, look at HELP CHANGES01 through CHANGES32.
+
+as of 12-11-02:
+ * Patryn fire and lightning damage no longer drops aegis.
+as of 12-13-02:
+ * Patryn fire and lightning damage no longer drops aegis.  For real.
+as of 01-22-03:
+ * Wake no longer wakes up morted characters.
+as of 02-17-03:
+ * Sorcerers are open for pking again, might as well.
+as of 04-21-03:
+ * Flame Ward now reduces ki flame/crimson damage by a set amount rather than a %.
+as of 04-28-03:
+ * Fixed the gold dupe.
+as of 05-25-03:
+ * Fixed the bug allowing suit pilots to fly while tied.
+as of 07-07-03:
+ * Pending consideration, kaiouken improves chances of dodging.
+as of 07-19-03:
+ * Karma disabled.  Don't be a fucking cheapshit or I'll zot you.  I don't care anymore.
+as of 07-30-03:
+ * Battlesense describes Mazoku nihilism.
+as of 08-27-03:
+ * Fixed a bug that has been crashing the mud constantly for weeks.
+as of 09-06-03:
+ * Fists can no longer prep combos by recalling or relogging.
+as of 09-09-03:
+ * Patryn earth ward damage absorption decreased slightly, duration improved.
+ * The fist combo Quivering Palm can now drain Kame-hame-has and Masenkou-has.
+~
+
+
+0 TODO PROJECTS~
+This is a list of the projects I'm currently working on.  They
+are arranged by priority, top to bottom, though sometimes I'll
+work on something sooner than planned if it turns out to be
+particularly easy or important.
+
+ + Mazoku improvements
+ + Patryn improvements
+ + Random gen armor
+ + Soldier class
+ + Stability issues
+
+~
+
+0 GWNEWBIE~ 
+This is a help file for those of you who have never played godwars
+before.  While this mud is not a Godwars code, it is modified to play
+and act like it.  It is a heavy pk mud, and we do encourage you to rip
+off as many heads as possible. The first major difference is there are
+no levels here.  You gain strength by killing mobs for experience which
+is then used to 'train' your statistics.  Experience is also used to buy
+your class powers.  You can do this anywhere, you don't even have to be
+near a guildmaster.  Also, we have edited  the Damroll and Hitroll formulas.
+You are not penalized for having bad eq, instead it is an added bonus.
+This means until you start to fight the HIGHEST mobs, and players, eq
+isn't needed.  We feel this will help you get into the game faster, and
+start having more fun. Overall this is a very fun code to play, and I hope
+you enjoy it.
+
+See also, Help: avatar, claim, train, level, practice, stance, status,
+paradox, classes, godwars, gwcommands, legend
+~
+
+0 AVATAR~
+An avatar is basically a pkiller.  You can become an avatar by training it.
+This means mobs will no longer kill you, they will only send you to -10 hp.
+If the mob is aggresive they will continue to do this until you use the
+escape command.  Overall this mud should be newbie friendly, so there
+shouldn't be anything stopping you from becoming an avatar.  The benefit of
+having access to your class powers is huge, it will allowed you to gain
+experience much faster.  Train avatar when you can, sure there may be an
+asshole who kills you, but there are 5 other people willing to help you.
+~
+
+0 CLAIM~ 
+When you claim ownership an item it costs 250 primal points.  What this
+does is it makes you the owner of that item.  When you die the item will
+travel with you, making it unlootable.  However if you drop the item or
+lose it in some other way, it can be taken by anyone.  You will still be
+the owner, but you will have to devise some plan to get it back into your
+possession.  Ownership here is NOT like claim on other Godwars.  There is
+no call command.  It is advised you claim ownership if only items you
+wouldn't want to lose, and put the rest in a container you own.
+~
+
+0 TRAIN~
+Training is how you increase your statistics.  You can train your
+hp/mana/move here for experience.  The cost is equal to your current max
+in that statistic.  If you have 5002 hp, it will cost 5002 experience for
+that next point.  You can also train your body/mind/spirit/will power (see
+help stat).  Primal is a way to channel your experience points, every point
+has an increasing cost.  Primal is used to gain some classpowers.  Training
+avatar will make you pkable, but it is also used to activate your class
+powers.  That is basically all there is to training, and remember, train
+anywhere, and everywhere!
+~
+
+0 LEVEL~
+When you type level you will see three things: weapons, stances, and your
+ratings in some class powers.  The weapons and stances can only be improved
+by using them, and the classpowers are increased in various ways (depending
+on your class).  The first section is the weapons.  It is advised you max
+all weapons at 200.  Your chance to parry depends on your skill in your
+opponents weapon.  If Bob is using claw, and I have 0 in it, I will not
+parry many blows.  The same holds true for stances, you should max them all.
+~
+
+0 PRACTICE~
+Practice will give you a short list of skills you can improve in.  This
+costs experience.  The list of skills is short, because many of the other
+things were useless, or we have added a different command to replace them.
+Just practice everything to 100.
+~
+
+0 STANCE~
+The first thing you should know about stances is the autostance command.
+By typing 'autostance lion' you will automatically assume the lion stance
+when combat begins (in most cases).  There are 2 rows of stances, the top
+level being basic and the bottom being advanced.  Every advanced stance has
+a prerequisite of 2 basic stances that must be master before it can be used.
+The offensive stances are on the left and the defense are on the right.
+You can also gain a small advatage in combat by outstancing your opponent.
+In general a stance will beat the one one its left, for example eagle beats
+hawk.  The one exception to this is hawk will defeat stork, making the circle
+complete.  Everyone's stances are maxed at 200, the exception being the fist
+class who gets them to 300.
+~
+
+0 AUTOSTANCE~
+Syntax: autostance <some stance>
+
+Autostance selects a stance which you will automatically assume when you
+start fighting.  If you attack or whirlwind attack somebody, or they attack
+you in these ways, your autostance will kick in.
+
+For a list of stances, see level.
+~
+
+
+0 PARADOX~
+2nd classes may safely finish 2nd classes.
+1st classes may safely finish 1st classes.
+Powerfuls my safely finish Powerfuls and above.
+
+If a 1st class or higher finishes a character of a lower assessment, they
+will be paradoxed for their cowardice: teleported to midgaard, mortally
+wounded, and frozen for around thirdy seconds.
+
+If a 2nd or 1st class kills above it's level, they will be deemed 'fair game',
+and made cappable by anybody.  So.. don't escape cap far stronger players.
+~
+
+0 WHIRL~
+Syntax: whirl
+
+This skill allows you to execute a whirlwind attack, which hits everybody
+in the room.  While not very accurate, it is a good way to get a fight going,
+and as you spin around madly whacking everythign you may even hit things or
+people you can't see.
+~
+
+0 SORCERER SORCERERS~
+Sorcerers are human practitioners of the mystic arts.  They call on powerful
+forces of good and evil, as well as natural spirits, to create supernatural
+effects through force of will.  While often skilled with weapons by mortal
+standards, they are spellcasters first and warriors second, and prefer to
+attack with their magic.  While vulnerable in the physical sphere, they are
+the most powerful in the mystic sphere since the corruption of Rune Magic.
+
+ (*) Chant: Utter the words to activate a sorcerous spell.
+ (*) Research: Learn more about a school of magic.
+ (*) Specialize: Focus ones training on a particular branch of magic.
+ (*) Concentrate: Toggle the conversion of mana to mystic energy.
+ (*) Prepare: Select a school of magic to use for melee-round attacks.
+
+See help files on: CHANT, RESEARCH, SPECIALIZE, MYSTIC, BLACKMAGIC,
+WHITEMAGIC, WINDMAGIC, EARTHMAGIC, FIREMAGIC, WATERMAGIC, ASTRALMAGIC.
+
+~
+
+0 MYSTIC 'MYSTIC ENERGY'~
+Mystic energy is the basis for sorcery, the raw power than is focused into
+physical effects.  There is a finite limit on how much any human sorcerer
+can hold at any time, however, and if they exhaust their store without
+taking the time to replenish it, they will find it spread too thin in their
+spells for them to have much effects.
+
+A sorcerer's store of mystic energy restores itself slowly on it's own.
+Sorcerers can increase the rate of restoration by concentrating their mana
+into mystic energy.  See HELP CONCENTRATE.
+~
+
+0 CONCENTRATE~
+Syntax: concentrate
+Example: concentrate
+
+The concentrate command toggles the conversion of mana into mystic energy.
+When a sorcerer is concentrating, their mana will drop rapidly when it is
+being used to refill their store of mystic energy.  With concentrate toggled
+off, sorcerers can regenerate their mana.
+~
+
+0 CHANT~
+Syntax: chant '<spell>' [target]
+Example: chant 'balus rod' orc
+Example: chant 'rubyeye blade'
+
+Sorcerery is driven by words of power and invocations to dark, light, and
+neutral spirits.  In come cases, only a couple words must be spoken, however
+in the case of more powerful spells, several lines must be spoken.  The
+spell need only be chanted once, and you will continue the chant until it
+is complete or interrupted.
+~
+
+0 RESEARCH~
+Syntax: research <school of magic>
+Example: research black
+
+Sorcerers learn more about the various schools of magic by researching them.
+This costs primal, in increasing ammounts as the rank attained increases.
+Sorcerers specialized in a given school can achieve a greater mastery of
+that school than other sorcerers.  Specialists can achieve 50 ranks, while
+the unspecialized can achieve 40.  Specialists also pay a slightly lower
+cost for researching their chosen speciality.
+~
+
+0 SPECIALIZE~
+Syntax: specialize <branch of magic>
+Example: specialize white magic
+
+Nearly all sorcerers focus their studies on one particular type of magic.
+While this doesn't exclude them from learning other types, they become most
+proficient in this one type.  The three branches of magic are Black magic,
+White magic, and Shamanism.  It should be noted that while black and white
+are schools of magic themselves, there are five schools of shamanistic magic.
+Also, specializing for the first time is free, but a sorcerer wishing to
+change specialty must overcome their past training, and pay a horrendous
+cost for it.
+~
+
+0 CONCENTRATE~
+Syntax: concentrate
+Example: concentrate
+
+Toggles whether a sorcerer concentrates their mana into mystical energy
+quickly.  Without concentrating, no mana is spent, and mystical is regained
+at approximately one point per second.  When concentrating, mana is spent
+and mystical regained five times or more faster.
+~
+
+0 PREPARE~
+Syntax: prepare <magic school/none>
+Example: prepare astral
+
+By preparing to use a school, sorcerers can substitute magical damage for
+their melee round.  Only some spells are fast enough casting to be used
+as such; the most powerful fast-casting spell you know in the chosen school
+will be used.  Prepare none to switch back to normal melee.
+~
+
+0 BLACKMAGIC~
+This is an abbreviated list of Black Magic spells, including ranks of
+Black Magic needed to cast, name, and a short description.
+
+Name          Ranks  Description
+Balus Rod     1      Attack enemy with a whip of energy.
+Disfang       4      Summon a shadow dragon to bite at the enemy.
+Dolph Zork    7      Summon a temporary blade of ice.
+Dynast Brass  10     Attack enemy group with lightning.
+Blast Ash     13     All or nothing attempt to annihilate the target.
+Ferrous Bleed 16     Dissolve enchantments on target, hurting them.
+Hell Blast    19     Attack target with negative energy, healing self.
+Zelas Brid    22     Attack target with a Laser-like beam of dark energy.
+Dolph Strash  25     Attack target with a lance of ice.
+Rubyeye Blade 28     Summon a sword of pure dark energy.
+
+Dynast Breath 34     Attempt to encase target in ice.
+Gaav Flare    37     Attack target with a firey blast.
+Laguna Blast  40     Attack target with pure dark energy.
+Flame Breath  45     Immolate and incinerate target.
+Dragon Slave  50     Attack targets with pure dark energy.
+
+NOTE: Only Black Magic specialists can use the Dragon Slave and Flame Breath.
+~
+
+0 WHITEMAGIC~
+This is an abbreviated list of White Magic spells, including
+their names, ranks to use, and short descriptions.
+
+Name          Ranks  Description
+Lighting      1      Momentarily blinds with a flash of light.
+Dicleary      4      Cures minor ailments and exhaustion.
+Holy Bless    7      Blesses the caster against enemies.
+Visfarank     10     Concentartes energy on the casters hands to attack unarmed.
+Laphas Seed   13     Paralyzes the target.
+Recovery      16     Accelerates the caster's healing process temporarily.
+Sleeping      19     Forces multiple targets into a deep sleep.
+Mos Varim     22     Creates a ball which absorbs fire-based attacks.
+Flow Break    25     Cancels specific spells on caster or target.
+Vas Gluudo    28     Defends against most magical or energy based attacks.
+Chaos Strings 31     Cuts into target with enchanted filaments.
+Holy Resist   34     Enhances the casters magical defenses.
+Defense       37     Creates a powerful but short lived magical shield.
+Chaotic Dis.  45     Blasts the target with chaotic energies.
+Ressurection  50     Heals badly wounded targets.
+
+NOTE: Chaotic Disintegrate and Ressurection are available only to White specialists.
+~
+
+0 WINDMAGIC~
+This is an abbreviated list of Wind shamanist spells, including
+their names, ranks to use, and short descriptions.
+
+Name          Ranks  Description
+Levitation    1      Levitate onesself.
+Scatter Brid  5      Launch a volley of low-power lightning balls.
+Digger Bolt   10     Attack target with a bolt of lightning.
+Diem Wing     15     Blast target with a gust of wind.
+Damu Brass    20     Attack target with a pulse of vibrating air.
+Raywing       25     High mobility flight spell.
+Mono Volt     30     Attack target by shocking the hell outta them.
+Dimilar Ai    35     Blast target with a column of compressed air.
+Windy Shield  40     Protect self with a spherical shield of wind.
+Bomb di Wind  50     Blow away target with a powerful blast of wind.
+
+NOTE: Bomb di Wind is available only to Shamanists.
+~
+
+0 EARTHMAGIC~
+This is an abbreviated list of Earth shamanist spells, including
+their names, ranks to use, and short descriptions.
+
+Name          Ranks  Description
+Gray Bomb     1      Small explosion of earth around the target.
+
+Dill Brand    10     Explode the ground under a target.
+Dug Wave      15     Some sorta earth attack, I dunno.
+Blade Haut    20     Use a blade to strike with earth magic.
+Bephis Bring  25     Collapse the earth below a target. (not in)
+Vigarthagaia  30     (not in)
+Mega Brand    35     Explode the ground under many targets.
+Dug Haut      40     Summon spikes of stone from the ground.
+Vlave Howl    50     Deluge a target with lava.
+
+NOTE: Vlave Howl is available only to Shamanists.
+~
+
+0 FIREMAGIC~
+This is an abbreviated list of Fire shamanist spells, including
+their names, ranks to use, and short descriptions.
+
+Name          Ranks  Description
+Flare Bit     1      Launch a volley of small flames at target.
+Flare Arrow   5      Attack target with an arrow of fire.
+Val Flare     10     Attack target with a bolt of flame.
+Burst Rondo   15     Launch a volley of small fireballs at target.
+Fireball      20     Blast a room with a ball of fire.
+Flare Lance   25     Attack a target with a lance of flame.
+Rune Flare    30     Attack target with many ribbons of flame.
+Balus Wall    35     Deflect fire based attacks.
+Burst Flare   40     Attack target with a burst of flame.
+Blast Bomb    50     Creates and detonates many powerful fireballs.
+
+NOTE: Blast Bomb is available only to Shamanists.
+~
+
+0 WATERMAGIC~
+This is an abbreviated list of Water shamanist spells, including
+their names, ranks to use, and short descriptions.
+
+Name          Ranks  Description
+Aqua Create   1      Summon a spring of water.
+Freeze Arrow  5      Attack target with an arrow of ice.
+Dark Mist     10     Summon a blast mist that block sight.
+Ly Briem      15     Encase target in ice.
+Freeze Brid   20     Attack target with a ball of ice.
+Icicle Lance  25     Attack target with a lance of ice.
+S. C. Spin    30     Summon an assload of sea cucumbers.
+Vice Freeze   35     Attack target with a blast of ice.
+Demona Crystal 40    Engulf target in ice crystals.
+Van Rehl      50     Create a web of ice to block targets.
+
+NOTE: Van Rehl is available only to Shamanists.
+~
+ 
+
+
+
+0 REIMBURSEMENT~
+If you played during beta, you are entitled to recieve some form of
+reimbursement based on how strong your character was.  This is meant
+to reflect the ammount of feedback I recieved as a whole from your
+playing of a beta character.  To recieve the reimb, in the form of
+spendable reimb tokens, send a personal note to me (Alathon), from
+the character which you want to Recieve the reimb, with reimb as the
+subject, and with your beta characters name and password as the body
+of the note.  Once I verify these, your new character will be credited.
+
+~
+
+0 CLANCOST~
+These are the costs in gold coins to purchase various clan-specific
+entities, such as rooms, guards, furniture etc.  To buy something, the
+clan leader must post a note to me, Alathon, on the personal board,
+saying exactly what they wish to purchase.  After I recieve that, I
+will meet with the clan leader and be paid, after which the items in
+question will be installed.
+
+ Cost        Item
+ 50,000      Furniture
+ 50,000      Rename a mob, room, desc, or furniture
+ 50,000      Item on shopkeeper (must be approved)
+ 100,000     Have a member banished offline.
+ 250,000     A quest master
+ 250,000     Shopkeeper (six items max)
+ 500,000     A room (include description)
+ 500,000     Clan guard (six per clan)
+ 500,000     Clan Banker
+ 750,000     A reset of a Gundam mobile suit (four max)
+ 1,000,000   Hanger flag on an unguarded room.
+ 1,000,000   Regen flag on an unguarded room.
+ 1,000,000   Clan tailor (restring eq to clan descriptions)
+ 5,000,000   Rename a clan (name, sigil, ranks, does not include rooms/guards).
+
+A basic clan HQ requires two rooms, one clanguard, and one banker,
+for a total cost of 2,000,000 gold.
+~
+
+0 PRESERVE~
+Syntax: preserve <item>
+Example: preserve corpse
+Example: preserve heart
+
+Some items such as food, corpses, and body parts may be preserved such
+that they won't decay as they normally would.  Preserving costs nothing
+more than a few moments, and is great for producing mementos of battles
+and invasions.
+~
+
+0 DARE~
+Syntax: dare <player character>
+Example: dare ardneh
+
+Dare is a command which issues a challenge to another player to Not log
+off like a wuss.  As it is assumed that your characters, being part of
+a PK mud, are not complete and utter pansies, they will respond to this.
+For the cost of 100 primal you can issue a dare that will, in essense,
+give the target avatar a fight timer.
+~
+
+0 MULTIPLAYING MP~
+One human player or equivalent non-human sentience may not control
+more than one character at a time, period.
+
+No two characters may be logged in from the same IP or computer.  Period.
+I do not care in the least that your school network masks all computers
+with the same IP, or that you're supposedly on a home network.
+
+Being logged on at the password prompt, or the pause for the MOTD,
+counts as being logged on.  Linkdead characters are also considered to
+be logged on.  Hence, dropping link on one character and logging another
+character on is multiplaying.
+
+If you believe somebody is multiplaying, post a note to admin on the
+personal board, with their names and the system time (displayed with the
+time command).
+
+`RMultiplaying will be punished by the denial of involved characters, and
+additional punishment as seen fit by the admin.  This is considered one
+of the most serious offenses.`n
+~
+
+0 MOBILE SUIT~
+Well, it appears you are a new trainee.  This helpfile will take
+you through the basics of beginning your career as a mobile 
+suit pilot. 
+
+The first thing you must do is read these helpfiles:
+PILOT, STATUS, SUITCOMMAND, SUITSHOPS, SUITTRAIN, EXPLOSION,
+SUITEQ, SUITSTATS.
+
+First you must go purchase a Leo.  I would always carry
+3+ containers of Vernier with you as spare fuel, along with
+5-10 repair kits for when your suit is damaged.  Also carry
+spare ammo with you. Watch where constantly because
+there are assholes who will break your suit.  If you have
+zmud (or any alias program) make a set of fly aliases that
+works for you.  Also remember to keep your suit full of
+Vernier fuel, nothing is worse than running out in a fight
+and not being able to flee.  There isn't much else that can
+be said.  Just read those helpfiles, and work hard at being
+a Gundam pilot, and you should do fine.
+~
+
+0 SUITEQ~
+The available mobile suits can equip the accessories
+listed here.
+
+Leo: Buckler, 105mm Machine Gun, Beam Rifle, Dobergun, Beam Sabre.
+Aries: Beam Rifle, Vulcans, Missiles, Beam Sabre.
+Taurus: Beam Rifle, Beam Cannon, Laser Cannon, Beam Sabre.
+Virgo: Shields, Beam Rifle, Beam Cannon, Laser Cannon.
+Mercurius: Shields, Beam Rifle, Buckler, Crasher
+Vayeate: Beam Rifle, Heavy Beam Cannon
+Tallgeese: Buckler, Beam Rifle, Dobergun, Beam Sabre
+Wing Zero: Heater, Miniguns, Beam Sabre, Twin Buster Rifle
+Wing Gundam: Heater, Vulcans, Beam Sabre, Buster Rifle
+Deathscythe: Buckler, Vulcans, Cloaker, Beam Scythe
+Heavyarms: Buckler, Vulcans, Missiles, Beam Sabre,
+           Gatling Gun, Miniguns
+Sandrock: Heater, Vulcans, Missiles, Heat Shotels
+Shenlong: Buckler, Vulcans, Dragon Fang, Beam Glaive, Flamethrower
+Epyon: Buckler, Heat Rod, Beam Sword
+~
+
+0 SUITTRAINING~
+Weapon/Combat - The trick is to find low sanced mobs.  
+Sanctuary basically doubles the mobs hp allowing you to
+get more attacks in. Olympus, Mahntor, Adepts (although
+there is an evil pilot named Euthanasia who has claimed 
+the adepts as his own)
+
+Reflex - This skill will increase on its own, however if 
+you need a large jump in it, just go find a large stack of
+small mobs (draconia, hobgoblins, etc) and just stand there
+getting hit while it raises quickly.
+
+Aim - The best way to raise aim is with a vulcan cannon
+it shoots alot of bullets quickly which allows for many chances
+to increase.  A machine gun will do for the first 100 points,
+past that use an Aries with a Vulcan cannon.
+~
+
+0 SUITSTATS~
+Here are some stats on mobile suits.
+
+ Suit         Fight  Weapon  Speed  Power  Armor    Reqs
+`d---------------------------------------------------------`n
+Leo           100    100     100    100    100     none
+Aries         100    110     110     90     90      100
+Taurus        100    110     125    110    120      400
+Virgo         130    140     125    110    120      750
+Mercurius     150    100     125    130    130     1000
+Vayeate       110    160     125    110    130     1000
+Tallgeese     100    110     150    130    120     1500
+Wing Zero     150    150     160    140    140     2000
+Wing Gundam   130    140     150    120    130     1400
+Deathscythe   140    120     160    120    120     1400
+Heavyarms     110    160     110    140    140     1400
+Sandrock      120    120     110    150    160     1400
+Shenlong      160    110     130    140    120     1400
+Epyon         160    140     160    140    140     2000
+~
+
+0 STATUS~
+The status condition will tell you about your mobile suit.  The
+most important pierce of information is the status of your suit.
+It begins at Perfect and works its way down to critical.  The
+oher pieces of information are your ammo lists, as well as
+your fuel reserves.   Status also will display your piloting skills
+(`Rhelp pilot`n)
+~
+
+0 PILOT~
+The last line of status are your piloting skills.  They are: Weapon,
+Combat, Reflex, and Aim.  Weapon is your skill with close
+combat weaponry (beam sabre etc).  Combat is your skill in
+unarmed combat (punch),  Reflex is how fast you react.  It
+helps with your defensive skills (passive).  Aim is how well you
+use ranged guns, like the machine gun and beam cannons.
+~
+
+0 SALVO~
+Syntax: salvo <direction>
+example: salvo west
+
+Use this command to launch missiles from a mobile suit.  Missiles
+will explode in the first room with targets that they pass through,
+and will randomly hit targets within that room.
+
+The mobile suit determines how many missiles are launched in each salvo.
+~
+
+0 SUITCOMMANDS~
+
+status - see help status
+mount - enter a suit
+leave - exit a suit
+install - installs a piece of suit equipment, also repair kits
+load - this is used to load ammunition and fuel
+ready - ready a weapon for use
+fly <direction> - this is how you move in a suit
+fly <home> - this is how a suit recalls
+punch - duuuh
+slash - use your beam sabre etc
+fire - fire your gun
+salvo - launch missiles
+quit - if you quit out while inside a non-gundam suit it WILL save, and
+you will be wearing it when you login.
+~
+
+0 SUITSHOPS~
+The shops where you can buy suit related things are:
+Weapon Shop - this sells expendable suit ammo and fuel, it is
+located (from Market Square) 2e 1n
+Armourer - this is where you buy your suits.  It is located 1w,
+1s
+Wizard - here you can find parts for your suit, shields, guns,
+things like that.  It is 2w 1n
+~
+
+0 EXPLOSION~
+When your condition on status passes critical, your suit will
+explode, leaving you near dead.
+~
+
+0 DIRS DIRECTIONS~
+Dirs to a few common areas.  IW means inner ward, SQ means market square.
+To get to Inner Ward (Apoc hq) You need to find Abashi in Midgaard.
+
+Olympus: IW w2n
+Shire: SQ 5wn
+High tower of sorcery: IW w2s
+Gnome Village: SQ 5es
+Wyvern's Tower: 6e4s2es2ede
+Dangerous Neighborhood: SQ 3e2s
+Dragon Tower: IW su2e
+Mahn-Tor: IW 2en2e
+Ultima: SQ 4e3n2w2nu
+Midgaard: IW 3s
+Rat's Lair: SQ sed
+Moria: SQ 6e4n
+Drow City: IW e2s
+Ofcol: SQ 4e3n2w5n6en
+Sewer: SQ 2sd
+Holy Grove: SQ 7e
+Elemental Canyon: SQ 6e4s2es2edsu
+Mob Factory: SQ s4e
+Aes'ir: SQ 7wn
+Ninja Scroll: SQ 13w3n
+Brawpoten: SQ 6e2nw
+Pikachu's Vacation: SQ 6eds
+
+For the others, look around or ask around.
+~
+
+0 CHAOSIUM STATIC CHAOS 'STATIC CHAOS'~
+Credits for Static Chaos a.k.a. Chaosium:
+
+The Dikumud team: Thanks for releasing an easily customizeable codebase. 
+
+Hatchet, Furey, Kahn: All the improvements to DikuMUD.
+
+KaVir: None of your code is here, but at least at the start Chaosium
+  was heavily influenced by the GodWars muds you've released.
+  edit: No longer entirely true, I've imported a list of socials.
+
+Erwin S. Andreasen: Thanks for the snippets, looking at auction I
+  really should have wrote it myself.  Wouldn't want to do boards though.
+
+Puck: TG was as good a true GodWars mud as I ever expect to see.  Thanks
+  for the assist on that alloc_mem bug, too!
+
+Camber & Alustrial: Even if you over-regulated and wussified WoD, it was
+  a fuckin' awesome mud in it's time.
+
+The ApocalypsE crew: We own, 'nuff said.
+
+Larsen: .. whose commitment of time and effort to Chaosium is only
+  exceeded by my own.  
+
+Alathon: I credit myself?  Damned right I do!  You should too.
+
+All the players of SC who helped to make it kick some serious ass, from the
+early days of beta in '99 through the waning days of SC in '03.
+~
+
+0 EMAIL~
+The admin email is staticchaos@staticchaos.inetsolve.com
+
+Feel free to contact me here if you have a pic you
+want posted on the website, or a major concern about
+the mud.  Otherwise, please use the message boards,
+which I read more frequently.
+~
+
+0 BOUNTY~
+Syntax: bounty <target> <gold>
+Example: bounty vartayar 50000
+
+When a bounty is placed on a character, the next character
+to finish them off will recieve the bounty in gold.
+~
+
+0 CONTRACTS~
+Syntax: contracts
+
+Lists bounties on all players currently logged in.
+~
+
+0 SUICIDE~
+Syntax: suicide <argument>
+Example: suicide
+Example: suicide ah52sxn2
+
+Suicide completely destroys a character under Powerful assessment.
+There are no take backs, no character restores, if you do this,
+`RYOUR CHARACTER IS GONE!!`n
+
+It is atwo step process, enter suicide once to set the stage for
+the second command, then enter suicide followed by your character's
+password.  The first step can be cancelled by entering suicide
+followed by anything other than your password.
+~
+
+0 MAZOKU~
+Indigenous to the astral plane, Mazoku are astral beings who
+live off of the negative emotions of mortals.  Fear, anger, hatred,
+despair.. all of these feed the Mazoku hunger.  Malicious and evil
+in their own right, Mazoku revel in their feeding.  When they take
+shape on the material plane, Mazoku may appear mortal, or monstrous,
+depending on their purposes.  With a natural command of the astral
+plane, Mazoku can easily effect what lesser beings would term "magic".
+
+ (*) Morph: Change between the Mazoku's true, human, and battle forms.
+ (*) Develop: The means by which Mazoku learn how to interact
+              with the material plane.
+ (*) Grow: Grow an additional limb or body part.
+ (*) Form: Form arms into various weapons.
+ (*) Charge: Charge up astral energies for attacks.
+ (*) Release: Release astral attacks.
+ (*) Reform: Spend essense to repair physical form.
+ (*) Astrike: Deadly attack from the astral plane.
+ (*) Lash, Rake, Gouge: innate abilities of weapon forms.
+ (*) Instantiate: Mold essense into a physical item.
+ (*) Imbue: Spend essense to increase the strength of an astral item.
+
+See helps for EGO, NIHILISM, ESSENSE, MATTER, and ASTRAL.
+~
+
+0 LASH RAKE GOUGE~
+Syntax: lash
+Syntax: rake
+Syntax: gouge
+
+With claws formed, a mazoku can rake their claws across an enemy
+for quick and easy damage.
+
+With tentacles formed, a mazoku can attempt to trip up an enemy
+with lash, knocking them out of stance.
+
+With spikes formed, a mazoku can jab their spikes into an enemy's
+eyes, attempting to blind them.
+~
+
+0 MORPH~
+Syntax: morph <form>
+Example: morph battle
+
+Mazoku are astral beings, and can exist in several forms on the
+material plane.  Battle forms are hideous but effective in combat,
+human form is useful for disguise, and in true form a Mazoku naturally
+regenerates any damage taken.
+~
+
+0 DEVELOP~
+Syntax: develop <ability>
+Example: develop astrike
+
+Develop is the means by which Mazoku acquire new abilities or
+increase their skills in handling material and astral energies.
+~
+
+0 GROW~
+Syntax: grow <body part>
+Example: grow fourth
+
+Mazoku can grow extra body parts for additional attacks, flight,
+and enhanced material vision.
+~
+
+0 FORM~
+Syntax: form <weapon>
+Example: form blades
+
+Mazoku can form their arms into weapons, each of which has
+advantages and disadvantages.
+~
+
+0 CHARGE~
+Syntax: charge <color of energy>
+Example: charge obsidian
+
+By charging up astral energies, Mazoku can prepare powerful
+attacks with properties which vary by color.
+~
+
+0 RELEASE~
+Syntax: release <attack type> <target>
+Example: release bolt clout
+
+When Mazoku have astral energies charged up, they can release
+the energies as an attack in the form of blasts, bolts, or
+bomb-like explosions all around them.
+~
+
+0 ASTRIKE~
+Syntax: astrike
+
+While in true form, mazoku can strike from the astral plane,
+often appering right behind their target when they re-enter
+the material plane.
+~
+
+0 REFORM~
+Syntax: reform
+
+Mazoku may repair any physical manifestation they inhabit with
+their own essense.
+~
+
+0 INSTANTIATE~
+Syntax: instantiate <equipment>
+Example: instantiate cloak
+
+By molding their essense into physical objects, Mazoku can create
+items which are essentially part of them.  This is important, as
+Mazoku disdain the use of almost all material items as unnecessary.
+
+Astral items are linked to the Mazoku who created them; if such an
+item becomes seperated from the Mazoku, it will fade from existance.
+~
+
+0 IMBUE~
+Syntax: imbue <astral item>
+Example: imbue ring
+
+Imbuing is a means by which Mazoku may increase the strengt and
+power of their astral equipment by pouring their own essense into it.
+~
+
+0 EGO~
+
+Mazoku exist primarily through their own will to live, hence their
+Ego is of utmost importance.  The more sure of onesself a Mazoku
+is, the more powerful they are.  Killing things of at least moderate
+challenge is fulfilling, while using powerful attacks against lesser
+beings is a sign of weakness.
+~
+
+0 NIHILISM~
+
+Within every Mazoku is a deep-seated need to destroy all of existance,
+including itself.  As a Mazoku's need to destroy increases, it can
+dominate their thoughts and actions.  Nihilisic Mazoku will likely
+strike with greater abandon and do little to defend themselves.
+~
+
+0 ESSENSE~
+
+Mazoku are beings of the astral plane, composed of astral energy.
+Essense is another name for this energy, which Mazoku harvest
+from mortals by causing them pain and death.
+~
+
+0 MATTER~
+
+Matter is a measure of how competent a Mazoku is in handling
+their material form, and actions on the material plane.
+~
+
+0 ASTRAL~
+
+Astral is a measure of how competent a Mazoku is in handling
+their astral form, as well as astral energies and attacks.
+~
+
+0 ASTRALMAGIC~
+This is an abbreviated list of Astral shamanist spells, including
+their names, ranks to use, and short descriptions.
+
+Name          Ranks  Description
+Bram Blazer   1      Attack target with low-level astral bolt.
+Elmekia Lance 5      Attack target with slightly stronger astral bolt.
+Assha Dist    10     Disrupt unholy or evil targets.
+Astral Detect 15     Locate an object or objects.
+Astral Break  20     Attack target with moderate astral energies.
+Shadow Snap   25     Pin down a target's shadow to keep them from fleeing.
+Elmekia Flame 30     Attack target with strong astral energies.
+Astral Vine   35     Charge up a weapon to deal spiritual damage.
+Vision        40     Call forth the image of a target.
+Ra-tilt       50     Annihilate the target with a spiritual assault.
+
+NOTE: The Ra-tilt is available only to Shamanists.
+~
+
+0 TELEPORT~
+Syntax: teleport <target in area>
+Example: teleport yurimaru
+
+Mazoku can traverse short physical distances with incredible speed
+by temporarily ducking back into the astral, and moving toward a
+recorgnized target in the astral plane.  This costs essense, but
+is highly useful.
+~
+
+0 LAMERS~
+                    `m-`M=`WTop Lamers Chaosium`M=`m-
+`g-------------------------------------------------------------------
+ `GName             Offense(s)
+`g-------------------------------------------------------------------
+ `MXirrin           `nUsed pfiles from his mud to steal multiple chars
+ `MColumbo          `nIncessant shit-talking with nothing to back it up
+ `MTander           `nThe ultimate cheapshit whiney pussy
+ `MYokito           `nIt can't be said enough times.. ASSHOLE
+ `mPalon            `nChronic stupidity, fascination with rape
+ `mXantos           `nStupid notes, stupid chats, stupid stupid STUPID!
+ `bFistan           `nDiarrhea of the brain
+ `bMdk              `nDisciple of Palon, schizophrenic
+ `bLupin            `nMaxi's reroll, even MORE lowbie capping
+ `bArdneh           `nLook up 'pussy' in the dictionary, you'll see him
+`g-------------------------------------------------------------------`n
+~
+
+0 RETIREMENT~
+
+As Chaosium ages, people come and go.  Character even come and go,
+as their players find themselves preferring different or new classes.
+As a means of preserving some of Chaosium's history, and a reward for
+serious pkillers, I'm making available the option of retiring characters.
+
+Retiring a character removes them from play, for an indefinate period
+of time.. perhaps retired chars may be allowed to come out of retirement
+years from now, but not until then.  When a player retires, their record
+will be added to a Chaosium hall of fame helpfile.  Their character will
+also be immortalized in a hall of fame area, depending on their record,
+reputation, play time, presense.. etc.. this can range from a statue and
+plaque to a mobprogged mobile.
+
+Requirements for retirement:
+500 pkills.
+Created six months or more ago.
+500 hours played.
+Full maxed status (SSJ, Shaolin, Runelord, Warlock/Archmagus/Ryozoku, Demonic)
+500 primal
+
+Btw, the 500 primal is to cut down on my workload.  Since, after all,
+I need to do the ABing to carry this out.
+~
+
+0 SPEND TOKEN~
+Syntax: spend <option>
+Example: spend Weapons2
+
+Tokens are granted by the admin as a reward for winning events
+and turning in bugs.  They are shown on the score command, and
+are non-transferable.
+
+Spend is used to exchange tokens for various rewards.  These
+include increasing some stances or weaponskills to 200, gaining
+experience, and other such niceties.
+
+Type spend with no argument to see an up to date list of rewards.
+~
+
+
+0 $~
+
+
+
+#$

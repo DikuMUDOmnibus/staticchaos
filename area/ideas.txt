@@ -1,0 +1,420 @@
+[ 3054] Uga: read
+[  806] MiCRo: sw
+[  814] MiCRo: sw
+[ 3053] MiCRo: sw
+[ 6608] MiCRo: sw
+[  806] Xandar: bracer
+[  806] Xantos: please rig me
+[ 2380] Vem: sword
+[ 3744] Rasdan: add a newbie double xp timing, for a amount of time newbies get alot more xp than stronger players, this will help them get a little bigger a little quicker
+[  694] Moon: tor
+[ 1569] Daven: mail
+[ 3011] Aixtek: weaponsmith
+[ 3011] Aixtek: weaponsmith
+[ 9245] Bozonofski: cape
+[ 9501] Arrya: bracer
+[ 3700] Vontani: catchup
+[ 9253] Calaris: list
+[ 3001] Almorge: catchup
+[ 3001] Almorge: show
+[ 9242] Zalin: avalanche
+[ 5240] Lacan: cloak
+[ 3054] Zalin: sword
+[ 5248] Zalin: sword
+[ 5250] Zalin: cloak
+[ 5224] Crimson: stone
+[ 3504] Varnus: catch
+[ 3504] Varnus: catchup
+[ 9242] Yookao: ici
+[ 5254] Sandos: broach
+[ 9600] Dagmar: How about being able to 'runestat' while sitting/resting.
+[ 3001] Dagmar: Fists got cookies, Patryns should get cookies, too.
+[ 2406] Demos: doll
+[ 2406] Demos: ouphs
+[ 3001] Arrya: sword
+[ 3054] Setsuna: catchup
+[ 3054] Setsuna: catchup
+[ 3054] Setsuna: list
+[ 3001] Suicide: catchup
+[ 9600] Judicator: list
+[ 3700] Malovane: catchup
+[ 3008] Gabriel: list
+[ 1480] Fizzle: ice
+[ 3001] Darchangel: bl
+[ 3700] Zentar: list
+[ 8911] Arrya: shield
+[ 9601] Maxi: catchup
+[ 9601] Maxi: list
+[ 9601] Maxi: catch up
+[ 9342] Darknyss: fleece
+[ 2720] Arrya: skull
+[ 3001] Ruu: nin
+[ 3001] Ferdinando: to all
+[ 9851] Maxi: write
+[ 3002] Columbo: write
+[ 3002] Columbo: list
+[ 3748] Kaayn: list
+[  345] Faz: list
+[  345] Faz: read
+[ 5335] Columbo: list
+[ 3700] Misaku: catchup
+[ 9260] Awu: boots
+[ 9260] Awu: boot
+[ 9601] Valgarv: goddamnit
+[ 6100] Zrekius: catchup
+[ 3001] Ryuji: claw
+[ 9800] Maxi: write
+[ 9215] Karn: ice
+[ 2217] Mortimer: belt
+[ 4030] Kaesar: list
+[ 4030] Kaesar: list
+[ 6500] Kaesar: list
+[ 9801] Maxi: list
+[ 3700] Malebolgia: read 108
+[ 3014] Jarrek: list
+[ 3700] Stukov: catchup
+[ 3002] Ryoshi: brass
+[ 9245] Academician: You should allow "kill" to attack multiple targets...we already have whirl for whole room attacks, but if you just want to attack two, or if you're in a group, you'd have to cast a spell for multiple opponents.
+[  553] Academician: You should allow viewing of runestats from at rest.
+[  565] Academician: "runeweave air transformation self" should be invisibility.
+[ 3712] Valo: sword
+[ 3054] Ardarel: arm
+[ 5418] Stroke: blade
+[ 3001] Vamlock: long
+[ 3700] Vamlock: autotie
+[ 9242] Tezra: star
+[ 9901] Pwent: write
+[ 3002] Shock: hey, how about a new class/armour call the guyver, and it can be like one of the rarest things in the game, like an apoc eq, it can be based on the show GUYVER: biobooster armour, ask me for details if you have never seen it
+[ 9601] Maxi: write
+[ 9802] Xantos: go fuck yourself
+[ 3014] Enix: tabard
+[ 3014] Svere: to all
+[ 3014] Svere: subject bandage
+[ 3014] Svere: + what if bandages had to be bought to be used?
+[ 3014] Svere: send
+[ 2207] Vamlock: Room for escapers to go that can't be accessed by walking
+[ 9260] Apple: boots
+[  553] Svere: to all
+[  553] Svere: subject turds
+[  553] Svere: + make the turds a mob...
+[  553] Svere: + that would be cool
+[  553] Svere: post
+[  553] Svere: show
+[ 6607] Dharhan: I'd like to see something for when you cap someone that you have the option to change the Person who got capped's title Temporarily <filling a slot of the lcommands>. TO a preset by the player who capped. Or something like stamping something on people's head
+[  518] Goki: sword
+[ 2725] Rahvin: bar
+[ 3001] Tander: readnote read
+[ 9951] Alecia: list
+[ 1477] Insanity: 2.claw
+[ 1477] Insanity: spear
+[ 1450] Insanity: shard
+[ 2158] Dalgar: sac all - sacrifices everything in the room
+[ 3054] Tycho: girth
+[  551] Ithaqua: write
+[ 9201] Dreamweaver: make the help file on runeweave better...like what it does
+[ 3002] Lerek: +
+[ 3002] Lerek: lerek
+[ 3002] Lerek: write
+[ 2579] Alamar: charm
+[ 1108] Miku: Chat log command to see the last dozen chats. Spam during fight scrolls it away too fast.
+[  832] Arrya: tabard
+[ 3714] Normal: add alias's I.E you could type alias rod chant 'balus rod' <target>
+[ 9801] Xantos: kill arrya's crabs before they kill you
+[ 2217] Ashnak: belt
+[ 3001] Earl: sword
+[ 2161] Raeko: list
+[ 2161] Raeko: read
+[ 2725] Lupin: list
+[ 7114] Sidi: list
+[ 7114] Sidi: list
+[ 7114] Sidi: list
+[ 2128] Raeko: well was just thinking both Dragon Slave and Blast Bomb are spezialice spells but for all iknow BB dose more DMG but stll Dragon Slave takes 2k more mana and i think that is kinda wrong
+[ 1157] Aragos: helmet
+[ 9238] Orac: lance
+[ 1120] Aragos: still
+[  549] Morgan: blade
+[ 8917] Necropolis: catchup
+[  500] Pick: ring
+[  500] Pick: oops, my bad, ignore that, it's a typo :)
+[ 9209] Amben: orb
+[  804] Belial: band
+[ 5254] Amben: helm
+[  806] Kurell: how about a namic race? :)
+[ 2754] SonVegeta: Getup or groupup
+[  935] Keihaji: rin
+[  935] Keihaji: ga
+[ 3019] Kaluu: arm
+[ 3054] Amben: breastplate
+[ 3054] Amben: WHOOPS!  Sorry!
+[ 9236] Orac: girth
+[ 4115] Keihaji: bastard
+[ 4115] Keihaji: bastard
+[ 3054] Vamlock: tells you when you advance to next level, so you don't have to find out by being killed
+[ 3054] Dinge: catchup
+[ 6545] Mystik: med
+[ 3721] MourningStar: dip
+[ 9600] Lupin: list
+[ 9214] Kije: mirror
+[ 8912] Dais: med ken
+[ 8912] Dais: med ken
+[ 9602] Xantos: go fuck yourself
+[ 3723] Coder: go fuck your self
+[ 3723] Coder: go fuck your self
+[ 3723] Coder: go fuck yourself
+[ 3001] Chozam: read
+[ 9601] Lupin: list
+[ 9207] Gaurdian: add in alias's kinda like in game macros
+[  803] Dinge: write
+[  805] Dinge: write
+[ 9238] Baiken: mag
+[ 6604] Filia: 217
+[ 2549] Alamar: hourglass
+[ 9700] Aragos: read
+[ 2108] Dragnor: vest
+[ 3005] Otaku: There should be a map of the world
+[ 9700] Dalgar: cland alone should show how much money the clan has currently
+[ 3001] Particles: staff
+[  829] Zrekius: catchup
+[ 3054] Particles: visor
+[ 3054] Vamlock: able to recall after capped
+[ 1117] Lazos: board
+[ 5461] Kazin: medal
+[  832] Reod: @
+[  832] Reod: @
+[  830] Reod: p
+[ 6602] Vine: test
+[ 6602] Vine: WE LOVE YOU ALATHON!!! HAPPY BIRTHDAY!!!
+[ 3005] Jet: med
+[ 2125] Pallas: troll
+[ 9403] Kahran: list
+[  910] Rathgar: amb
+[  944] Traikel: arm
+[  944] Traikel: arm
+[ 3021] Mandark: 1000
+[ 2368] Gronje: could we pls get sneak working..even if only so we can sneak past mobs pls?
+[ 3008] Gronje: could we please have a working bank
+[ 2204] VaLin: there should be a "sacrifice all" command that sacs everything in a room
+[ 3001] Gronje: please implement gag
+[ 3015] Gronje: dont allow auction over amount a player has
+[ 3002] Gronje: could newbies have newbie exp to help get started pls :)
+[ 3741] COALchamber: hit um
+[ 3430] Gronje: please make look <dir> show u the room desc in that dir
+[ 3012] Wing: Fists have no advantage in a normal Pkill battle, they only can rely on HP and there bodytrain and whatever eq they can gather... and why must ki moves be at random between 3 different values when all the other races have the advantage of pulling off any move they wish just like that but when it comes to fist mo
+[ 3012] Wing: Fists have no advantage in a normal Pkill battle, they only can rely on HP and there bodytrain and whatever eq they can gather... and why must ki moves be at random between 3 different values when all the other races have the advantage of pulling off any move they wish just like that but when it comes to fist mo
+[ 3012] Wing: Fists have no advantage in a normal Pkill battle, they only can rely on HP and there bodytrain and whatever eq they can gather... and why must ki moves be at random between 3 different values when all the other races have the advantage of pulling off any move they wish just like that but when it comes to fist mo
+[ 3002] Wing: Dim-mak sucks periods, does absolutly nothing.
+[ 5003] Wing: why do fists suck.
+[ 5003] Wing: Why do the ki moves have to be at random? Why can't they be exact like jab could always be 3!
+[ 5003] Wing: Innerfire is worthless remove it.
+[ 3054] Wing: why don't you remove fists altogether they're worthless pieces of shit.
+[ 3054] Wing: Dim-Mak is worthless why not remove.
+[ 9402] Slasher: ring
+[ 3054] Wing: You suck.
+[ 3054] Wing: lsit
+[  806] Lazos: 20
+[  806] Lazos: read 20
+[  806] Lazos: read 20
+[  806] Gronje: once we are dead pls take timer off since we often need to recall to collect our bodies
+[  828] Ter: mur
+[ 9800] Rahvin: read
+[ 5007] Wing: Hmmmm... if fists are apart of Streetfight it's best to put a Shoryuken(dragon punch), and Tatsumaki Senpuu Kyaku(hurricane kick). Suggest to go with the Jappanesse wording.
+[ 2368] Wing: bodytrain arms and legs should do more than just dodge and block.
+[ 2368] Wing: Mobile suits need to be more powerful too many newbies killing too easily.
+[ 3001] Sandalar: catchup
+[ 6600] Wing: Mazokus are too cheap need to be lowered
+[ 2105] Sandalar: catchup
+[ 3030] Wing: Way too many high levels killing me.
+[  925] Wing: kiwall over used WAY too much.
+[ 6608] Alekhine: a room attack combo
+[  814] Igraven: avatar lag is dumb
+[ 6605] Wing: have the ability to remove installed eq from mobile suits.
+[ 6155] Wing: BAMFs picking on the lower classes.
+[ 3001] Wing: kiwall, is cheap if combined with other techuniques.
+[ 3001] Veran: list
+[ 5465] Veran: sting
+[  806] Alekhine: sumtin to make fists heal faster
+[ 3827] Wing: Dim mak should do more damage.
+[ 3827] Wing: Innerfire what the hell is that.
+[ 3827] Wing: Masenkou is too punk, damage needed to be lowered.
+[ 2707] Bozonofski: how bout u raise the stat cap? :P
+[  569] Wing: Too many worthless combos
+[ 3054] Wing: FISTS SUCK ASS...POINTLESS CLASS REMOVE IT. THEIR WORTHLESS...
+[ 3001] Igraven: able to gift exp
+[ 6600] Wing: DiAmon Mega Rotation Death is not really worth doing.
+[ 1801] Wing: MAZOKUS get strong WAY to fast... fix it so that doesn't happen as fast.
+[ 9203] Wing: too many fuckin jackasses on this mud get rid of them.
+[ 9236] Hiryuu: Arms can represent in how many attack you can get in.
+[  571] Wing: Fists need to have more hit's in their round attacks.
+[  806] Rinoa: catchup
+[ 6616] Igraven: able to kick ppl while they're down :)
+[ 2720] Igraven: powerful room attack combo, better than roundhouse
+[ 1801] Wing: your
+[ 1801] Wing: Fuckin
+[ 1801] Wing: Mud sucks
+[ 1801] Wing: Alathon sucks.
+[ 1801] Wing: Syko sucks.
+[ 1801] Wing: Blstrboy sucks.
+[ 1801] Wing: BlackMeadow Sucks.
+[ 1801] Wing: Judas sucks.
+[ 2109] Criket: tells you how much exp you do need if you don't have enuff to do sumtin
+[ 3014] Wing: Remove kisense very very very cheap.
+[ 3002] Wing: remove the group command it's unfair as to leveling and gaining experience
+[ 1801] Wing: make APOC mobs tougher, way too easy to kill them.
+[ 1802] Wing: Character fighting and playing too dependent on EQ. Fix advantages from Apoc and other EQ.
+[ 6601] Wing: Too many worthless combos.
+[ 1802] Wing: Hmmmmmmmm.... how bout to change the fist system complete. Make it so that every punch you throw adds to your ki, then you have the ability to do your combo.
+[ 3054] Wing: kisense should and I mean should be erased and deleted from this mud too cheap.
+[ 3023] Wing: Quests should be based on level too many "try to take on the vortex guardian"
+[ 2778] Dekkum: patryns should get one more rune slot on each arm.
+[ 1128] Kardoth: shirt
+[ 9238] Balkirk: lance
+[ 2019] Ledgic: courage gets lowered if you mort someone lower than you, not capped based
+[ 2114] Eldamri: catchup
+[ 3054] Derillion: cloak
+[ 3041] Shyloh: ring
+[ 9234] Dimitri: in DBZ show, it shows LARGE explosions.. make mid-level saiyan tech that affects central room and all rooms next to it, at reduced damage
+[ 2760] Malicah: rub
+[ 2760] Malicah: rub
+[ 2606] Malicah: girth
+[ 3054] Bagua: shirt
+[ 1142] Duracell: afk command, players cant interact with AYNTHING, including players
+[ 9600] Ledgic: clanlist, lists all the members of yoru clan
+[  558] Nind: list
+[ 5469] Scizor: boots
+[ 6500] Ledgic: medal
+[ 9500] Barok: bracer
+[ 9208] Zelas: list
+[  806] Schism: read
+[ 2619] Zechariah: blade
+[ 9601] Ledgic: can't dimmak after a combo
+[ 3005] Zechariah: arm
+[ 6524] Crogoth: scept
+[ 6502] Crogoth: belt
+[ 3014] Garish: xp
+[ 6605] Zechariah: swo
+[ 2103] Apache: helm
+[ 2103] Apache: black
+[ 9601] Alekhine: black
+[ 6618] Apache: Legend doesn't affect Unholy+ for the sake of the ppl that were unholy w/o maxxed legend when thing was implemented, so they don't get ganked cuz of their legend by maxxed chars w/o penalty
+[ 3002] Ledgic: flail
+[  707] Vamlock: sword
+[ 3002] Vamlock: leg
+[ 3700] Jarek: catchup
+[ 6606] Merak: catchup
+[ 6605] Zonrath: amulet
+[ 6607] Goki: gaunt
+[ 3054] Sidi: list
+[ 6601] StarLit: meanbutt
+[ 9701] Cerial: Alathon's a fag
+[ 9259] Vierna: aura
+[ 6540] Vierna: hammer
+[ 2107] Abrutipatryn: a hunt skill to hunt mobs
+[ 2105] Kyja: kyja
+[ 2105] Kyja: oops...sory about that *blush*
+[ 9004] Edea: catcuhup
+[ 9252] Eerie: shield
+[ 2792] Apache: guard
+[ 9500] Cloudstrike: out
+[ 9500] Cloudstrike: out
+[ 6500] Svere: Panda mobs! PANDAS PANDAS PANDAS
+[ 9002] Stryker: white
+[ 2103] Malice: star
+[ 3054] Widle: catchup
+[ 5211] Zeak: stone
+[ 3006] Celebrant: manga
+[  517] Sylph: belt
+[  517] Sylph: belt
+[ 3721] Tarrin: sword
+[ 3700] Xaxor: catchup
+[ 7563] DeathWish: go fuck yourself
+[  806] Celine: catchup
+[ 7022] Xade: catchup
+[ 3001] Neit: armor
+[ 9003] Deathscyth: list
+[ 9003] Deathscyth: sorry about the last idea
+[ 9013] Kilnar: self
+[ 9013] Kilnar: have it where we can train other stuff like attack ans defense, 1 mil each level ie level 5 attack cost 5mil exp
+[ 9005] Deathscyth: we need some zoids in this mud
+[  931] Lodanis: sun
+[  931] Lodanis: ignore that last idea 
+[ 3014] Noyade: list
+[ 9004] Nero: claw
+[ 9952] Orez: be 153,164...
+[  728] Cagingo: toold
+[  728] Cagingo: tool
+[ 3701] Mendai: list
+[  820] Cagingo: kat
+[ 2567] Cagingo: gla
+[  119] Cagingo: whip
+[ 6440] Inferno: scep
+[ 9010] Zulo: mag
+[ 9010] Zulo: mag
+[ 7500] Apache: auction fee so ppl dont' auc junk
+[ 3054] Zulo: cloak
+[ 5200] Aeryn: shot
+[ 3023] Nico: str
+[ 3521] Mantual: surg
+[ 2703] Malicah: sle
+[ 9005] Malicah: rub
+[  806] Polgara: taba
+[  701] Vamlock: fal
+[ 3713] Elm: leggings
+[ 9008] Liquid: ice
+[  806] Sidius: strength
+[ 3001] Hatsudan: read 110
+[ 3512] Hatsudan: make a Focus all all command
+[ 3005] Stardown: sword
+[ 2106] Daernythul: belt
+[ 9012] Daernythul: read
+[  820] Xcalibr: update help dirs or put dirs on the website becuase this is not a very helpful mud when asking for Dirs to wierd places
+[ 4059] Omen: boo
+[ 1113] Dusk: belt
+[ 9202] Lacien: red
+[ 2149] Janos: list
+[  846] Pacel: let you have a rematch but i don't wanna embarass you
+[ 6612] Wyrm: cloak
+[ 9044] Ryoshi: comb
+[ 3014] Ryoshi: long
+[ 4208] Vamlock: file
+[  806] Silvakk: catchup
+[ 2734] Zerstoerung: man
+[ 3759] Ien: yellow belt
+[ 6615] Wyrm: bracer
+[ 9248] Torr: gaunt
+[ 3014] Chino: tali
+[ 3002] Riath: pwn
+[ 3014] Seagull: dont be
+[ 3710] Tammy: disco
+[ 1706] Paperdemon: bow
+[ 9255] Blackedout: catchup
+[ 2724] Vaskan: scep
+[ 3758] Terce: heh
+[  829] Lanolar: med
+[ 2740] WyrM: ring
+[ 3001] Altarez: sabre
+[ 6503] Yam: stick
+[ 6503] Yam: long
+[ 9004] Kelam: read 118
+[ 9001] Therotin: sword
+[ 9501] Vegeth: club
+[ 9501] Vegeth: log
+[ 9511] Diablis: nod
+[  806] Fibrizo: heart
+[ 9000] Sloppyjoe: implement the 'whoami' command
+[ 7582] Polwop: self
+[ 3005] Rowin: rowin
+[ 4027] Amun: rather not
+[   97] Tyu: leg
+[ 2792] Extreme: rif
+[  501] Wyrm: scep
+[ 3054] Eileen: mater
+[ 6610] Lonewolf: lip
+[ 9005] Itaka: manga
+[ 9800] Shaia: mask
+[ 9012] Shawnliu: catchup
+[  829] Shaia: mask
+[   97] Tyu: shield
+[ 6503] Demos: stick
+[ 3054] Canterxul: scep
+[ 9218] Gojo: scroll
+[ 8318] Shintoryu: option

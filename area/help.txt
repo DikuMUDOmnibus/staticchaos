@@ -1,0 +1,44 @@
+0 NOTE 'NOTE WRITE' 'NOTE READ' BOARD 'NOTE SYSTEM' BOARDS~
+Syntax:
+
+board [number|name]                     Shows or changes board.
+note                                    Reads next note.
+note read [number]                      Reads a certain note.
+note remove <number>                    Removes a note written by you.
+note list [number]                      Shows up to number notes.
+note write                              Posts a note.
+note catchup                            Marks all notes in this board read.
+
+These commands are used for the new note system. Instead of just one board, 
+there are several, each with its special purpose. 
+
+Changing between the boards is accomplished using the BOARD command. BOARD
+without any arguments gives you a list of all boards together with number of
+unread message. To change, type BOARD <number> or BOARD <name of the board>.
+
+To read next unread note, type NOTE. To read a note with a specified number,
+type NOTE READ <number>. Typing NOTE while in a board with no unread notes
+shifts you to the next board. Note that unlike the standard note system, a 
+note has the same number in NOTE LIST and NOTE READ.
+
+Posting a message is as simple as writing NOTE WRITE. You will be moved 
+into interactive mode, where all you see are prompts for the fields like 
+To:, From: etc. You will be automatically put AFK while writing a note.
+
+To see the list of the notes in the current board, type NOTE LIST. Typing
+NOTE LIST <number> will list only <number> of the last notes in the area.
+
+You can remove your own note by using NOTE REMOVE <number>. Implementors may
+remove other people's notes. Implementors can also select how many days
+their note is kept before being purged. Purging happens automatically at
+bootup. Purged notes are not deleted, but saved into a file.
+
+To let only immortals see your note, address it to "imm". To let players of
+a specific level and above, address it to that level (no other recipients may
+appear in that case).
+
+This board system was created by Erwin S. Andreasen, erwin@pip.dknet.dk, aka
+Phunk/Drylock and is freely available. The general outlook was based on
+Mystic Adventure's note system (mud.gel.ulaval.ca 4000).
+~
+

@@ -1,0 +1,389 @@
+#AREADATA
+Name        { 5 35} Malucif The Renegades Headquarters~
+Builders    None~
+VNUMs       9950 9999
+Security    1
+Recall      3001
+End
+
+
+
+#MOBILES
+#9950
+guardian kraven~
+Kraven~
+Kraven says '`myou gotta die sometime`n'
+~
+Kraven says '`myou gotta die sometime`n'
+~
+65635 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9951
+banker valek~
+Valek~
+Valek likes money! Feed me!
+~
+Valek likes money! Feed me!
+~
+579 552 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9952
+guardian humping~
+Wei Han~
+Wei Han is here, kicking your ass.
+~
+Wei Han is here, kicking your ass.
+~
+65635 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9953
+guardian kangishkhan~
+Kangishkhan~
+Kangishkhan dives into the hawk fighting stance.
+~
+Kangishkhan dives into the hawk fighting stance.
+~
+65635 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9954
+guardian gintenki~
+Master Gintenki~
+Master Gintenki appears in a golden aura, attacking with blinding speed.
+~
+Master Gintenki appears in a golden aura, attacking with blinding speed.
+~
+65635 66216 6 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9955
+questmaster~
+Q~
+Q might or might not be here.
+~
+Q is here motherfuckers.
+~
+1091 552 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#9956
+guardian seraphim~
+`YS`ye`Yr`ya`Yp`yh`Yi`ym`n~
+`YS`ye`Yr`ya`Yp`yh`Yi`ym`n floats here, guarding the sanctuary.
+~
+`YS`ye`Yr`ya`Yp`yh`Yi`ym`n floats here, guarding the sanctuary.
+~
+65635 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9957
+vlad guardian~
+Vlad~
+Vlad will impale you.
+~
+Vlad will impale you.
+~
+65635 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9958
+whore shopkeeper~
+Lupin~
+Lupin is here, selling his body for money.
+~
+Lupin is here, selling his body for money.
+~
+67 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9959
+shopkeeper~
+Malucifer~
+Malucifer is here, looking confused.
+~
+Malucifer is here, looking confused.
+~
+67 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#9950
+tomb etching~
+`WA White Marble Tomb with `dEtching`n~
+`WA White Marble Tomb with `dEtching`n~
+~
+12 0 0
+0 0 0 0
+100 0 0
+E
+etching~
+In memory of our founder Malucifer, and all those who suffered
+from the loss of One.
+
+Forever will they be remembered, Forever they will be honored.
+
+-+SHINKU+- -=CROW=- of Clan `brRE`BNE`CG`BAD`bES`n
+~
+#9951
+wall~
+The wall~
+The wall~
+~
+12 0 0
+0 0 0 0
+100 0 0
+E
+wall~
+Special thanks to Alathon - Implementor
+
+Thanks to Dekkum for his unending loyalty to the standards of
+Clan Renegade and Static Chaos. Through hard times you were the
+wing man -- thank you for all your support.
+
+Thanks to Skyler for his dedication and hard work ... and the
+complete reformation of Clan Renegade's entirety.
+
+Thanks to Orez for his dedication and insistance of pushing all
+aspects of the clan further.
+
+Thanks to Malucifer and Co. for founding the clan, and giving me
+reason to keep it running.
+
+For their support, Jinx, Blah, Leaf and Shintoryu - Thanks for leaving.
+
+Thanks to Shinku, the true Mihari of Clan Renegades, whose leadership
+and guidance brought the team and family that the brotherhood is today.
+The honor of Renegades lies in you.
+~
+#0
+
+
+
+#ROOMDATA
+#9950
+Slaughterhouse~
+a blood tainted room ..delightful.
+~
+6 40960 0
+D0
+~
+~
+0 -1 851
+D2
+~
+~
+0 -1 9951
+S
+#9951
+Dojo~
+An old Japanese style dojo. Tetami mats are soft beneath your feet
+and weapons line the wooden walls. A gentle breeze disturbs the calm,
+and the master appears to teach the lessons for the day.
+~
+6 40960 0
+D0
+~
+~
+0 -1 9950
+D1
+~
+~
+0 -1 9953
+D2
+~
+~
+0 -1 9952
+D3
+~
+~
+0 -1 9955
+D5
+~
+~
+0 0 9959
+S
+#9952
+Sanctuary~
+you only wish this was a safe place.
+~
+6 40960 0
+D0
+~
+~
+0 -1 9951
+D2
+~
+~
+0 -1 9954
+S
+#9953
+QuestPalace~
+come and help benifit
+~
+6 40960 0
+D3
+~
+~
+0 -1 9951
+S
+#9954
+Bastille~
+(null)
+~
+6 172032 0
+D0
+~
+~
+0 -1 9952
+D2
+~
+~
+0 0 9957
+D4
+~
+~
+0 0 9956
+S
+#9955
+Regen Room~
+Tanks of green liquid line the walls and technicians work
+hard to help the battle weary. Doctors are on hand to aid all those
+seriously wounded.
+~
+6 303104 0
+D1
+~
+~
+0 -1 9951
+S
+#9956
+Shelter~
+A floating arsenal in the sky offers protection to the Clan Renegades. 
+Though other clans can be seen from this vantage point, the range is
+limited. Officers keep a watchful eye over the defenses.
+~
+6 172032 0
+D1
+~
+~
+0 0 9960
+D5
+~
+~
+0 0 9954
+S
+#9957
+The Plains~
+Desert stretches as far as the eye can see. The ground is littered with
+the remains of slain warriors and the mechanical beasts of war. 
+The red sun blazes down upon you, draining you of your energy.
+~
+0 40960 0
+D0
+~
+~
+0 0 9954
+D2
+~
+~
+0 0 9958
+S
+#9958
+The Tundra~
+Heat gives way to bitter cold. Any sight of the sun was long lost, 
+and its life giving energy is far from aiding you. Wolves howl in
+the distance what a tasty meal you will make upon your death.
+~
+0 40960 0
+D0
+~
+~
+0 0 9957
+S
+#9959
+Chaos~
+What the fuck is this?
+~
+0 40960 0
+D4
+~
+~
+0 0 9951
+S
+#9960
+Memorial~
+This room gives tribute to all the warriors who have stood by
+in the brotherhood of Clan Renegade. All of you are thanked
+for your time, dedication, and understanding of our methods and honor.
+~
+0 40960 0
+D3
+~
+~
+0 0 9956
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 9952 1 9950
+M 0 9953 1 9950
+M 0 9950 1 9951
+M 0 9954 1 9951
+M 0 9951 1 9952
+O 0 9950 0 9952
+M 0 9956 1 9952
+M 0 9957 1 9952
+M 0 9955 1 9953
+M 0 9958 1 9954
+G 0 80 0
+G 0 81 0
+G 0 82 0
+G 0 83 0
+G 0 84 0
+G 0 93 0
+O 0 70 -1 9956
+O 0 69 -1 9956
+O 0 68 -1 9956
+O 0 66 -1 9956
+M 0 9959 1 9956
+G 0 81 0
+G 0 82 0
+G 0 83 0
+G 0 93 0
+O 0 9951 0 9960
+S
+
+
+
+#SHOPS
+9958 0 0 0 0 0 110 100 0 23
+9959 0 0 0 0 0 110 100 0 23
+0
+
+
+
+#$

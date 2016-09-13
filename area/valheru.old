@@ -1,0 +1,524 @@
+#AREA	{ 1 99} Larsen  Valheru Headquarters~
+
+
+#HELPS
+0 VALHERU~
+Long ago, the world was rules by the Valheru.  They were an ancient
+race, able to fly across the skies on the backs of mighty dragons.  Their
+lives were ruled by the gods of chaos and destruction.  They cared not 
+for the lives of their mortal servants, using them as play things and
+killing them in their insane rage.  No one could stand up to the Valheru,
+their combined might was unrivaled.  They destroyed any who were
+foolish enough to stand in their path, until the day when they saw there
+was no one left to destroy.  They turned their gaze upwards, to the
+heavens.  So great was their power, they sought to challenge the gods.
+It would bring about their death.  While their power was immense it
+wasn't enough for this battle.  The Valheru were destroyed, all save
+one.  Only one had been wise enough to know their own limits.  He
+was the oldest Valheru, Ashen Shugar.  He ruled the land for many
+generations, until one day he too passed from this earth.
+
+That was many generations ago, and once again the Valheru are united.
+They are all the descendants of Ashen Shugar, and his blood flow within
+their veins.  While they are only mere mortals now, they conquer and rule
+through strength of arms.  Their goal is to once again have the world
+kneel and beg before the Valheru.
+
+The Valheru has three important ranks.  They are lead by Boldar who is 
+a direct descendant of Ashen Shugar.  Kyriel and Ingen serve as his left
+and right hand, the Dragon Lords of the clan.  Everyone else works their
+way up to the rank of Dragon Rider where they can serve as warriors for
+the Valheru.
+
+There are no requirements to join Valheru.  Players are recruited, not
+their statistics.  Generally in order to join the Valheru the three leaders
+must all agree that the applicant would make the clan stronger.  If even
+one disagrees, you won't be joined to the clan.  If you wish to join the
+try to impress us with your skills in combat.  Thats the only way to join
+the Valheru.
+~
+
+0 $~
+
+
+#MOBILES
+#9500
+dragon~
+The Dragon~
+`dAn ancient black dragon`n
+~
+An ancient lack dragon is here, guarding the City of Forever.
+~
+2|32|64|2048 8|32|128|65536 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#9501
+dread~
+The Dread Master~
+The Dread Master
+~
+The Dread Master lies in wait for it's prey.
+~
+2|32|64|2048 8|32|128|65536 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#9502
+eagle~
+Tomas~
+Tomas, Lord of the Eagles
+~
+The last true Valheru stands before you.  Possessing the power of
+Ashen-Shugar, and the heart of the human Tomas, he is a being to
+be feared.
+~
+2|32|64|2048 8|32|128|512|65536 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#9503
+dragon~
+Ryath~
+Ryath, an Ancient Gold Dragon
+~
+A rare gold dragon flies here, carrying Tomas.
+~
+2|32|64|2048 8|32|128|512|65536 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#9504
+questmaster~
+Arrya~
+Arrya is here, sending the Valheru members on errands
+~
+THE PRINCESS OF V RULES!
+~
+2|64|1024 8|32|512 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#9505
+sorcerer~
+Pug~
+Pug the Sorcerer
+~
+One of the greatest sorcerers the world has ever seen, Pug is
+a master of magic, possessing the power of two worlds.
+~
+2|32|64|2048 8|32|128|65536 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#9506
+black~
+Macros~
+Macros the Black
+~
+The legendary Macros, the agent of Sarig.  He is more god than man.
+~
+2|32|64|2048 8|32|128|65536 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#9507
+shopkeeper prostitute~
+Honest John~
+Honest John is here, looking for his bar
+~
+Someone kidnapped Honest John!
+~
+2|64 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#9508
+banker~
+Banker~
+Have you donated your money today?
+~
+Give me your money!
+~
+2|64|512 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#0
+
+
+#OBJECTS
+#9500
+warriors valheru~
+`dThe warriors of the clan `WV`na`dl`nh`We`nr`du`n~
+`dThe warriors of the clan `WV`na`dl`nh`We`nr`du`n~
+~
+12 0 0
+0 0 0 0 
+100 600 0
+E
+valheru~
+`dBoldar the Valheru
+ Kyriel the Warlock
+ Ingen the Dragonlord
+ Tarrant the Dragonlord
+ Arrya the Princess
+
+The Dragon Riders:
+ Adin (Sorcerer, Shaman)
+ Barok (Sorcerer, Shaman)
+ Bil (Sorcerer, Shaman)
+ Cedric (Saiyan)
+ Dorin (Sorcerer, White)
+ Euthanasia (Patryn)
+ Kakkarot (Saiyan)
+ Labrie (Sorcerer, White)
+ Liah (Sorcerer, Black)
+ Macros (Sorcerer, Black)
+ Mandrax (Fist)
+ Piccolo (Saiyan)
+ Varnus (Patryn)
+ Vligadok (Saiyan)
+ Xandar (Patryn)
+~
+#9501
+severed head~
+a severed head that once belonged to Columbo~
+A severed head that once belonged to Columbo~
+~
+12 0 0
+0 0 0 0 
+100 600 0
+E
+head~
+You notice that there are no brains inside.
+~
+#9502
+severed testicle~
+the severed testicle of Xantos~
+The severed testicle of Xantos~
+~
+12 0 0
+0 0 0 0 
+100 600 0
+E
+testicle~
+This seems very small, I wonder where the other one is?
+~
+#9503
+chopped hand~
+karth's chopped off hand~
+Karth's chopped off hand~
+~
+12 0 0
+0 0 0 0 
+100 600 0
+E
+hand~
+This hand is slightly sticky and there appears
+to be a white sticky liquid dried on it.
+~
+#9504
+slimy eyeball~
+tander's slimy eyeball~
+Tander's Slimy eyeball~
+~
+12 0 0
+0 0 0 0 
+100 600 0
+E
+eyeball~
+It appears that Tander has seen his last 'Your'.
+~
+#9505
+important sign~
+a sign with an important message~
+A sign with an important message~
+~
+12 0 0
+0 0 0 0 
+100 600 0
+E
+sign~
+The idiot `RPalon`n was `Rdenied`n on October 13th.  We all had a party.
+~
+#9506
+laguna~
+belicia's lost `dLaguna Blade`n~
+Belicia's lost `dLaguna Blade`n~
+~
+12 0 0
+0 0 0 0 
+100 600 0
+E
+laguna~
+Belicia has prepped her last Laguna Blade.
+~
+#9507
+autopsy table~
+An autopsy table is here, occupied by a corpse~
+An autopsy table is here, occupied by a corpse~
+~
+12 0 0
+0 0 0 0
+100 600 0
+E
+autopsy~
+You notice the corpse is Columbo's.  It seems
+chant mischeivous V has removed his head.  There is also a
+small sign on the crotch. It reads "Note the lack of genitalia."
+~
+#9508
+wardrobe~
+A large wardrobe~
+A large wardrobe~
+~
+12 0 0
+0 0 0 0
+100 600 0
+E
+wardrobe~
+You open the wardrobe, and see inside 
+Bil's shrine to Raven, his goddess.  She gives him the
+abilty to manipulate the elements, and conquer the mud.
+~
+#0
+
+
+#ROOMS
+#9500
+`WThe City of Forever`n~
+`dAn odd spot appears in the grey, the first hint of any reality
+in rift-space. It is a city, a place of terrible and alien beauty.
+It possessed towers of twisted symmetry, minarets impossibly slender,
+oddly designed buildings that sprawled below the vaulting arches
+between the towers.`n
+~
+0 8192|32768 0
+D0
+~
+~
+0 -1 9501
+D1
+~
+~
+0 -1 9507
+D2
+~
+~
+0 -1 832
+S
+#9501
+`WThe Fountains`n~
+`dFountains of complex fashion spewed forth drops of liquid silver
+that turned to crystals, filling the air with tinkling music as
+they shattered upon the tiles of the fountain, becoming 
+liquid again and running into drains.`n
+~
+0 8192|32768 1
+D0
+~
+~
+0 -1 9502
+D2
+~
+~
+0 -1 9500
+D3
+~
+~
+0 -1 9503
+S
+#9502
+`WThe Boulevard`n~
+`dThe entire street was tiled, and the tiles glowed with soft
+hues, each subtly different from the next, so that over a distance
+it appeared a gradually changing rainbow.`n
+~
+0 8192|32768 1
+D0
+~
+~
+0 -1 9505
+D1
+~
+~
+0 -1 9504
+D2
+~
+~
+0 -1 9501
+S
+#9503
+`WThe Garden `n~
+`dBeyond the boundaries of the City of Forever, the grey of
+rift-space could be seen.  The Garden was surrounded by a moat,
+but instead of water, there is nothing.  Only the void of rift-
+space.  A large circle of land floats beside the city. Atop
+this circle of earth a garden of lush vegetation sat, fully
+covering every inch of the surface.  It brimmed with meandering
+streams, which spilled over the edge.   Frut trees of every 
+description could be see.  This is indeed a most improbable place.`n
+~
+0 8192|32768 0
+D1
+~
+~
+0 -1 9501
+S
+#9504
+`WThe Star Pillars`n~
+`dSeven pillars rise from the city.  At first they appear black,
+but upon closer inspection there are tiny flecks of light within.  
+The pillars are composed of tiny stars, comets, and planets,
+miniature galaxies galleries swirling within the confines of
+the pillars, locked within a void as black true space.  It
+may be that the true universe is contained within these
+pillars.`n
+~
+0 8192 1
+D3
+~
+~
+0 -1 9502
+S
+#9505
+`WA Strange Building`n~
+A tall building rises up before you.  It has no windows and there
+is only one door.  It is made out of the a strange black stone, 
+that pulses with a strange energy.  Where this rock was found is
+anyone guess, but you probably wouldn't like the answer.  The
+door is gigantic.  Twice the size of a man, and 10 feet across.
+Behind it lies the mystical Hall of Worlds.
+~
+0 8192|32768 0
+D0
+~
+~
+0 -1 9506
+D2
+~
+~
+0 -1 9502
+S
+#9506
+`WThe Hall of Worlds`n~
+long hallway stretches out into space.  There are no
+walls, merely the grey void of rift-space.  Standing tall
+along the edge of the hall are the doors.  Thousands of
+them, marching on towards infinity.  Each leading to a
+different place, another world, a different dimension.
+The hallway never ends, it simple continues on and on.
+It is up to you to choose your door, and choose your
+fate.
+~
+0 8192|32768 0
+D1
+~
+~
+0 -1 9508
+D2
+~
+~
+0 -1 9505
+D3
+~
+~
+0 -1 9509
+S
+#9507
+`WA Wall of Flame`n~
+A strange red light glows in the distance, as you move
+closer you see it is a mysterious wall of flame, running
+about one mile in length.  Waves of scorching heat cause
+your skin to blister, forcing you to draw back.  This 
+wall serves no apparent , it has no reason for being, 
+the is no use for it.  It simply exists.  Another mystery
+of the City of Forever.
+~
+0 8192|32768 0
+D3
+~
+~
+0 -1 9500
+S
+#9508
+`WThe Laboratory of the ApocalypsE`n~
+So THIS is where the legendary Archmagus spends
+his time.  The walls are solid flames, though they give off no
+heat.  The floors are granite, and there are numerous shelves
+filled with various spell components and mystical totems.
+~
+0 8192|32768 0
+D3
+~
+~
+0 -1 9506
+S
+#9509
+`WChamber of Horror`n~
+You have stepped into a world of no return.  This world
+belongs to an evil Valheru named Larsen.  The only beings
+allowed to live here are those who serve him.  Their lives
+belong to him.  He gives them life, and he gives them death.
+Now you belong to him.  
+~
+0 8192|32768 0
+D1
+~
+~
+0 -1 9506
+S
+#0
+
+
+
+#RESETS
+*
+*
+M 1 9500 1 9500			a Saaur Warrior to The Drawbridge
+M 1 9501 1 9500			The Dread Master to `WThe City of Forever`n
+O 1 9501 1 9500             Columbo's head
+O 1 9505 1 9500             A sign
+*
+M 1 9502 1 9501			a Saaur Warrior to Inside the Valheru Castle
+M 1 9503 1 9501			Ryath to `WThe Fountains`n
+O 1 9500 1 9501             The Warriors of Clan Valheru to Inside the castle
+O 1 9506 1 9501             Belicia's lag blade
+*
+M 1 9506 1 9502			clan guard
+M 1 9505 1 9502			Pug to `WThe Boulevard`n
+O 1 9503 1 9502             Karth's hand
+*
+M 1 9504 1 9501			questmaster
+O 1 9502 1 9503             Xantos' testicle
+O 1 9504 1 9503             Tander's eyeball
+O 1 65 -1 9502              Vayeate to Pit
+O 1 69 -1 9502              Deathscythe to Pit
+O 1 70 -1 9502              Wing Gundam to Pit
+O 1 66 -1 9502              Tallgeese to Pit
+*
+M 1 9507 1 9503			`CMa`Wri`Cah`n to The Arena
+G 1 80 100
+G 1 81 100
+G 1 82 100
+G 1 83 100
+G 1 84 100
+G 1 93 100
+M 1 9508 1 9500             Banker to The Drawbridge
+O 1 9507 1 9508             Autopsy table to Bils room
+O 1 9508 1 9508             Wardrobe to Bils room
+S
+
+
+#SHOPS
+9507 0 0 0 0 0 110 100 0 23			; Mariah
+0
+
+
+#SPECIALS
+M  9502 spec_fido			`Malustrial`n
+S
+
+
+#$

@@ -1,0 +1,1286 @@
+#AREADATA
+Name        { 5 35} Larsen  ApocalypsE Headquarters~
+Builders    None~
+VNUMs       800 853
+Security    1
+Recall      3001
+End
+
+
+
+#MOBILES
+#800
+cruel apocalypse~
+Larsen the Cruel~
+Larsen the Cruel
+~
+Draws his sword and moves to decapitate you.
+~
+131111 532648 0 S
+99 0 0 0d32000+0 0d0+0
+0 0
+0 0 1
+#801
+shitter apocalypse~
+Tarrant the Shitter~
+Tarrant the Shitter
+~
+Judging from the smell Tarrant forgot to wipe his ass, but he is still ready to cut off your head.
+~
+131111 532648 0 S
+99 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#802
+mage archmage magic apocalypse~
+Kyriel the Mage~
+Kyriel the Mage
+~
+Begins to cast a spell, which sends a fireball towards your face.
+~
+131111 532648 0 S
+99 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#803
+raven apocalypse duel assassin~
+Dorin the Assassin~
+Dorin is here duelling.
+~
+Dorin kills his opponent, and moves towards you.
+~
+131111 532648 0 S
+97 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#804
+guard~
+An Apocalypse Guard~
+An Apocalypse Guard is here.
+~
+Yells for help!
+~
+197 0 0 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#805
+shadow apocalypse~
+Ingen Jegger~
+Ingen the Hunter is here "guarding" the dungeon.
+~
+Ingen snores, oblivious to of your presence.
+~
+39 128 0 S
+97 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+>act_prog p begins to phase in and out of existance..~
+mpecho Seeing an opening, Ingen turns and strikes!
+  mpdamage $n 25000 30000 1301
+~
+>act_prog p bursts into crimson flame!~
+growl
+  mpecho Ingen exclaims '`mEat this, monkey boy!`n'
+  mpdamage $n 18000 240000 1305
+~
+|
+#806
+prisoner~
+A Prisoner~
+A prisoner is sleeping in the corner.
+~
+He stinks from his own filth, you are scared to think of all the diseases he probably has.
+~
+7 0 0 S
+30 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#800
+dragon tabard~
+a Golden Tabard~
+A White Tabard, with a Gold Dragon~
+~
+9 67 9
+15 0 0 0
+10 0 0
+A
+13 500
+A
+19 25
+A
+18 25
+A
+17 -100
+A
+1 10
+A
+2 10
+A
+5 10
+#801
+ring golden band~
+a Golden Band~
+A gleaming band of gold~
+~
+9 67 3
+0 0 0 0
+1 0 0
+A
+18 25
+A
+19 25
+A
+17 -10
+#802
+train silver bracer~
+a Tarnished Silver Bracer~
+A silver bracer for training~
+~
+9 67 4097
+0 0 0 0
+5 0 0
+A
+13 -999
+A
+12 -999
+A
+14 -999
+#803
+robe~
+a Mystic Robe~
+A Robe of Great Power~
+~
+9 67 1025
+0 0 0 0
+5 0 0
+A
+24 -50
+A
+12 2000
+A
+18 5
+A
+19 5
+A
+17 -50
+A
+3 10
+A
+4 10
+#804
+medal~
+a Medal of Honor~
+A Shining Medal of Honor~
+~
+9 67 5
+0 1 6 11
+1 0 0
+A
+18 15
+A
+19 15
+A
+13 250
+A
+12 250
+#805
+white pillar monument~
+A pillar of the purest white marble soars skyward.~
+A pillar of the purest white marble soars skyward.~
+~
+12 0 0
+0 0 0 0
+100 600 0
+E
+white marble~
+.                                                                       +
+                                                                   +    +    +
+     /\                                                              +  +  +
+    /  \                                                               + +
+    |  |                    Legends of Chaosium                  + + + <*> + + +
+    |  |                    ^^^^^^^^^^^^^^^^^^^                        +|+
+    |  |     Delar  Euthanasia  Ingen  Piccolo  Valgarv  Vligadok    +  |  +
+    |  |                                                           +    |     +
+    |  |                                                                |
+    |  |                                                                |
+    |  |                                                                |
+    |  |                                                                |
+    |  |                      Notable Warriors                          |
+    |  |                      ----------------                          |
+    |  |                                                                |
+    |  |             Dynast  Karth  Kyriel  Mdk  Sokarr                 |
+    |  |                                                                |
+    |  |                                                                |
+    |  |                      Token Roleplayer                          |
+    |  |                      ++++++++++++++++                          |
+    |  |                                                                |
+    |  |                          Psyduck                               |
+    |  |                                                                |
+    |  |                                                                |
+O==========O                                                            |
+     ||                                                                 |
+     ||                                                                 |
+     ||                                                                 |
+     ||                                                                 |
+     ||                                                                 |
+     ()
+~
+#806
+black pillar monument~
+A pillar of jet black onyx soars skyward.~
+A pillar of jet black onyx soars skyward.~
+~
+12 0 0
+0 0 0 0
+100 600 0
+E
+black onyx~
+.                                                               
+
+
+           | 
+           /
+           |
+          /\---------------------------------------------------------\
+ ()======<**>--------------------------------------------------------->
+          \/---------------------------------------------------------/
+           |
+           \
+           | 
+
+                        Second Year Legends of Chaosium
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           Dalgar    Dizz    Dynast
+
+
+
+                         Second Year Notable Warriors
+                         ----------------------------
+
+                        Aragos  Shinku  Vinsfeld  Zippo
+
+
+      
+           *xxx*   
+          *xx*   * -
+         *xx*xx*  * - -     
+         *xx*xx* * * * * * * * * *  *   *   *   *   *   *   *   *    
+         *xx*xx*  * - - - -
+          *xx*   * -
+           *xxx*  
+      
+~
+#0
+
+
+
+#ROOMDATA
+#800
+Larsen's Torture Chamber~
+You are standing in a dimly lit chamber. There are corpses handing from the ceiling on giant meat hooks, while other captives are chained to the wall.  In the center of the room is Larsen, cutting out the heart of his latest victim.
+~
+0 8192 1
+D2
+~
+~
+0 -1 801
+S
+#801
+End of the Hall~
+You have come to the end of the hall, in front of you is a large metal doorway.  You hear screams coming from inside.  You should turn back.
+~
+0 8192 0
+D0
+~
+~
+0 -1 800
+D2
+~
+~
+0 -1 802
+S
+#802
+A Hallway~
+A long hallway stretches before you, there are a few torches on the wall, but they don't push back the darkness in this grim castle.
+~
+0 8192 0
+D0
+~
+~
+0 -1 801
+D1
+~
+~
+0 -1 816
+D2
+~
+~
+0 -1 803
+S
+#803
+A Bend in the Hall~
+The hall bends here, moving into the darker regions of the castle.
+~
+0 8192 0
+D0
+~
+~
+0 -1 802
+D3
+~
+~
+0 -1 804
+S
+#804
+The Eastern Hall~
+You are moving into the Eastern wing of the castle, where few dare to go.
+~
+0 8192 0
+D1
+~
+~
+0 -1 803
+D2
+~
+~
+0 -1 805
+D3
+~
+~
+0 -1 806
+S
+#805
+A Portal~
+Before you is a large void.  You cannot see through it and have no idea what is on the other side, you notice a sign on the wall.
+~
+0 8192 0
+E
+sign~
+This is the portal to the Drow City.~
+D0
+~
+~
+0 -1 804
+D2
+~
+~
+0 -1 5100
+S
+#806
+The Inner Ward ~
+You are in the center of the Apocalypse castle, hallways lead from here in all directions.  Each one leading deeper into the evil that is the Apocalypse.
+~
+0 8192 0
+D0
+~
+~
+0 -1 807
+D1
+~
+~
+0 -1 804
+D2
+~
+~
+0 -1 820
+D3
+~
+~
+0 -1 810
+D4
+~
+~
+0 -1 829
+S
+#807
+The Northern Wing~
+This wing of the castle is well lit.  Paintings adorn the walls and you can even here laughing up ahead.
+~
+0 8192 0
+D0
+~
+~
+0 -1 808
+D2
+~
+~
+0 -1 806
+D5
+~
+~
+0 -1 823
+S
+#808
+A Hallway~
+You are closer to the laughing.  It is just beyond the door in front of you.
+~
+0 8192 0
+D0
+~
+~
+0 -1 809
+D2
+~
+~
+0 -1 807
+S
+#809
+The Courtyard~
+You are in what appears to be the courtyard.  Ahead of you are two people fighting.  One of them wears the image of a Black Raven which identifies him as Dorin, a member of the Apocalypse.  You do not recognize the other.
+~
+0 8192 2
+D2
+~
+~
+0 -1 808
+D3
+~
+~
+0 -1 822
+S
+#810
+Another Hallway~
+The castle is fairly simple in design, but its filled with evil.  You can feel that presence getting stronger the farther down this hallway you go.
+~
+0 8192 0
+D0
+~
+~
+0 -1 812
+D1
+~
+~
+0 -1 806
+D2
+~
+~
+0 -1 813
+D3
+~
+~
+0 -1 817
+S
+#811
+The Hallway~
+You grope about blindly in the darkness. For some reason the torches have all gone out.
+~
+0 8205 0
+S
+#812
+A Portal~
+Before you is a large void.  You cannot see through it and have no idea what is on the other side, you notice a sign on the wall.
+~
+0 8192 0
+E
+sign~
+This is the portal to the heavens.~
+D0
+~
+~
+0 -1 904
+D2
+~
+~
+0 -1 810
+S
+#813
+A Portal~
+Before you is a large void.  You cannot see through it and have no idea what is on the other side, you notice a sign on the wall.
+~
+0 8192 0
+E
+sign~
+This portal leads to the Tower of Sorcery.~
+D0
+~
+~
+0 -1 810
+D2
+~
+~
+0 -1 1312
+S
+#814
+A Portal~
+Before you is a large void.  You cannot see through it and have no idea what is on the other side, you notice a sign on the wall.
+~
+0 8192 0
+E
+sign~
+The pathway to the city of Midgaard.~
+D0
+~
+~
+0 -1 820
+D2
+~
+~
+0 -1 3001
+S
+#815
+A Portal~
+Before you is a large void.  You cannot see through it and have no idea what is on the other side, you notice a sign on the wall.
+~
+0 8192 0
+E
+sign~
+This portal leads to the Serpent's Castle.~
+D1
+~
+~
+0 -1 2201
+D3
+~
+~
+0 -1 819
+S
+#816
+A Portal~
+Before you is a large void.  You cannot see through it and have no idea what is on the other side, you notice a sign on the wall.
+~
+0 8192 0
+E
+sign~
+Mahntor awaits you if you enter this portal.~
+D1
+~
+~
+0 -1 2362
+D3
+~
+~
+0 -1 802
+S
+#817
+The Entryway to Bathing Chambers~
+You are at the doorway to the castles bathing chambers.  Who knows what you'll find inside.
+~
+0 8192 0
+D0
+~
+~
+0 -1 818
+D1
+~
+~
+0 -1 810
+S
+#818
+The Bathing Chamber~
+Oh no! You've disturbed Lord Tarrant during his "reflection"  He rises from his "throne" reaching for his sword!
+~
+0 8192 0
+D2
+~
+~
+0 -1 817
+S
+#819
+The Tower~
+You are on a winding staircase.  It leads up higher into the castle.
+~
+0 8192 0
+D1
+~
+~
+0 -1 815
+D4
+~
+~
+0 -1 821
+D5
+~
+~
+0 -1 820
+S
+#820
+The Southern Hallway~
+You are moving south, towards the exit of the castle.  Above you is the castle tower, full of magic and mystery.
+~
+0 8192 0
+D0
+~
+~
+0 -1 806
+D2
+~
+~
+0 -1 814
+D4
+~
+~
+0 -1 819
+S
+#821
+The Top of the Tower~
+You have reached the lair of the magician Kyriel.  He looks at you and begins weaving a spell.  Your end is near.
+~
+0 8192 0
+D5
+~
+~
+0 -1 819
+S
+#822
+A Duel~
+With sudden quickness Dorin takes of the head of the person he was sparring with. You should run before he notices you.
+~
+0 8192 2
+D1
+~
+~
+0 -1 809
+S
+#823
+A Stair Well~
+A dark stairwell descending into the depths of the castle.
+~
+0 8192 0
+D4
+~
+~
+0 -1 807
+D5
+~
+~
+0 -1 824
+S
+#824
+The Dungeon~
+You're in a dimly lit dungeon.  In one corner sleeps the dungeon's guard Ingen.
+~
+0 8192 0
+D0
+~
+~
+0 -1 826
+D1
+~
+~
+0 -1 828
+D2
+~
+~
+0 -1 827
+D3
+~
+~
+0 -1 825
+D4
+~
+~
+0 -1 823
+S
+#825
+A Cell~
+You are in a dark cell.  Rats move around in the shadows.  The cell is practically unlivable.  In the corner is a pile of human excrement, and there is an unwashed filthy man sleeping on the stones.
+~
+0 8192 0
+D1
+~
+~
+0 -1 824
+S
+#826
+A Cell~
+You are in a dark cell.  Rats move around in the shadows.  The cell is practically unlivable.  In the corner is a pile of human excrement, and there is an unwashed filthy man sleeping on the stones.
+~
+0 8192 0
+D2
+~
+~
+0 -1 824
+S
+#827
+A Cell~
+You are in a dark cell.  Rats move around in the shadows.  The cell is practically unlivable.  In the corner is a pile of human excrement, and there is an unwashed filthy man sleeping on the stones.
+~
+0 8192 0
+D0
+~
+~
+0 -1 824
+S
+#828
+A Cell~
+You are in a dark cell.  Rats move around in the shadows.  The cell is practically unlivable.  In the corner is a pile of human excrement, and there is an unwashed filthy man sleeping on the stones.
+~
+0 8192 0
+D3
+~
+~
+0 -1 824
+S
+#829
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 0
+D0
+~
+~
+0 -1 832
+D1
+~
+~
+0 -1 830
+D2
+~
+~
+0 -1 836
+D3
+~
+~
+0 -1 834
+D5
+~
+~
+0 -1 806
+S
+#830
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 831
+D1
+~
+~
+0 -1 838
+D2
+~
+~
+0 -1 837
+D3
+~
+~
+0 -1 829
+S
+#831
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 841
+D1
+~
+~
+0 -1 839
+D2
+~
+~
+0 -1 830
+D3
+~
+~
+0 -1 832
+S
+#832
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 842
+D1
+~
+~
+0 -1 831
+D2
+~
+~
+0 -1 829
+D3
+~
+~
+0 -1 833
+S
+#833
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 843
+D1
+~
+~
+0 -1 832
+D2
+~
+~
+0 -1 834
+D3
+~
+~
+0 -1 845
+S
+#834
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 833
+D1
+~
+~
+0 -1 829
+D2
+~
+~
+0 -1 835
+D3
+~
+~
+0 -1 846
+S
+#835
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 834
+D1
+~
+~
+0 -1 836
+D2
+~
+~
+0 -1 849
+D3
+~
+~
+0 -1 847
+S
+#836
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 829
+D1
+~
+~
+0 -1 837
+D2
+~
+~
+0 -1 850
+D3
+~
+~
+0 -1 835
+S
+#837
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 830
+D1
+~
+~
+0 -1 853
+D2
+~
+~
+0 -1 851
+D3
+~
+~
+0 -1 836
+S
+#838
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 839
+D1
+~
+~
+0 -1 9600
+D2
+~
+~
+0 -1 853
+D3
+~
+~
+0 -1 830
+S
+#839
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 0 1
+D0
+~
+~
+0 -1 840
+D2
+~
+~
+0 -1 838
+D3
+~
+~
+0 -1 831
+S
+#840
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D2
+~
+~
+0 -1 839
+D3
+~
+~
+0 -1 841
+S
+#841
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D1
+~
+~
+0 -1 840
+D2
+~
+~
+0 -1 831
+D3
+~
+~
+0 -1 842
+S
+#842
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 0 9500
+D1
+~
+~
+0 -1 841
+D2
+~
+~
+0 -1 832
+D3
+~
+~
+0 -1 843
+S
+#843
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D1
+~
+~
+0 -1 842
+D2
+~
+~
+0 -1 833
+D3
+~
+~
+0 -1 844
+S
+#844
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D1
+~
+~
+0 -1 843
+D2
+~
+~
+0 -1 845
+S
+#845
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 844
+D1
+~
+~
+0 -1 833
+D2
+~
+~
+0 -1 846
+D3
+~
+~
+0 -1 9700
+S
+#846
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 845
+D1
+~
+~
+0 -1 834
+D2
+~
+~
+0 -1 847
+S
+#847
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 846
+D1
+~
+~
+0 -1 835
+D2
+~
+~
+0 -1 848
+D3
+~
+~
+0 -1 9800
+S
+#848
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 847
+D1
+~
+~
+0 -1 849
+S
+#849
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 835
+D1
+~
+~
+0 -1 850
+D2
+~
+~
+0 0 9900
+D3
+~
+~
+0 -1 848
+S
+#850
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 836
+D1
+~
+~
+0 -1 851
+D3
+~
+~
+0 -1 849
+S
+#851
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 837
+D1
+~
+~
+0 -1 852
+D2
+~
+~
+0 -1 9950
+D3
+~
+~
+0 -1 850
+S
+#852
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 853
+D3
+~
+~
+0 -1 851
+S
+#853
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 838
+D2
+~
+~
+0 -1 852
+D3
+~
+~
+0 -1 837
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 800 1 800
+E 0 800 0 5
+M 0 804 1 802
+O 0 805 0 806
+O 0 806 0 806
+M 0 804 1 806
+M 0 804 2 809
+M 0 804 1 817
+M 0 801 1 818
+E 0 801 0 2
+M 0 804 3 820
+M 0 802 1 821
+E 0 803 0 12
+P 0 804 0 803
+M 0 803 1 822
+E 0 802 0 15
+M 0 803 1 822
+E 0 802 0 15
+M 0 805 1 824
+E 0 804 0 4
+M 0 806 1 825
+M 0 806 1 826
+M 0 806 1 827
+M 0 806 1 828
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

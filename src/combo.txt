@@ -1,0 +1,34 @@
+Monk Combos
+
+Every basic attack will add to a monk's chi, when they feel that their chi is sufficient they can unleash a devastating combination attack This is accomplished by performing basic moves which add to their chi counter.  If they execute a combo, the mud will execute the move that matches their chi counter.  Some of these moves are devastating combos, while some are little more than a basic attack, only experience will help you learn which are which.
+
+Basic Move Table:
+Move      Chi Power      Damage
+Shin Kick         1      1/4 of a regular attack
+Punch             2      1/2 of a regular attack
+Kick              4      3/4 of a regular attack
+Knee              7      Same damage as an attack
+Elbow             9      125% of a an attack
+Uppercut         10      150% of a regular attack
+* Uppercut has a chance to stun your opponent, breaking the combination.  Elbow has a slightly smaller chance.
+* Every attack can miss (0 chi), be partially block (-1 chi), or strike a vital organ (+1 chi)
+
+Advanced Move List (bold moves are combos)
+Chi 11- Foot stomp.  You stomp on your opponent's feet, breaking their toes. (light damage)
+Chi 12- Double shin kick. Two swift shin kicks.
+Chi 13- Swallow Feather.  You tickle your opponent causing them to laugh.
+**** Chi 14- Flying Kick. You jump into the air kicking your opponent in the face.  Uppercut damage, + GOOD chance for stun.
+Chi 15- Disarm.  Your opponent blocks your blow with their weapon, causing damage to yourself but forcing them to drop their weapon.
+Chi 16- Misses Knock.  Your opponent steps out of your way, and you fall out of your stance.
+**** Chi 17- Knock. The monk throws their body against you, knocking you from your stance.
+Chi 18- Double Knock.  Both you and your opponent tumble out of their stance.
+**** Chi 19- Fist of Fury. You punch your opponent twice, followed by an uppercut (200% of an attack)
+Chi 20- Counter.  Your opponent counters your attack, hitting you twice.
+**** Chi 21- Intimidation.  You execute all your basic moves for 1/2 damage (262.5% of a normal attack total) frightening your opponent causing them to flee (save vs. willpower)
+Chi 22-  Hesitation.  Fear overcomes you and you are paralyzed with fear (2 round lag)
+**** Chi 23- Death Touch. You use all your energy to harm your opponent, reducing their hp by 1/2, and your own by 1/4.  If the opponent stuns you while you are at chi 23 the damage is reversed.
+Chi 24-  Overextension:  You extend your arm into thin air, letting your opponent cut it off.
+Chi 25-  Forsaken.  God leaves the monk, leaving him at the mercy of his opponent.
+**** Chi 26- Gods Instrument. A monk channels god through his body. Landing a roundhouse on his opponent, followed by a random basic move, a second roundhouse , and a second random basic move, followed by a flying kick. Each roundhouse doing 150% damage (500%-750%) 
+Chi 27- Fireball, God has left the monks hands but he still manages to deliver a small blow (100% of a normal attack)
+Chi 28+ Your body cannot hold this much chi, and it leaves you, hurting you in the process.

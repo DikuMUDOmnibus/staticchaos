@@ -1,0 +1,756 @@
+#AREADATA
+Name        {None } Diku    Limbo~
+Builders    None~
+VNUMs       1 94
+Security    1
+Recall      3001
+End
+
+
+
+#MOBILES
+#1
+Puff~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+~
+1 0 0 S
+96 1 -1 5d10+550 4d6+3
+10000 0
+0 0 2
+#2
+isshin shishi~
+the Hitokiri Battousai~
+The Hitokiri Battousai is here, keeping out unwanted trash.
+~
+You thought he was just a rumor, an explanation for warriors
+hewn down by an unknown adversary.  Many words have been spoken
+of this rumor.. they speak of a merciless killer, a blade that
+strikes with the speed of heaven itself, and of burning eyes
+mirroring a riven soul.
+
+You know the Hitokiri Battousai to be real, though.  He stands
+before you, blade out.  For the Isshin Shishi, he is a dream..
+for any who would oppose them, he is a nightmare.
+~
+393263 67707432 0 S
+104 0 0 0d32000+0 0d0+0
+0 0
+0 0 1
+>act_prog p begins to phase in and out~
+say Hiten Mitsurugi-Ryu, Ryu-tsui-sen!
+ mpdamage $n 28000 30000 1025
+~
+>act_prog p is mortally wounded, and will die soon, if not aided.~
+chat $n should have known $s place.
+ finish $n
+ sigh
+~
+>fight_prog 50~
+say Hiten Mitsurugi-Ryu, Ryu-tsui-sen!
+ mpdamage $n 10000 20000 1025
+ mpdamage $n 15000 25000 1026
+~
+>fight_prog 99~
+say Hiten Mitsurugi-Ryu, Do-ryu-sen!
+ mpareadam $n 18000 24000 1145
+~
+|
+#3
+undead guardian vampire~
+The guardian vampire~
+A vampire is here hiding his face from your light source.
+~
+The guardian vampire looks quite EVIL.  Just by looking at him the hair on your
+arms raises. He looks mighty tough to be just a minor minion.
+~
+35 40 0 S
+28 0 -4 1d1+385 4d5+15
+15000 0
+0 0 1
+#10
+shadow soldier~
+a Shadow Soldier~
+A shadowy warrior stands ready for combat.
+~
+Vaguely humanoid, this mass of darkness is nonetheless
+recognizable as a soldier.  As the shadow moves, a trail
+of darkness fades behind it.  In it's hand is a spear
+composed apparently of nothing but negative energy.
+~
+97 8232 0 S
+91 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#11
+elite shadow soldier~
+an Elite Shadow Soldier~
+A pitch black shadow searches the area for victims.
+~
+This shadow resempbes the Shadow Soldiers in form, but
+differs in something.. you can't tell quite what.  Perhaps
+magnitude would be the best term; this elite warrior moves
+more quickly and and appears darker, if possible.
+~
+131075 106664 0 S
+91 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#12
+shadow interdictor~
+a Shadow Interdictor~
+An immense shadow prowls the vecinity for targets.
+~
+Dwarfing normal shadows, the Interdictor's size is exceeded
+only by the pure malevolence where seems to seep from it's
+very being.
+~
+393323 8360 0 S
+97 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#13
+shadow warlock~
+a Shadow Warlock~
+Black energy cascades and arcs around this Shadow.
+~
+Smaller than most shadows, this one is nonetheless most
+awe-inspiring.  What it lacks in size is more than made
+up by the horrifying aura of crackling darkness which
+reaches out from it's body to drain anything it touches.
+~
+131083 8872 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#20
+islamic fundamentalist~
+an Islamic Fundamentalist~
+An Islamic terrorist is here, looking for an American to kill
+~
+Islamic Fundamentalists represent one of the worst aspects of humanity:
+our ability to be trained to think in such an irrational manner that we
+become subhuman.  Raised in a militant and fundamentalist belief in the
+superiority of Islam and the righteousness of war against the pagan,
+this human is willing to sacrifice their life to kill people whom they
+have never seen and know little or nothing about.
+~
+97 8232 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+>fight_prog 20~
+say Allah be praised!
+~
+>fight_prog 20~
+say Death to the great satan
+~
+|
+#0
+
+
+
+#OBJECTS
+#1
+dummy object~
+a dummy object~
+Dummy object is used for loading non-existant objects~
+~
+13 0 0
+0 0 0 0
+0 0 0
+#2
+coin gold~
+a gold coin~
+One miserable gold coin.~
+~
+20 0 1
+1 0 0 0
+1 0 0
+#3
+coins gold~
+%d gold coins~
+A pile of gold coins.~
+~
+20 0 1
+0 0 0 0
+1 0 0
+#4
+generic weapon~
+a generic weapon~
+A generic weapon.~
+~
+5 262144 8193
+0 10 20 1
+10 0 0
+#10
+corpse~
+corpse of %s~
+The corpse of %s is lying here.~
+~
+23 0 1
+0 0 0 1
+100 0 0
+#11
+corpse~
+corpse of %s~
+The corpse of %s is lying here.~
+~
+24 0 0
+0 0 0 1
+100 0 0
+#12
+head~
+head of %s~
+The severed head of %s is lying here.~
+~
+19 0 1
+10 0 0 0
+5 0 0
+#13
+heart~
+heart of %s~
+The torn-out heart of %s is lying here.~
+~
+19 0 1
+16 0 0 0
+2 0 0
+#14
+arm~
+arm of %s~
+The sliced-off arm of %s is lying here.~
+~
+19 0 1
+20 0 0 0
+5 0 0
+#15
+leg~
+leg of %s~
+The sliced-off leg of %s is lying here.~
+~
+19 0 1
+20 0 0 0
+5 0 0
+#16
+turd~
+steaming turd~
+The steaming turds of %s assail your nostrils.~
+~
+19 0 16385
+1 0 0 1
+1 0 0
+#20
+mushroom~
+a Magic Mushroom~
+A delicious magic mushroom is here.
+~
+~
+19 0 1
+5 0 0 0
+1 10 0
+#21
+ball light~
+a bright ball of light~
+A bright ball of light shimmers in the air.~
+~
+1 0 1
+0 0 -1 0
+1 0 0
+#22
+spring~
+a magical spring~
+A magical spring flows from the ground here.~
+~
+25 64 0
+100000 100000 0 0
+5000 10 0
+#23
+portal~
+a gleaming portal~
+A portal hovers inches off the ground.~
+~
+27 0 0
+0 0 0 0
+1 0 0
+#24
+quest item~
+a quest item~
+A quest item sits here, waiting to be restrung.~
+~
+13 16384 1
+0 0 0 0
+1 0 0
+#25
+sign~
+a sign~
+A `Rsign`n demands your `Wattention.`n~
+~
+12 0 0
+0 0 0 0
+0 0 0
+E
+sign~
+This room is my (Alathon's) home.  As such, the rules here are a
+little different than for the rest of the mud.  People screwing
+around here are likely to be toyed with in whatever way I find
+amusing at a given point in time.
+
+`CYou have been warned`n
+~
+#26
+katana~
+a katana~
+A slightly curved blade of the finest steel.~
+~
+5 0 8193
+0 1 6 1
+5 0 0
+A
+19 10
+A
+18 10
+A
+17 -30
+E
+katana~
+The blade is bright, with few nicks evident.  The metal is clouded
+with tallow, proof that this sword has tasted flesh more than a
+few times.
+~
+#27
+generic materia~
+generic materia~
+Some generic materia is lying here.. BUG!!~
+~
+32 0 1
+0 0 0 0
+1 0 0
+#30
+murasame sword blade~
+`dthe M`nu`Wr`na`Ws`na`dm`ne `dSword`n~
+A slightly curved blade of the finest steel lies here, waiting for action.~
+~
+5 32771 8193
+0 10 20 9
+5 0 0
+A
+19 20
+A
+18 20
+#31
+uranus henshin transformation pen~
+A slim henshin pen etched with the sigil of `CUranus`n~
+A slim henshin pen etched with the sigil of `CUranus`n~
+~
+9 32768 16385
+0 0 0 0
+1 0 0
+A
+19 5
+A
+18 5
+A
+13 200
+E
+locket~
+With just one glance you can tell this pen is an item of power.
+Unsurpassed craftsmanship coupled with flawless crystal and pure
+gold workmanship combine to create a pen which is both functional
+and elegant.  The sigil of Uranus is displayed prominently on the
+cover.
+~
+#32
+saiyan battle armor~
+saiyan Battle Armor~
+Strong yet flexible armor, capable of withstanding blows of
+tremendous strength.  Crafted with the most advanced Ginyu
+Force technology, this armor far surpasses any which might be
+forged of iron.
+~
+~
+9 32769 9
+15 0 0 0
+10 0 0
+A
+18 35
+A
+19 35
+#33
+journeymans boots~
+`gJo`Gur`Wne`Gym`gan's `WBo`Got`gs`n~
+A pair of leather boots lies here.~
+~
+9 32768 65
+15 0 0 0
+3 50 0
+A
+18 3
+A
+19 3
+E
+journeymans~
+You camped a long time for these, didn't you?  A really fucking
+long time, just so you can fucking cross the Karanas in less than
+an hour and get your fucking corpse before your group logs, without
+begging a fucking druid for a SoW.  But guess what, bitch, these
+boots ain't NO_DROP!  HAH hah *nelson laugh*.
+~
+#34
+mriswith cloak~
+`dCloak of the Mriswith`n~
+It's so hard to see, you can hardly believe it exists!~
+~
+9 32832 1025
+15 0 0 0
+5 0 0
+A
+17 -75
+A
+18 10
+#35
+rubber dildo~
+`da double-headed black rubber dildo`n~
+`da double-headed black rubber dildo`n~
+~
+9 32768 16385
+15 0 0 0
+1 0 0
+A
+19 5
+A
+18 5
+A
+13 100
+E
+dildo~
+This large rubber dildo measures rougly 20 by 2 inches, each shaft being
+just under 10 inches.  The shafts are veined and end in an engorged head.
+The largeness of the heads suggest you could sap somebody upside the head
+with it, with great effectiveness.  This is truely an object capable of
+bringing pain or pleasure.
+~
+#50
+blade ice iceblade~
+an `WIce`Cblade`n~
+A puddle of slush.~
+~
+5 8320 8193
+0 1 6 1
+5 0 0
+A
+19 5
+A
+18 5
+#51
+ruby ruby-eye blade~
+a `rRuby-eye`n blade~
+A flaming mass of dark energy.~
+~
+5 8320 8193
+0 1 6 1
+5 0 0
+A
+19 15
+A
+18 15
+#52
+23skidoo~
+the `dLaguna Blade`n~
+A Big fat error.~
+~
+5 12423 8193
+0 1 6 1
+5 0 0
+A
+19 100
+A
+18 100
+#60
+leo suit~
+a Leo mobile suit~
+A huge Leo mobile suit stands here, motionless.~
+~
+29 16384 0
+4 0 1500 100
+1 20000 0
+#61
+aries suit~
+an Aries mobile suit~
+A huge Aries mobile suit stands here, motionless.~
+~
+29 16384 0
+384 0 1350 100
+2 35000 0
+#62
+taurus suit~
+a Taurus mobile suit~
+A huge Taurus mobile suit stands here, motionless.~
+~
+29 16384 0
+8 0 1650 100
+3 60000 0
+#63
+virgo suit~
+a Virgo mobile suit~
+A huge Virgo mobile suit stands here, motionless.~
+~
+29 16384 0
+18 0 1800 100
+4 80000 0
+#64
+mercurius suit~
+a Mercurius mobile suit~
+A huge Mercurius mobile suit stands here, motionless.~
+~
+29 16384 0
+8203 0 1950 100
+5 150000 0
+#65
+vayeate suit~
+a Vayeate mobile suit~
+A huge Vayeate mobile suit stands here, motionless.~
+~
+29 16384 0
+88 0 1950 100
+6 150000 0
+#66
+tallgeese suit~
+the Tallgeese~
+The Tallgeese stands here, motionless.~
+~
+29 16384 0
+2825 0 1800 100
+7 150000 0
+#67
+wing zero suit~
+the Wing Zero~
+The Wing Zero stands here, motionless.~
+~
+29 16384 0
+299520 0 2100 100
+8 150000 0
+#68
+wing gundam~
+the Wing Gundam~
+The Wing Gundam stands here, motionless.~
+~
+29 16384 0
+21120 0 1950 100
+9 150000 0
+#69
+gundam deathscythe~
+the Gundam Deathscythe~
+The Gundam Deathscythe stands here, motionless.~
+~
+29 16384 0
+8454273 0 1800 100
+10 150000 0
+#70
+gundam heavyarms~
+the Gundam Heavyarms~
+The Gundam Heavyarms stands here, motionless.~
+~
+29 16384 0
+398208 0 2100 100
+11 150000 0
+#71
+gundam sandrock~
+the Gundam Sandrock~
+The Gundam Sandrock stands here, motionless.~
+~
+29 16384 0
+528768 0 2400 100
+12 150000 0
+#72
+gundam shenlong~
+the Gundam Shenlong~
+The Gundam Shenlong stands here, motionless.~
+~
+29 16384 0
+19923073 0 1800 100
+13 150000 0
+#73
+gundam epyon~
+the Gundam Epyon~
+The Epyon stands here, motionless.~
+~
+29 16384 0
+4195329 0 2100 100
+14 150000 0
+#74
+m1a1 tank~
+an M1A1 Tank~
+An M1A1 Tank rumbles toward the enemies of democracy.~
+~
+29 16384 0
+17172740 0 32000 100
+15 150000 0
+#80
+105mm bullets~
+100 rounds of 105mm bullets~
+A stack of 105mm rounds.~
+~
+30 0 1
+5 100 0 0
+50 500 0
+#81
+vernier fuel~
+a canister of vernier fuel~
+A canister of highly combustible vernier fuel.~
+~
+30 0 1
+3 500 0 0
+25 500 0
+#82
+shells~
+a stack of AP shells~
+A stack of AP shells.~
+~
+30 0 1
+6 50 0 0
+25 2000 0
+#83
+plasma pack~
+a plasma pack~
+A modular package of plasma.~
+~
+30 0 1
+7 50 0 0
+30 1500 0
+#84
+beam fuel~
+a unit of beam fuel~
+A stored unit of beam fuel.~
+~
+30 0 1
+8 250 0 0
+25 1000 0
+#85
+buckler~
+a small titanium buckler~
+A small titanium buckler.~
+~
+31 0 1
+1 0 0 0
+50 5000 0
+#86
+beam rifle~
+a standard issue beam rifle~
+A standard issue beam rifle.~
+~
+31 0 1
+8 0 0 0
+20 5000 0
+#87
+beam cannon~
+a beam cannon~
+A beam cannon.~
+~
+31 0 1
+16 0 0 0
+35 7500 0
+#88
+laser cannon~
+a high energy laser cannon~
+A powerful laser cannon.~
+~
+31 0 1
+32 0 0 0
+25 10000 0
+#89
+heavy beam cannon~
+a heavy beam cannon~
+A huge beam cannon.~
+~
+31 0 1
+64 0 0 0
+75 20000 0
+#90
+missiles~
+a UPSF standard missile~
+A UPSF standard missile.~
+~
+30 0 1
+14 1 0 0
+10 150 0
+#91
+beam sabre~
+a slim beam sabre~
+A slim beam sabre.~
+~
+31 0 1
+512 0 0 0
+20 10000 0
+#92
+beam sword~
+a heavy beam sword~
+A heavy beam sword.~
+~
+31 0 1
+1024 0 0 0
+50 25000 0
+#93
+repair kit~
+a field repair kit~
+A mobile suit field repair kit.~
+~
+31 0 1
+0 666 0 0
+10 500 0
+#94
+dobergun~
+a dobergun~
+A long-range dobergun.~
+~
+31 0 1
+2048 0 0 0
+50 8000 0
+#0
+
+
+
+#ROOMDATA
+#1
+The Void~
+You are floating in nothing.
+~
+0 12 1
+S
+#2
+Limbo~
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 12 1
+S
+#0
+
+
+
+#SPECIALS
+M 11 spec_shadow_soldier
+M 12 spec_shadow_master
+M 13 spec_shadow_warlock
+S
+
+
+
+#RESETS
+O 0 25 0 1
+M 0 2 1 1
+E 0 21 0 0
+E 0 26 0 16
+M 0 1 1 2
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

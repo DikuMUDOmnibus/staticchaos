@@ -1,0 +1,45 @@
+License for the operation of the Static Chaos
+a.k.a. Chaosium codebase.
+Written by Nicholas Lennig a.k.a. Alathon
+Reach at staticchaos@staticchaos.inetsolve.com
+
+Static Chaos was developed from Merc, which was in turn
+developed from Diku.  Both of their licenses must be followed
+They are located in license.doc for Diu, and license.txt for
+Merc.  They summarize to the following:
+
+Diku:
+  -- No resale or operation for profit.
+  -- Original author's names must appear in login sequence.
+  -- The 'credits' command must report original authors.
+  -- You must notify the Diku creators that you are operating a Diku mud.
+Merc:
+  -- Copyrights must remain in original source.
+  -- 'Help merc' must report Merc's help text, as shipped.
+
+My own terms are as follows:
+  -- Copyrights must remain in original source.
+  -- 'Help static chaos' must report the SC credits text, as shipped.
+  -- My screenname, Alathon, must appear in the login sequence.
+
+And.. that's it.  I encourage any coder working from the SC code not
+to release it under another a different name until the changes made
+are quantitatively and qualitatively similar to the differences between
+Diku and Merc, or Merc and Static Chaos.  This is of course a subjective
+judgement.
+
+Keep in mind that Static Chaos reflects more than four years of coding,
+and there is a significant gap between my competence as a coder on day
+one, and yesterday.  Clunkiness abounds.. I've tried to clean up some
+of the most offensive logjams of oversized IF statements and such, but
+actually cleaning up the codebase in entirety would be more of a year
+long job.
+
+I'm afraid I never commented except where I thought I might not remember
+how something operated, and much that should be said for another coder's
+reference is not.  If something doesn't make sense or seems superfluous,
+be sure to grep the source files for other places where involved data
+is used, or similar operations take place.
+
+Best of Luck,
+Alathon

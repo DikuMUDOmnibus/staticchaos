@@ -1,0 +1,1676 @@
+#AREADATA
+Name        {50 75} Varnus  Abri~
+Builders    None~
+VNUMs       400 480
+Security    1
+Recall      3001
+End
+
+
+
+#MOBILES
+#400
+patryn citizen male~
+A Patryn citizen~
+A citizen of Abri is here, going about his business.
+~
+Fully covered in tattoos, this Patryn has seen many gates, thanks to the 
+protection of Abri.
+~
+65 8704 0 S
+55 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#401
+patryn gateguard~
+Patryn Gateguard~
+A Patryn Gateguard stands here, watching vigilantly for danger.
+~
+The guard is wearing leathers, covered in runes. There is an aura of 
+confidence, and pride that he has been chosen to protect his fellow patryn.
+~
+67 74280 0 S
+75 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#402
+tiger man hunter~
+A Tiger man~
+A Tiger that walks on two legs is here, hunting you!
+~
+This horrid thing is half man, half beast. Standing like a human, its body 
+is like a tiger's.  It combines a tiger's strength with a man's intelligence 
+to hunt and track its prey with merciless efficiency.
+~
+97 32800 0 S
+65 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#403
+patryn citizen female~
+A Patryn citizen~
+A patryn citizen ignores you as she goes about her business.
+~
+Covered with blue tattoos, she carries herself with an ease that tells of 
+her ability in battle.
+~
+65 8704 0 S
+55 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#404
+patryn child~
+A Patryn child~
+A patryn child stands here, taking care to stay out of the way.
+~
+Patryn children don't run and play, they watch and learn.  Their survival 
+depends on it.
+~
+65 73728 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#405
+patryn gateguard~
+A Patryn Gateguard~
+A Patryn gateguard stands here, protecting Abri with all her heart.
+~
+She stands perfectly still, watching you as you pass.  Any action betraing 
+you as a creature of the Labyrinth will result in your immediate 
+destruction.
+~
+67 74280 0 S
+75 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#406
+patryn sentry~
+A Patryn Sentry~
+A Patryn sentry stands here, staring out into the Labyrinth.
+~
+Ever vigilant, they know any lapse in their watch could result in the 
+destruction of the entire city.
+~
+67 8744 0 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#407
+patryn sentry~
+A Patryn Sentry~
+A Patryn sentry paces back and forth here, watching for any sign of attack.
+~
+She watches the Labyrinth with a well-trained eye.  Any movement, no matter 
+how insignificant, is registered and looked into.
+~
+65 8744 0 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#408
+false patryn~
+A red-eyed Patryn~
+The Patryn turns toward you, and attacks!
+~
+You notice the tattoos on his body are oddly formed, with no two quite 
+matching up.  You realize this isnt a Patryn at all!
+~
+99 33320 0 S
+75 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#409
+elderly patryn~
+An Elderly Patryn~
+An elderly Patryn walks by, intent on helping out any way they can.
+~
+This elderly Patryn may not have the physical strength to fight in the 
+battle against the Labyrinth, but his magic is still strong, and he can use 
+it to enchant weapons for the guards.
+~
+65 544 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#410
+patryn child~
+A Patryn child~
+A patryn child stands here, watching and learning.
+~
+Patryn children are taught to fend for themselves at an early age.  Their 
+parents cant be around forever, and in the Labyrinth, that is doubly so.
+~
+65 107008 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#411
+patryn sentry~
+A Patryn sentry~
+A Patryn sentry mans her post here.
+~
+She seems to be deep in thought as she gazes out into the maze that is the 
+Labyrinth.
+~
+67 8744 0 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#412
+patryn sentry~
+A Patryn sentry~
+A Patryn sentry stands here, warily watching the western approaches.
+~
+The guards are obviously picked from healthy stock. The fittest of a race of 
+superbly conditioned bodies, these Patryns are a force to be reckoned with.
+~
+67 8744 0 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#413
+patryn sentry~
+A Patryn Sentry~
+A Patryn sentry paces back and forth here, watching for any sign of attack.
+~
+She watches the Labyrinth with a well-trained eye.  Any movement, no matter 
+how insignificant, is registered and looked into.
+~
+65 8744 0 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#414
+patryn sentry~
+A Patryn Sentry~
+A Patryn sentry stands here, staring out into the Labyrinth.
+~
+Ever vigilant, they know any lapse in their watch could result in the 
+destruction of the entire city.
+~
+67 8744 0 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#415
+patryn sentry~
+A Patryn sentry~
+A Patryn sentry stands here, staring out into the Labyrinth.
+~
+Ever vigilant, they know any lapse in their watch could result in the 
+destruction of the entire city.
+~
+67 8744 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#416
+patryn sentry~
+A Patryn sentry~
+A Patryn sentry stands here, warily watching the eastern approaches.
+~
+The guards are obviously picked from healthy stock. The fittest of a race of 
+superbly conditioned bodies, these Patryns are a force to be reckoned with.
+~
+67 8744 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#0
+
+
+
+#OBJECTS
+#400
+note parchment tattered~
+a tattered parchment~
+A note, written on tattered parchment,  rests on the cot here.~
+~
+12 0 8192
+0 1 6 11
+5 0 0
+E
+note~
+*written in a scrawl you can barely read*
+
+Fascinating, this room is absolutley genius.  Apparently, the patryns 
+created this room were very powerful.  As we all know magic works on 
+possibilities, this room reduces those possibilites. As a matter of fact, it 
+reduces so that there is NO possibility of escape! Fascinating...
+
+Alfred~
+#401
+short bow~
+a short bow~
+A short bow, inscribed with runes, rests here.~
+~
+5 1 8193
+0 5 5 11
+5 0 0
+#402
+leather breastplate~
+leather breastplate~
+A pile of leather is here, strengthened by Patryn runes~
+~
+9 1025 9
+0 1 6 11
+0 0 0
+#403
+tiger claw~
+a tiger claw~
+A paw-shaped disc is here~
+~
+5 16 8193
+0 5 15 3
+7 0 0
+A
+18 3
+A
+19 4
+#404
+spear~
+runed spear~
+A spear rests here.~
+~
+5 66 8193
+0 1 6 11
+10 0 0
+#405
+tigerman skin~
+tigerman skin~
+A stripped blanket lies here.~
+~
+12 0 1
+0 1 6 11
+2 0 0
+#406
+greasy snake skin~
+a snake skin~
+A pile a greasy snake scales lie here.~
+~
+9 4240 1025
+0 1 6 11
+5 0 0
+#0
+
+
+
+#ROOMDATA
+#400
+A White Room~
+`dYou are standing between 2 rows of crystal coffins.  Most are filled with 
+peaceful beings, who have passed on.  The walls are completely white, and 
+the only way out seems to be the large door.`n
+~
+0 13 0
+D0
+~
+~
+0 -1 401
+S
+#401
+Before the First Gate~
+`dYou stand before a massive door, preparing to enter the Labyrinth.  
+Generations of Patryns have lived and died in there for a millenia, do you 
+have the courage?`n
+~
+0 9 0
+D0
+`dA large gate, inscribed with the tell-tale runes that all the gates in the 
+labyrinth are marked by.`n~
+gate~
+1 -1 402
+D2
+~
+~
+0 -1 400
+S
+#402
+In the Cavern~
+`dYou are standing in the cavern, having finally comitted to the journey.  
+The path is dark, and is sure to be dangerous.  You can still turn back...`n
+~
+0 9 0
+D0
+~
+~
+0 -1 403
+D2
+`dA large gate, inscribed with the tell-tale runes that all the gates in the 
+labyrinth are marked by.`n~
+gate~
+1 -1 401
+S
+#403
+At the Cavern Mouth~
+`dYou are at the cavern mouth, the point of no return.  Do you continue on, 
+where death awaits, or will you turn back, shut it all out, and pass on 
+peacefully in the white room?`n
+~
+0 9 0
+D0
+~
+~
+0 -1 404
+D2
+~
+~
+0 -1 402
+S
+#404
+On the banks of the River of Anger~
+`dLegend has it that the first Patryns hated so much, they cried. Their 
+tears fromed this river.  To touch it is death, a cold a lonely end to a 
+miserabley short life. To the north is the bridge, if you can call it that. 
+It doesnt look very safe.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 407
+D1
+~
+~
+0 -1 405
+D2
+~
+~
+0 -1 403
+D3
+~
+~
+0 -1 408
+S
+#405
+Upstream on the Bank~
+`dThe River of anger continues on for farther than you can see. You forget 
+the idea of finding another bridge in this direction.  Maybe you can fjord 
+the river...it doesn't look THAT bad.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 406
+D3
+~
+~
+0 -1 404
+S
+#406
+YOU'RE IN THE RIVER!~
+`dOh gods, the water is so cold. Its sapping the strength, you can't even 
+stay above water, oh god, the bank is so far away, so far....`n
+~
+0 4 1
+S
+#407
+The bridge is collapsing!~
+`dSomeone's magic is unraveling the runes holding the bridge up!  You're 
+almost halfway across, go for it, or turn back like a coward! Better decide 
+quick!`n
+~
+0 512 1
+D0
+~
+~
+0 -1 406
+D1
+~
+~
+0 -1 406
+D2
+~
+~
+0 -1 404
+D3
+~
+~
+0 -1 406
+S
+#408
+Near the Log~
+`dThere seems to be a log across the river here. It doesn't seem stable, but 
+then again, the bridge did seem stable.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 412
+D1
+~
+~
+0 -1 404
+D3
+~
+~
+0 -1 409
+S
+#409
+The path towards the Forest~
+`dYou're on the path that heads deeper into the Labyrinth. Are you sure you 
+know what your doing?`n
+~
+0 0 1
+D1
+~
+~
+0 -1 408
+D3
+~
+~
+0 -1 410
+S
+#410
+Outside the Forest~
+`dThe path disappears into the darkness of the Forest.  Do you dare to 
+follow and brave the hellish Labyrinth further?  The growls from the Forest 
+mock you, mock your strength. What will you do?`n
+~
+0 0 1
+D1
+~
+~
+0 -1 409
+D3
+~
+~
+0 -1 411
+S
+#411
+The Fringes of the Forest of Fear~
+`dThe growls and shrieks get louder as you approach, and the trail is almost 
+non-existent.  Continue on, if you dare.`n
+~
+0 0 1
+D1
+~
+~
+0 -1 410
+D3
+~
+~
+0 -1 4200
+S
+#412
+Over the Log~
+`dThe log is slippery, but you think you cna make it. You jup the last three 
+feet, but you land safely on hte other side.`n
+~
+0 516 1
+D0
+~
+~
+0 -1 413
+D2
+~
+~
+0 -1 408
+S
+#413
+The plains~
+`dYou stand in a grass field, while behind you, the River of Anger churns in 
+anger at another victim missed.  Off in the distance, you can see large 
+walls and a...signal fire?  Surely thats not a permanent settlement here in 
+the Labyrinth?`n
+~
+0 0 1
+D1
+~
+~
+0 -1 414
+D2
+~
+~
+0 -1 412
+S
+#414
+Into the plains~
+`dYou travel further into the plains, wondering what those walls, and the 
+signal fire, could mean to a place like this, the Labyrinth.  You notice the 
+grass is high here, almost a perfect hiding spot....`n
+~
+0 0 1
+D0
+~
+~
+0 -1 415
+D3
+~
+~
+0 -1 413
+S
+#415
+The fields of Abri~
+`dYou pass from the grass into well-kept fields.  This is proof! Someone has 
+made a settlement here.  You wonder who would be so brave as to set up a 
+city in the Labyrinth.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 416
+D2
+~
+~
+0 -1 414
+S
+#416
+The Fields next to the gates~
+`dYou marvel at the size of the gates before you.  At least 16' tall, they 
+are covered in runes of power and strength.  The walls are solid stone, and 
+also covered with strange runes.  This place was built to last.`n
+~
+0 4 1
+D0
+~
+~
+0 -1 417
+D2
+~
+~
+0 -1 415
+S
+#417
+At the Gates of Abri~
+`dThe gates open, and you see a collection of stone huts inside.  Obviously, 
+this place has proven itself safe, for the faces of the inhabitants are more 
+relaxed, though still grim.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 432
+D1
+~
+~
+0 -1 418
+D2
+~
+~
+0 -1 416
+D3
+~
+~
+0 -1 419
+S
+#418
+Inside the East Gatehouse~
+`dA dark hut, also made out of stone.  A set of steps lead up onto the 
+wall.`n
+~
+0 4 1
+D3
+~
+~
+0 -1 417
+D4
+~
+~
+0 -1 420
+S
+#419
+Inside the West Gatehouse~
+`dA dark hut, also made out of stone.  A set of steps lead up onto the 
+wall.`n
+~
+0 4 1
+D1
+~
+~
+0 -1 417
+D4
+~
+~
+0 -1 426
+S
+#420
+Over the Gatehouse~
+`dYou stand over the gates, looking down at the fields and plains before 
+Abri, wondering when and where the Labyrinth will strike next.`n
+~
+0 0 1
+D1
+~
+~
+0 -1 421
+D5
+~
+~
+0 -1 418
+S
+#421
+On the South Wall~
+`dYou walk on the solid stone wall, every inch covered in runic structures.  
+The inhabitants must take great care in the upkeep of these walls.`n
+~
+0 0 1
+D1
+~
+~
+0 -1 422
+D3
+~
+~
+0 -1 420
+S
+#422
+The SouthEast Corner of the Wall~
+`dYou stand at the SE corner.You look out to see the gray dawn, and wonder 
+what hope the city's inhabitants could have.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 423
+D3
+~
+~
+0 -1 421
+S
+#423
+On the East Wall~
+`dYou are standing on the east wall.  You look out to see where the forests 
+have been cleared back, to allow the defenders ample time to prepare for any 
+assault.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 424
+D2
+~
+~
+0 -1 422
+S
+#424
+On the East Wall~
+`dYou walk towards where the wall meets the mountainside.  The 
+rune-structures are everywhere, and you wonder how effective these painted 
+on drawings could be.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 425
+D2
+~
+~
+0 -1 423
+S
+#425
+Where the Wall meets the Mountain~
+`dYou stand where the wall seemlessly melds into the mountain.  Powerful 
+magic was used to raise this structure from the earth itself.`n
+~
+0 0 1
+D2
+~
+~
+0 -1 424
+S
+#426
+Over the Gatehouse~
+`dYou stand over the gates, looking down at the fields and plains before 
+Abri, wondering when and where the Labyrinth will strike next.`n
+~
+0 0 1
+D3
+~
+~
+0 -1 427
+D5
+~
+~
+0 -1 419
+S
+#427
+On the South Wall~
+~
+0 0 1
+D1
+~
+~
+0 -1 426
+D3
+~
+~
+0 -1 428
+S
+#428
+The SouthWest Corner of the Wall~
+`dYou stand at the SW corner. You look out to see the gray dawn, and wonder 
+what hope the city's inhabitants could have.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 429
+D1
+~
+~
+0 -1 427
+S
+#429
+On the West Wall~
+`dYou stand on the west wall, looking out into the Labyrinth.  You sense the 
+evil of the place surrounding, but not entering the city.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 430
+D2
+~
+~
+0 -1 428
+S
+#430
+On the West Wall~
+`dYou approach where the west wall meets the mountain.  You hope the wall is 
+as strong as it looks, the Labyrinth is beginning to scare you.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 431
+D2
+~
+~
+0 -1 429
+S
+#431
+Where the Wall meets the Mountain~
+`dYou stand where the wall seemlessly melds into the mountain.  Powerful 
+magic was used to raise this structure from the earth itself.`n
+~
+0 0 1
+D2
+~
+~
+0 -1 430
+S
+#432
+A Dirt Street~
+`dYou are on a hard packed dirt street, one that seems to be the main street 
+for Abri.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 433
+D1
+~
+~
+0 -1 444
+D2
+~
+~
+0 -1 417
+D3
+~
+~
+0 -1 434
+S
+#433
+A Dirt Street~
+`dThe street continues towards the mountain, with various paths, all of the 
+same packed dirt, leading off of it.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 454
+D2
+~
+~
+0 -1 432
+S
+#434
+A Side Street~
+`dThis part of Abri has housing.  You see stone huts on either side of the 
+street, all very solid.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 436
+D1
+~
+~
+0 -1 432
+D2
+~
+~
+0 -1 435
+D3
+~
+~
+0 -1 437
+S
+#435
+A Stone House~
+`dThis small, economical hut is built from solid stone.  You can see where 
+the doors are set to be braced from the inside, in case the city's walls 
+fail.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 434
+S
+#436
+A Stone House~
+`dThis hut seems to be for storage.  Racks of weapons and rune-inscribed 
+armor dot the walls here.`n
+~
+0 0 1
+D2
+~
+~
+0 -1 434
+S
+#437
+A Side Street~
+`dThe side street continues on, with more houses along the sides.  You pass 
+Patryns with intent looks, always ready and prepared for danger.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 439
+D1
+~
+~
+0 -1 434
+D2
+~
+~
+0 -1 438
+D3
+~
+~
+0 -1 440
+S
+#438
+A Stone House~
+`dSmall and economical, these houses were built for durability and strength, 
+and then were enhanced with runes of power.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 437
+S
+#439
+A Stone House~
+`dA solid stone house, with rune-inscribed walls and doors.  There are no 
+windows, as these might let in something best kept out.`n
+~
+0 0 1
+D2
+~
+~
+0 -1 437
+S
+#440
+A Street Corner~
+`dThe street turns along the wall here.  You can see the massive walls, and 
+you hope it's effective in keeping out hte evils of the labyrinth.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 441
+D1
+~
+~
+0 -1 437
+S
+#441
+A Dirt Street~
+`dThis street runs along the walls.  You see series of pulley's and winches 
+designed to allow the defenders at the top of the wall be resupplied with 
+weapons from below.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 442
+D2
+~
+~
+0 -1 440
+S
+#442
+A Dirt Street~
+`dTwo of Abri's streets intersect here.  To the east you see more houses and 
+the main well of the city, and to the north is the mountain Abri is built 
+against.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 443
+D1
+~
+~
+0 -1 464
+D2
+~
+~
+0 -1 441
+S
+#443
+Against the Mountain~
+`dThe street ends here at the mountain.  There seems to be future plans to 
+build an entrance here into the side of the mountain, but nothing has 
+happened as of yet.`n
+~
+0 0 1
+D2
+~
+~
+0 -1 442
+S
+#444
+A Side Street~
+`dThis side street extends all the way to the East Wall.  Stone houses line 
+the side of the street, placed together for strength and convenience.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 446
+D1
+~
+~
+0 -1 447
+D2
+~
+~
+0 -1 445
+D3
+~
+~
+0 -1 432
+S
+#445
+A Stone House~
+`dYou stand inside a solid stone house.  The room is spartan, and you can 
+see how it could be easily defended if the city's walls were breached.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 444
+S
+#446
+A Stone House~
+`dThis house seems to be used as a make-shift hospital.  There are bandages 
+and wrappings laying around, along with ominously silent black bags in the 
+corner.`n
+~
+0 0 1
+D2
+~
+~
+0 -1 444
+S
+#447
+A Side Street~
+`dThe street continues on.  The citizens of Abri seem to be deep in thought, 
+each going about hteir business purposefully and diligently.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 449
+D1
+~
+~
+0 -1 450
+D2
+~
+~
+0 -1 448
+D3
+~
+~
+0 -1 444
+S
+#448
+A Stone House~
+`dThis spartan dwelling is built like all the others, with precious few 
+amenities.
+Life in the Labyrinth is too difficult for too many of such things.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 447
+S
+#449
+A Stone House~
+`dThis stone house seems to be used frequently, with bunks lining both 
+walls.  Currently empty, perhaps the inhabitants are manning the walls.`n
+~
+0 0 1
+D2
+~
+~
+0 -1 447
+S
+#450
+A Street Corner~
+`dThe dirt street turns here, to follow the massive wall.  The sight of a 
+manned wall comforts you as you think about the deadly world beyond the 
+walls of Abri.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 451
+D3
+~
+~
+0 -1 447
+S
+#451
+A Dirt Street~
+`dPatryns mill all about you, enjoying the safety that the rune-enforced 
+walls provide.  You wonder how much of that safety is real, and how much is 
+imagined...`n
+~
+0 0 1
+D0
+~
+~
+0 -1 452
+D2
+~
+~
+0 -1 450
+S
+#452
+A Dirt Street~
+`dThe road intersects with another here.  You can continue north, towards 
+the mountain, or turn west, to the center of Abri.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 453
+D2
+~
+~
+0 -1 451
+D3
+~
+~
+0 -1 458
+S
+#453
+Next to the Mountain~
+`dYou come upon the mountain. There is a large door set into the wall, but 
+it is obviously warded strongly, and you cant come closer than five feet to 
+it.`n
+~
+0 0 1
+D2
+~
+~
+0 -1 452
+S
+#454
+The Center of Abri, at the Well~
+`dYou are in the direct center of town.  There is a well in the center of 
+the dirt square, the only source of water for the city of Abri.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 467
+D1
+~
+~
+0 -1 455
+D2
+~
+~
+0 -1 433
+D3
+~
+~
+0 -1 461
+S
+#455
+A Dirt Street along the Mountain~
+`dYou walk along the dirt street, and see houses set into the mountain on 
+one side, and more of the solid stone huts on the other.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 457
+D1
+~
+~
+0 -1 458
+D2
+~
+~
+0 -1 456
+D3
+~
+~
+0 -1 454
+S
+#456
+A Stone House~
+`dYou stand in the center of the room, and you get the feeling that this 
+place has been a house, but never a home to the wanderers of the 
+Labyrinth.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 455
+S
+#457
+House set into the Mountain~
+`dThis home is merely an extension of the mountain.  The patryns must have 
+used their runemagic to reshape the stone here, and make it defensible and 
+livable.`n
+~
+0 0 1
+D2
+~
+~
+0 -1 455
+S
+#458
+A Dirt Street Along the Mountain~
+`dMore houses, and more cave-like homes as you approach the intersection of 
+this street and the side street next to the East Wall.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 460
+D1
+~
+~
+0 -1 452
+D2
+~
+~
+0 -1 459
+D3
+~
+~
+0 -1 455
+S
+#459
+A Stone House~
+`dThis house sits cold and unused.  Dust has settled over everything, and 
+you get the impression that no one has lived here for a long time.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 458
+S
+#460
+House set into the Mountain~
+`dThis house seems to have been grown from the rock itself.  A little larger 
+than the free-standing houses and huts elsewhere in Abri, the Patryns 
+obviously felt more comfrotable with the mountain and their backs.`n
+~
+0 0 1
+D2
+~
+~
+0 -1 458
+S
+#461
+A Dirt Street along the Mountain~
+`dThis street extends from the center of Abri to the West Wall.  More homes 
+are on the south side of the street, while converted caves are on the 
+north.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 463
+D1
+~
+~
+0 -1 454
+D2
+~
+~
+0 -1 462
+D3
+~
+~
+0 -1 464
+S
+#462
+A Stone House~
+`dThese houses are all solid and well-kept.  The citizens of Abri use these 
+homes as a second line of defense, in case the massive Wall of Abri became 
+breached.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 461
+S
+#463
+A Converted Cave~
+`dThis cave is used for storage of different food-stuffs.  There are bags of 
+grain, flour and various other items neatly stacked all about the room.  
+Runes are inscribed all along the walls, to prevent rodents, and other 
+vermin from ruining the food supply.`n
+~
+0 0 1
+D2
+~
+~
+0 -1 461
+D3
+~
+~
+0 -1 466
+S
+#464
+A Muddy Street along the Mountain~
+`dThe street has become muddy in some parts here, due to rain and the break 
+down of some drainage.  You wonder what would happen if the runes on the 
+Wall gave way...`n
+~
+0 0 1
+D0
+~
+~
+0 -1 466
+D1
+~
+~
+0 -1 461
+D2
+~
+~
+0 -1 465
+D3
+~
+~
+0 -1 442
+S
+#465
+A Ruined House~
+`dThis house lies in ruins.  A passing Patryn informs you that its the 
+result of the last Dragon attack.  The dragon fought its way through the 
+Wall, and succeeded in destroying this hut, and a few others.  Repairs are 
+scheduled, but since its not immediately neccessary, they've been put off.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 464
+S
+#466
+A Converted Cave~
+`dThis is where the citizens of Abri store their spare foodstuffs.  
+Preserved fruits and vegetables fill the room.  Runes cover the walls and 
+floor, preventing contamination of their stores.`n
+~
+0 0 1
+D1
+~
+~
+0 -1 463
+D2
+~
+~
+0 -1 464
+S
+#467
+Dirt Street, before the Caves~
+`dYou stand before the caves that Abri has been built out from.  The 
+original inhabitants of Abri slowly built out from the safety of these caves 
+into what Abri is now.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 472
+D1
+~
+~
+0 -1 469
+D2
+~
+~
+0 -1 454
+D3
+~
+~
+0 -1 468
+S
+#468
+Vasu's House~
+`dYou stand in the home of the headman.  Unlike most homes in Abri, shelves 
+line the walls, filled with books.  Titles such as "Beasts of the Labyrinth" 
+and "To the Nexus and Back" jump out at you. If his library is any 
+indication, Vasu must be a learned man indeed.
+~
+0 0 1
+D1
+~
+~
+0 -1 467
+S
+#469
+The Base of the Tower~
+`dYou stand at the base of the tower that holds the Watch Fire.  The Fire is 
+the center of Abri, a focus of the inhabitants hope and defiance to the 
+deadly world outside the Wall.`n
+~
+0 0 1
+D3
+~
+~
+0 -1 467
+D4
+~
+~
+0 -1 470
+S
+#470
+In the Watch Fire Tower~
+`dYou are walking up the rune-crafted stone steps.  This entire tower was 
+created through the runemagic that patryns of the Labyrinth command.  Such a 
+feat required much time and energy, but the benefits of hope to the 
+inhabitants is unmeasurable.`n
+~
+0 0 1
+D4
+~
+~
+0 -1 471
+D5
+~
+~
+0 -1 469
+S
+#471
+The Top of the Watch Fire Tower~
+`d You stand at the top of the tower.  The Watch Fire blazes with a magical 
+brilliance near you, and you shield your eyes from the glow.  This fire can 
+be seen for many gates, and its sight has given hope to countless 
+inhabitants of the Labyrinth.`n
+~
+0 0 1
+D5
+~
+~
+0 -1 470
+S
+#472
+In the Mountain~
+`dYou have entered the mountain that Abri has grown out from.  Numerous 
+caves and branches criss-cross through-out this maze.  You follow the 
+markings, taking care not to stray from the path laid out for you.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 473
+D2
+~
+~
+0 -1 467
+S
+#473
+A Tunnel~
+`dYou move into one of the tunnels. It is dark, and well worn, from decades 
+of use. The runes mark the way to the east as to the "Well of Souls", and to 
+sign describing what lies west is smeared.`n
+~
+0 0 1
+D1
+~
+~
+0 -1 477
+D2
+~
+~
+0 -1 472
+D3
+~
+~
+0 -1 474
+S
+#474
+A Tunnel in the Mountain~
+`dThe tunnel continues to branch out in different directions, but you stay 
+on the path that the runes light clearly.  The runes continue on, but you 
+hear some voices coming from a branch to the south.  Should you see who it 
+is?`n
+~
+0 0 1
+D1
+~
+~
+0 -1 473
+D2
+~
+~
+0 -1 475
+D3
+~
+~
+0 -1 476
+S
+#475
+A Dark Alcove~
+`dThis part of the room is almost completely concealed in shadow, with 
+barely any light from the rune-structures reaching in.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 474
+S
+#476
+A Dead End in the Mountain~
+`dZYou come to a dead end to this tunnel. reading the runes, you see where 
+this once led to a deeper part of the moountain, but has since been closed 
+off due to some dangerous tunnelling denizens of the Labyrinth. Apparently, 
+no place is completely safe in this horrid world.`n
+~
+0 0 1
+D1
+~
+~
+0 -1 474
+S
+#477
+A Tunnel in the Mountain~
+`dYou travel towards what the runes name as the "Well of Souls", wondering 
+what the name could mean.  You see a seperate room to the south, with runes 
+of warning across the entranceway.`n
+~
+0 0 1
+D1
+~
+~
+0 -1 479
+D2
+~
+~
+0 -1 478
+D3
+~
+~
+0 -1 473
+S
+#478
+A Room in the Mountain~
+`dYou stand in the midst of a veritable armoury.  Unlike the more easily 
+accesible armoury outside the mountain, these weapons seem to have a life of 
+their own.  They pulsate, and seem to quiver when you approach them.  these 
+are weapons the citizens have found to dangerous to use, yet too powerful to 
+destroy.`n
+~
+0 0 1
+D0
+~
+~
+0 -1 477
+S
+#479
+The Edge of the Well of Souls~
+`dYou come to a large room, with a pit in the center of the room.  You stand 
+at the edge, and look in, but you cannot see anything inside.  Stairs lead 
+down into the pit.`n
+~
+0 0 1
+D3
+~
+~
+0 -1 477
+D5
+~
+~
+0 -1 480
+S
+#480
+The Well of Souls~
+`dYou walk down the stairs, to see a plain room, with two cots.  
+Uniterested, you turn to leave, and find there are no stairs.  Annoyed, you 
+try to use your magic and escape, to find that nothing you do works.  You 
+see a note on one of the cots.`n
+~
+0 4 1
+S
+#0
+
+
+
+#SPECIALS
+M 401 spec_executioner
+M 402 spec_janitor
+S
+
+
+
+#RESETS
+M 0 402 10 414
+E 0 403 0 16
+M 0 402 10 415
+E 0 403 0 16
+M 0 401 1 417
+E 0 402 0 5
+E 0 404 0 16
+M 0 405 1 417
+E 0 402 0 5
+E 0 404 0 16
+M 0 413 6 421
+E 0 402 0 5
+E 0 401 0 16
+M 0 414 2 421
+E 0 402 0 5
+E 0 401 0 16
+M 0 415 2 422
+E 0 402 0 5
+E 0 401 0 16
+M 0 413 6 424
+E 0 402 0 5
+E 0 401 0 16
+M 0 416 2 424
+E 0 402 0 5
+E 0 401 0 16
+M 0 407 6 427
+E 0 402 0 5
+E 0 401 0 16
+M 0 406 2 427
+E 0 402 0 5
+E 0 401 0 16
+M 0 411 2 428
+E 0 402 0 5
+E 0 401 0 16
+M 0 407 6 430
+E 0 402 0 5
+E 0 401 0 16
+M 0 412 2 430
+E 0 402 0 5
+E 0 401 0 16
+M 0 403 10 432
+M 0 409 1 436
+G 0 402 0
+G 0 401 0
+M 0 410 5 437
+M 0 400 10 440
+M 0 403 10 442
+M 0 404 5 447
+M 0 403 10 450
+M 0 400 10 452
+M 0 400 10 454
+O 0 405 0 457
+O 0 405 0 457
+M 0 410 5 458
+O 0 405 0 460
+M 0 404 5 464
+O 0 405 0 468
+M 0 408 2 475
+G 0 406 0
+O 0 400 0 480
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

@@ -1,0 +1,915 @@
+#AREA	{ 5 35} Larsen  ApocalypsE Headquarters~
+
+
+#MOBILES
+#800
+cruel apocalypse~
+Larsen the Cruel~
+Larsen the Cruel
+~
+Draws his sword and moves to decapitate you.
+~
+2|4|32 8|32|128|8192|524288 0 S
+99 0 0 0d32000+0 0d0+0
+0 0
+8 8 1
+#801
+shitter apocalypse~
+Tarrant the Shitter~
+Tarrant the Shitter
+~
+Judging from the smell Tarrant forgot to wipe his ass, but he is still ready to cut off your head.
+~
+2|4|32 8|32|128|8192|524288 0 S
+99 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#802
+mage archmage magic apocalypse~
+Kyriel the Mage~
+Kyriel the Mage
+~
+Begins to cast a spell, which sends a fireball towards your face.
+~
+2|4|32 8|32|128|8192|524288 0 S
+99 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#803
+raven apocalypse duel assassin~
+Dorin the Assassin~
+Dorin is here duelling.
+~
+Dorin kills his opponent, and moves towards you.
+~
+2|4|32 8|32|128|8192|524288 0 S
+97 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#804
+guard~
+An Apocalypse Guard~
+An Apocalypse Guard is here.
+~
+Yells for help!
+~
+4|64|128 0 0 S
+60 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#805
+shadow apocalypse~
+Ingen Jegger~
+Ingen the Hunter is here "guarding" the dungeon.
+~
+Ingen snores, oblivious to of your presence.
+~
+2|4|32 128 0 S
+97 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#806
+prisoner~
+A Prisoner~
+A prisoner is sleeping in the corner.
+~
+He stinks from his own filth, you are scared to think of all the diseases he probably has.
+~
+2|4 0 0 S
+30 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#0
+
+
+#OBJECTS
+#800
+dragon tabard~
+a Golden Tabard~
+A White Tabard, with a Gold Dragon~
+~
+9 1|2|64 1|8
+15 0 0 0
+10 0 0
+A
+13 500
+A
+19 25
+A
+18 25
+A
+17 -100
+A
+1 10
+A
+2 10
+A
+5 10
+#801
+ring golden band~
+a Golden Band~
+A gleaming band of gold~
+~
+9 1|2|64 1|2
+0 0 0 0
+1 0 0
+A
+18 25
+A
+19 25
+A
+17 -10
+#802
+train silver bracer~
+a Tarnished Silver Bracer~
+A silver bracer for training~
+~
+9 1|2|64 1|4096
+0 0 0 0
+5 0 0
+A
+13 -999
+A
+12 -999
+A
+14 -999
+#803
+robe~
+a Mystic Robe~
+A Robe of Great Power~
+~
+9 1|2|64 1|1024
+0 0 0 0
+5 0 0
+A
+24 -50
+A
+12 2000
+A
+18 5
+A
+19 5
+A
+17 -50
+A
+3 10
+A
+4 10
+#804
+medal~
+a Medal of Honor~
+A Shining Medal of Honor~
+~
+9 1|2|64 1|4
+0 1 6 11
+1 0 0
+A
+18 15
+A
+19 15
+A
+13 250
+A
+12 250
+#0
+
+
+#ROOMS
+#800
+Larsen's Torture Chamber~
+You are standing in a dimly lit chamber. There are corpses handing from the ceiling on giant meat hooks, while other captives are chained to the wall.  In the center of the room is Larsen, cutting out the heart of his latest victim.
+~
+0 8192 1
+D2
+~
+~
+0 -1 801
+S
+#801
+End of the Hall~
+You have come to the end of the hall, in front of you is a large metal doorway.  You hear screams coming from inside.  You should turn back.
+~
+0 8192 0
+D0
+~
+~
+0 -1 800
+D2
+~
+~
+0 -1 802
+S
+#802
+A Hallway~
+A long hallway stretches before you, there are a few torches on the wall, but they don't push back the darkness in this grim castle.
+~
+0 8192 0
+D0
+~
+~
+0 -1 801
+D1
+~
+~
+0 -1 816
+D2
+~
+~
+0 -1 803
+S
+#803
+A Bend in the Hall~
+The hall bends here, moving into the darker regions of the castle.
+~
+0 8192 0
+D0
+~
+~
+0 -1 802
+D3
+~
+~
+0 -1 804
+S
+#804
+The Eastern Hall~
+You are moving into the Eastern wing of the castle, where few dare to go.
+~
+0 8192 0
+D1
+~
+~
+0 -1 803
+D2
+~
+~
+0 -1 805
+D3
+~
+~
+0 -1 806
+S
+#805
+A Portal~
+Before you is a large void.  You cannot see through it and have no idea what is on the other side, you notice a sign on the wall.
+~
+0 8192 0
+D0
+~
+~
+0 -1 804
+D2
+~
+~
+0 -1 5100
+E
+sign~
+This is the portal to the Drow City.~
+S
+#806
+The Inner Ward ~
+You are in the center of the Apocalypse castle, hallways lead from here in all directions.  Each one leading deeper into the evil that is the Apocalypse.
+~
+0 8192 0
+D0
+~
+~
+0 -1 807
+D1
+~
+~
+0 -1 804
+D2
+~
+~
+0 -1 820
+D3
+~
+~
+0 -1 810
+D4
+~
+~
+0 -1 829
+S
+#807
+The Northern Wing~
+This wing of the castle is well lit.  Paintings adorn the walls and you can even here laughing up ahead.
+~
+0 8192 0
+D0
+~
+~
+0 -1 808
+D2
+~
+~
+0 -1 806
+D5
+~
+~
+0 -1 823
+S
+#808
+A Hallway~
+You are closer to the laughing.  It is just beyond the door in front of you.
+~
+0 8192 0
+D0
+~
+~
+0 -1 809
+D2
+~
+~
+0 -1 807
+S
+#809
+The Courtyard~
+You are in what appears to be the courtyard.  Ahead of you are two people fighting.  One of them wears the image of a Black Raven which identifies him as Dorin, a member of the Apocalypse.  You do not recognize the other.
+~
+0 8192 2
+D2
+~
+~
+0 -1 808
+D3
+~
+~
+0 -1 822
+S
+#810
+Another Hallway~
+The castle is fairly simple in design, but its filled with evil.  You can feel that presence getting stronger the farther down this hallway you go.
+~
+0 8192 0
+D0
+~
+~
+0 -1 812
+D1
+~
+~
+0 -1 806
+D2
+~
+~
+0 -1 813
+D3
+~
+~
+0 -1 817
+S
+#811
+The Hallway~
+You grope about blindly in the darkness. For some reason the torches have all gone out.
+~
+0 1|4|8|8192 0
+S
+#812
+A Portal~
+Before you is a large void.  You cannot see through it and have no idea what is on the other side, you notice a sign on the wall.
+~
+0 8192 0
+D0
+~
+~
+0 -1 904
+D2
+~
+~
+0 -1 810
+E
+sign~
+This is the portal to the heavens.~
+S
+#813
+A Portal~
+Before you is a large void.  You cannot see through it and have no idea what is on the other side, you notice a sign on the wall.
+~
+0 8192 0
+D0
+~
+~
+0 -1 810
+D2
+~
+~
+0 -1 1312
+E
+sign~
+This portal leads to the Tower of Sorcery.~
+S
+#814
+A Portal~
+Before you is a large void.  You cannot see through it and have no idea what is on the other side, you notice a sign on the wall.
+~
+0 8192 0
+D0
+~
+~
+0 -1 820
+D2
+~
+~
+0 -1 3001
+E
+sign~
+The pathway to the city of Midgaard.~
+S
+#815
+A Portal~
+Before you is a large void.  You cannot see through it and have no idea what is on the other side, you notice a sign on the wall.
+~
+0 8192 0
+D1
+~
+~
+0 -1 2201
+D3
+~
+~
+0 -1 819
+E
+sign~
+This portal leads to the Serpent's Castle.~
+S
+#816
+A Portal~
+Before you is a large void.  You cannot see through it and have no idea what is on the other side, you notice a sign on the wall.
+~
+0 8192 0
+D1
+~
+~
+0 -1 2362
+D3
+~
+~
+0 -1 802
+E
+sign~
+Mahntor awaits you if you enter this portal.~
+S
+#817
+The Entryway to Bathing Chambers~
+You are at the doorway to the castles bathing chambers.  Who knows what you'll find inside.
+~
+0 8192 0
+D0
+~
+~
+0 -1 818
+D1
+~
+~
+0 -1 810
+S
+#818
+The Bathing Chamber~
+Oh no! You've disturbed Lord Tarrant during his "reflection"  He rises from his "throne" reaching for his sword!
+~
+0 8192 0
+D2
+~
+~
+0 -1 817
+S
+#819
+The Tower~
+You are on a winding staircase.  It leads up higher into the castle.
+~
+0 8192 0
+D1
+~
+~
+0 -1 815
+D4
+~
+~
+0 -1 821
+D5
+~
+~
+0 -1 820
+S
+#820
+The Southern Hallway~
+You are moving south, towards the exit of the castle.  Above you is the castle tower, full of magic and mystery.
+~
+0 8192 0
+D0
+~
+~
+0 -1 806
+D2
+~
+~
+0 -1 814
+D4
+~
+~
+0 -1 819
+S
+#821
+The Top of the Tower~
+You have reached the lair of the magician Kyriel.  He looks at you and begins weaving a spell.  Your end is near.
+~
+0 8192 0
+D5
+~
+~
+0 -1 819
+S
+#822
+A Duel~
+With sudden quickness Dorin takes of the head of the person he was sparring with. You should run before he notices you.
+~
+0 8192 2
+D1
+~
+~
+0 -1 809
+S
+#823
+A Stair Well~
+A dark stairwell descending into the depths of the castle.
+~
+0 8192 0
+D4
+~
+~
+0 -1 807
+D5
+~
+~
+0 -1 824
+S
+#824
+The Dungeon~
+You're in a dimly lit dungeon.  In one corner sleeps the dungeon's guard Ingen.
+~
+0 8192 0
+D0
+~
+~
+0 -1 826
+D1
+~
+~
+0 -1 828
+D2
+~
+~
+0 -1 827
+D3
+~
+~
+0 -1 825
+D4
+~
+~
+0 -1 823
+S
+#825
+A Cell~
+You are in a dark cell.  Rats move around in the shadows.  The cell is practically unlivable.  In the corner is a pile of human excrement, and there is an unwashed filthy man sleeping on the stones.
+~
+0 8192 0
+D1
+~
+~
+0 -1 824
+S
+#826
+A Cell~
+You are in a dark cell.  Rats move around in the shadows.  The cell is practically unlivable.  In the corner is a pile of human excrement, and there is an unwashed filthy man sleeping on the stones.
+~
+0 8192 0
+D2
+~
+~
+0 -1 824
+S
+#827
+A Cell~
+You are in a dark cell.  Rats move around in the shadows.  The cell is practically unlivable.  In the corner is a pile of human excrement, and there is an unwashed filthy man sleeping on the stones.
+~
+0 8192 0
+D0
+~
+~
+0 -1 824
+S
+#828
+A Cell~
+You are in a dark cell.  Rats move around in the shadows.  The cell is practically unlivable.  In the corner is a pile of human excrement, and there is an unwashed filthy man sleeping on the stones.
+~
+0 8192 0
+D3
+~
+~
+0 -1 824
+S
+#829
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 0
+D0
+~
+~
+0 -1 832
+D1
+~
+~
+0 -1 830
+D2
+~
+~
+0 -1 836
+D3
+~
+~
+0 -1 834
+D5
+~
+~
+0 -1 806
+S
+#830
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 831
+D1
+~
+~
+0 -1 9600
+D2
+~
+~
+0 -1 837
+D3
+~
+~
+0 -1 829
+S
+#831
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D1
+~
+~
+0 -1 838
+D2
+~
+~
+0 -1 830
+D3
+~
+~
+0 -1 832
+S
+#832
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 9500
+D1
+~
+~
+0 -1 831
+D2
+~
+~
+0 -1 829
+D3
+~
+~
+0 -1 833
+S
+#833
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 840
+D1
+~
+~
+0 -1 832
+D2
+~
+~
+0 -1 834
+D3
+~
+~
+0 -1 9700
+S
+#834
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 833
+D1
+~
+~
+0 -1 829
+D2
+~
+~
+0 -1 835
+S
+#835
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 834
+D1
+~
+~
+0 -1 836
+D2
+~
+~
+0 -1 9900
+D3
+~
+~
+0 -1 9800
+S
+#836
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 829
+D1
+~
+~
+0 -1 837
+D3
+~
+~
+0 -1 835
+S
+#837
+The Nexus of Clans~
+Hallways extend north, south, east and west, providing
+entrances to Clan headquarters both infamous and famous.
+~
+0 8192 1
+D0
+~
+~
+0 -1 830
+D2
+~
+~
+0 -1 9950
+D3
+~
+~
+0 -1 836
+S
+#838
+An alleyway~
+You are standing in a dark alleyway with a rusty metal door at the end.
+Trash and urine floor the alleyway; here and there, bums can be seen
+nestling in the refuse.
+~
+0 8192 0
+D1
+~
+~
+0 -1 839
+D3
+~
+~
+0 -1 831
+S
+#839
+The abandoned club~
+Once a fast paced club, this place is history.  Triads sigils have been
+either defaced or eradicated, the walls and furniture engraved with the
+sigils of other clans.  Fin K.L. SUCKS has been spraypainted in huge
+flourescent letters across the back of the door.  Decaying corpses are
+visible among the debris; curiously, they all seem to have died from
+wounds to the back.
+~
+0 8192 0
+D3
+~
+~
+0 -1 838
+S
+#840
+An abbatoir~
+Corpses are piled high throughout the room.  Dead by blade, rune,
+fist, and spell, there are more bodies lying about than you could
+have believed possible.  It looks like a whole elementary school
+was butchered by rampaging hordes of bored PKers.
+~
+0 8192 0
+D0
+~
+~
+0 -1 841
+D2
+~
+~
+0 -1 833
+S
+#841
+Rubble~
+Corpses are piled high throughout the room.  Dead by blade, rune,
+fist, and spell, there are more bodies lying about than you could
+have believed possible.  It looks like a whole elementary school
+was butchered by rampaging hordes of bored PKers.
+~
+0 8192 0
+D2
+~
+~
+0 -1 840
+S
+#0
+
+
+#RESETS
+*
+M 1 800 1 800			Larsen to Larsen's Torture Chamber
+E 1 800 100 5
+*
+M 1 803 1 822			Dorin to A Duel
+E 1 802 100 15
+*
+M 1 801 1 818			Tarrant the Shitter to The Bathing Chamber
+E 1 801 100 2
+*
+M 1 802 1 821			Kyriel to The Top of the Tower
+E 1 803 100 12
+P 1 804 100 803			A torn shirt to container corpse
+*
+M 1 804 2 809			An Apocalypse Guard to The Courtyard
+*
+M 1 804 1 802			An Apocalypse Guard to A Hallway
+*
+M 1 804 3 820			An Apocalypse Guard to The Southern Hallway
+*
+M 1 804 1 817			An Apocalypse Guard to The Entryway to Bathing Chambers
+*
+M 1 804 1 806			An Apocalypse Guard to The Inner Ward 
+*
+M 1 803 1 822			Dorin the Assassin to A Duel
+E 1 802 100 15
+*
+*
+M 1 806 1 826			A Prisoner to A Cell
+*
+M 1 806 1 825			A Prisoner to A Cell
+*
+M 1 806 1 828			A Prisoner to A Cell
+*
+M 1 806 1 827			A Prisoner to A Cell
+*
+M 1 805 1 824			Ingen the Shadow to The Dungeon
+E 1 804 100 4
+S
+
+
+#$

@@ -1,0 +1,192 @@
+#AREADATA
+Name        { 1 99} Alathon The Arena~
+Builders    None~
+VNUMs       90 99
+Security    1
+Recall      3001
+End
+
+
+
+#MOBILES
+#90
+columbo~
+Columbo~
+Columbo, proud owner of the biggest mouth and smallest dick on Chaosium.
+~
+He probably should have shut his face a bit sooner.  Now he's paying for it.
+~
+71 0 0 S
+50 13 5 8d8+88 1d4+5
+50 0
+0 0 1
+>death_prog 101~
+mpmload 90
+~
+|
+#91
+palon~
+Palon~
+Palon, dumbass extraordinaire. 
+~
+Something just ain't right with this guy.
+~
+71 0 0 S
+65 13 5 8d8+88 1d4+5
+50 0
+0 0 1
+>death_prog 101~
+mpmload 91
+~
+>greet_prog 25~
+mpechoaround $n $I humps $n's leg.
+mpechoat $n $I humps your leg.
+~
+|
+#92
+fistan~
+Fistan~
+Fistan says '`mI'll be good, I swear, pretty please let me back!`n'
+~
+What a liar.
+~
+71 0 0 S
+80 13 5 8d8+88 1d4+5
+50 0
+0 0 1
+>death_prog 101~
+mpmload 92
+~
+>greet_prog 10~
+say ...NOT
+~
+|
+#93
+mdk~
+Mdk~
+Mdk, official ambassador of the bipolar to Chaosium.
+~
+For all that he knew his way around the battlefield, he had this
+way of.. well.. being a total dork at the worst possible time.
+That, and he hung arond with Palon.  Guilt by association is a
+very real thing.
+~
+71 0 0 S
+90 13 5 8d8+88 1d4+5
+50 0
+0 0 1
+>death_prog 101~
+mpmload 93
+~
+>greet_prog 5~
+say hey, whassup?
+~
+>greet_prog 5~
+say how's it hangin?
+~
+>greet_prog 5~
+snowball $n
+~
+>greet_prog 5~
+slut $n
+~
+>greet_prog 5~
+say go the fuck away
+~
+>greet_prog 5~
+say that's it, time to die!
+mpkill $n
+~
+>greet_prog 5~
+mmm $n
+~
+|
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#96
+The Rec Room~
+What better recreation could there be for the retired champions
+of Chaosium, than a little bloodletting?  The greatest fools,
+idiots, morons, and pussies stand ready to provide unending
+entertainment, with instant respawn on death.  Perhaps after a
+few years of this, they may even come to enjoy dying again.. and
+again.. and again..
+
+Oh wait, that's what they did as players.  Never mind.
+~
+0 0 1
+D1
+~
+~
+0 -1 97
+S
+#97
+The observation deck~
+Over the rail, looking down, the whole world stands before you.
+The carnage of Midgard and Apocalypse HQ is visible next to the
+beaten paths of the Shire and the untrodden trails of the Troll's
+Den.  Stuffed leather couches are arranged next to the rail, close
+enough to allow a reclining individual a fine view over the chaos
+below.
+
+Staff circulate, offering a wide assortment of beverages and
+foods.  Mixed among the filet mignon and champagne are hot dogs and
+rum & cokes.  As well, "escorts" of every persuasion are sauntering
+about, their pleasures available for the taking.  Sorta like the
+paradise in Conan the Barbarian, except the food isn't filled with
+human hands and green goo.
+~
+0 65536 1
+D3
+~
+~
+0 -1 96
+S
+#98
+The bleachers~
+Looking down, you can see the arena floor.
+~
+0 65540 1
+S
+#99
+a bloody arena floor~
+The sand here is stained dark with the blood of the fallen.
+Here and there, bones can be seen peeking out from under the
+dunes.  Rusted and broken fragments of weapons litter the
+arena floor as well, giving mute testimony to the battles
+which have come before.
+~
+0 65540 1
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 90 1 96
+M 0 91 1 96
+M 0 92 1 96
+M 0 93 1 96
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

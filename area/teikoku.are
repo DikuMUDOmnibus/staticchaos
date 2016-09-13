@@ -1,0 +1,329 @@
+#AREADATA
+Name        { 5 35} Tyu     Teikoku Headquarters~
+Builders    None~
+VNUMs       9800 9808
+Security    1
+Recall      3001
+End
+
+
+
+#HELPS
+
+0 EXODUS~
+Founders- Exodus was originally founded by a group of friends with Vixa as
+as their not so fearless leader. Sokarr is currently the "second in command"
+and can also join people. As we are friends in real life we are a pretty tight
+knit group.
+
+Requirements-
+1) I think the most important thing is not your pkill ability, but that your
+default personality isn't asshole. I have very little tolerance for rudeness
+in general. While it is a game we have to deal with you in the clan and LIKE
+your personality to join. 
+2) Ability to defend yourself- Every person is different and we do not mind
+helping you to develop in your class but you have to be at a point where you
+can defend yourself. This is normally around maniacal. I don't care about
+your personal pkill assessment, I understand unclanned powerfuls get hit hard.
+3) Sense of humor- You should revere the genuis of Kevin Smith. Ok so this 
+isn't necessary but you'll get the whole clan theme a whole lot better if
+you do ;)
+
+Ranks- They don't matter in Exodus. If we like you enough to join you are pretty
+much equal. Like I said before we are friends and we try treat the people in the
+as such. You get a say in what we order, who we join, who we banish. Even if I
+like you and want you to join the clan needs to agree. 
+
+Vixa 20/09/00
+~
+
+0 $~
+
+#MOBILES
+#9800
+bald guard~
+A small, bald man~
+A small, bald man is standing here, watching you closely.
+~
+He is seems rather weak, but is actually a master of Shaolin.
+Brown robes fall loosely around him and a pair of ruggish sandals
+hold his feet.
+~
+16483 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9801
+guard brute~
+A very large brute~
+A very large brute stands tall here, staring down at you.
+~
+This giant is at least nine feet tall. His arms are bigger than your neck!
+He grinds his teeth and lowers his yellow eyes down at you. The giant
+is loyal to the Teikoku and will defend it with his life.
+~
+16483 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9802
+judain guard~
+Master Judain~
+Master Judain is here, teaching his pupils.
+~
+He wears a white kimono and a stringy black belt around his waist. 
+He is yelling at his students with a gentle but commandful voice.
+He sizes you up for a second then returns his attention to the students.
+~
+16483 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9803
+camptella questmaster~
+Master Camptella~
+Master Camptella sits quietly in the balcony.
+~
+This man waits patiently for anyone who dares to ask for a quest. He
+looks very old and very weak, but only few know the true power he
+possesses.
+~
+1091 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9804
+victor guardian~
+Master Victor~
+Master Victor is teaching a class here.
+~
+He stands in front of a large class of about twenty children. 
+His voice echos above Judain, so that all the students can hear. 
+His eyes meet yours and you think you see small flames shoot 
+up from his pupils.
+~
+16483 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9805
+takumba guardian banker~
+Master Takumba~
+Master Takumba watches the competition from the balcony.
+~
+An excellent fighter in the empire. He is well known and is considered
+the most intelligent of all in Teikoku. He grins slightly at you from above.
+~
+579 552 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9806
+baton guardian~
+Master Baton~
+Master Baton sits in the balcony, sizing up the contestants.
+~
+The greatest fighter in all the realms. He is undefeated in every
+competition he has entered. He truly is the master of Shaolin.
+~
+16483 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9807
+guardian cyrus~
+Master Cyrus~
+Master Cyrus watches the battles with pride in his students.
+~
+Master Cyrus appears to be very old, even
+for someone so adept in the ways of the
+martial arts.  His blackbelts in various
+schools of fighting reveal that he is an
+extremely strong apponent, despite his age.
+He emits a powerful, but friendly aura.
+~
+16483 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9808
+shopkeeper wufei~
+Wufei~
+Wufei, a former Gundam pilot, watches you carefully.
+~
+Wufei is a strong, tall, and very honorable
+fighter.  His presence gives you the spirit
+of fighting.  He stands next to the depository
+of Gundam munitions very attentively.  Though
+he says nothing, you understand he's here to
+help with your supplies.
+~
+67 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#9800
+announcement board~
+A wooden announcement board is here.~
+A wooden announcement board is here.~
+~
+12 0 0
+0 0 0 0
+100 0 0
+E
+board~
+A wooden announcement board is here.
+Official website for Teikoku is:
+http://www.angelfire.com/games3/teikoku/index.html
+Keep visiting this site for updates.~
+#0
+
+
+
+#ROOMDATA
+#9800
+Entrance of the Teikoku~
+You see the entrance to the Empire. A huge stone wall surrounds it.
+On the inside, beautiful fountains show their pure water.
+Behind this, you see the castle that shelters the infamous dojo.
+A large gong stands next to you, used as an alarm for intruders.
+~
+4 40960 1
+D1
+~
+~
+0 -1 847
+D2
+~
+~
+0 -1 9805
+D3
+~
+~
+0 -1 9801
+S
+#9801
+Training Grounds~
+You stand in the center of what seems to be the training area for
+the clan. Weapon racks fill the walls while teachers show their'
+pupils new techniques of combat. You stand in awe watching
+the strength and accuracy shown by the students.
+~
+4 40960 1
+D0
+~
+~
+0 -1 9804
+D1
+~
+~
+0 -1 9800
+D3
+~
+~
+0 -1 9802
+S
+#9802
+Center of the Circle~
+Here you are, in the center of the arena. Stands are filled with people watching
+your every move. Three judges sit in the front balcony, waiting for competition
+to begin. This is where men and woman come to show what they are really
+made of. You feel uneasy as the smell of blood fills the air.
+~
+4 40960 1
+D1
+~
+~
+0 -1 9801
+D2
+~
+~
+0 -1 9803
+S
+#9803
+Hidden Area~
+You don't know how you managed to enter this area, but it's very dark with
+only a few torches to bring about light. However what you do manage to see
+in the blackness is a large machine. You're not quite sure what its for, but
+it can't be good for the enemies of the Teikoku.
+~
+4 172032 0
+D0
+~
+~
+0 -1 9802
+S
+#9804
+Room of Healing~
+As you step into this room, a feeling of relaxation comes over you
+as you conciously start to feel your wounds start to close.
+Teikoku's most powerful warriors have slept here, and some have even
+etched their names into the walls. In this room, the dead come
+back to life.
+~
+4 434176 1
+D2
+~
+~
+0 -1 9801
+S
+#9805
+Watch Tower~
+High above the gates to Teikoku, you stand atop the watch tower
+surveying the land before you. The archers here guard the clan
+from would be invaders; their accuracy has no equal. By stepping
+into the tower, you take on the full responsibilities of those
+who guard you and keep you safe from outside harm.
+~
+4 40960 1
+D0
+~
+~
+0 -1 9800
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 9800 1 9800
+M 0 9801 1 9800
+M 0 9802 1 9801
+M 0 9804 1 9801
+M 0 9803 1 9801
+M 0 9805 1 9802
+M 0 9806 1 9802
+M 0 9807 1 9802
+O 0 9800 0 9802
+O 0 66 -1 9803
+O 0 68 -1 9803
+O 0 69 -1 9803
+O 0 70 -1 9803
+M 0 9808 1 9803
+G 0 80 0
+G 0 81 0
+G 0 82 0
+G 0 83 0
+G 0 84 0
+G 0 93 0
+S
+
+
+
+#SHOPS
+9808 0 0 0 0 0 110 100 0 23
+0
+
+
+
+#$

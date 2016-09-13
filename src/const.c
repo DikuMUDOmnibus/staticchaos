@@ -1,0 +1,1560 @@
+/***************************************************************************
+ *  Original Diku Mud copyright (C) 1990, 1991 by Sebastian Hammer,        *
+ *  Michael Seifert, Hans Henrik St{rfeldt, Tom Madsen, and Katja Nyboe.   *
+ *                                                                         *
+ *  Merc Diku Mud improvments copyright (C) 1992, 1993 by Michael          *
+ *  Chastain, Michael Quan, and Mitchell Tse.                              *
+ *                                                                         *
+ *  In order to use any part of this Merc Diku Mud, you must comply with   *
+ *  both the original Diku license in 'license.doc' as well the Merc       *
+ *  license in 'license.txt'.  In particular, you may not remove either of *
+ *  these copyright notices.                                               *
+ *                                                                         *
+ *  Much time and thought has gone into this software and you are          *
+ *  benefitting.  We hope that you share your changes too.  What goes      *
+ *  around, comes around.                                                  *
+ ***************************************************************************/
+
+#if defined(macintosh)
+#include <types.h>
+#else
+#include <sys/types.h>
+#endif
+#include <math.h>
+#include <stdio.h>
+#include <time.h>
+#include "merc.h"
+
+
+
+/*
+ * Not a const, but a necessary initialization
+ */
+struct	lltype	leaderboard	[MAX_LEADERS+5]	=
+{
+  { "none", "none", 10, 0, 10 },
+  { "none", "none", 9, 0, 9 },
+  { "fuck", "asdf", 8, 0, 8 },
+  { "shit", "asdf", 7, 0, 8 },
+  { "none", "none", 8, 0, 8 },
+  { "none", "none", 8, 0, 8 },
+  { "none", "none", 8, 0, 8 },
+  { "none", "none", 8, 0, 8 },
+  { "none", "none", 8, 0, 8 },
+  { "none", "none", 8, 0, 8 },
+  { "none", "none", 8, 0, 8 },
+  { "none", "none", 8, 0, 8 },
+  { "none", "none", 8, 0, 8 },
+  { "none", "none", 8, 0, 8 },
+  { "none", "none", 8, 0, 8 }
+};
+
+struct	lltype	loserboard	[10]	=
+{
+  { "none", "none", 0, 10, 0 },
+  { "none", "none", 0, 10, 0 },
+  { "none", "none", 0, 10, 0 },
+  { "none", "none", 0, 10, 0 },
+  { "none", "none", 0, 10, 0 },
+  { "none", "none", 0, 10, 0 },
+  { "none", "none", 0, 10, 0 },
+  { "none", "none", 0, 10, 0 },
+  { "none", "none", 0, 10, 0 },
+  { "none", "none", 0, 10, 0 }
+};
+
+struct	clan_type	clan_table	[MAX_CLANS+1]	=
+{
+  { "none",	"     ",	1,	0,	0,	0,	0,
+    { 0, 0, 0, 0, 0, 0, 0 },	{ 2, 2, 2, 2, 2, 2, 2 },	TRUE,
+    { "God", "Master", "Enforcer", "Officer", "Member", "Initiate" }
+  },
+
+  { "Malokteri",     "`d (`W\\`d/`W)`n", 1,   0,      0,      0,      0,
+    { 0, 0, 0, 0, 0, 0, 0 },	{ 2, 2, 2, 2, 2, 2, 2 },	TRUE,
+    {"GOD", "Maskim Xul", "Nekelmu", "Idimmu", "Lalartu", "Lalassu" }
+  },
+
+  { "Cith Deux",	" `r<`R|>`n ", 1,	0,	0,	0,	0,
+    { 0, 0, 0, 0, 0, 0, 0 },	{ 2, 2, 2, 2, 2, 2, 2 },	TRUE,
+    {"GOD", "Deux Xa", "Deux Mas", "Gaiden", "Vein", "Acolyte" }
+  },
+
+  { "Divergent",	"`B<`b- `r-`R>`n", 1,	0,	0,	0,	0,
+    { 0, 0, 0, 0, 0, 0, 0  },	{ 2, 2, 2, 2, 2, 2, 2 },	TRUE,
+    { "GOD", "God of Death", "Great Destroyer", "Executioner", "Obliterator", "Murderor" }
+  },
+
+  { "Teikoku",	"`W^^`R!`W^^`n", 1, 0, 0, 0, 0,
+    { 0, 0, 0, 0, 0, 0, 0 },	{ 2, 2, 2, 2, 2, 2, 2 },	TRUE,
+    { "GOD", "Emperor", "Shogun", "Samurai", "Ninja", "Peasant" }
+  },
+
+  { "Z-Rollers",		"`y-`Y<`WZ`Y>`y-`n", 1, 0, 0, 0, 0,
+    { 0, 0, 0, 0, 0, 0, 0 },	{ 2, 2, 2, 2, 2, 2, 2 },	TRUE,
+    { "GOD", "Hirohito", "Kurokaze", "Akaikaze", "AburaKodomo", "Kamikaze" }
+  },
+
+  { "Renegades",	"`b<`B{`WR`B}`b>`n", 1, 0, 0, 0, 0,
+    { 0, 0, 0, 0, 0, 0, 0 },	{ 2, 2, 2, 2, 2, 2, 2 },	TRUE,
+    { "GOD", "Mihari", "MourningStar", "Mercenary", "Runaway", "Initiate" }
+  }
+};
+
+const	char*	dip_table[5]	=
+{ "`Gallied `n", "`B amity `n", "`nneutral", "`Yhostile`n", "`r  war  `n" };
+
+
+/*
+ * Suit table.
+ */
+const	struct	suit_type	suit_table	[MAX_SUITS+1]	=
+{
+  { "None", 0, 0, 0, 0, 0, 0, 0, 0 },
+  { "Leo", 2573, 4, 0, 100, 100, 100, 100, 100 },
+  { "Aries", 904, 384, 100, 100, 110, 110, 90, 90 },
+  { "Taurus", 568, 8, 400, 100, 110, 125, 110, 110 },
+  { "Virgo", 58, 8, 750, 130, 140, 125, 110, 120 },
+  { "Mercurius", 8203, 8203, 1000, 150, 100, 125, 130, 130 },
+  { "Vayeate", 88, 88, 1000, 110, 160, 125, 110, 130 },
+  { "Tallgeese", 2825, 2825, 1500, 100, 110, 150, 130, 120 },
+  { "Wing Zero", 299520, 299520, 2000, 150, 150, 160, 140, 140 },
+  { "Wing Gundam", 21120, 21120, 1400, 130, 140, 150, 120, 130 },
+  { "Deathscythe", 8454273, 8454273, 1400, 140, 120, 160, 120, 120 },
+  { "Heavyarms", 398208, 398208, 1400, 110, 160, 110, 140, 140 },
+  { "Sandrock", 528768, 528768, 1400, 120, 120, 110, 150, 160 },
+  { "Shenlong", 19923073, 19923073, 1400, 160, 110, 130, 140, 120 },
+  { "Epyon", 4195329, 4195329, 2000, 160, 140, 160, 140, 140 },
+  { "M1A1 Tank", 17172740, 17172740, 2000, 160, 160, 160, 160, 195 }
+};
+
+const	struct	materia_type	materia_table	[MAX_MATERIA+1]	=
+{
+  { 0, "None",	1000000,
+  	{ "None", "None", "NoNe", "NONE" },
+	{ 0, 1000, 2000, 5000 },
+	{ spell_null, spell_null, spell_null, spell_null } },
+  { 1, "Fire", 35000,
+  	{ "fire", "fire2", "fire3", "" },
+  	{ 2000, 18000, 35000, -1 },
+  	{ spell_fire, spell_fire2, spell_fire3, spell_null } },
+  { 2, "Ice", 35000,
+  	{ "ice", "ice2", "ice3", "" },
+  	{ 2000, 18000, 35000, -1 },
+  	{ spell_ice, spell_ice2, spell_ice3, spell_null } },
+  { 3, "Lightning", 35000,
+  	{ "bolt", "bolt2", "bolt3", "" },
+  	{ 2000, 18000, 35000, -1 },
+  	{ spell_bolt, spell_bolt2, spell_bolt3, spell_null } },
+  { 4, "Restore", 40000,
+  	{ "cure", "cure2", "regen", "cure3" },
+  	{ 2500, 17000, 24000, 40000 },
+  	{ spell_cure, spell_cure2, spell_regen, spell_cure3 } },
+  { 5, "Earth", 40000,
+  	{ "quake", "quake2", "quake3", "" },
+  	{ 6000, 22000, 40000, -1 },
+  	{ spell_quake, spell_quake2, spell_quake3, spell_null } },
+  { 6, "Poison", 38000,
+  	{ "bio", "bio2", "bio3", "" },
+  	{ 5000, 20000, 38000, -1 },
+  	{ spell_bio, spell_bio2, spell_bio3, spell_null } },
+  { 7, "Heal", 60000,
+  	{ "poisona", "esuna", "resist", "" },
+  	{ 12000, 52000, 60000, -1 },
+  	{ spell_poisona, spell_esuna, spell_resist, spell_null } },
+  { 8, "Revive", 55000,
+  	{ "life", "life2", "", "" },
+  	{ 45000, 55000, -1, -1 },
+  	{ spell_life, spell_life2, spell_null, spell_null } },
+  { 9, "Barrier", 45000,
+  	{ "barrier", "shell", "reflect", "wall" },
+  	{ 5000, 15000, 30000, 45000 },
+  	{ spell_barrier, spell_shell, spell_reflect, spell_wall } },
+  { 10, "Seal", 20000,
+  	{ "sleepel", "silence", "", "" },
+  	{ 10000, 20000, -1, -1 },
+  	{ spell_sleepel, spell_silence, spell_null, spell_null } },
+  { 11, "Time", 42000,
+  	{ "haste", "slow", "stop", "" },
+  	{ 8000, 20000, 42000, -1 },
+  	{ spell_haste, spell_slow, spell_stop, spell_null } },
+  { 12, "Gravity", 40000,
+  	{ "demi", "demi2", "demi3", "" },
+  	{ 10000, 20000, 40000, -1 },
+  	{ spell_demi, spell_demi2, spell_demi3, spell_null } },
+  { 13, "Destruct", 45000,
+  	{ "debarrier", "despell", "death", "" },
+  	{ 6000, 10000, 45000, -1 },
+  	{ spell_debarrier, spell_despell, spell_death, spell_null } },
+  { 14, "Comet", 60000,
+  	{ "comet", "comet2", "", "" },
+  	{ 12000, 60000, -1, -1 },
+  	{ spell_comet, spell_comet2, spell_null, spell_null } },
+  { 15, "Contain", 60000,
+  	{ "freeze", "break", "tornado", "flare" },
+  	{ 5000, 10000, 15000, 60000 },
+  	{ spell_freeze, spell_break, spell_tornado, spell_flare } },
+  { 16, "Ultima", 100000,
+  	{ "ultima", "", "", "" },
+  	{ 100000, -1, -1, -1 },
+  	{ spell_ultima, spell_null, spell_null, spell_null } }
+};
+
+/*
+ * Generated weapons table.
+ */
+const	struct	wgen_type	wgen_table	[MAX_WGEN]	=
+{
+  {	1,	"katana"	},
+  {	1,	"longsword"	},
+  {	1,	"nodachi"	},
+  {	1,	"blade"		},
+  {	2,	"dagger"	},
+  {	2,	"knife"		},
+  {	2,	"fountain pen"	},
+  {	2,	"tanto"		},
+  {	3,	"broadsword"	},
+  {	3,	"falchion"	},
+  {	3,	"machete"	},
+  {	3,	"sabre"		},
+  {	4,	"whip"		},
+  {	4,	"chain whip"	},
+  {	5,	"tiger-claw"	},
+  {	6,	"shotgun"	},
+  {	6,	"AkMag rifle"	},
+  {	6,	"magnum"	},
+  {	6,	"desert eagle"	},
+  {	7,	"club"		},
+  {	7,	"cudgel"	},
+  {	7,	"billy club"	},
+  {	7,	"quarterstaff"	},
+  {	8,	"flail"		},
+  {	8,	"mace"		},
+  {	8,	"morning star"	},
+  {	9,	"UNIX manual"	},
+  {	9,	"log file"	},
+  {	10,	"book review"	},
+  {	10,	"satire"	},
+  {	11,	"rapier"	},
+  {	11,	"stiletto"	},
+  {	11,	"dirk"		},
+  {	12,	"lip gloss"	},
+  {	12,	"lipstick"	}
+};
+
+
+
+
+/*
+ * Class table.
+ */
+const	struct	class_type	class_table	[MAX_CLASS]	=
+{
+    {
+	"None",  APPLY_INT,  OBJ_VNUM_SCHOOL_DAGGER,
+	3018, 15, 15, 15, 15,  8, FALSE
+    },
+
+    {
+	"Saiyan",  APPLY_WIS,  OBJ_VNUM_SCHOOL_MACE,
+	3003, 100, 75, 90, 80, 10, FALSE
+    },
+
+    {
+	"Patryn",  APPLY_DEX,  OBJ_VNUM_SCHOOL_DAGGER,
+	3028,  80, 100, 75, 85, 13, FALSE
+    },
+
+    {
+	"Fist",  APPLY_STR,  OBJ_VNUM_SCHOOL_SWORD,
+	3022, 90, 75, 100, 80, 15, FALSE
+    },
+
+    {
+    	"Sorcerer",	APPLY_INT,	OBJ_VNUM_SCHOOL_DAGGER,
+    	3018, 75, 90, 80, 100, 5, TRUE
+    },
+
+    {
+    	"Mazoku",	APPLY_INT,	OBJ_VNUM_SCHOOL_DAGGER,
+    	3018, 95, 95, 95, 95, 10, FALSE
+    }
+};
+
+/*
+ * Stance table..
+ */
+const	struct	stance_type	stance_table	[MAX_STANCES+1]	=
+{
+  // no stance
+  // none lion lynx snake badger ferret hawk eagle vulture sparrow humming
+  { "name",	0,	0,
+    { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+    { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+    { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+  },
+  // Lion
+  { "lion",	1,	0,
+    { 5, 5, 4, 1, 3, 4, 3, 2, 0, 1, 1 },
+    { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+    { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+   },
+  // Lynx
+  { "lynx",	1,	0,
+    { 5, 4, 3, 1, 2, 2, 3, 1, 0, 1, 1 },
+    { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+    { 2, 1, 0, 0, 2, 2, 0, 0, 0, 1, 1 }
+  },
+  // Snake
+  { "snake",	0,	1,
+    { 2, 2, 2, 2, 0, 0, 1, 1, 0, 0, 0 },
+    { 2, 4, 4, 3, 1, 1, 3, 3, 2, 1, 0 },
+    { 2, 4, 4, 3, 1, 1, 3, 3, 2, 1, 0 }
+  },
+  // Badger
+  { "badger",	0,	2,
+    { 2, 1, 2, 3, 2, 1, 0, 1, 2, 1, 0 },
+    { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+    { 5, 3, 3, 5, 5, 4, 1, 2, 4, 3, 2 }
+  },
+  // Ferret
+  { "ferret",	0,	3,
+    { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+    { 5, 2, 3, 5, 5, 5, 1, 2, 3, 4, 4 },
+    { 5, 2, 3, 5, 5, 5, 1, 2, 3, 4, 4 }
+  },
+  // Hawk
+  { "hawk",	3,	1,
+    { 9, 9, 8, 8, 8, 9, 9, 7, 4, 7, 9 },
+    { 5, 4, 4, 3, 5, 5, 2, 1, 0, 3, 4 },
+    { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+  },
+  // Eagle
+  { "eagle",	2,	2,
+    { 8, 7, 6, 7, 7, 8, 7, 7, 6, 7, 7 },
+    { 3, 3, 2, 2, 3, 3, 2, 0, 0, 1, 2 },
+    { 3, 3, 2, 2, 3, 3, 2, 1, 0, 1, 1 }
+  },
+  // Vulture
+  { "vulture",	1,	3,
+    { 5, 5, 5, 5, 4, 4, 5, 5, 4, 3, 2 },
+    { 6, 7, 7, 6, 4, 3, 6, 5, 5, 3, 3 },
+    { 5, 7, 7, 6, 4, 3, 6, 6, 4, 2, 2 }
+  },
+  // Sparrow
+  { "sparrow",	1,	4,
+    { 2, 2, 2, 3, 2, 2, 0, 2, 5, 3, 1 },
+    { 6, 6, 6, 8, 6, 6, 2, 3, 7, 6, 6 },
+    { 5, 7, 7, 9, 8, 8, 5, 2, 6, 6, 6 }
+  },
+  // Stork 
+  { "stork",	1,	5,
+    { 0, 0, 0, 0, 0, 0, 0, 3, 4, 3, 1 },
+    { 9, 9, 9, 9, 9, 9, 2, 3, 9, 7, 7 },
+    { 9, 9, 9, 9, 9, 9, 3, 4, 9, 8, 8 }
+  }
+}; // end of stance_table
+ 
+
+ 
+
+
+/*
+ * Liquid properties.
+ * Used in world.obj.
+ */
+const	struct	liq_type	liq_table	[LIQ_MAX]	=
+{
+    { "water",			"clear",	{  0, 1, 10 }	},  /*  0 */
+    { "beer",			"amber",	{  3, 2,  5 }	},
+    { "wine",			"rose",		{  5, 2,  5 }	},
+    { "ale",			"brown",	{  2, 2,  5 }	},
+    { "dark ale",		"dark",		{  1, 2,  5 }	},
+
+    { "whisky",			"golden",	{  6, 1,  4 }	},  /*  5 */
+    { "lemonade",		"pink",		{  0, 1,  8 }	},
+    { "firebreather",		"boiling",	{ 10, 0,  0 }	},
+    { "local specialty",	"everclear",	{  3, 3,  3 }	},
+    { "slime mold juice",	"green",	{  0, 4, -8 }	},
+
+    { "milk",			"white",	{  0, 3,  6 }	},  /* 10 */
+    { "tea",			"tan",		{  0, 1,  6 }	},
+    { "coffee",			"black",	{  0, 1,  6 }	},
+    { "blood",			"red",		{  0, 2, -1 }	},
+    { "salt water",		"clear",	{  0, 1, -2 }	},
+
+    { "cola",			"cherry",	{  0, 1,  5 }	}   /* 15 */
+};
+
+
+
+/*
+ * The skill and spell table.
+ * Slot numbers must never be changed as they appear in #OBJECTS sections.
+ */
+#define SLOT(n)	n
+
+const	struct	skill_type	skill_table	[MAX_SKILL]	=
+{
+
+/*
+ * Magic spells.
+ */
+
+    {
+	"reserved",		{ 99, 99, 99, 99, 99, 99 },
+	0,			TAR_IGNORE,		POS_STANDING,
+	NULL,			SLOT( 0),	 0,	 0,	FALSE,
+	"",			""
+    },
+
+    {
+	"acid blast",		{ 20, 20, 20, 20, 20, 20 },
+	spell_acid_blast,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(70),	20,	12,	FALSE,
+	"acid blasts",		"!Acid Blast!"
+    },
+
+    {
+	"armor",		{ 20, 20, 20, 20, 2, 20 },
+	spell_armor,		TAR_CHAR_SELF,		POS_STANDING,
+	NULL,			SLOT( 1),	 5,	12,	FALSE,
+	"",			"You feel less protected."
+    },
+
+    {
+	"bless",		{ 20, 20, 20, 20, 2, 20 },
+	spell_bless,		TAR_CHAR_SELF,		POS_STANDING,
+	NULL,			SLOT( 3),	 5,	12,	FALSE,
+	"",			"You feel less righteous."
+    },
+
+    {
+	"blindness",		{ 20, 20, 20, 20, 20, 20 },
+	spell_blindness,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	&gsn_blindness,		SLOT( 4),	 5,	12,	FALSE,
+	"",			"You can see again."
+    },
+
+    {
+	"burning hands",	{ 20, 20, 20, 20, 2, 20 },
+	spell_burning_hands,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT( 5),	15,	12,	FALSE,
+	"Bar-B-Qs",		"!Burning Hands!"
+    },
+
+    {
+	"call lightning",	{ 20, 20, 20, 20, 2, 20 },
+	spell_call_lightning,	TAR_IGNORE,		POS_FIGHTING,
+	NULL,			SLOT( 6),	15,	12,	FALSE,
+	"lightning bolts",	"!Call Lightning!"
+    },
+
+    {
+	"cause critical",	{ 20, 20, 20, 20, 2, 20 },
+	spell_cause_critical,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(63),	20,	12,	FALSE,
+	"harms",		"!Cause Critical!"
+    },
+
+    {
+	"cause light",		{ 20, 20, 20, 20, 2, 20 },
+	spell_cause_light,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(62),	15,	12,	FALSE,
+	"harms",		"!Cause Light!"
+    },
+
+    {
+	"cause serious",	{ 20, 20, 20, 20, 2, 20 },
+	spell_cause_serious,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(64),	17,	12,	FALSE,
+	"harms",		"!Cause Serious!"
+    },
+
+    {
+	"change sex",		{ 20, 20, 20, 20, 2, 20 },
+	spell_change_sex,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(82),	15,	12,	FALSE,
+	"",			"Your body feels familiar again."
+    },
+
+    {
+	"charm person",		{ 20, 20, 20, 20, 20, 20 },
+	spell_charm_person,	TAR_CHAR_OFFENSIVE,	POS_STANDING,
+	&gsn_charm_person,	SLOT( 7),	 5,	12,	FALSE,
+	"",			"You feel more self-confident."
+    },
+
+    {
+	"chill touch",		{ 20, 20, 20, 20, 2, 20 },
+	spell_chill_touch,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT( 8),	15,	12,	FALSE,
+	"chill touches",	"You feel less cold."
+    },
+
+    {
+	"colour spray",		{ 20, 20, 20, 20, 2, 20 },
+	spell_colour_spray,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(10),	15,	12,	FALSE,
+	"colour spray",		"!Colour Spray!"
+    },
+
+    {
+	"continual light",	{ 20, 20, 20, 20, 2, 20 },
+	spell_continual_light,	TAR_IGNORE,		POS_STANDING,
+	NULL,			SLOT(57),	 7,	12,	FALSE,
+	"",			"!Continual Light!"
+    },
+
+    {
+	"control weather",	{ 20, 20, 20, 20, 2, 20 },
+	spell_control_weather,	TAR_IGNORE,		POS_STANDING,
+	NULL,			SLOT(11),	25,	12,	FALSE,
+	"",			"!Control Weather!"
+    },
+
+    {
+	"create food",		{ 20, 20, 20, 20, 20, 20 },
+	spell_create_food,	TAR_IGNORE,		POS_STANDING,
+	NULL,			SLOT(12),	 5,	12,	FALSE,
+	"",			"!Create Food!"
+    },
+
+    {
+	"create spring",	{ 20, 20, 20, 20, 20, 20 },
+	spell_create_spring,	TAR_IGNORE,		POS_STANDING,
+	NULL,			SLOT(80),	20,	12,	FALSE,
+	"",			"!Create Spring!"
+    },
+
+    {
+	"create water",		{ 20, 20, 20, 20, 20, 20 },
+	spell_create_water,	TAR_OBJ_INV,		POS_STANDING,
+	NULL,			SLOT(13),	 5,	12,	FALSE,
+	"",			"!Create Water!"
+    },
+
+    {
+	"cure blindness",	{ 20, 20, 20, 20, 2, 20 },
+	spell_cure_blindness,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(14),	 5,	12,	FALSE,
+	"",			"!Cure Blindness!"
+    },
+
+    {
+	"cure critical",	{ 20, 20, 20, 20, 2, 20 },
+	spell_cure_critical,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(15),	20,	12,	FALSE,
+	"",			"!Cure Critical!"
+    },
+
+    {
+	"cure light",		{ 20, 20, 20, 20, 2, 20 },
+	spell_cure_light,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(16),	10,	12,     FALSE,
+	"",			"!Cure Light!"
+    },
+
+    {
+	"cure poison",		{ 20, 20, 20, 20, 2, 20 },
+	spell_cure_poison,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
+	NULL,			SLOT(43),	 5,	12,     FALSE,
+	"",			"!Cure Poison!"
+    },
+
+    {
+	"cure serious",		{ 20, 20, 20, 20, 2, 20 },
+	spell_cure_serious,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(61),	15,	12,     FALSE,
+	"",			"!Cure Serious!"
+    },
+
+    {
+	"curse",		{ 20, 20, 20, 20, 2, 20 },
+	spell_curse,		TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	&gsn_curse,		SLOT(17),	20,	12,     FALSE,
+	"curse",		"The curse wears off."
+    },
+
+    {
+	"detect evil",		{ 20, 20, 20, 20, 2, 20 },
+	spell_detect_evil,	TAR_CHAR_SELF,		POS_STANDING,
+	NULL,			SLOT(18),	 5,	12,     FALSE,
+	"",			"The red in your vision disappears."
+    },
+
+    {
+	"detect hidden",	{ 20, 20, 20, 20, 2, 20 },
+	spell_detect_hidden,	TAR_CHAR_SELF,		POS_STANDING,
+	NULL,			SLOT(44),	 5,	12,     FALSE,
+	"",			"You feel less aware of your suroundings."
+    },
+
+    {
+	"detect invis",		{ 20, 20, 20, 20, 2, 20 },
+	spell_detect_invis,	TAR_CHAR_SELF,		POS_STANDING,
+	NULL,			SLOT(19),	 5,	12,     FALSE,
+	"",			"You no longer see invisible objects."
+    },
+
+    {
+	"detect magic",		{ 20, 20, 20, 20, 2, 20 },
+	spell_detect_magic,	TAR_CHAR_SELF,		POS_STANDING,
+	NULL,			SLOT(20),	 5,	12,     FALSE,
+	"",			"The detect magic wears off."
+    },
+
+    {
+	"detect poison",	{ 20, 20, 20, 20, 2, 20 },
+	spell_detect_poison,	TAR_OBJ_INV,		POS_STANDING,
+	NULL,			SLOT(21),	 5,	12,     FALSE,
+	"",			"!Detect Poison!"
+    },
+
+    {
+	"dispel evil",		{ 20, 20, 20, 20, 2, 20 },
+	spell_dispel_evil,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(22),	15,	12,     FALSE,
+	"dispel evil",		"!Dispel Evil!"
+    },
+
+    {
+	"dispel magic",		{ 20, 20, 20, 20, 2, 20 },
+	spell_dispel_magic,	TAR_CHAR_OFFENSIVE,	POS_STANDING,
+	NULL,			SLOT(59),	15,	12,     FALSE,
+	"",			"!Dispel Magic!"
+    },
+
+    {
+	"earthquake",		{ 20, 20, 20, 20, 2, 20 },
+	spell_earthquake,	TAR_IGNORE,		POS_FIGHTING,
+	NULL,			SLOT(23),	15,	12,     FALSE,
+	"earthquake",		"!Earthquake!"
+    },
+
+    {
+	"enchant weapon",	{ 16, 16, 16, 16, 16, 16 },
+	spell_enchant_weapon,	TAR_OBJ_INV,		POS_STANDING,
+	NULL,			SLOT(24),	100,	4,	FALSE,
+	"",			"!Enchant Weapon!"
+    },
+
+    {
+	"energy drain",		{ 20, 20, 20, 20, 20, 20 },
+	spell_energy_drain,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(25),	35,	12,     FALSE,
+	"energy drain",		"!Energy Drain!"
+    },
+
+    {
+	"faerie fire",		{ 20, 20, 20, 20, 2, 20 },
+	spell_faerie_fire,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(72),	 5,	12,     FALSE,
+	"faerie fire",		"The pink aura around you fades away."
+    },
+
+    {
+	"faerie fog",		{ 20, 20, 20, 20, 2, 20 },
+	spell_faerie_fog,	TAR_IGNORE,		POS_STANDING,
+	NULL,			SLOT(73),	12,     12,	FALSE,
+	"faerie fog",		"!Faerie Fog!"
+    },
+
+    {
+	"fireball",		{ 20, 20, 20, 20, 2, 20 },
+	spell_fireball,		TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(26),	15,	12,     FALSE,
+	"fireball",		"!Fireball!"
+    },
+
+    {
+	"flamestrike",		{ 20, 20, 20, 20, 2, 20 },
+	spell_flamestrike,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(65),	20,	12,     FALSE,
+	"flamestrike",		"!Flamestrike!"
+    },
+
+    {
+	"fly",			{ 20, 20, 20, 20, 20, 20 },
+	spell_fly,		TAR_CHAR_DEFENSIVE,	POS_STANDING,
+	NULL,			SLOT(56),	10,	18,	FALSE,
+	"",			"You slowly float to the ground."
+    },
+
+    {
+	"gate",			{ 20, 20, 20, 20, 20, 20 },
+	spell_gate,		TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(83),	50,	12,     FALSE,
+	"",			"!Gate!"
+    },
+
+    {
+	"giant strength",	{ 20, 20, 20, 20, 20, 20 },
+	spell_giant_strength,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
+	NULL,			SLOT(39),	20,	12,     FALSE,
+	"",			"You feel weaker."
+    },
+
+    {
+	"harm",			{ 20, 20, 20, 20, 2, 20 },
+	spell_harm,		TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(27),	35,	12,     FALSE,
+	"harm spell",		"!Harm!"
+    },
+
+    {
+	"heal",			{ 20, 20, 20, 20, 2, 20 },
+	spell_heal,		TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(28),	50,	12,     FALSE,
+	"",			"!Heal!"
+    },
+
+    {
+	"identify",		{ 20, 20, 20, 20, 2, 20 },
+	spell_identify,		TAR_OBJ_INV,		POS_STANDING,
+	NULL,			SLOT(53),	12,     24,	FALSE,
+	"",			"!Identify!"
+    },
+
+    {
+	"infravision",		{ 20, 20, 20, 20, 2, 20 },
+	spell_infravision,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
+	&gsn_infrared,		SLOT(77),	 5,	18,	FALSE,
+	"",			"You no longer see in the dark."
+    },
+
+    {
+	"invis",		{ 20, 20, 20, 20, 2, 20 },
+	spell_invis,		TAR_CHAR_DEFENSIVE,	POS_STANDING,
+	&gsn_invis,		SLOT(29),	 5,	12,     FALSE,
+	"",			"You are no longer invisible."
+    },
+
+    {
+	"know alignment",	{ 20, 20, 20, 20, 2, 20 },
+	spell_know_alignment,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(58),	 9,	12,     FALSE,
+	"",			"!Know Alignment!"
+    },
+
+    {
+	"lightning bolt",	{ 20, 20, 20, 20, 2, 20 },
+	spell_lightning_bolt,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(30),	15,	12,     FALSE,
+	"lightning bolt",	"!Lightning Bolt!"
+    },
+
+    {
+	"locate object",	{ 20, 20, 20, 20, 20, 20 },
+	spell_locate_object,	TAR_IGNORE,		POS_STANDING,
+	NULL,			SLOT(31),	20,	18,	FALSE,
+	"",			"!Locate Object!"
+    },
+
+    {
+	"magic missile",	{ 20, 20, 20, 20, 2, 20 },
+	spell_magic_missile,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(32),	15,	12,     FALSE,
+	"magic missile",	"!Magic Missile!"
+    },
+
+    {
+	"mass invis",		{ 20, 20, 20, 20, 2, 20 },
+	spell_mass_invis,	TAR_IGNORE,		POS_STANDING,
+	&gsn_mass_invis,	SLOT(69),	20,	24,	FALSE,
+	"",			"!Mass Invis!"
+    },
+
+    {
+	"pass door",		{ 20, 20, 20, 20, 2, 20 },
+	spell_pass_door,	TAR_CHAR_SELF,		POS_STANDING,
+	NULL,			SLOT(74),	20,	12,     FALSE,
+	"",			"You feel solid again."
+    },
+
+    {
+	"poison",		{ 20, 20, 20, 20, 2, 20 },
+	spell_poison,		TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	&gsn_poison,		SLOT(33),	10,	12,     FALSE,
+	"poison",		"You feel less sick."
+    },
+
+    {
+	"protection",		{ 20, 20, 20, 20, 2, 20 },
+	spell_protection,	TAR_CHAR_SELF,		POS_STANDING,
+	NULL,			SLOT(34),	 5,	12,     FALSE,
+	"",			"You feel less protected."
+    },
+
+    {
+	"refresh",		{ 20, 20, 20, 20, 2, 20 },
+	spell_refresh,		TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(81),	12,     18,	FALSE,
+	"refresh",		"!Refresh!"
+    },
+
+    {
+	"remove curse",		{ 20, 20, 20, 20, 2, 20 },
+	spell_remove_curse,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(35),	 5,	12,     FALSE,
+	"",			"!Remove Curse!"
+    },
+
+    {
+	"sanctuary",		{ 20, 20, 20, 20, 2, 20 },
+	spell_sanctuary,	TAR_CHAR_SELF,		POS_FIGHTING,
+	NULL,			SLOT(36),	75,	12,     FALSE,
+	"",			"The white aura around your body fades."
+    },
+
+    {
+	"shield",		{ 20, 20, 20, 20, 2, 20 },
+	spell_shield,		TAR_CHAR_SELF,		POS_FIGHTING,
+	NULL,			SLOT(67),	12,	18,	FALSE,
+	"",			"Your force shield shimmers then fades away."
+    },
+
+    {
+	"shocking grasp",	{ 20, 20, 20, 20, 2, 20 },
+	spell_shocking_grasp,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(37),	15,	12,     FALSE,
+	"shocking grasp",	"!Shocking Grasp!"
+    },
+
+    {
+	"sleep",		{ 20, 20, 20, 20, 20, 20 },
+	spell_sleep,		TAR_CHAR_OFFENSIVE,	POS_STANDING,
+	&gsn_sleep,		SLOT(38),	15,	12,     FALSE,
+	"",			"You feel less tired."
+    },
+
+    {
+	"stone skin",		{ 20, 20, 20, 20, 2, 20 },
+	spell_stone_skin,	TAR_CHAR_SELF,		POS_STANDING,
+	NULL,			SLOT(66),	12,	18,	FALSE,
+	"",			"Your skin feels soft again."
+    },
+
+    {
+	"summon",		{ 20, 20, 20, 20, 2, 20 },
+	spell_summon,		TAR_IGNORE,		POS_STANDING,
+	NULL,			SLOT(40),	50,	12,     FALSE,
+	"",			"!Summon!"
+    },
+
+    {
+	"teleport",		{ 20, 20, 20, 20, 20, 20 },
+	spell_teleport,		TAR_CHAR_SELF,		POS_FIGHTING,
+	NULL,	 		SLOT( 2),	35,	12,     FALSE,
+	"",			"!Teleport!"
+    },
+
+    {
+	"ventriloquate",	{ 20, 20, 20, 20, 20, 20 },
+	spell_ventriloquate,	TAR_IGNORE,		POS_STANDING,
+	NULL,			SLOT(41),	 5,	12,     FALSE,
+	"",			"!Ventriloquate!"
+    },
+
+    {
+	"weaken",		{ 20, 20, 20, 20, 2, 20 },
+	spell_weaken,		TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(68),	20,	12,     FALSE,
+	"spell",		"You feel stronger."
+    },
+
+    {
+	"word of recall",	{ 20, 20, 20, 20, 20, 20 },
+	spell_word_of_recall,	TAR_CHAR_SELF,		POS_RESTING,
+	NULL,			SLOT(42),	 5,	12,     FALSE,
+	"",			"!Word of Recall!"
+    },
+
+/*
+ * Dragon breath
+ */
+    {
+	"acid breath",		{ 20, 20, 20, 20, 20, 20 },
+	spell_acid_breath,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(200),	 0,	 4,	FALSE,
+	"breathes acid on",	"!Acid Breath!"
+    },
+
+    {
+	"fire breath",		{ 20, 20, 20, 20, 20, 20 },
+	spell_fire_breath,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(201),	 0,	 4,	FALSE,
+	"breathes flame on",	"!Fire Breath!"
+    },
+
+    {
+	"frost breath",		{ 20, 20, 20, 20, 20, 20 },	
+	spell_frost_breath,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(202),	 0,	 4,	FALSE,
+	"breathes frost on",	"!Frost Breath!"
+    },
+
+    {
+	"gas breath",		{ 20, 20, 20, 20, 20, 20 },
+	spell_gas_breath,	TAR_IGNORE,		POS_FIGHTING,
+	NULL,			SLOT(203),	 0,	 4,	FALSE,
+	"breathes poison on",		"!Gas Breath!"
+    },
+
+    {
+	"lightning breath",	{ 20, 20, 20, 20, 20, 20 },
+	spell_lightning_breath,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(204),	 0,	 4,	FALSE,
+	"breathes poison on",	"!Lightning Breath!"
+    },
+
+/*
+ * Fighter and thief skills.
+ */
+    {
+        "awareness",            {  1, 1, 1, 1, 1, 1 }, 
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_awareness,          SLOT( 0),        0,      0,	FALSE,
+        "",                     "!Awareness!"
+    },
+
+    {
+	"backstab",		{  1, 1, 1, 1, 1, 1 },
+	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+	&gsn_backstab,		SLOT( 0),	 0,	4,	FALSE,
+	"backstab",		"!Backstab!"
+    },
+
+    {
+	"disarm",		{ 37, 37, 37, 37, 37, 37 },
+	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+	&gsn_disarm,		SLOT( 0),	 0,	24,	FALSE,
+	"",			"!Disarm!"
+    },
+
+    {
+	"dodge",		{ 37, 37, 37, 37, 37, 37 },
+	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+	&gsn_dodge,		SLOT( 0),	 0,	 0,	FALSE,
+	"",			"!Dodge!"
+    },
+
+    {
+	"enhanced damage",	{ 37, 37, 37, 37, 37, 37 },
+	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+	&gsn_enhanced_damage,	SLOT( 0),	 0,	 0,	FALSE,
+	"",			"!Enhanced Damage!"
+    },
+
+    {
+	"hide",			{  1, 1, 1, 1, 1, 1 },
+	spell_null,		TAR_IGNORE,		POS_RESTING,
+	&gsn_hide,		SLOT( 0),	 0,	12,     FALSE,
+	"",			"!Hide!"
+    },
+
+    {
+	"kick",			{  1, 1, 1, 1, 1, 1 },
+	spell_null,		TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	&gsn_kick,		SLOT( 0),	 0,	 8,	FALSE,
+	"kick",			"!Kick!"
+    },
+
+    {
+	"parry",		{ 37, 37, 37, 37, 37, 37 },
+	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+	&gsn_parry,		SLOT( 0),	 0,	 0,	FALSE,
+	"",			"!Parry!"
+    },
+
+    {
+	"peek",			{  1, 1, 1, 1, 1, 1 },
+	spell_null,		TAR_IGNORE,		POS_STANDING,
+	&gsn_peek,		SLOT( 0),	 0,	 0,	FALSE,
+	"",			"!Peek!"
+    },
+
+    {
+	"pick lock",		{  1, 1, 1, 1, 1, 1 },
+	spell_null,		TAR_IGNORE,		POS_STANDING,
+	&gsn_pick_lock,		SLOT( 0),	 0,	12,     FALSE,
+	"",			"!Pick!"
+    },
+
+    {
+	"rescue",		{  1, 1, 1, 1, 1, 1 },
+	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+	&gsn_rescue,		SLOT( 0),	 0,	12,     FALSE,
+	"",			"!Rescue!"
+    },
+
+    {
+	"second attack",	{ 37, 37, 37, 37, 37, 37 },
+	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+	&gsn_second_attack,	SLOT( 0),	 0,	 0,	FALSE,
+	"",			"!Second Attack!"
+    },
+
+    {
+	"sneak",		{  2, 2, 2, 2, 2, 2 },
+	spell_null,		TAR_IGNORE,		POS_STANDING,
+	&gsn_sneak,		SLOT( 0),	 0,	12,     FALSE,
+	"",			NULL
+    },
+
+    {
+	"steal",		{  1, 1, 1, 1, 1, 1 },
+	spell_null,		TAR_IGNORE,		POS_STANDING,
+	&gsn_steal,		SLOT( 0),	 0,	24,	FALSE,
+	"",			"!Steal!"
+    },
+
+    {
+	"third attack",		{ 37, 37, 37, 37, 37, 37 },
+	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+	&gsn_third_attack,	SLOT( 0),	 0,	 0,	FALSE,
+	"",			"!Third Attack!"
+    },
+
+    {
+	"whirl",		{  1, 1, 1, 1, 1, 1 },
+	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+	&gsn_whirl,		SLOT(0),	0,	24,	FALSE,
+	"whirlwind attack",	"!Whirl!"
+    },
+
+/*
+ *  Spells for mega1.are from Glop/Erkenbrand.
+*/
+    {
+        "general purpose",      { 37, 37, 37, 37, 37, 37 },
+	spell_general_purpose,  TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+	NULL,                   SLOT(205),      0,      12,     FALSE,
+	"machine guns", "!General Purpose Ammo!"
+    },
+
+    {
+        "high explosive",       { 37, 37, 37, 37, 37, 37 },
+	spell_high_explosive,   TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+	NULL,                   SLOT(206),      0,      12,     FALSE,
+	"shotguns",  "!High Explosive Ammo!"
+    },
+
+    {
+    	"chaos strings",	{ 20, 20, 20, 20, 20, 20 },
+	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+	NULL,			SLOT(0),	0,	12,     FALSE,
+	"chaos strings",	"The strings disentegrate and fall away."
+    },
+
+    {
+    	"visfarank",		{ 37, 37, 37, 37, 37, 37 },
+    	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+    	NULL,			SLOT(0),	0,	12,     FALSE,
+    	"visfarank",		"Your magical boxing gloves dissipate."
+    },
+
+    {
+    	"vas gluudo",		{37, 37, 37, 37, 37, 37 },
+    	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+    	NULL,			SLOT(0),	0,	12,     FALSE,
+    	"vas gluudo",		"The energy shield encasing you evaporates."
+    },
+
+    {
+    	"laphas seed",		{ 21, 21, 21, 21, 21, 21 },
+    	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+    	NULL,			SLOT(0),	0,	12,     FALSE,
+    	"laphas seed",		"The bands of energy dissolve."
+    },
+
+    {
+    	"holy resist",		{ 21, 21, 21, 21, 21, 21 },
+    	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+    	NULL,			SLOT(0),	0,	12,     FALSE,
+    	"holy resist",		"Your holy barrier collapses."
+    },
+
+    {
+        "mos varim",            { 21, 21, 21, 21, 21, 21 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_mos_varim,         SLOT(0),        0,      12,     FALSE,
+        "mos varim",            "The flourescent ball hovering above you winks out."
+    },
+
+    {
+        "windy shield",          { 21, 21, 21, 21, 21, 21 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        NULL,                   SLOT(0),        0,      12,     FALSE,
+        "windy shield",          "The wind stops swirling around you."
+    },
+
+    {
+        "portal",               { 20, 20, 20, 20, 2, 20 },
+        spell_portal,           TAR_IGNORE,             POS_STANDING,
+        NULL,                   SLOT(207),      500,    12,     FALSE,
+        "!portal!",             "!portal!"
+    },
+
+    {
+        "dynast breath",          { 21, 21, 21, 21, 21, 21 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        NULL,                   SLOT(0),        0,      12,     FALSE,
+        "dynast breath",          "The ice encasing you melts away."
+    },
+
+    {
+    	"henshin",		{ 20, 20, 20, 20, 20, 20 },
+    	spell_null,		TAR_IGNORE,		POS_FIGHTING,
+    	NULL,			SLOT(0),	0,	12,     FALSE,
+    	"henshin",		"Your sailor fuku vanishes and your normal clothes appear."
+    },
+
+    {
+        "flame breath",		{ 20, 20, 20, 20, 20, 20 },
+        spell_null,		TAR_IGNORE,		POS_FIGHTING,
+        NULL,			SLOT(0),	0,	12,    TRUE, 
+        "flame breath",		"$n stops burning."
+    },
+
+    {
+        "negative ward",        { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_negative_ward,     SLOT(0),        0,      12,	TRUE,
+        "negative ward",        "The dome of obsidian energy above $n fades away."
+    },
+
+    {
+        "earth ward",           { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_earth_ward,        SLOT(0),        0,      12,     TRUE,
+        "earth ward",           "The dome of verdant energy above $n fades away."
+    },
+
+    {
+        "wind ward",            { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_wind_ward,         SLOT(0),        0,      12,     TRUE,
+        "wind ward",            "The dome of azure energy above $n fades away."
+    },
+
+    {
+        "flame ward",           { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_flame_ward,        SLOT(0),        0,      12,     TRUE,
+        "flame ward",           "The dome of crimson energy above $n fades away."
+    },
+
+    {
+        "water ward",           { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_water_ward,        SLOT(0),        0,      12,     TRUE,
+        "water ward",           "The dome of sea green energy above $n fades away."
+    },
+
+    {
+        "spirit ward",          { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_spirit_ward,       SLOT(0),        0,      12,     TRUE,
+        "spirit ward",          "The dome of pale white energy above $n fades away."
+    },
+
+    {
+        "ki wall",		{ 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_kiwall,		SLOT(0),        0,      12,     TRUE,
+        "ki wall",		"The wall of energy around $n dissipates."
+    },
+
+    {
+        "wind curse",           { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_wind_curse,        SLOT(0),        0,      12,     TRUE,
+        "wind curse",           "The pale blue mist surrounding $n lifts."
+    },
+
+    {
+        "earth curse",          { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_earth_curse,       SLOT(0),        0,      12,     TRUE,
+        "earth curse",          "The dull yellow mist surrounding $n lifts."
+    },
+
+    {
+        "flame curse",          { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_flame_curse,       SLOT(0),        0,      12,     TRUE,
+        "flame curse",          "The blood red mist surrounding $n lifts."
+    },
+
+    {
+        "water curse",          { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_water_curse,       SLOT(0),        0,      12,     TRUE,
+        "water curse",          "The murky mist surrounding $n lifts."
+    },
+
+    {
+        "balus wall",          { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_balus_wall,       SLOT(0),        0,      12,     FALSE,
+        "balus wall",          "Your balus wall flickers a few times and vanishes."
+    },
+
+    {
+        "defense",		{ 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_defense,		SLOT(0),        0,      12,     FALSE,
+        "defense",		"Your defensive barrier drops."
+    },
+
+    {
+        "kaiouken",        	{ 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_kaiouken,   	SLOT(0),        0,      12,     FALSE,
+        "kaiouken",     	"The crimson flames flicker and vanish."
+    },
+
+    {
+        "golden blaze",             { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_golden_blaze,          SLOT(0),        0,      12,     FALSE,
+        "golden blaze",             "Your fists return to normal."
+    },
+
+    {
+        "judicators ire",             { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_judicators_ire,          SLOT(0),        0,      12,     FALSE,
+        "judicator's ire",             "Your fists return to normal."
+    },
+
+    {
+        "dark blaze",             { 20, 20, 20, 20, 20, 20 },
+        spell_null,             TAR_IGNORE,             POS_FIGHTING,
+        &gsn_dark_blaze,          SLOT(0),        0,      12,     FALSE,
+        "dark blaze",             "Your fists return to normal."
+    },
+
+    /*
+     * Spells for materia.
+     */
+
+    {
+	"fire",		{ 20, 20, 20, 20, 20, 20 },
+	spell_fire,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(101),	35,	12,     FALSE,
+	"burns",		"!fire!"
+    },
+
+    {
+	"fire2",		{ 20, 20, 20, 20, 20, 20 },
+	spell_fire2,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(102),	35,	12,     FALSE,
+	"burns",		"!fire!"
+    },
+
+    {
+	"fire3",		{ 20, 20, 20, 20, 20, 20 },
+	spell_fire3,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(103),	35,	12,     FALSE,
+	"burns",		"!fire!"
+    },
+
+    {
+	"ice",		{ 20, 20, 20, 20, 20, 20 },
+	spell_ice,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(104),	35,	12,     FALSE,
+	"freezes",		"!ice!"
+    },
+
+    {
+	"ice2",		{ 20, 20, 20, 20, 20, 20 },
+	spell_ice2,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(105),	35,	12,     FALSE,
+	"freezes",		"!ice!"
+    },
+
+    {
+	"ice3",		{ 20, 20, 20, 20, 20, 20 },
+	spell_ice3,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(106),	35,	12,     FALSE,
+	"freezes",		"!ice!"
+    },
+
+    {
+	"bolt",		{ 20, 20, 20, 20, 20, 20 },
+	spell_bolt,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(107),	35,	12,     FALSE,
+	"shocks",		"!bolt!"
+    },
+
+    {
+	"bolt2",		{ 20, 20, 20, 20, 20, 20 },
+	spell_bolt2,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(108),	35,	12,     FALSE,
+	"shocks",		"!bolt!"
+    },
+
+    {
+	"bolt3",		{ 20, 20, 20, 20, 20, 20 },
+	spell_bolt3,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(109),	35,	12,     FALSE,
+	"shocks",		"!bolt!"
+    },
+
+    {
+	"cure",		{ 20, 20, 20, 20, 20, 20 },
+	spell_cure,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(110),	35,	12,     FALSE,
+	"heals",		"!cure!"
+    },
+
+    {
+	"cure2",		{ 20, 20, 20, 20, 20, 20 },
+	spell_cure2,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(111),	35,	12,     FALSE,
+	"heals",		"!cure!"
+    },
+
+    {
+	"regen",		{ 20, 20, 20, 20, 20, 20 },
+	spell_regen,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(112),	35,	12,     FALSE,
+	"heals",		"!cure!"
+    },
+
+    {
+	"cure3",		{ 20, 20, 20, 20, 20, 20 },
+	spell_cure3,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(113),	35,	12,     FALSE,
+	"heals",		"!cure!"
+    },
+
+    {
+	"quake",		{ 20, 20, 20, 20, 20, 20 },
+	spell_quake,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(114),	35,	12,     FALSE,
+	"smashes",		"!quake!"
+    },
+
+    {
+	"quake2",		{ 20, 20, 20, 20, 20, 20 },
+	spell_quake2,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(115),	35,	12,     FALSE,
+	"smashes",		"!quake!"
+    },
+
+    {
+	"quake3",		{ 20, 20, 20, 20, 20, 20 },
+	spell_quake3,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(116),	35,	12,     FALSE,
+	"smashes",		"!quake!"
+    },
+
+    {
+	"bio",		{ 20, 20, 20, 20, 20, 20 },
+	spell_bio,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(117),	35,	12,     FALSE,
+	"poisons",		"!poison!"
+    },
+
+    {
+	"bio2",		{ 20, 20, 20, 20, 20, 20 },
+	spell_bio2,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(118),	35,	12,     FALSE,
+	"poisons",		"!poison!"
+    },
+
+    {
+	"bio3",		{ 20, 20, 20, 20, 20, 20 },
+	spell_bio3,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(119),	35,	12,     FALSE,
+	"poisons",		"!poison!"
+    },
+
+    {
+	"poisona",		{ 20, 20, 20, 20, 20, 20 },
+	spell_poisona,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(120),	35,	12,     FALSE,
+	"cures",		"!poisona!"
+    },
+
+    {
+	"esuna",		{ 20, 20, 20, 20, 20, 20 },
+	spell_esuna,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(121),	35,	12,     FALSE,
+	"cures",		"!esuna!"
+    },
+
+    {
+	"resist",		{ 20, 20, 20, 20, 20, 20 },
+	spell_resist,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(122),	35,	12,     FALSE,
+	"protects",		"You feel less resistant to afflictions."
+    },
+
+    {
+	"life",		{ 20, 20, 20, 20, 20, 20 },
+	spell_life,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(123),	35,	12,     FALSE,
+	"revives",		"!life!"
+    },
+
+    {
+	"life2",		{ 20, 20, 20, 20, 20, 20 },
+	spell_life2,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(124),	35,	12,     FALSE,
+	"revives",		"!life!"
+    },
+
+    {
+	"barrier",		{ 20, 20, 20, 20, 20, 20 },
+	spell_barrier,	TAR_CHAR_SELF,	POS_FIGHTING,
+	NULL,			SLOT(125),	35,	12,     FALSE,
+	"barriers",		"The protective barrier disappears."
+    },
+
+
+    {
+	"shell",		{ 20, 20, 20, 20, 20, 20 },
+	spell_shell,	TAR_CHAR_SELF,	POS_FIGHTING,
+	NULL,			SLOT(126),	35,	12,     FALSE,
+	"shells",		"The protective shell vanishes."
+    },
+
+
+    {
+	"reflect",		{ 20, 20, 20, 20, 20, 20 },
+	spell_reflect,	TAR_CHAR_SELF,	POS_FIGHTING,
+	NULL,			SLOT(127),	35,	12,     FALSE,
+	"reflects",		"The reflective shield fades away."
+    },
+
+    {
+	"wall",		{ 20, 20, 20, 20, 20, 20 },
+	spell_wall,	TAR_CHAR_SELF,	POS_FIGHTING,
+	NULL,			SLOT(128),	35,	12,     FALSE,
+	"walls",		"The guardian wall fades and vanishes."
+    },
+
+    {
+	"sleepel",		{ 20, 20, 20, 20, 20, 20 },
+	spell_sleepel,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(129),	35,	12,     FALSE,
+	"sleeps",		"You feel a little less tired."
+    },
+
+    {
+	"haste",		{ 20, 20, 20, 20, 20, 20 },
+	spell_haste,	TAR_CHAR_SELF,	POS_FIGHTING,
+	NULL,			SLOT(130),	35,	12,     FALSE,
+	"hastes",		"You slow down."
+    },
+
+    {
+	"slow",		{ 20, 20, 20, 20, 20, 20 },
+	spell_slow,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(131),	35,	12,     FALSE,
+	"slows",		"Your movements speed up."
+    },
+
+    {
+	"stop",		{ 20, 20, 20, 20, 20, 20 },
+	spell_stop,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(132),	35,	12,     FALSE,
+	"stops",		"You break free of the paralysis."
+    },
+
+    {
+	"demi",		{ 20, 20, 20, 20, 20, 20 },
+	spell_demi,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(133),	35,	12,     FALSE,
+	"compacts",		"!demi!"
+    },
+
+    {
+	"demi2",		{ 20, 20, 20, 20, 20, 20 },
+	spell_demi2,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(134),	35,	12,     FALSE,
+	"compacts",		"!demi!"
+    },
+
+    {
+	"demi3",		{ 20, 20, 20, 20, 20, 20 },
+	spell_demi3,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(135),	35,	12,     FALSE,
+	"compactss",		"!demi!"
+    },
+
+    {
+	"debarrier",		{ 20, 20, 20, 20, 20, 20 },
+	spell_debarrier,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(136),	35,	12,     FALSE,
+	"debarriers",		"!debarrier!"
+    },
+
+    {
+	"despell",		{ 20, 20, 20, 20, 20, 20 },
+	spell_despell,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(137),	35,	12,     FALSE,
+	"despells",		"!despell!"
+    },
+
+    {
+	"death",		{ 20, 20, 20, 20, 20, 20 },
+	spell_death,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(138),	35,	12,     FALSE,
+	"kills",		"!death!"
+    },
+
+    {
+	"comet",		{ 20, 20, 20, 20, 20, 20 },
+	spell_comet,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(139),	35,	12,     FALSE,
+	"impacts",		"!comet!"
+    },
+
+    {
+	"comet2",		{ 20, 20, 20, 20, 20, 20 },
+	spell_comet2,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(140),	35,	12,     FALSE,
+	"impacts",		"!comet2!"
+    },
+
+    {
+	"freeze",		{ 20, 20, 20, 20, 20, 20 },
+	spell_freeze,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(141),	35,	12,     FALSE,
+	"deep freezes",		"!freeze!"
+    },
+
+    {
+	"break",		{ 20, 20, 20, 20, 20, 20 },
+	spell_break,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(142),	35,	12,     FALSE,
+	"breaks",		"!break!"
+    },
+
+    {
+	"tornado",		{ 20, 20, 20, 20, 20, 20 },
+	spell_tornado,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(143),	35,	12,     FALSE,
+	"tears at",		"!tornado!"
+    },
+
+    {
+	"flare",		{ 20, 20, 20, 20, 20, 20 },
+	spell_flare,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	NULL,			SLOT(144),	35,	12,     FALSE,
+	"incinerates",		"!flare!"
+    },
+
+    {
+	"ultima",		{ 20, 20, 20, 20, 20, 20 },
+	spell_ultima,	TAR_IGNORE,	POS_FIGHTING,
+	NULL,			SLOT(145),	35,	12,     FALSE,
+	"annihilates",		"!ultima!"
+    }
+
+};

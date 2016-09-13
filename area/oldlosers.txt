@@ -1,0 +1,30 @@
+ê³@t©@ÿÿÿœµÿ¿$n fires $s laser cannon to the west!Drakshon~
+     ~
+18 80 -133
+Efra~
+     ~
+30 102 -129
+Reod~
+     ~
+45 124 -125
+Love~
+`y-`B<`YS`B>`y-`n~
+10 51 -97
+Alas~
+`y-`B<`YS`B>`y-`n~
+27 83 -94
+Anaba~
+     ~
+43 104 -89
+DragonKain~
+     ~
+6 35 -75
+Xelloss~
+ `r<`R|>`n ~
+83 137 -65
+Columbo~
+     ~
+185 228 -46
+Matyre~
+~
+36 67 -39

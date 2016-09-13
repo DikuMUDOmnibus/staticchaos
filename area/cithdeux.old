@@ -1,0 +1,427 @@
+#AREA	{ 5 35} Valgarv Cith Deux Headquarters~
+
+
+#MOBILES
+#9600
+jiras guardian~
+Jiras~
+A red fox beastman glares at you through his one working eye
+~
+Cloaked and cowled, little can be seen of Jiras save his snarling foxes
+muzzle.  Hanging from his cloak are dozens of fist-sized bombs, and both
+his hands hold pistols.
+~
+2|32|64|4096 8|32|128|512|65536 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#9601
+grabos guardian~
+Grabos~
+A huge green lizardman orders Jiras to attack you!
+~
+Like Jiras, Grabos has lost an eye.  Scorning the more traditional eyepatch,
+Grabos replaced his lost eye with a round-cut ruby, making his appearance
+both garish and decidely fearsome.  He stands more than seven feet tall,
+and his fists and tail will serve as ample defense should you enter
+into a fight with him.
+~
+2|32|64|4096 8|32|128|512|65536 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#9602
+lesser daemon~
+a Lesser Daemon~
+A Lesser Daemon stands at attention.
+~
+Daemonic in nature, even the Lesser of the species is powerful
+in its own right.  Six-inch serrated claws and tough, matted
+fur make this Daemon a powerhouse in melee battle.  As well,
+flames can be seen within its great maw, ready to be spewed
+forth at will.
+~
+2|32|64|4096 8|32|128|512|65536 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#9603
+brau daemon~
+a Brau Daemon~
+A Brau Daemon stalks about, lusting for blood
+~
+A mixture of astral and physical life, the Brau Daemon is a
+being to be feared by all but the most powerful.  It's
+astral heritage grants resistance to nonmagical weapons as
+well as bestowing energy attacks upon the Daemon.  Corded
+muscle and taut sinew demonstrate the Brau Daemon's fearsom
+fighting capabilities.
+~
+2|32|64|4096 8|32|128|512|65536 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#9604
+broken beaten~
+Clout~
+Broken and beaten, Clout now hands out quests to the Cith Deux.
+~
+Once upon a time, Clout thought to betray the founders of the
+Cith Deux and ally himself with the Valheru.  Sadly for him,
+he was consistantly destroyed by the members of Cith Deux and
+eventually cast from the ranks of the Valheru.  Now, he has
+nothing left to him but serving his new masters.
+~
+2|64|1024 8|32|512 0 S
+45 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#9605
+elrobos guardian~
+Elrobos~
+Elrobos morphs his hands into jagged 6-foot scimitars and lunges at you!
+~
+Blue-grey hair surrounds a wrathful visage of a face.  Nothing but violence
+is to be found in Elrobos' eyes, eyes serving as windows for a mind bent
+and warped by ages of war against servants of Darkstar.  Elrobos now
+exists with only one purpose in mind: to save his people's planet.  All else
+can be damned.
+~
+2|32|64|4096 8|32|128|512|65536 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#9606
+serius guardian~
+Serius~
+Serius is encased in energy, but stays his hand for a moment..
+~
+One word defines serius: pink.  Pink hair, pink clothes, even pink-hued
+skin.  Regardless, Serius is by far more powerful than Elrobos.  His strength
+lies more in the manipulation of energy than in physical combat, and
+at this Serius excells.
+~
+2|32|64|4096 8|32|128|512|65536 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#9607
+dan peaceman~
+`RDan`n~
+`RDan`n wanders around, attempting to lead the Peaceman
+~
+Dan, the leader of the Peaceman Warriors for Justice, is unfortunately
+quite clueless.  He is also quite old, and while he may have been a powerful
+Warrior for Justice once upon a time, his greatest enemy now is
+arthritis.  Still, he gamely attempts to wrong rights and depress the oppressed..
+~
+2|64 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#9608
+shittiest~
+Jaraxle~
+Jaraxle, the shittiest clan leader.. ever.
+~
+Once upon a time, a bold leader set forth with staunch compatriots
+to form a new clan, one based upon the principles of Honor, Decency,
+and Virtue.... `dNOT`n!!  Actually, he took the dregs of other clans,
+all the worst, most clueless people in Cith Deux, and formed a sorry
+ass clan that lasted about a week.  Cre.. Jaraxle's only success as
+a clan leader was that he recognized how utterly pathetic both he
+and his clan were, and had the clan disbanded a week after founding.
+~
+2|64|512 8|32|512 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#0
+
+
+#ROOMS
+#9600
+A cave entrance~
+A large cave opening is before you.  While not especially forboding in
+appearance, one must consider seriously what is to be found inside before
+venturing within.  Sheer cliffs rise up from the cave mouth, far too high
+to consider scaling.  At their top, an outcropping can be seen
+pointing like an accusing finger to the north.
+~
+0 8192|32768 0
+D0
+~
+~
+0 -1 9608
+D1
+~
+~
+0 -1 9601
+D2
+~
+~
+0 -1 9609
+D3
+~
+~
+0 -1 830
+S
+#9601
+Inside the cave~
+Darkness surrounds you like a damp cloak, and even the brightest light
+fails to pierce the oppresive gloom.  The beginnings of stalgmites
+and stalactites can be seen on the roof and floor, testifying to the
+relative youth of this cave room.
+~
+0 8192|32768 0
+D1
+~
+~
+0 -1 9602
+D3
+~
+~
+0 -1 9600
+S
+#9602
+Continuing into the cave~
+Far older than previous rooms, huge stalagmites and stalactites reach
+toward each other like bent teeth, creating the illusion of being within
+the maw of a great beast.  Light can be seen glimmering to the north.
+~
+0 8192|32768 1
+D0
+~
+~
+0 -1 9607
+D1
+~
+~
+0 -1 9603
+D2
+~
+~
+0 -1 9604
+D3
+~
+~
+0 -1 9601
+S
+#9603
+The transmission chamber~
+Here, the cave walls have been worked into some semblance of smoothness.
+At the far end of the room, a throne is carved from the rock wall, far
+too big for anything of human dimension.  An odd clock-shaped device is
+in one corner ticking away.  The center of the room is dominated by a
+tremendous pentegram wrought of flourescent blue crystal.  One can only
+wonder what use it could be put to.
+~
+0 8192|32768 1
+D1
+~
+~
+0 -1 9606
+D3
+~
+~
+0 -1 9602
+S
+#9604
+The healing chamber~
+The area is dimly lit by the glow of the huge crystal healing chamber
+standing at one end of the room.  While this chamber has little use
+for the denizens of this world, astral creatures can derive great benefit
+from the healing properties of this crystal.
+~
+0 8192|32768 0
+D0
+~
+~
+0 -1 9602
+D5
+~
+~
+0 -1 9605
+S
+#9605
+A fissure~
+Little can be seen in the darkness.. only the eyes of the shopkeeper
+are actually visible.
+~
+0 8192|32768 0
+D4
+~
+~
+0 -1 9604
+S
+#9606
+A beam of light!~
+Whoa.. wtf?  It seems you have discarded your body in favor
+of transportation as a burst of pure light.  Where you're
+headed.. well, that'd be nice to know, wouldn't it?
+~
+0 8192|32768 1
+D1
+~
+~
+0 -1 9610
+D3
+~
+~
+0 -1 9603
+S
+#9607
+`dChamber`n of the `WCrystal`d Dragon`n~
+You are standing in a vast chamber of night.  All around you,
+darkness reigns.  If not for the millions of sparkles of light all
+around you, you'd not see a thing.  Upon closer look, you can see
+the entire chamber is carved out of black marbled stone, and just below the
+surface, you can see hundreds of thousands of perfect crystals.  You take
+a step back when suddenly, the entire chamber is filled with light.  You are
+awed by the sight of this place.  Along the walls, there are several alcoves.
+In each, there is another crystalline statue of a fiersome dragon.
+Tapestries line the walls between the alcoves showing the awesome power
+of dragons in battle.  In search of the light, you look down to the far end
+of the chamber.  There you find an incredible throne of flawless crystal.
+The legs of the throne, are the legs of dragons.  Intricately carbed into the
+back and seat are dragon scales.  Over the top of the throne, a giant dragon's
+head reachs out to rest over the head of whomever sits in the throne.
+On either side of the throne, stand two pedestals, also made of crystal,
+standing half the height of the room.  Atop each pedestal, there is
+a burning ball of blazing white flame.  And above the throne, on the back wall,
+is a gian wall to wall tapestry, depicting the fall of the Valheru to these
+Dragons of Crystal.
+~
+0 8192|32768 1
+D2
+~
+~
+0 -1 9602
+S
+#9608
+a Secret Room~
+You shift behind a stone and a wall opens up.  As you walk
+in the world seems to disappear as a new knowledge of celtic
+beings show you their appreciation.  You look straight up
+and see nothing but eternal darkness.  You can't help
+but wonder, how did they make this room?
+~
+0 8192|32768 1
+D2
+~
+~
+0 -1 9600
+S
+#9609
+`WX`Ga`Cn`Bt`Wo`Gs`C' `BO`Ww`Gn`Ca`Bg`We `GC`Ch`Ba`Wm`Gb`Ce`Br`n~
+Aagh! You've been blinded by the horribly gaudy title.
+~
+0 8192|32768 1
+D0
+~
+~
+0 -1 9600
+S
+#9610
+A beam of light!~
+Whoa.. wtf?  It seems you have discarded your body in favor
+of transportation as a burst of pure light.  Where you're
+headed.. well, that'd be nice to know, wouldn't it?
+~
+0 8192|32768 1
+D1
+~
+~
+0 -1 9611
+D3
+~
+~
+0 -1 9606
+S
+#9611
+A beam of light!~
+Whoa.. wtf?  It seems you have discarded your body in favor
+of transportation as a burst of pure light.  Where you're
+headed.. well, that'd be nice to know, wouldn't it?
+~
+0 8192|32768 1
+D1
+~
+~
+0 -1 9612
+D3
+~
+~
+0 -1 9610
+S
+#9612
+A beam of light!~
+Whoa.. wtf?  It seems you have discarded your body in favor
+of transportation as a burst of pure light.  Where you're
+headed.. well, that'd be nice to know, wouldn't it?
+~
+0 8192|32768 1
+D3
+~
+~
+0 -1 9611
+S
+#0
+
+#OBJECTS
+#9600
+throne~
+A `WCrystalline`n Throne of the `dDragon`n~
+A `WCrystalline`n Throne of the `dDragon`n~
+~
+12 0 0
+0 0 0 0
+100 0 0
+#0
+
+#SHOPS
+ 9607    0  0  0  0  0   110 100         0 23   ; Mariah
+0
+
+#RESETS
+*
+*
+M 1 9604 1 9600                 Clout to A cave entrance
+*
+M 1 9608 1 9600                 Jaraxle to A cave entrance
+*
+M 1 9602 1 9600			a Lesser Daemon to A cave entrance
+*
+M 1 9603 1 9600			a Brau Daemon to A cave entrance
+*
+M 1 9600 1 9601			Jiras to Inside the cave
+*
+M 1 9601 1 9601			Grabos to Inside the cave
+*
+M 1 9605 1 9602			Elrobos to Continuing into the cave
+*
+M 1 9606 1 9602			Serius to Continuing into the cave
+*
+O 1 71 -1 9602                  Sandrock to Continuing into the cave
+O 1 68 -1 9602                  Wing Gundam to Continuing into the cave
+O 1 66 -1 9602                  Tallgeese to Continuing into the cave
+O 1 69 -1 9602                  Deathscythe to Continuing into the cave
+*
+M 1 9607 1 9605			`RDan`n to A fissure
+G 1 80 100
+G 1 81 100
+G 1 82 100
+G 1 83 100
+G 1 84 100
+G 1 93 100
+*
+O 1 9600 1 9607                 A throne to Xandar's Room
+S
+
+
+#SPECIALS
+M  9600 spec_cast_judge			Jiras
+S
+
+
+#$

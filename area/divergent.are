@@ -1,0 +1,292 @@
+#AREADATA
+Name        { 5 35} Dizz    Divergent Headquarters~
+Builders    None~
+VNUMs       9700 9709
+Security    1
+Recall      3001
+End
+
+
+
+#MOBILES
+#9700
+guardian garland~
+Garland~
+Garland, the mage extraordinaire, guards his hq with a fierce vigilance.
+~
+Garland, the mage extraordinaire, guards his hq with a fierce vigilance.
+~
+8291 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#9701
+guardian anouen~
+Anouen Forudal~
+Here stands Anouen Forudal the Prophet, seer of the infinite truths.
+~
+Here stands Anouen Forudal the Prophet, seer of the infinite truths.
+~
+8291 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#9702
+guardian rade~
+Rade Jael~
+Hovering over you stands, Rade Jael, a former elder many worlds away.
+~
+Hovering over you stands, Rade Jael, a former elder many worlds away.
+~
+8291 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#9703
+guardian Armizar~
+Armizar~
+Armizar the Lightchilde stands firm, awaiting your assault.
+~
+Armizar the Lightchilde stands firm, awaiting your assault.
+~
+8291 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#9704
+guardian kasmer~
+Kasmer~
+Kasmer, once a god on another realm, stands oblivious to the world around him.
+~
+Kasmer, once a god on another realm, stands oblivious to the world around him.
+~
+8291 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#9705
+guardian Auvyron~
+Auvyron~
+Auvyron, the holy Avatar and leader of Divergent, smirks as you approach.
+~
+Auvyron, the holy Avatar and leader of Divergent, smirks as you approach.
+~
+8291 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#9706
+xorke quest~
+Xorke~
+The famous bard, Xorke, stands here singing of a distant lands.
+~
+The famous bard, Xorke, stands here singing of a distant lands.
+~
+1091 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9707
+atsu shop~
+Atsu~
+Atsu, master scribe of Cove sits at his desk writing.
+~
+Atsu, master scribe of Cove sits at his desk writing.
+~
+67 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#9708
+leinenna Greed~
+Leinenna~
+Leinenna reminds you to watch your language around her.
+~
+Leinenna reminds you to watch your language around her.
+~
+579 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#9709
+cove shopkeeper~
+the Seeress of Cove~
+The seeress of Cove sits here, mumbling unintelligibly.
+~
+The seeress of Cove sits here, mumbling unintelligibly.
+~
+67 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#9700
+`YDivergence`n~
+`gThe wood diverges, the darkness split by a shining path, peace unto
+turmoil conjoined by absolution.  Your feet tread, without defilement, this
+silver path laid graciously before the slender trees who hold court here.  A
+path of enlightenment, each step takes you further from the roads you have
+mapped, into the vast unknown.  Un erringly, moved by primal curiosity, you
+forget onwards, deeper and deeper, tracing your soul through the trees.`n
+~
+3 40960 0
+D1
+~
+~
+0 -1 845
+D3
+~
+~
+0 -1 9701
+S
+#9701
+`YPath of Enlightenment`n~
+`gIronic that out here, in the middle of nowhere, amidst the hungry untamed
+beasts, you feel safer than in the madness of the city.  Here in this
+purity, animals abide by the laws of the jungle, logical and just.  From the
+insanity of people comes the unfathomable ugliness that has corrupted known
+civilization so as to have sent you searching for just this type of
+vividness.`n
+~
+3 40960 1
+D1
+~
+~
+0 -1 9700
+D3
+~
+~
+0 -1 9702
+S
+#9702
+`YA Commencement`n~
+`gPushing through the closely nestled trees whose branches entertwine to
+form a mural of almost impassable vegetation, you emerge into this clearing
+devoid of brambles and snares.  The light shimmers down on the oddly shaped
+silver pebbles surrounding this clearing, twisting and molding light in
+fantastic formulations of beauty.  Your breath held, an anticipation of
+something surreal gathers in your senses, forcing you pensive and
+introspective.`n
+~
+3 40960 1
+D0
+~
+~
+0 -1 9704
+D1
+~
+~
+0 -1 9701
+D2
+~
+~
+0 -1 9703
+D3
+~
+~
+0 0 9705
+S
+#9703
+`W[`YAtheneum of Wondrous Knowledge`W]`n~
+`gYou stand within the great library of Clan Divergent.  Massive oaken shelves
+filled with varied books, scrolls, tomes and other documents of knowledge
+fill this massive room.  Students can be seen studying all sorts of works
+at plain but sturdy tables about the chambers.`n
+~
+3 172032 1
+D0
+~
+~
+0 -1 9702
+S
+#9704
+`YTranquility`n~
+`gThe crushed marble path continues to the east and west here, a blazon
+white swath of rock in the middle of an otherwise very quaint village. 
+There is a feeling of easy bliss in the air here, a complete and true
+harmony with everything that spins and flies and roams the world here.  At
+another time, the silence and stillness of the area would be troublesome,
+disconcerting.  But it just feels right somehow, as if this little village
+were always meant to be permanently isolated from the world that lies
+beyond.  A small cottage stands to the south here, doors open and welcome to
+visitors.`d
+~
+3 303104 1
+D2
+~
+~
+0 -1 9702
+S
+#9705
+`YHarmony`n~
+`BYou have reached an abrupt end to the marble street internally called
+Harmony.  It is strange, somehow you had felt that Harmony's end would be
+smoother, a more lucient transition into something else, something better
+maybe.  Instead, the road looks as if it were unfinished, aspen trees that
+tower up into the sky taking over where it leaves off.  In any case, a path
+leads off into the forest to the east, a small dirt trail that winds its way
+between tree trunks.
+~
+3 172032 0
+D1
+~
+~
+0 0 9702
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 9700 1 9700
+M 0 9701 1 9700
+M 0 9702 1 9701
+M 0 9703 1 9701
+M 0 9708 1 9701
+M 0 9704 1 9702
+M 0 9705 1 9702
+M 0 9706 1 9702
+M 0 9707 1 9703
+G 0 80 0
+G 0 81 0
+G 0 82 0
+G 0 83 0
+G 0 84 0
+G 0 93 0
+O 0 66 -1 9703
+O 0 69 -1 9703
+O 0 70 -1 9703
+O 0 68 -1 9703
+M 0 9709 1 9704
+G 0 60 0
+G 0 61 0
+G 0 62 0
+G 0 85 0
+G 0 90 0
+G 0 91 0
+S
+
+
+
+#SHOPS
+9707 0 0 0 0 0 110 100 0 23
+9709 0 0 0 0 0 110 100 0 23
+0
+
+
+
+#$

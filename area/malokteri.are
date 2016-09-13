@@ -1,0 +1,433 @@
+#AREADATA
+Name        { 1 99} Blah    Malokteri Headquarters~
+Builders    None~
+VNUMs       9500 9517
+Security    1
+Recall      3001
+End
+
+
+
+#HELPS
+
+0 VALHERU~
+Long ago, the world was rules by the Valheru.  They were an ancient
+race, able to fly across the skies on the backs of mighty dragons.  Their
+lives were ruled by the gods of chaos and destruction.  They cared not 
+for the lives of their mortal servants, using them as play things and
+killing them in their insane rage.  No one could stand up to the Valheru,
+their combined might was unrivaled.  They destroyed any who were
+foolish enough to stand in their path, until the day when they saw there
+was no one left to destroy.  They turned their gaze upwards, to the
+heavens.  So great was their power, they sought to challenge the gods.
+It would bring about their death.  While their power was immense it
+wasn't enough for this battle.  The Valheru were destroyed, all save
+one.  Only one had been wise enough to know their own limits.  He
+was the oldest Valheru, Ashen Shugar.  He ruled the land for many
+generations, until one day he too passed from this earth.
+
+That was many generations ago, and once again the Valheru are united.
+They are all the descendants of Ashen Shugar, and his blood flow within
+their veins.  While they are only mere mortals now, they conquer and rule
+through strength of arms.  Their goal is to once again have the world
+kneel and beg before the Valheru.
+
+The Valheru has three important ranks.  They are lead by Boldar who is 
+a direct descendant of Ashen Shugar.  Kyriel and Ingen serve as his left
+and right hand, the Dragon Lords of the clan.  Everyone else works their
+way up to the rank of Dragon Rider where they can serve as warriors for
+the Valheru.
+
+There are no requirements to join Valheru.  Players are recruited, not
+their statistics.  Generally in order to join the Valheru the three leaders
+must all agree that the applicant would make the clan stronger.  If even
+one disagrees, you won't be joined to the clan.  If you wish to join the
+try to impress us with your skills in combat.  Thats the only way to join
+the Valheru.
+~
+
+0 $~
+
+#MOBILES
+#9500
+urbat guardian~
+Urbat~
+Urbat viscously stands guard, lingering for flesh
+~
+Urbat viscously stands guard, lingering for flesh
+~
+2147 65704 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9501
+adaru guardian~
+Adaru~
+Adaru hovers above you inspiring fear 
+~
+Adaru hovers above you inspiring fear 
+~
+2147 65704 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9502
+etlu guardian~
+Etlu~
+Etlu stands watch with a heavy shield.
+~
+Etlu stands watch with a heavy shield.
+~
+2147 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9503
+rambu guardian~
+Rambu~
+Rambu forces your knees to shake.
+~
+Rambu forces your knees to shake.
+~
+2147 66216 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#9504
+emush guardian~
+Emush~
+Emush slithers around hissing at intruders.
+~
+Emush slithers around hissing at intruders.
+~
+2147 65704 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9505
+pulhu guardian~
+Pulhu~
+Pulhu laughs in the face of danger.
+~
+Pulhu laughs in the face of danger.
+~
+2147 65704 0 S
+96 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#9506
+azag questmaster~
+Azag~
+Azag coughs, emitting fire from his nostrils.
+~
+Azag coughs, emitting fire from his nostrils.
+~
+1091 552 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#9507
+kubabbar banker~
+Kubabbar~
+Kubabbar waves his fist around demanding you empty your pockets.
+~
+Kubabbar waves his fist around demanding you empty your pockets.
+~
+579 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#9508
+maklu shopkeeper~
+Maklu~
+Maklu has much to offer
+~
+Maklu has much to offer
+~
+67 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#9509
+sut resi shopkeeper~
+Sut Resi~
+Sut Resi walks nervously back and fourth brainstorming.
+~
+Sut Resi walks nervously back and fourth brainstorming.
+~
+67 0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#9500
+The Vestibule~
+This vestibule is perfectly circular, with four marble columns supporting the arched
+ceiling high above your head.  The floor here is made of perfect, veinless white
+marble and inlaid with obsidian rings, forming a pattern of concentric circles on the
+floor.  A set of stairs directly aligned lead both upwards and downwards extending
+from the vestibule.
+~
+1 40960 0
+D0
+~
+~
+0 -1 9501
+D1
+~
+~
+0 -1 9503
+D2
+~
+~
+0 -1 842
+D3
+~
+~
+0 -1 9504
+D4
+~
+~
+0 -1 9505
+D5
+~
+~
+0 -1 9506
+S
+#9501
+The Avenue of the Malokteri~
+This wide road is decorated on both sides by huge life-like statues of the gods and
+goddesses of the Malokteri. The cobblestones beneath your feet are old and worn,
+but well tended.  To the south, you see the archway of the kingdom's entrance.  To
+the north is nothing but glowing candles that set the corridors ablaze in a hypnotic
+fashion.
+~
+1 40960 1
+D0
+~
+~
+0 -1 9502
+D1
+~
+~
+0 -1 9507
+D2
+~
+~
+0 -1 9500
+D3
+~
+~
+0 -1 9508
+D4
+~
+~
+0 -1 9509
+S
+#9502
+Continuing along the Avenue~
+As you walk down the cobblestoned wall road you notice that the architecture
+here seems to blend from old to new, as ancient tenements whose corner stones
+likely predate the thick kingdom walls give way to lighter more modern constructions
+of plaster and stone.  Even the cobblestones on the road seem to be a mixture
+of old and new, with scuffed, worn cobbles next to relatively new unworn ones.
+Yelps and cries come from the east as injured warriors scream in agony.
+~
+1 40960 1
+D0
+~
+~
+0 -1 9510
+D1
+~
+~
+0 -1 9511
+D2
+~
+~
+0 -1 9501
+D3
+~
+~
+0 -1 9512
+S
+#9503
+Tresspasser's Chamber~
+Occupied prison cells align on all corners of the room, filled with men who attempted to
+overthrow the Malokteri kingdom.  Guards scattered throughout the room keep watch 
+over the prisoners.
+~
+1 40960 0
+D3
+~
+~
+0 -1 9500
+S
+#9504
+Malokteri Mess Hall~
+Servants rush by serving Malokteri warriors, keeping them healthy and refreshed.  In the
+background you hear pots and pans clanking together along with disgruntled chefs yelling
+at the servants.
+~
+1 172032 1
+D1
+~
+~
+0 -1 9500
+S
+#9505
+Dragon's Lair~
+This dark damp tower is nothing but pitch blackness.  In the corner are two steel
+cuffs linked to an enormous object by a chain.   The object appears to be getting 
+closer as two red eyes come into focus.
+~
+1 40960 0
+D5
+~
+~
+0 -1 9500
+S
+#9506
+Malokteri's Treasure Room~
+This dark cauldron has been turned into a room filled with glimmering jewels,
+mounds of gold, and precious Malokerti crests that have been handed down 
+from generation to generation.
+~
+1 40960 0
+D4
+~
+~
+0 -1 9500
+S
+#9507
+The Alleyway~
+As you move away from the main avenue, the stone floor gets horribly mucky, sticking to
+your shoes and emitting a most undesirable smell. There is nothing much else here, but
+piles upon piles of trash. A few rats scatter here and there, but the main occupants of this
+particular alley are the shadows.
+~
+1 40960 0
+D3
+~
+~
+0 -1 9501
+S
+#9508
+The Alleyway~
+As you move away from the main avenue, the stone floor gets horribly mucky, sticking to
+your shoes and emitting a most undesirable smell. There is nothing much else here, but
+piles upon piles of trash. A few rats scatter here and there, but the main occupants of this
+particular alley are the shadows.
+~
+1 40960 0
+D1
+~
+~
+0 -1 9501
+S
+#9509
+A second story shop~
+You climb the stairs on the outside of a large two-story building.  As you reach the top, you
+walk through an open doorway.  All around are shelves of various devices and gadgets neatly
+priced.  Ahead of you is a white granite counter.  Behind the counter stands a tall, dark, shady
+man.
+~
+1 40960 0
+D5
+~
+~
+0 -1 9501
+S
+#9510
+A Padded Room~
+Here is a completely white room with padded walls used to contain the mentally
+deranged.  In the corner are a few men sitting on the floor rocking slowly back and
+forth.
+~
+1 40960 0
+D2
+~
+~
+0 -1 9502
+S
+#9511
+Malokteri Infirmary~
+This is a large room where the sick and the dying are cared for by nurses and
+doctors of the Malokteri.  There are about fifty straw beds arranged in four rows
+here,  and almost all of them are full.  The entire room smells of medicinal soap.
+~
+1 434176 0
+D3
+~
+~
+0 -1 9502
+S
+#9512
+Room of War and Flames~
+A long table stretches across the room with chairs aligned on both sides.  Various maps
+and battle plans are scattered across the table.  A giant portrait of Malokerti's leader Blah
+hangs from the farthest wall.
+~
+1 172032 0
+D1
+~
+~
+0 -1 9502
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 9500 1 9500
+M 0 9501 1 9500
+M 0 9502 1 9501
+M 0 9503 1 9501
+M 0 9504 1 9502
+M 0 9505 1 9502
+M 0 9506 1 9505
+M 0 9507 1 9506
+M 0 9508 1 9509
+G 0 88 0
+G 0 90 0
+G 0 94 0
+G 0 63 0
+G 0 62 0
+G 0 60 0
+M 0 9509 1 9512
+G 0 80 0
+G 0 81 0
+G 0 82 0
+G 0 83 0
+G 0 84 0
+G 0 93 0
+O 0 71 -1 9512
+O 0 69 -1 9512
+O 0 68 -1 9512
+O 0 66 -1 9512
+S
+
+
+
+#SHOPS
+9508 0 0 0 0 0 110 100 0 23
+9509 0 0 0 0 0 110 100 0 23
+0
+
+
+
+#$
