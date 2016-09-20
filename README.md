@@ -1,8 +1,5 @@
 ﻿# Static Chaos
 ﻿
-﻿Original License notes from Alathon are below:
-﻿
-﻿
 ﻿License for the operation of the Static Chaos
 a.k.a. Chaosium codebase.
 Written by Nicholas Lennig a.k.a. Alathon
