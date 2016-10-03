@@ -1,4 +1,7 @@
-﻿# Static Chaos
+This repository is NOT being actively maintained or developed and is being kept here solely for the purpose of providing a secondary archive of it. I am not the original developer and take no credit for any of this work.
+ 
+ 
+ # Static Chaos
 ﻿
 ﻿License for the operation of the Static Chaos
 a.k.a. Chaosium codebase.
@@ -44,4 +47,5 @@ be sure to grep the source files for other places where involved data
 is used, or similar operations take place.
 
 Best of Luck,
+
 Alathon
